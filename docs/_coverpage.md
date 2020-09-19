@@ -1,14 +1,12 @@
-<img src="logo.jpg" alt="logo" style="zoom: 33%;" />
 
-# docsify <small>3.5</small>
-
-> 一个神奇的文档网站生成器。
-
-- 简单、轻便 (压缩后 ~21kB)
-- 无需生成 html 文件
-- 众多主题
-
-[GitHub](https://github.com/docsifyjs/docsify/)
-[Get Started](#docsify)
-
-![color](#AFEEEE)
+![logo](https://docsify.js.org/_media/icon.svg)
+ 
+# 豆瓣影音
+ 
+> 使用Vue全家桶+Node.js搭建的小型全栈项目.
+ 
+* 前端框架：vue-cli、vue-router、axios、vuex
+* UI类库：Mint-UI、Vant
+* 后端数据接口：Express、MongoDB
+ 
+[GitHub](https://github.com/Hanxueqing/Douban-Movie.git)
