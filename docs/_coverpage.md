@@ -1,12 +1,18 @@
+# 构建web文档 - docsify模板
+- 主题切换
+- 搜索关键字
+- edit in repo
+- 分页
+- 最后编辑时间
+- ......
 
-![logo](https://docsify.js.org/_media/icon.svg)
- 
-# 豆瓣影音
- 
-> 使用Vue全家桶+Node.js搭建的小型全栈项目.
- 
-* 前端框架：vue-cli、vue-router、axios、vuex
-* UI类库：Mint-UI、Vant
-* 后端数据接口：Express、MongoDB
- 
-[GitHub](https://github.com/Hanxueqing/Douban-Movie.git)
+[Github](https://github.com/missfoxw/docsify-template/tree/master)
+[点击进入](./README.md)
+
+<!-- 背景图片 -->
+
+<!-- ![](static/img/cp.jpeg) -->
+
+<!-- 背景色 -->
+
+<!-- ![color](#fab1a0) -->
