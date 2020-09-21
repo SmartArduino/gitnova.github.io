@@ -14,8 +14,8 @@
   - [<span class="iconfont icon-book3"></span> 计划](https://wugenqiang.github.io/StaticRepo/etalk/)
   - [<span class="iconfont icon-fenxiangfangshi"></span> 视频](https://wugenqiang.gitee.io/vip-url-video/)
 - [<span class="iconfont icon-lianjie"></span> Shop](/关于/Friends.md)
-- [<span class="iconfont icon-wodeguanzhu"></span> 关于](关于/)
-- [<span class="iconfont icon-github1"></span> GitHub](https://github.com/wugenqiang/NoteBook)
+- [<span class="iconfont icon-wodeguanzhu"></span> About](关于/)
+- [<span class="iconfont icon-github1"></span> GitHub](https://github.com/SmartArduino)
 
 
 
