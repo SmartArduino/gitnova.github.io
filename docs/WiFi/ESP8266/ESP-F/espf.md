@@ -97,7 +97,7 @@ esp-f
 
  
 
-![img](clip_image002.gif)
+![img](https://github.com/SmartArduino/document/raw/master/docs/WiFi/ESP8266/ESP-F/clip_image002.gif)
 
 
 
