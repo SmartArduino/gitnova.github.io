@@ -1,5 +1,6 @@
-![icon](https://cdn.jsdelivr.net/gh/wugenqiang/StaticRepo/images/icon.png)
+![icon](https://raw.githubusercontent.com/SmartArduino/document/master/docs/_images/logo.jpg)
 [SZDOIT](http://doit.am/)
+
 ## Modules & Solutions & Products
 
 - We are the manufacturer in Shenzhen. We can provide one stop about WiFi from chip--module--solution-product. Any problem, please feel free to contact me: yichone@doit.am.
