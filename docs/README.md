@@ -128,6 +128,7 @@
 * [Smart LED Light Strip](OJ/README.md)
 * [Smart Plug](OJ/README.md)
 ## WiFi Prober
+
 * [WiFi Prober](OJ/README.md)
 
 # Robotics
@@ -154,127 +155,5 @@
 * [18650](FrontEnd/Vue/idea-to-vue.md)
 * [Battery](FrontEnd/Vue/vue-base-notes.md)
 
-# 📝   面试有招
 
-> 一场生死较量，努力展示自己的才能的时刻！
-
-* 技术面试
-
-  * 来这里看看：[🚀 技术面试题](interview/README.md)
-
-* 研究生复试
-  * [🌼 英语面试和口语](PostgraduateExam/english-interview-speaking.md)  >>  考核形式：听力 + 面试
-  * [🔨 计算机专业面试](PostgraduateExam/计算机专业面试.md)  >>  考核形式：笔试 + 面试，考察专业基础课和专业技能
-  * [👀 计算机专业英语](PostgraduateExam/计算机专业英语.md)  >>  考查计算机专业英语，考查形式：翻译计算机行业前景文章（相关，看具体情况）
-  * 笔试是 C 高级程序设计，可以看看这个：[💎](C/高级程序设计复试笔试准备题.md)
-
-
-
-# 🎨 论文投稿
-
-* [🎉 分享免费下载论文的网站](ToolBox/ShareToFreeDownloadPapers.md)
-* [🎉 分享如何在论文中画漂亮的插图](ToolBox/分享如何在论文中画插图.md)
-* [🎉 LaTex 语法使用指南](ToolBox/LaTex使用指南.md)
-* [🎉 如何在期刊上发表论文](论文方面/如何在期刊上发表论文.md)
-* [🎉 SCI 论文写作攻略](论文方面/SCI论文写作攻略.md)
-
-## 📑 论文期刊阅读
-
-* [🎉 文献期刊阅读平台推荐](ToolBox/ShareToFreeDownloadPapers.md)
-  * [【一】知网了解行业趋势](https://www.cnki.net/)
-  * [【二】计算机研究与发展](http://crad.ict.ac.cn/CN/1000-1239/home.shtml)
-  * [【三】上海研发公共服务平台](http://www.sstir.cn/)
-  * [【四】论文阅读平台个人推荐版](ToolBox/ShareToFreeDownloadPapers.md)
-  * [【五】科学知识平台（X - MOL）](https://www.x-mol.com/)
-  * [【六】安全内参期刊阅读](https://www.secrss.com/)
-* [🎉 论文阅读计划 - 每周阅读总结系列](https://wugenqiang.github.io/PaperSummary/)
-
-
-
-# 🦋 数学建模
-
-## 🐹 Matlab
-
-[windows版本Matlab软件安装教程](/Matlab/Matlab使用指南.md)
-
-* **【一】Matlab 入门教程**
-  * [0 - Matlab 引入](/Matlab/Matlab入门教程/0-matlab引入.md)
-  * [1 - Matlab 基础知识](/Matlab/Matlab入门教程/1-matlab基础知识.md)
-
-
-
-# 🤖 人工智能
-
-?> 🔊 研究生阶段研究内容涉及机器学习、数据挖掘、图像处理以及生物信息学方向等，在此整理，止于至善，自利利他！如果有问题或者建议，欢迎来稿！
-
-* [🏆 研究生学习八问](关于/研究生学习八问.md)
-* [🤖 人工智能（AI）](人工智能/)
-
-> 🥝 打开**钉钉**，点击扫一扫进入下面这个群，群里很多大佬分享了许多人工智能相关的资料，包括 Python、机器学习、生物信息学、AI、数据挖掘、深度学习、计算机视觉、图像处理等等，欢迎共同维护和学习！如果你有更好的资料推荐，也可以直接上传共享，让我们一起营造出一个更好的学习氛围！使得学术研究更加符合时代的需求！Come On 🔔
-
-![image-20200712165616915](https://cdn.jsdelivr.net/gh/wugenqiang/PictureBed/images01/20200808182957.png)
-
-## 💥 数学基础
-
-* **【一】高等数学基础**
-  * [1 - 元素和极限](人工智能/数学基础/高等数学-CH1-元素和极限.md)
-  * [2 - 两个重要的极限定理](人工智能/数学基础/高等数学-CH2-两个重要的极限定理.md)
-  * [3 - 导数](人工智能/数学基础/高等数学-CH3-导数.md)
-  * [4 - 泰勒展开](人工智能/数学基础/高等数学-CH4-泰勒展开.md)
-  * [5 - 偏导数](人工智能/数学基础/高等数学-CH5-偏导数.md)
-  * [6 - 积分](人工智能/数学基础/高等数学-CH6-积分.md)
-* **【二】线性代数基础**
-  * [1 - 基本知识](人工智能/数学基础/线性代数-CH1-基本知识.md)
-  * [2 - 向量操作](人工智能/数学基础/线性代数-CH2-向量操作.md)
-  * [3 - 矩阵运算](人工智能/数学基础/线性代数-CH3-矩阵运算.md)
-  * [4 - 特殊函数](人工智能/数学基础/线性代数-CH4-特殊函数.md)
-* **【三】概率论基础**
-  * [1 - 概率与分布](人工智能/数学基础/概率论-CH1-概率与分布.md)
-  * [2 - 期望与方差](人工智能/数学基础/概率论-CH2-期望与方差.md)
-  * [3 - 大数定律及中心极限定理](人工智能/数学基础/概率论-CH3-大数定律及中心极限定理.md)
-  * [4 - 常见概率分布](人工智能/数学基础/概率论-CH4-常见概率分布.md)
-  * [5 - 先验分布与后验分布](人工智能/数学基础/概率论-CH5-先验分布与后验分布.md)
-  * [6 - 信息论](人工智能/数学基础/概率论-CH6-信息论.md)
-  * [7 - 其他](人工智能/数学基础/概率论-CH7-其他.md)
-* **【四】数值计算基础**
-  * [1 - 数值稳定性](人工智能/数学基础/数值计算-CH1-数值稳定性.md)
-  * [2 - 梯度下降法](人工智能/数学基础/数值计算-CH2-梯度下降法.md)
-  * [3 - 二阶导数与海森矩阵](人工智能/数学基础/数值计算-CH3-二阶导数与海森矩阵.md)
-  * [4 - 牛顿法](人工智能/数学基础/数值计算-CH4-牛顿法.md)
-  * [5 - 拟牛顿法](人工智能/数学基础/数值计算-CH5-拟牛顿法.md)
-  * [6 - 约束优化](人工智能/数学基础/数值计算-CH6-约束优化.md)
-* **【五】蒙特卡洛方法与 MCMC 采样**
-  * [1 - 蒙特卡洛方法](人工智能/数学基础/蒙特卡洛方法与MCMC采样-CH1-蒙特卡洛方法.md)
-  * [2 - 马尔可夫链](人工智能/数学基础/蒙特卡洛方法与MCMC采样-CH2-马尔可夫链.md)
-  * [3 - MCMC 采样](人工智能/数学基础/蒙特卡洛方法与MCMC采样-CH3-MCMC采样.md)
-
-
-
-## 🦚 机器学习
-
-?> 🔊 发现了一个不错的机器学习导航站：[https://www.mlhub123.com/](https://www.mlhub123.com/)
-
-* [🍉 机器学习](人工智能/?id=机器学习) 
-* **【一】Python3 玩转机器学习**
-  * [1 - 欢迎来到 Python3 玩转机器学习](人工智能/机器学习/Python3玩转机器学习/CH1-欢迎来到Python3玩转机器学习.md)
-  * [2 - 机器学习基础](人工智能/机器学习/Python3玩转机器学习/CH2-机器学习基础.md)
-  * [3 - Jupyter Notebook 和 Numpy、Matplotlib 等的简单使用](人工智能/机器学习/Python3玩转机器学习/CH3-Jupyter-Notebook和数据处理包的简单使用.md)
-
-
-
-# 🔨 工具 CooL
-
-* [🔨 ToolBox 实用工具库](ToolBox/Tools.md)
-* [🔨 写博客必备软件推荐](ToolBox/写博客必备神器.md)
-* [🔨 Latex 语法使用指南](ToolBox/LaTex使用指南)
-
-
-
-# 🎅 赞赏作者
-
-我能想到最浪漫的事，就是我喝咖啡你付钱~😆😏 ❤️ 打赏地址：[https://wugenqiang.js.org/sponsor/](https://wugenqiang.js.org/sponsor/)
-
-| 支付宝                                                       | 微信                                                         |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <div ><img src="https://cdn.jsdelivr.net/gh/wugenqiang/PictureBed/images01/20200808182504.png" width="200" height="200" /></div> | <div ><img src="https://cdn.jsdelivr.net/gh/wugenqiang/PictureBed/images01/20200808182538.png" width="200" height="200" /></div> |
 
