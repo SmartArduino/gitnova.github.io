@@ -1,8 +1,8 @@
 ![icon](https://cdn.jsdelivr.net/gh/wugenqiang/StaticRepo/images/icon.png)
+[SZDOIT](http://doit.am/)
+## Modules & Solutions & Products
 
-## AI & CS & SE
-
-- 做一个眼中有梁木且爱分享的人，记录一路走来学习的计算机专业知识 ，力求完美构建 AI & CS & SE 知识体系
+- We are the manufacturer in Shenzhen. We can provide one stop about WiFi from chip--module--solution-product. Any problem, please feel free to contact me: yichone@doit.am.
 
 <img src="https://img.shields.io/badge/version-v2.0.0-green.svg" data-origin="https://img.shields.io/badge/version-v2.0.0-green.svg" alt=""> 
 <img src="https://img.shields.io/github/stars/wugenqiang/NoteBook" data-origin="https://img.shields.io/github/stars/wugenqiang/NoteBook" alt=""> 
@@ -14,16 +14,16 @@
 <br>
 
 <span id="busuanzi_container_site_pv" style='display:none'>
-    👀 本站总访问量：<span id="busuanzi_value_site_pv"></span> 次
+    Total：<span id="busuanzi_value_site_pv"></span> 
 </span>
 <span id="busuanzi_container_site_uv" style='display:none'>
-    | 🚴‍♂️ 本站总访客数：<span id="busuanzi_value_site_uv"></span> 人
+    |Numbers：<span id="busuanzi_value_site_uv"></span> people
 </span>
 
 <br>
 
-[GitHub](https://github.com/wugenqiang/NoteBook)
-[开始阅读](/README.md)
+[GitHub]()
+[Start](/README.md)
 
 
 
