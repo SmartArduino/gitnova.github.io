@@ -1,6 +1,8 @@
-esp-f
+<center> <font size=10> User Manual for ESP-F </font></center>
 
-  **SOC characteristics**
+ <center> from SZDOIT </center>
+
+ **SOC characteristics**
 
 * Built-in Tensilica L106 ultra-low power consumption 32-bit cpu, the main frequency can be 80MHz and 160MHz, also support RTOS;
 
@@ -97,7 +99,7 @@ esp-f
 
  
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/WiFi/ESP8266/ESP-F/https://github.com/SmartArduino/document/raw/master/docs/WiFi/ESP8266/ESP-F/clip_image002.gif)
+![img](https://github.com/SmartArduino/document/raw/master/docs/WiFi/ESP8266/ESP-F/clip_image002.gif)
 
 
 
@@ -401,3 +403,5 @@ Wi-Fi module is already integrated into high-speed GPIO and Peripheral interface
 - WhatsApp: 008618676662425
 - WeChat: itchenve
 - Skype: yichone
+- Online Shop: [vvdoit](https://www.vvdoit.com/), [SpoSmart](https://www.sposmart.com/)
+
