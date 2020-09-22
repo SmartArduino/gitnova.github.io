@@ -57,7 +57,7 @@
   * [ESP-F](WiFi/ESP8266/ESPF/espf.md)
   * [ESP-E](C/C语言学习笔记-CH03-数组.md)
   * [ESP-S](C/C语言学习笔记-CH04-指针.md)
-  * [ESP-12E](/WiFi/ESP8266/ESP12E/esp12e.md)
+  * [ESP-12E](/WiFi/ESP8266/ESP12E/12e.md)
   * [ESP-12F](C/C语言学习笔记-CH06-结构类型.md)
   * [ESP-07](C/C语言学习笔记-CH07-程序结构.md)
   * [ESP-01S](C/C语言学习笔记-CH08-文件.md)
