@@ -57,11 +57,10 @@
   * [ESP-F](WiFi\ESP8266\ESP-F\espf.md)
   * [ESP-E](C/C语言学习笔记-CH03-数组.md)
   * [ESP-S](C/C语言学习笔记-CH04-指针.md)
-  * [ESP-12E](WiFi\ESP8266\ESP-12E\esp12e.md)
+  * [ESP-12E](WiFi/ESP8266/ESP-12E/esp12e.md)
   * [ESP-12F](C/C语言学习笔记-CH06-结构类型.md)
   * [ESP-07](C/C语言学习笔记-CH07-程序结构.md)
   * [ESP-01S](C/C语言学习笔记-CH08-文件.md)
-  * [9 - 位运算](C/C语言学习笔记-CH09-位运算.md)
   * [10 - 链表](C/C语言学习笔记-CH10-链表.md)
 * [**【三】ESP8266 Development Board**](C/南开100题C语言版.md)
   * [2 - 基本语法](C/C语言学习笔记-CH02-基本语法.md)
@@ -76,7 +75,7 @@
 
 ## ESP8285
 
-* [C++ 学习笔记](C++/C++Notes.md)
+* [DMP-L1](WiFi/ESP8266/dmpl1/dmpl1.md)
 
 ## ESP32
 
