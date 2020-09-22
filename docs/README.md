@@ -75,7 +75,7 @@
 
 ## ESP8285
 
-* [DMP-L1](WiFi/ESP8266/dmpl1/dmpl1.md)
+* [DMP-L1](WiFi/ESP8285/dmpl1/dmpl1.md)
 
 ## ESP32
 
