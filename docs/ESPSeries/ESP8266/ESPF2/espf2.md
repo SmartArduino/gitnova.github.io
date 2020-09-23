@@ -97,7 +97,7 @@
 
  
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF2/_image002.gif)
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF2/clip_image002.gif)
 
 
 
@@ -109,7 +109,7 @@ The ESP-F2 module supports the standard IEEE802.11 b/g/n/e/i protocol and the co
 
  
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF2/_image003.gif)
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF2/clip_image003.gif)
 
  
 
@@ -157,7 +157,7 @@ Interface definition of ESP-F2 can be shown in the following.
 
  
 
-![ESP-F2](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF2/_image005.jpg)
+![ESP-F2](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF2/clip_image005.jpg)
 
 Fig. 2.1 ESP-F2 Definition for Pins
 
@@ -213,17 +213,17 @@ Shape and size for this module can be shown as follows. Its size is 16mm*24mm*3m
 
  
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF2/_image007.jpg)
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF2/clip_image007.jpg)
 
  
 
 Fig. 3.1 Shape for ESP-F2
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF2/_image009.jpg)
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF2/clip_image009.jpg)
 
 (a) Top View
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF2/_image011.jpg)
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF2/clip_image011.jpg)
 
 (b) Side View
 
@@ -318,7 +318,7 @@ Table 6.1 Wi-Fi RF Characteristics
 
  
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF2/_image013.jpg)
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF2/clip_image013.jpg)
 
 Fig. 7.1 Temperature Curve when Sold
 
@@ -328,7 +328,7 @@ Fig. 7.1 Temperature Curve when Sold
 
  
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF2/_image015.jpg)![img](file:///C:/Users/ADMINI~1/AppData/Local/Temp/msohtmlclip1/01/clip_image017.jpg)
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF2/clip_image015.jpg)![img](file:///C:/Users/ADMINI~1/AppData/Local/Temp/msohtmlclip1/01/clipclip_image017.jpg)
 
  
 
@@ -340,7 +340,7 @@ Fig. 8.1 Schematics for ESP-F2
 
 This module can work just at 3.3V working voltage.
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF2/_image019.jpg)
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF2/clip_image019.jpg)
 
 Fig.9.1 Minimum System
 
@@ -364,19 +364,19 @@ Wi-Fi module can be inserted into the PCB board directly. For the high RF perfor
 
   It is suggested that the module is placed along with PCB side, the antenna is placed outside the board, or along with the PCB side,  and the below board is blank, please refer to the scheme 1 and scheme 2; if the PCB antenna must placed on the board, please do not cover the copper at the bottom of PCB antenna, as can be shown at scheme 3.
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF2/_image021.gif)
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF2/clip_image021.gif)
 
 Fig. 10.1 scheme1: Antenna is at the outside of the board
 
  
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF2/_image023.gif)
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF2/clip_image023.gif)
 
 Fig. 10.2 Scheme 2: Antenna is placed along with side of the board, and it is blank at the bottom of the board.
 
  
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF2/_image025.gif)
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF2/clip_image025.gif)
 
 Fig. 10.3 Scheme 3: Antenna is placed along with the side of the board, and don’t cover copper under the module
 

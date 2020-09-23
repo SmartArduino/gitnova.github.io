@@ -96,7 +96,7 @@
 
  
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF1/_image002.gif)
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF1/clip_image002.gif)
 
 
 
@@ -110,7 +110,7 @@ The ESP-F1 module supports the standard IEEE802.11 b/g/n/e/i protocol and the co
 
  
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF1/_image003.gif)
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF1/clip_image003.gif)
 
  
 
@@ -156,7 +156,7 @@ Interface definition of ESP-F1 can be shown in the following.
 
  
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF1/_image005.jpg)
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF1/clip_image005.jpg)
 
 Fig. 2.1 ESP-F1 Definition for Pins
 
@@ -207,17 +207,17 @@ Shape and size for this module can be shown as follows. Its size is 16mm*24mm*3m
 
  
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF1/_image007.jpg)
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF1/clip_image007.jpg)
 
  
 
 Fig. 3.1 Shape for ESP-F1
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF1/_image009.jpg)
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF1/clip_image009.jpg)
 
 (a) Top View
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF1/_image011.jpg)
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF1/clip_image011.jpg)
 
 (b) Side View
 
@@ -312,7 +312,7 @@ Table 6.1 Wi-Fi RF Characteristics
 
  
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF1/_image013.jpg)
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF1/clip_image013.jpg)
 
 Fig. 7.1 Temperature Curve when Sold
 
@@ -322,7 +322,7 @@ Fig. 7.1 Temperature Curve when Sold
 
  
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF1/_image015.jpg)![img](file:///C:/Users/ADMINI~1/AppData/Local/Temp/msohtmlclip1/01/clip_image017.jpg)
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF1/clip_image015.jpg)![img](file:///C:/Users/ADMINI~1/AppData/Local/Temp/msohtmlclip1/01/clipclip_image017.jpg)
 
  
 
@@ -334,7 +334,7 @@ Fig. 8.1 Schematics for ESP-F1
 
 This module can work just at 3.3V working voltage.
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF1/_image019.jpg)
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF1/clip_image019.jpg)
 
 Fig.9.1 Minimum System
 

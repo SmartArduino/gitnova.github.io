@@ -10,7 +10,7 @@
 
 ESP-WROOM-32 module is a universal WiFi-BT-BLE MCU module with powerful functions and wide applications. It can be used in low-power sensor networks and high-demand tasks, such as voice coding, audio streaming and MP3 decoding. The core of this module is ESP32 chip, which is scalable and adaptive. Two CPU cores can be controlled or powered on separately. The adjustable range of clock frequency is from 80 MHz to 240 MHz. Users can cut off CPU power and use low-power coprocessors to continuously monitor the state changes of peripherals or whether some analog quantities exceed the threshold. ESP-WROOM-32 module also integrates a wealth of peripherals, including capacitive touch sensor, Hall sensor, low noise sensor amplifier, SD card interface, Ethernet interface, high-speed SDIO/SPI, UART, I2S and I2C. ESP-WROOM-32 module is hereinafter referred to as ESP32.
 
-![ESP-32](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP32/ESP32/_image002-1588150999532.jpg)
+![ESP-32](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP32/ESP32/clip_image002-1588150999532.jpg)
 
 ESP-32 integrates traditional Bluetooth, low-power Bluetooth and Wi-Fi, and has a wide range of applications: Wi-Fi supports a wide range of communication connections, but also supports direct Internet connection through routers; Bluetooth allows users to connect to mobile phones or broadcast BLE Beacon for signal detection. The sleep current of ESP32 chip is less than 5uA, which makes it suitable for wearable electronic devices powered by batteries. The data transmission rate supported by ESP-32 is up to 150 Mbps. After power amplifier, the output power can reach 22 dBm, which can realize the maximum range of wireless communication. Therefore, the chip has the industry's leading technical specifications, and has the best performance in high integration, wireless transmission distance, power consumption and network connectivity. ESP3 2's operating system is free RTOS with LWIP, and TLS 1.2 with hardware acceleration function is built-in. The chip also supports OTA encryption upgrades, and developers can continue to upgrade after the product is released. Software releases are included in the ESP32 bug reward program, and users can report any bugs to bug-bounty@espressif.com.
 
@@ -52,7 +52,7 @@ Table 1 ESP32 specifications
 
 # 2.1 Pin Layout
 
-[![IMG_256](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP32/ESP32/_image004-1588150999532.gif)
+[![IMG_256](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP32/ESP32/clip_image004-1588150999532.gif)
 
 Figure 1 ESP32 size
 
@@ -530,7 +530,7 @@ Note, 32 kHz board crystal oscillator connects GPIO32 and GPIO33 of ESP32. In or
 
 # 5 Schematic Diagram 
 
-[![esp32s_sch](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP32/ESP32/_image006-1588150999532.jpg)](http://wiki.ai-thinker.com/_detail/esp32/spec/esp32s_sch.png?id=esp32:spec:esp32s)
+[![esp32s_sch](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP32/ESP32/clip_image006-1588150999532.jpg)](http://wiki.ai-thinker.com/_detail/esp32/spec/esp32s_sch.png?id=esp32:spec:esp32s)
 
  
 
@@ -540,15 +540,15 @@ Figure ESP32 Schematic diagram
 
 ESP-32 module can be welded to PCB board. In order to obtain the best RF performance of the terminal product, please pay attention to the reasonable design of the module and antenna placement on the bottom board in accordance with this guide. It is suggested that the module be placed along the edge of the PCB board, and the antenna be placed outside or along the edge of the board and hollowed underneath. Reference schemes 1 and 2. It is also permissible to place the PCB antenna on the bottom board as long as there is no copper under the antenna, reference scheme 3.
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP32/ESP32/_image008-1588150999533.jpg)
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP32/ESP32/clip_image008-1588150999533.jpg)
 
 Scheme 1: The antenna is outside the frame.
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP32/ESP32/_image010-1588150999533.jpg)
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP32/ESP32/clip_image010-1588150999533.jpg)
 
 Scheme 2: Antennas are placed along the edge of the plate and hollowed underneath.
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP32/ESP32/_image012-1588150999533.jpg)
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP32/ESP32/clip_image012-1588150999533.jpg)
 
 Solution 3: Antennas are placed along the edge of the plate and not covered with copper underneath.
 
@@ -556,7 +556,7 @@ Solution 3: Antennas are placed along the edge of the plate and not covered with
 
 # Appendix 1.Minimum System 
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP32/ESP32/_image014-1588150999533.jpg)
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP32/ESP32/clip_image014-1588150999533.jpg)
 
 **Note: The power consumption of ESP-32 module is relatively large. It is recommended to supply power independently.**
 
@@ -570,6 +570,6 @@ Connecting EN and GPIO pins of module with DTR and RTS of serial chip can realiz
 
  
 
-[![ESP32S自动烧录](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP32/ESP32/_image015-1588150999533.gif)](http://wiki.ai-thinker.com/_detail/esp32/spec/esp32s_auto_download.png?id=esp32:spec:esp32s)
+[![ESP32S自动烧录](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP32/ESP32/clip_image015-1588150999533.gif)](http://wiki.ai-thinker.com/_detail/esp32/spec/esp32s_auto_download.png?id=esp32:spec:esp32s)
 
  

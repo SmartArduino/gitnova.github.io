@@ -7,7 +7,7 @@
 
 ESP-WROOM-32 module is a universal WiFi-BT-BLE MCU module with powerful functions and wide applications. It can be used in low-power sensor networks and high-demand tasks, such as voice coding, audio streaming and MP3 decoding. The core of this module is ESP32 chip, which is scalable and adaptive. Two CPU cores can be controlled or powered on separately. The adjustable range of clock frequency is from 80 MHz to 240 MHz. Users can cut off CPU power and use low-power coprocessors to continuously monitor the state changes of peripherals or whether some analog quantities exceed the threshold. ESP-WROOM-32 module also integrates a wealth of peripherals, including capacitive touch sensor, Hall sensor, low noise sensor amplifier, SD card interface, Ethernet interface, high-speed SDIO/SPI, UART, I2S and I2C. ESP-WROOM-32 module is hereinafter referred to as ESP32.
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP32/ESP32u/_image002.jpg)
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP32/ESP32u/clip_image002.jpg)
 
 ESP-32 integrates traditional Bluetooth, low-power Bluetooth and Wi-Fi, and has a wide range of applications: Wi-Fi supports a wide range of communication connections, but also supports direct Internet connection through routers; Bluetooth allows users to connect to mobile phones or broadcast BLE Beacon for signal detection. The sleep current of ESP32 chip is less than 5uA, which makes it suitable for wearable electronic devices powered by batteries. The data transmission rate supported by ESP-32 is up to 150 Mbps. After power amplifier, the output power can reach 22 dBm, which can realize the maximum range of wireless communication. Therefore, the chip has the industry's leading technical specifications, and has the best performance in high integration, wireless transmission distance, power consumption and network connectivity. ESP3 2's operating system is free RTOS with LWIP, and TLS 1.2 with hardware acceleration function is built-in. The chip also supports OTA encryption upgrades, and developers can continue to upgrade after the product is released. Software releases are included in the ESP32 bug reward program, and users can report any bugs to [bug-bounty@espressif.com](mailto:bug-bounty@espressif.com).
 
@@ -51,7 +51,7 @@ Table 1 ESP32 specifications
 
 
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP32/ESP32u/_image004.jpg)
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP32/ESP32u/clip_image004.jpg)
 
 Figure 1 ESP32  size
 
@@ -526,7 +526,7 @@ Description: 32 kHz board crystal oscillator connects GPIO32 and GPIO33 of ESP32
 
 # 5 Schematic diagram 
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP32/ESP32u/_image006.jpg)
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP32/ESP32u/clip_image006.jpg)
 
  
 
@@ -536,7 +536,7 @@ ESP32-WROOM-32U Schematic diagram
 
 ESP32-WROOM-32U module can be welded directly to PCB board. For the ESP-32 version of the external antenna, due to the external antenna, the module placement requirements are not high, please adjust as appropriate. The specification of the external antenna connector is shown in the figure below.
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP32/ESP32u/_image008.jpg)
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP32/ESP32u/clip_image008.jpg)
 
 Figure 9.1 External antenna connector
 
@@ -544,7 +544,7 @@ Figure 9.1 External antenna connector
 
 # Appendix 1. Minimum system
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP32/ESP32u/_image010.jpg)
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP32/ESP32u/clip_image010.jpg)
 
 # Note: The power consumption of ESP-32 module is relatively large. It is recommended to supply power independently.
 
@@ -552,6 +552,6 @@ Figure 9.1 External antenna connector
 
 Connecting EN and GPIO pins of module with DTR and RTS of serial chip can realize software control operation mode.
 
-[![ESP32S自动烧录](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP32/ESP32u/_image012.jpg)](http://wiki.ai-thinker.com/_detail/esp32/spec/esp32s_auto_download.png?id=esp32:spec:esp32s)
+[![ESP32S自动烧录](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP32/ESP32u/clip_image012.jpg)](http://wiki.ai-thinker.com/_detail/esp32/spec/esp32s_auto_download.png?id=esp32:spec:esp32s)
 
  

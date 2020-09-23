@@ -61,15 +61,15 @@
 
 * [DMP-L1](ESPSeries/ESP8285/dmpl1/dmpl1.md)
 * [ESP-M1](ESPSeries/ESP8285/espm1/espm1.md)
-* [ESP-M2](ESPSeries/ESP8285/espm1/espm2.md)
-* [ESP-M3](ESPSeries/ESP8285/espm1/espm3.md)
-* [ESP-M4](ESPSeries/ESP8285/espm1/espm4.md)
+* [ESP-M2](ESPSeries/ESP8285/espm2/espm2.md)
+* [ESP-M3](ESPSeries/ESP8285/espm3/espm3.md)
+* [ESP-M4](ESPSeries/ESP8285/espm4/espm4.md)
 
 
 ## ESP32
 
 * [ESP-32](ESPSeries/ESP32/ESP32/esp32.md)
-* [ESP-32u](ESPSeries/ESP32/ESP32/esp32u.md)
+* [ESP-32u](ESPSeries/ESP32/ESP32u/esp32u.md)
 
 ## Double Frequency WiFi
 

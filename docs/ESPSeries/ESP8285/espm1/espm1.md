@@ -104,7 +104,7 @@
 
 **Module Structure**
 
-![espm1](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm1/m1.jpg)                            
+![espm1](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm1/espm1.jpg)                            
 
 Fig. 1.1 ESP-Mx Module Structure
 
@@ -173,13 +173,13 @@ Interface definition of ESP-Mx can be shown below.
 
  
 
- ![espm11](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm1/m11.jpg)
+ ![espm11](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm1/espm11.jpg)
 
 Fig. 2.1 ESP-M1 Pin Definition
 
  
 
- ![espm12](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm1/m12.jpg)
+ ![espm12](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm1/espm12.jpg)
 
  
 
@@ -235,15 +235,15 @@ Shape and size for ESP-Mx can be shown as follows.
 
  
 
-​    ![espm13](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm1/m13.jpg)
+​    ![espm13](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm1/espm13.jpg)
 
 Fig. 3.1 Shape for ESP-M1
 
- ![espm14](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm1/m14.jpg)
+ ![espm14](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm1/espm14.jpg)
 
 (a) Vertical View
 
- ![espm15](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm1/m15.jpg)
+ ![espm15](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm1/espm15.jpg)
 
 (b) Side View
 
@@ -255,15 +255,15 @@ Fig. 3.2 Size for ESP-M1
 
  
 
-![espm16](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm1/m16.jpg)     
+![espm16](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm1/espm16.jpg)     
 
 Fig. 3.3 Shape for ESP-M2
 
- ![espm17](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm1/m17.jpg)
+ ![espm17](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm1/espm17.jpg)
 
 (a) Vertical View
 
- ![espm18](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm1/m18.jpg)
+ ![espm18](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm1/espm18.jpg)
 
 (b) Side View
 
@@ -388,7 +388,7 @@ Table 6.1 Wi-Fi RF Characteristics
 
  
 
-​     ![espm19](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm1/m19.jpg)
+​     ![espm19](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm1/espm19.jpg)
 
 Fig. 7.1 Temperature Curve when Sold
 
@@ -404,7 +404,7 @@ Fig. 7.1 Temperature Curve when Sold
 
 This module can work just at 3.3V working voltage.
 
- ![espm110](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm1/m110.jpg)
+ ![espm110](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm1/espm110.jpg)
 
 Fig. 8. 1 Minimum System
 
@@ -432,7 +432,7 @@ Wi-Fi module can be inserted into the PCB board directly. For the high RF perfor
 
 Especially, since the antenna is external for ESP-M1, the antenna can be placed by the project requirements. The connector for external antenna is shown in the following.
 
- ![espm111](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm1/m111.jpg)
+ ![espm111](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm1/espm111.jpg)
 
 Fig. 9. 1 Connector for the external antenna
 
@@ -440,19 +440,19 @@ Fig. 9. 1 Connector for the external antenna
 
   It is suggested that the module is placed along with PCB side, the antenna is placed outside the board, or along with the PCB side, and the below board is blank, please refer to the scheme 1 and scheme 2; if the PCB antenna must placed on the board, please do not cover the copper at the bottom of PCB antenna, as can be shown at scheme 3.
 
- ![espm112](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm1/m112.jpg)
+ ![espm112](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm1/espm112.jpg)
 
 Fig. 9.2 scheme1: Antenna is at the outside of the board
 
  
 
- ![espm113](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm1/m113.jpg)
+ ![espm113](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm1/espm113.jpg)
 
 Fig. 9.3 Scheme 2: Antenna is placed along with side of the board, and it is blank at the bottom of the board.
 
  
 
- ![espm114](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm1/m114.jpg)
+ ![espm114](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm1/espm114.jpg)
 
 Fig. 9.4 Scheme 3: Antenna is placed along with the side of the board, and don’t cover copper under the module
 

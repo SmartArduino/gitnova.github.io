@@ -382,7 +382,7 @@
       ga: 'UA-164658031-2',
 
       footer: {
-        copy: '<div class = "over" >END</div><br/><span>Online ShoP：<a href="https://www.vvdoit.com" target="_blank">https://www.vvdoit.com</a>style="overflow-x:hidden;overflow-y:hidden; min-height:240px; width:100%;"  frameborder="0" scrolling="no"></iframe><br/><span id="sitetime"></span><br/><span>Copyright &copy; 2020 - </span>',
+        copy: '<div class = "over" >END</div><br/><span>Online Shop：<a href="https://www.vvdoit.com" target="_blank">https://www.vvdoit.com</a><br/><span id="sitetime"></span><br/><span>Copyright &copy; 2020 - </span>',
         auth: ' <a href="http://wifimcu.com/" target="_blank">🏷️ EnjoyToShare Blog</a> <span> Read More, Get More！</span>',
         pre: '<hr/>',
         style: 'text-align: left;',
@@ -548,7 +548,7 @@
          var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
          var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes);
          var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes * minutes) / seconds);
-         document.getElementById("sitetime").innerHTML = " 本站已安全运行 " + diffYears + " 年 " + diffDays + " 天 " + diffHours + " 小时 " + diffMinutes + " 分 " + diffSeconds + " 秒 ";
+         document.getElementById("sitetime").innerHTML = " This site is runing for" + diffYears + " Year(s) " + diffDays + " Days " + diffHours + " Hours " + diffMinutes + " Minutues " + diffSeconds + " Seconds ";
       }
       siteTime();
   </script>

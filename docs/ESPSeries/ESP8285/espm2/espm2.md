@@ -119,7 +119,7 @@ The ESP-M module supports the standard IEEE802.11 b/g/n/e/i protocol and the com
 
  
 
- ![m21](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm2/21.jpg)
+ ![m21](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm2/m21.jpg)
 
  
 
@@ -179,7 +179,7 @@ Interface definition of ESP-M can be shown in the following.
 
  
 
- ![m22](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm2/22.jpg)
+ ![m22](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm2/m22.jpg)
 
  
 
@@ -231,7 +231,7 @@ Shape and size for this module can be shown as follows.
 
  
 
- ![m23](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm2/23.jpg)
+ ![m23](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm2/m23.jpg)
 
  
 
@@ -239,11 +239,11 @@ Shape and size for this module can be shown as follows.
 
    Fig. 3.1 Shape for ESP-M2
 
- ![m24](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm2/24.jpg)
+ ![m24](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm2/m24.jpg)
 
 (a) Vertical View
 
- ![m25](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm2/25.jpg)
+ ![m25](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm2/m25.jpg)
 
 (b) Side View
 
@@ -360,7 +360,7 @@ Fig. 7.1 Temperature Curve when Sold
 
  
 
- ![m35](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm2/35.jpg)
+ ![m35](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm2/m35.jpg)
 
 
 
@@ -370,7 +370,7 @@ Fig. 7.1 Temperature Curve when Sold
 
 This module can work just at 3.3V working voltage.
 
-![m26](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm2/26.jpg)
+![m26](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm2/m26.jpg)
 
 Fig. 8. 1 Minimum System
 
@@ -398,7 +398,7 @@ Wi-Fi module can be inserted into the PCB board directly. For the high RF perfor
 
 Especially, since the antenna is external for ESP-M1, the antenna can be placed by the project requirements. The connector for external antenna is shown in the following.
 
- ![m27](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm2/27.jpg)
+ ![m27](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm2/m27.jpg)
 
 Fig. 9. 1 Connector for the external antenna
 
@@ -406,11 +406,11 @@ Fig. 9. 1 Connector for the external antenna
 
   It is suggested that the module is placed along with PCB side, the antenna is placed outside the board, or along with the PCB side, and the below board is blank, please refer to the scheme 1 and scheme 2; if the PCB antenna must placed on the board, please do not cover the copper at the bottom of PCB antenna, as can be shown at scheme 3.
 
- ![m28](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm2/28.jpg)
+ ![m28](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm2/m28.jpg)
 
 Fig. 9.2 scheme1: Antenna is at the outside of the board
 
- ![m29](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm2/29.jpg)
+ ![m29](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm2/m29.jpg)
 
  
 
@@ -418,7 +418,7 @@ Fig. 9.3 Scheme 2: Antenna is placed along with side of the board, and it is bla
 
  
 
- ![m210](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm2/210.jpg)
+ ![m210](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm2/m210.jpg)
 
 Fig. 9.4 Scheme 3: Antenna is placed along with the side of the board, and don’t cover copper under the module
 

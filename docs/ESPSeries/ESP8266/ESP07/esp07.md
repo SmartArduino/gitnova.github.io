@@ -6,7 +6,7 @@
 
 ESP-07 WiFi module is a low-power and cost-effective embedded wireless network control module. It can meet the needs of Internet of Things applications such as smart grid, building automation, security, smart home, telemedicine and so on.
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP07/https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP07/clip_image002.jpg)
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP07/clip_image002.jpg)
 
 The core processor ESP8266 integrates the industry-leading Tensilica L106 ultra-low power 32-bit micro MCU with 16-bit streamlined mode, main frequency of 80 MHz and 160 MHz, supports RTOS, integrates Wi-Fi MAC/BB/RF/PA/LNA, and on-board antenna.
 
@@ -105,15 +105,15 @@ Table 2.2 Pins Function
 
  
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP07/https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP07/clip_image005.jpg)
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP07/clip_image005.jpg)
 
 Fig 3.1 Shape of ESP-07
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP07/https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP07/clip_image007.jpg)
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP07/clip_image007.jpg)
 
 Fig. 3.2 Size for ESP-07
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP07/https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP07/clip_image009.jpg)
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP07/clip_image009.jpg)
 
 Table 3.1 Size for ESP-07
 
@@ -167,7 +167,7 @@ Table Interface definition
 | I2C           | IO14(SCL), IO2(SDA)                                          | External  sensors and display screens, etc.                  |
 | UART          | UART0:   TXD(U0TXD),RXD(U0RXD)  ,IO15(RTS),IO13(CTS)         | Device  with External UART Interface  Download:  U0TXD + U0RXD or GPIO2 + U0RXD communication (UART0): U0TXD, U0RXD, MTDO  (U0RTS), MTCK (U0CTS) Debug: UART1_TXD (GPIO2) can be used as debug  information printing. |
 |               | UART1:  IO2(TXD)                                             | UART0  will output some printing information by default when it is powered on  ESP8266-12S. For this sensitive application, the internal pin switching  function of UART can be used to exchange U0TXD and U0RXD with U0RTS and U0CTS  respectively during initialization. Hardware Connect MTDOMTCK to Serial Port  Import Communication of Corresponding External MCU |
-| I2S           | I2S  input:  IO12 (I2SI_DATA);   IO13 (I2SI_BCK ); IO14  (I2SI_WS);   ![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP07/https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP07/clip_image010.gif)  I2S output  IO15 (I2SO_BCK );   IO3 (I2SO_DATA);   IO2 (I2SO_WS ); | It  is mainly used for audio acquisition, processing and transmission. |
+| I2S           | I2S  input:  IO12 (I2SI_DATA);   IO13 (I2SI_BCK ); IO14  (I2SI_WS);   ![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP07/clip_image010.gif)  I2S output  IO15 (I2SO_BCK );   IO3 (I2SO_DATA);   IO2 (I2SO_WS ); | It  is mainly used for audio acquisition, processing and transmission. |
 
  
 
@@ -273,7 +273,7 @@ Table ramp up
 
 # 6. Schematic Diagram
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP07/https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP07/clip_image013.jpg)
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP07/clip_image013.jpg)
 
 Figure ESP-07 Schematic Diagram
 
@@ -281,7 +281,7 @@ Figure ESP-07 Schematic Diagram
 
  
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP07/https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP07/clip_image015.jpg)
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP07/clip_image015.jpg)
 
 Figure Minimum system
 
@@ -314,21 +314,21 @@ ESP-01 integrates high-speed GPIO and peripheral interfaces, which may cause ser
 
  
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP07/https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP07/clip_image017.jpg)
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP07/clip_image017.jpg)
 
 It is suggested that the module be placed along the edge of PCB board, and the antenna be placed outside or along the edge of the board and hollowed out below, with reference to scheme 1 and scheme 2.
 
 PCB antenna is also allowed on the floor, as long as there is no copper under the antenna, reference scheme 3.
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP07/https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP07/clip_image019.jpg)
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP07/clip_image019.jpg)
 
  Scheme 1: The antenna is outside the frame. 
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP07/https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP07/clip_image021.jpg) 
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP07/clip_image021.jpg) 
 
  Scheme 2: Antennas are placed along the edge of the plate and hollowed underneath.
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP07/https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP07/clip_image023.jpg)
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP07/clip_image023.jpg)
 
 Solution 3: Antennas are placed along the edge of the plate and not covered with copper underneath. 
 
@@ -338,7 +338,7 @@ Solution 3: Antennas are placed along the edge of the plate and not covered with
 
  
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP07/https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP07/clip_image025.jpg)
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP07/clip_image025.jpg)
 
 Fig. 7.1 Temperature Curve when Sold
 
