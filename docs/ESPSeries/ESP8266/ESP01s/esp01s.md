@@ -6,7 +6,7 @@
 
 ESP-01 WiFi module is a low-power and cost-effective embedded wireless network control module. It can meet the needs of Internet of Things applications such as smart grid, building automation, security, smart home, telemedicine and so on.
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP01s/https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP01s/clip_image002.jpg)
+![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP01s/clip_image002.jpg)
 
 The core processor ESP8266 integrates the industry-leading Tensilica L106 ultra-low power 32-bit micro MCU with 16-bit streamlined mode, main frequency of 80 MHz and 160 MHz, supports RTOS, integrates Wi-Fi MAC/BB/RF/PA/LNA, and on-board antenna.
 
