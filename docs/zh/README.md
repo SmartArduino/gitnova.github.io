@@ -75,7 +75,7 @@
 
 ## ESP32
 
-* [ESP-32](/zh/ESPSeries/ESP32/ESP32/esp32.md)
+* [ESP-32](ESPSeries/ESP32/ESP32/esp32.md)
 * [ESP-32u](ESPSeries/ESP32/ESP32u/esp32u.md)
 
 ## Double Frequency WiFi

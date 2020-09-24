@@ -1,6 +1,7 @@
--[EN/中文]
- -[EN](/)
- -[中文](/zh)
+- [<span class="iconfont icon-icon_fabu"></span> EN/中文](/)
+  - [EN](/)
+  - [中文](/zh)
+
 - [<span class="iconfont icon-icon_fabu"></span> Home](/README.md)
   - [WinnerMicro](README?id=winnermicro)
   - [ESP Series](README?id=esp-series)
