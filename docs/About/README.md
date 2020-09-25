@@ -5,10 +5,10 @@ Hi, everyone, welcome to [Shenzhen DOIT (Doctors of Intelligence \& Technology) 
 * [AI-IoT Solutions](README?id=ai-iot-solutions)
 * [Robotics](/README?id=robotics). 
 
-More details, please read the **right column** for the required documents.
+More details, please read the **left column** for the required documents.
 
 ### Some videos
-[Watch the videos](http://i.youku.com/i/UMjg3NjY2MDgxMg==/videos?spm=a2hzp.8244740.0.0)
+[Watch the videos](https://www.youtube.com/channel/UCfDml3Le3U9IUHauSfXkxGg)
 
 ### Where to buy
 

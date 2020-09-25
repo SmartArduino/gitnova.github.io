@@ -13,7 +13,7 @@
   - [<span class="iconfont icon-github"></span> wiki](http://wiki.doit.am/)
 
 - <span class="iconfont icon-xiangkan"></span> Products
-  - [<span class="iconfont icon-music"></span> Shop](http://wiki.doit.am/)
+  - [<span class="iconfont icon-music"></span> Shop](https://www.vvdoit.com/)
   - [<span class="iconfont icon-book3"></span> Video](https://www.youtube.com/channel/UCfDml3Le3U9IUHauSfXkxGg)
 - [<span class="iconfont icon-wodeguanzhu"></span> About](/About/README.md)
 - [<span class="iconfont icon-github1"></span> GitHub](https://github.com/SmartArduino)
