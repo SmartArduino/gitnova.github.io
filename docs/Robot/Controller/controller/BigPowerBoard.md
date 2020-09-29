@@ -6,7 +6,7 @@
 
 This board is a control board, which is compatible with Arduino, is also a DC motor driver shield board. It is very suitable to control the big power robot tank car chassis shown in our shops.
 
-![bigpower4](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/BigPowerBoard/bigpower4.jpg)
+![bigpower4](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/bigpower4.jpg)
 
 # Features:
 
