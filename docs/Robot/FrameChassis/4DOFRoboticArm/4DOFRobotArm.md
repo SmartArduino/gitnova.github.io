@@ -38,23 +38,23 @@ Other accessories
 
  
 
-![4DOFRoboticArm11](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/4DOFRoboticArm/4DOFRobotArm11.jpg)
+![4DOFRoboticArm11](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/4DOFRoboticArm/4DOFRoboticArm11.jpg)
 
-![4DOFRoboticArm12](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/4DOFRoboticArm/4DOFRobotArm12.jpg) 
+![4DOFRoboticArm12](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/4DOFRoboticArm/4DOFRoboticArm12.jpg) 
 
 # 3. Install The Beam
 
-![4DOFRoboticArm13](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/4DOFRoboticArm/4DOFRobotArm13.jpg) 
+![4DOFRoboticArm13](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/4DOFRoboticArm/4DOFRoboticArm13.jpg) 
 
-![4DOFRoboticArm14](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/4DOFRoboticArm/4DOFRobotArm14.jpg) 
+![4DOFRoboticArm14](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/4DOFRoboticArm/4DOFRoboticArm14.jpg) 
 
-![4DOFRoboticArm15](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/4DOFRoboticArm/4DOFRobotArm15.jpg) 
+![4DOFRoboticArm15](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/4DOFRoboticArm/4DOFRoboticArm15.jpg) 
 
-![4DOFRoboticArm16](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/4DOFRoboticArm/4DOFRobotArm16.jpg) 
+![4DOFRoboticArm16](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/4DOFRoboticArm/4DOFRoboticArm16.jpg) 
 
-![4DOFRoboticArm17](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/4DOFRoboticArm/4DOFRobotArm17.jpg) 
+![4DOFRoboticArm17](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/4DOFRoboticArm/4DOFRoboticArm17.jpg) 
 
-![4DOFRoboticArm18](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/4DOFRoboticArm/4DOFRobotArm18.jpg) 
+![4DOFRoboticArm18](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/4DOFRoboticArm/4DOFRoboticArm18.jpg) 
 
  
 
