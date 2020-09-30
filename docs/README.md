@@ -128,6 +128,7 @@
   * [Robot Arm for Car](Robot/FrameChassis/cararm/cararm.md)
   * [6 dof Robot Arm](Robot/FrameChassis/gxrobotarm/gxrobotarm.md)
   * [Robot Arm](Robot/FrameChassis/robotarm/robotarm.md)
+  * [4DOF Robot Arm](Robot/FrameChassis/4DOFRoboticArm/4DOFRobotArm.md)
 * [**【二】Robot Grip**]
   
 * [G6 Robot Arm](Robot/FrameChassis/g6/g6.md)
