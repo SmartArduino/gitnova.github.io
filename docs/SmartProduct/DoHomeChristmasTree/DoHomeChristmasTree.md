@@ -15,19 +15,19 @@ Download The official download tool flash_download_tool_v3.8.5: https://www.gitn
 Unzip it after downloading
 
 ①　Double click to open flash_download_tool_v3.8.5.exe
-![DoHomeChristmasTree0](https://github.com/SmartArduino/document/raw/master/docs/SmartProduct/DoHomeChristmasTree/DoHomeChristmasTree2.jpg)
+![DoHomeChristmasTree0](https://github.com/SmartArduino/document/raw/master/docs/SmartProduct/DoHomeChristmasTree/DoHomeChristmasTree1.jpg)
 
 ②　Select Developer Mode
 
-![DoHomeChristmasTree0](https://github.com/SmartArduino/document/raw/master/docs/SmartProduct/DoHomeChristmasTree/DoHomeChristmasTree3.jpg) 
+![DoHomeChristmasTree0](https://github.com/SmartArduino/document/raw/master/docs/SmartProduct/DoHomeChristmasTree/DoHomeChristmasTree2.jpg) 
 
 ③select ESP8266 DownloadTool
 
-![DoHomeChristmasTree0](https://github.com/SmartArduino/document/raw/master/docs/SmartProduct/DoHomeChristmasTree/DoHomeChristmasTree4.jpg) 
+![DoHomeChristmasTree0](https://github.com/SmartArduino/document/raw/master/docs/SmartProduct/DoHomeChristmasTree/DoHomeChristmasTree3.jpg) 
 
 ④　Set the parameters and port number, click START to download
 
-![DoHomeChristmasTree0](https://github.com/SmartArduino/document/raw/master/docs/SmartProduct/DoHomeChristmasTree/DoHomeChristmasTree5.jpg) 
+![DoHomeChristmasTree0](https://github.com/SmartArduino/document/raw/master/docs/SmartProduct/DoHomeChristmasTree/DoHomeChristmasTree4.jpg) 
 
 # **3.** Control Instructions
 
@@ -53,7 +53,7 @@ To exit the microphone mode, long press the button again.
 
 The software is controlled through the DoHome APP, which is developed by our company and supports Apple and Android systems. You can scan the QR code with your mobile phone, or search for "DoHome" in the App Store or application market to download and install. And register and log in to the "DoHome" APP.
 
-![DoHomeChristmasTree0](https://github.com/SmartArduino/document/raw/master/docs/SmartProduct/DoHomeChristmasTree/DoHomeChristmasTree6.jpg) 
+![DoHomeChristmasTree0](https://github.com/SmartArduino/document/raw/master/docs/SmartProduct/DoHomeChristmasTree/DoHomeChristmasTree5.jpg) 
 
  
 
@@ -63,25 +63,25 @@ The software is controlled through the DoHome APP, which is developed by our com
 
 ***Open Dohome App***
 
-![DoHomeChristmasTree0](https://github.com/SmartArduino/document/raw/master/docs/SmartProduct/DoHomeChristmasTree/DoHomeChristmasTree7.jpg) 
+![DoHomeChristmasTree0](https://github.com/SmartArduino/document/raw/master/docs/SmartProduct/DoHomeChristmasTree/DoHomeChristmasTree6.jpg) 
 
 **B.** ***click the "+" icon in the upper right corner of the homepage.***
 
-![DoHomeChristmasTree0](https://github.com/SmartArduino/document/raw/master/docs/SmartProduct/DoHomeChristmasTree/DoHomeChristmasTree8.jpg) 
+![DoHomeChristmasTree0](https://github.com/SmartArduino/document/raw/master/docs/SmartProduct/DoHomeChristmasTree/DoHomeChristmasTree7.jpg) 
 
 ***C.*** ***Select the product icon(LED Strip).***
 
-![DoHomeChristmasTree0](https://github.com/SmartArduino/document/raw/master/docs/SmartProduct/DoHomeChristmasTree/DoHomeChristmasTree9.jpg) 
+![DoHomeChristmasTree0](https://github.com/SmartArduino/document/raw/master/docs/SmartProduct/DoHomeChristmasTree/DoHomeChristmasTree8.jpg) 
 
 ***D.Enter the router password.***
 
-![https://github.com/SmartArduino/document/raw/master/docs/SmartProduct/DoHomeChristmasTree/DoHomeChristmasTree20](https://github.com/SmartArduino/document/raw/master/docs/SmartProduct/DoHomeChristmasTree/DoHomeChristmasTree20.jpg)
+![https://github.com/SmartArduino/document/raw/master/docs/SmartProduct/DoHomeChristmasTree/DoHomeChristmasTree20](https://github.com/SmartArduino/document/raw/master/docs/SmartProduct/DoHomeChristmasTree/DoHomeChristmasTree19.jpg)
 
 **E.** ***Please supply power (5V) to the Christmas tree lights. Please make sure that the Christmas lights are in the factory mode (red-green-blue-white-flashing).***
 
 **F.** ***Open the phone WiFi settings. Connect to the "DoHome_XXXX" WiFi hotspot.***
 
-![DoHomeChristmasTree0](https://github.com/SmartArduino/document/raw/master/docs/SmartProduct/DoHomeChristmasTree/DoHomeChristmasTree12.jpg) 
+![DoHomeChristmasTree0](https://github.com/SmartArduino/document/raw/master/docs/SmartProduct/DoHomeChristmasTree/DoHomeChristmasTree11.jpg) 
 
  
 
@@ -89,7 +89,7 @@ The software is controlled through the DoHome APP, which is developed by our com
 
 **G.** ***Return to "DoHome APP" and wait for the network configuration to be completed.***
 
-![DoHomeChristmasTree0](https://github.com/SmartArduino/document/raw/master/docs/SmartProduct/DoHomeChristmasTree/DoHomeChristmasTree13.jpg) 
+![DoHomeChristmasTree0](https://github.com/SmartArduino/document/raw/master/docs/SmartProduct/DoHomeChristmasTree/DoHomeChristmasTree12.jpg) 
 
  
 
@@ -109,25 +109,25 @@ The software is controlled through the DoHome APP, which is developed by our com
 
 ***(1) Make sure the device is bound to the DoHome APP***
 
-![DoHomeChristmasTree0](https://github.com/SmartArduino/document/raw/master/docs/SmartProduct/DoHomeChristmasTree/DoHomeChristmasTree14.jpg) 
+![DoHomeChristmasTree0](https://github.com/SmartArduino/document/raw/master/docs/SmartProduct/DoHomeChristmasTree/DoHomeChristmasTree13.jpg) 
 
 ***(2) Enter the properties interface and click to turn on HomeKit mode.***
 
-![DoHomeChristmasTree0](https://github.com/SmartArduino/document/raw/master/docs/SmartProduct/DoHomeChristmasTree/DoHomeChristmasTree15.jpg) 
+![DoHomeChristmasTree0](https://github.com/SmartArduino/document/raw/master/docs/SmartProduct/DoHomeChristmasTree/DoHomeChristmasTree14.jpg) 
 
 (3) Open Home. Please put the setting code in Figure 6 (123-45-678) in the viewfinder frame, and choose to add it anyway.
+
+![DoHomeChristmasTree0](https://github.com/SmartArduino/document/raw/master/docs/SmartProduct/DoHomeChristmasTree/DoHomeChristmasTree15.jpg) 
 
 ![DoHomeChristmasTree0](https://github.com/SmartArduino/document/raw/master/docs/SmartProduct/DoHomeChristmasTree/DoHomeChristmasTree16.jpg) 
 
 ![DoHomeChristmasTree0](https://github.com/SmartArduino/document/raw/master/docs/SmartProduct/DoHomeChristmasTree/DoHomeChristmasTree17.jpg) 
 
-![DoHomeChristmasTree0](https://github.com/SmartArduino/document/raw/master/docs/SmartProduct/DoHomeChristmasTree/DoHomeChristmasTree18.jpg) 
-
 If the iPhone does not display the device, please confirm whether the phone and the device are on the same WiFi network. If the addition fails, please check the following FAQ, if you have any questions, please contact technical support.
 
 
 
-![DoHomeChristmasTree0](https://github.com/SmartArduino/document/raw/master/docs/SmartProduct/DoHomeChristmasTree/DoHomeChristmasTree19.jpg) 
+![DoHomeChristmasTree0](https://github.com/SmartArduino/document/raw/master/docs/SmartProduct/DoHomeChristmasTree/DoHomeChristmasTree18.jpg) 
 
 Note: Before using the speaker, please log in to your platform account on the smart speaker device platform such as Alexa, Google Assistant, Tmall Elf, and Xiao Ai.
 
