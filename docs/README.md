@@ -94,6 +94,7 @@
 ## Smart Products
 
 * [Smart Relay for Homekit](SmartProduct/homekit2relay/homekitrelay.md)
+* [DoHome Christmas Tree](SmartProduct/DoHomeChristmasTree/DoHomeChristmasTree.md)
 * [Smart Blub](OJ/README.md)
 * [Smart LED Light Strip](OJ/README.md)
 * [Smart Plug](OJ/README.md)
