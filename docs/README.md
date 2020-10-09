@@ -116,7 +116,6 @@
   * [Y100 Tank Chassis](Robot/FrameChassis/Y100/Y100.md)
   * [Car Chassis CM301](Robot/FrameChassis/CM301/CM301.md)
   * [Car Chassis C200](Robot/FrameChassis/C200/C200.md)
-  
 * [**【二】Robot Part**]
   
   * [2 dof Servo Bracket Platform](Robot/FrameChassis/2dofbracket/2dofservobracket.md)
@@ -130,9 +129,8 @@
   * [Robot Arm](Robot/FrameChassis/robotarm/robotarm.md)
   * [4DOF Robot Arm](Robot/FrameChassis/4DOFRoboticArm/4DOFRobotArm.md)
 * [**【二】Robot Grip**]
-  
 * [G6 Robot Arm](Robot/FrameChassis/g6/g6.md)
-  
+* [G8 Robot Arm](Robot/FrameChassis/g8/g8.md)
 * [**【二】Humanoid Robot**]
   * [17 Dof Robot](Robot/FrameChassis/17dof/17dofhumanoid.md)
 
