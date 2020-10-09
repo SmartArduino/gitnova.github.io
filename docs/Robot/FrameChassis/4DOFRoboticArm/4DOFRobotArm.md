@@ -1,0 +1,61 @@
+# 4DOF Mechanical Arm Installation Instructions
+
+Note: The 180-degree steering gear is different from ordinary motors and has a fixed angle. All the servos are in the 90-degree neutral state before shipment. Please do not rotate the servo angle at will before installing the robot arm, otherwise the installation will fail!
+
+(If you accidentally turn the servo before installation, please reset the servo according to the angle.)
+
+![4DOFRoboticArm0](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/4DOFRoboticArm/4DOFRoboticArm0.jpg)
+
+Screw package used for installation:
+
+![4DOFRoboticArm1](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/4DOFRoboticArm/4DOFRoboticArm1.jpg)
+
+Other accessories
+
+![4DOFRoboticArm2](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/4DOFRoboticArm/4DOFRoboticArm2.jpg)
+
+# 1. Rotating base installation
+
+![4DOFRoboticArm3](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/4DOFRoboticArm/4DOFRoboticArm3.jpg)
+
+![4DOFRoboticArm4](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/4DOFRoboticArm/4DOFRoboticArm4.jpg)
+
+ 
+
+![4DOFRoboticArm5](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/4DOFRoboticArm/4DOFRoboticArm5.jpg) 
+
+![4DOFRoboticArm6](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/4DOFRoboticArm/4DOFRoboticArm6.jpg)
+
+![4DOFRoboticArm7](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/4DOFRoboticArm/4DOFRoboticArm7.jpg)
+
+# 2. Install Arm
+
+![4DOFRoboticArm8](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/4DOFRoboticArm/4DOFRoboticArm8.jpg) 
+
+![4DOFRoboticArm9](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/4DOFRoboticArm/4DOFRoboticArm9.jpg)
+
+![4DOFRoboticArm10](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/4DOFRoboticArm/4DOFRoboticArm10.jpg) 
+
+ 
+
+![4DOFRoboticArm11](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/4DOFRoboticArm/4DOFRoboticArm11.jpg)
+
+![4DOFRoboticArm12](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/4DOFRoboticArm/4DOFRoboticArm12.jpg) 
+
+# 3. Install The Beam
+
+![4DOFRoboticArm13](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/4DOFRoboticArm/4DOFRoboticArm13.jpg) 
+
+![4DOFRoboticArm14](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/4DOFRoboticArm/4DOFRoboticArm14.jpg) 
+
+![4DOFRoboticArm15](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/4DOFRoboticArm/4DOFRoboticArm15.jpg) 
+
+![4DOFRoboticArm16](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/4DOFRoboticArm/4DOFRoboticArm16.jpg) 
+
+![4DOFRoboticArm17](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/4DOFRoboticArm/4DOFRoboticArm17.jpg) 
+
+![4DOFRoboticArm18](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/4DOFRoboticArm/4DOFRoboticArm18.jpg) 
+
+ 
+
+ 
