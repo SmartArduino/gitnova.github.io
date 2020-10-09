@@ -199,7 +199,12 @@ After fixing the both the hands top portion of the Humanoid will look as seen in
 
 ![17dofinstallation45](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/17dof/C:/Users/Administrator/Pictures/Y100/17dofinstallation45.jpg)
 
+# Contact Us
 
+- E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
+- Skype: yichone
+- WhatsApp:+86-18676662425
+- Wechat: 18676662425
 
 
 
