@@ -4,7 +4,7 @@
 
 ## ***1.1 Performance And Technical Indicators***
 
-![wps](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps1.jpg) 
+![wps](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps1.jpg) 
 
 ●Full speed USB device interface, compatible with USB V2.0;
 
@@ -90,7 +90,7 @@
 
 ## **2.1** ***Product Sppearance***
 
-![wps2](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps2.jpg) 
+![wps2](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps2.jpg) 
 
 ## ***2.2 Definition Of Adapter External Interface***
 
@@ -98,37 +98,37 @@ This adapter is a multi-functional product, including SPI interface, I2C interfa
 
 ### ***2.2.1 SPI Interface (XH2.54MM Straight Pin)***
 
-![wps3](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps3.png) 
+![wps3](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps3.png) 
 
-![wps4](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps4.jpg) 
+![wps4](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps4.jpg) 
 
 ### ***2.2.2 I2C Interface (PH2.25MM Pin Header)***
 
-![wps5](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps5.jpg) 
+![wps5](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps5.jpg) 
 
-![wps6](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps6.jpg) 
+![wps6](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps6.jpg) 
 
 ### ***2.2.3 UART Interface (PH2.25 Pin Header)***
 
-![wps7](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps7.jpg) 
+![wps7](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps7.jpg) 
 
 ### ***2.2.4 I2C And UART Interface (XH2.5MM Curved Pin)***
 
-![wps8](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps8.jpg) 
+![wps8](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps8.jpg) 
 
 ### ***2.2.5 Asynchronous Serial Port Reserved Interface***
 
 The asynchronous serial port, the full-signal reserved interface of UART, is located in the middle of the front of the adapter mainboard. There are 20 jacks in total, which can be installed with dual-row 2.54MM pitch pins or DC3-20P simple horn socket.
 
-![wps9](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps9.jpg) 
+![wps9](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps9.jpg) 
 
 ### ***2.2.6 Printer Parallel Port***
 
 The reserved port for the parallel port of the printer is located in the middle of the back side of the adapter main board. There are a total of 20 jacks, which share the same port with the asynchronous serial port. You can install dual-row 2.54MM pitch pins or DC3-20P simple horn socket.
 
-![wps10](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps10.jpg) 
+![wps10](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps10.jpg) 
 
-![wps11](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps11.jpg) 
+![wps11](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps11.jpg) 
 
 The adapter also supports parallel connection
 
@@ -140,13 +140,13 @@ Which function the adapter uses is determined by the power-on initialization sta
 
 The ALL IN ONE adapter function switching jumper is located next to the USB interface, and the common functions can be switched by adjusting the position of the jumper.
 
-The configuration of I2C and SPI functions is the same, as![wps12](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps12.jpg);The UART serial port function is configured as![wps13](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps13.jpg)
+The configuration of I2C and SPI functions is the same, as![wps12](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps12.jpg);The UART serial port function is configured as![wps13](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps13.jpg)
 
 ### ***2.3.2 MEM/EPP And Other Function Configuration***
 
 The adapter can directly configure the function of the chip through the connection combination of SCL and SDA pins.
 
-![wps14](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps14.jpg) 
+![wps14](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps14.jpg) 
 
 Note: When the I2C function is not applicable, the I2C connection must be disconnected from the target computer, otherwise the configuration of other functions of the chip may be affected.
 
@@ -158,13 +158,13 @@ The USB chip of the adapter supports 3.3V and 5V working voltages. Therefore, th
 
 3.3V TTL IO level is achieved by adjusting the Level Select jumper cap on the right side of the chip on the 3.3V side, as shown in the figure below:
 
-![wps15](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps15.jpg) 
+![wps15](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps15.jpg) 
 
 ### ***2.4.2 5V I/O Level Selection***
 
 The 5V TTL IO level is realized by placing the Level Select jumper cap on the right side of the chip on the 5V side, as shown in the figure below:
 
-![wps16](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps16.jpg) 
+![wps16](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps16.jpg) 
 
 ## ***2.5 External Interface Power Supply Voltage Selection***
 
@@ -174,13 +174,13 @@ The adapter can provide external power supply voltage consistent with the IO sig
 
 Put the PWR-SEL red jumper cap on the 5V side, and the voltage of the adapter output interface VDD is 5V, which has nothing to do with the current working voltage of the chip. The configuration is shown below:
 
-![wps17](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps17.jpg) 
+![wps17](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps17.jpg) 
 
 ### ***2.5.2 3.3V Supply Voltage***
 
 Put the PWR-SEL red jumper cap on the VCC side, and the voltage of the adapter output interface VDD will be consistent with the current working voltage of the chip. The configuration is shown below:
 
-![wps18](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps18.jpg) 
+![wps18](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps18.jpg) 
 
 To output a 3.3V power supply voltage, the chip operating voltage must be set to 3.3V
 
@@ -220,11 +220,11 @@ Driver installation:
 
 |      |                                                              |
 | ---- | ------------------------------------------------------------ |
-|      | ![wps19](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps19.png) |
+|      | ![wps19](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps19.png) |
 
 Click Install, wait a few seconds, the "Driver pre-installation succeeded!" window pops up, click OK to finish installation.
 
-![wps20](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps20.png)
+![wps20](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps20.png)
 
 ## ***3.2 Serial Port Driver*** 
 ***Installation***
@@ -233,13 +233,13 @@ Open the data package, find the folder where the driver is stored, and double-cl
 
 |      |                                                              |
 | ---- | ------------------------------------------------------------ |
-|      | ![wps21](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps21.png) |
+|      | ![wps21](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps21.png) |
 
 Click Install, wait a few seconds, the "Driver pre-installation succeeded!" window pops up, click OK to complete the installation.
 
 |      |                                                              |
 | ---- | ------------------------------------------------------------ |
-|      | ![wps22](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps22.png) |
+|      | ![wps22](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps22.png) |
 
 ## ***3.3 I2C Application Software***
 
@@ -247,11 +247,11 @@ Click Install, wait a few seconds, the "Driver pre-installation succeeded!" wind
 
 The software has two sub-pages, I2C interface and EEPROM read-write interface, the interface is as follows:
 
-![wps23](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps23.png) 
+![wps23](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps23.png) 
 
 I2C interface interface
 
-![wps24](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps24.png) 
+![wps24](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps24.png) 
 
 EEPROM read and write interface
 
@@ -289,11 +289,11 @@ Data: The read data buffer, all numbers are expressed in hexadecimal. Example: R
 
 Read the data in slave A0 from position 00:
 
-![wps25](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps25.jpg) 
+![wps25](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps25.jpg) 
 
 Write 01~08 data from the 00 position of A0
 
-![wps26](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps26.jpg) 
+![wps26](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps26.jpg) 
 
 Read the data just written from the 00 position of A0.
 
@@ -305,7 +305,7 @@ EEPROM reading and writing are realized by calling the EEPROM dedicated API func
 
 BOOLWINAPI USBIO_ReadEEPROM( // Read data block from EEPROM, speed is about 56K words
 
-![wps27](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps27.jpg) iEepromID, //Specify EEPROM model
+![wps27](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps27.jpg) iEepromID, //Specify EEPROM model
 
  _TYPE   iAddr, // refers to the address of the data unit
 
@@ -315,17 +315,17 @@ ULONG  oBuffer ); points to a buffer, and after returning, the read data
 
 BOOLWINAPI USBIO_WriteEEPROM( // write data block to EEPROM
 
-![wps28](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps28.jpg) 
+![wps28](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps28.jpg) 
 
 Exaple: Write 16 bytes of data from address 8 of 24C02, as follows:
 
-![wps29](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps29.jpg) 
+![wps29](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps29.jpg) 
 
 To read the data just written, just fill in the starting address of the data unit as 8 and the length as F (sixteen
 
 Base), click Read, the result is as follows:
 
-![wps30](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps30.jpg) 
+![wps30](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps30.jpg) 
 
 This software provides source code, located in the software directory Resource, for reference for secondary development of I2C upper computer software.
 
@@ -335,13 +335,13 @@ This software mainly demonstrates I2C and SPI functions, has a rich menu interfa
 
 USB2IIC&SPI_EXE folder. The I2C interface menu is as follows:
 
-![wps31](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps31.jpg) 
+![wps31](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps31.jpg) 
 
 The I2C protocol test interface is as follows, the driver library function API called by the software is
 
 USBIO_StreamI2C, the read and write principle is the same as USB2I2C software, but the interface is different.
 
-![wps32](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps32.jpg) 
+![wps32](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps32.jpg) 
 
 The 0x under the address is just the data header, indicating that the data format is hexadecimal. The read and write data buffer starts from 0. Double-click the position in the buffer and enter the data to be written after the value in the status display box.
 
@@ -349,7 +349,7 @@ Note: The write data length and read data length are in decimal format, which is
 
 The I2C protocol communication interface is as follows, and the operation method is the same as the protocol test page.
 
-![wps33](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps33.jpg) 
+![wps33](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps33.jpg) 
 
 For detailed operation examples of this software, please refer to "USB2IIC&SPI User Manual".
 
@@ -361,11 +361,11 @@ This software provides the accompanying SDK source code, located under the folde
 
 See the table below for SPI working mode:
 
-![wps34](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps34.jpg) 
+![wps34](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps34.jpg) 
 
 The adapter SPI interface works with SPI Mode0 by default, and the clock is fixed at 2MHz. The timing diagram is shown in the figure below:
 
-![wps35](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps35.jpg) 
+![wps35](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps35.jpg) 
 
  
 
@@ -373,7 +373,7 @@ The adapter SPI interface works with SPI Mode0 by default, and the clock is fixe
 
 The software calls the USBIO_StreamSPI4 interface library API function in the driver library to read and write the SPI-compatible 4-wire synchronous serial port in stream mode. The interface is as follows:
 
-![wps36](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps36.jpg) 
+![wps36](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps36.jpg) 
 
 The number of data bytes (in hexadecimal notation) is less than 40H, and the write-out and read-in data share a buffer.
 
@@ -417,27 +417,27 @@ Example: Read and write X5045
 
 Read the status register of X5045, the command code is: 05 (Hex), 00 (Hex, in fact, this byte can be filled arbitrarily, just to generate the necessary SCK
 
-![wps37](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps37.jpg) 
+![wps37](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps37.jpg) 
 
 2 is the byte length to be read and written, 0500 is the data to be written from MOSI, after clicking the Read/Write button, the data returned from MISO is obtained, as shown in the figure below:
 
-![wps38](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps38.jpg) 
+![wps38](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps38.jpg) 
 
 ### ***3.4.2 USB IIC&SPI Host Computer Software (SPI P*art)***
 
 The USB IIC&SPI software SPI interface menu is as follows:
 
-![wps39](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps39.jpg) 
+![wps39](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps39.jpg) 
 
 The SPI protocol test interface is as follows. The driver library function API called in this part is USBIO_StreamSPI4. The reading and writing principle is the same as that of the USB2SPI software, except the interface( is different)
 
-![wps40](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps40.jpg)Address 0x is the data header, which means that the data format is hexadecimal. The read and write data buffer starts from 0. Double-click the position in the buffer and enter the data to be written after the value in the status display box.
+![wps40](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps40.jpg)Address 0x is the data header, which means that the data format is hexadecimal. The read and write data buffer starts from 0. Double-click the position in the buffer and enter the data to be written after the value in the status display box.
 
 Note: The write data length and read data length are in decimal format, which is different from USB2SPI.
 
 The SPI protocol communication interface is as follows, and the operation mode is the same as the protocol test page.
 
-![wps41](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps41.jpg) 
+![wps41](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps41.jpg) 
 
 For detailed operation examples of this software, please refer to "USB2IIC&SPI User Manual".
 
@@ -451,6 +451,6 @@ In the Windows operating system on the computer side, the driver of the adapter 
 
 A variety of commonly used serial port softwares are collected in the adapter data package, which are generally placed in the USB2UART folder.
 
-![wps42](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/Multi-functionAdapter/wps42.jpg) 
+![wps42](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps42.jpg) 
 
  
