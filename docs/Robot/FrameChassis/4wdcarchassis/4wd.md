@@ -43,3 +43,10 @@ The coupling is connected to the DC motor, and the dc motor is fixed at the fram
 | 5    | Upper base plate       | 1    | 12   | M3 wrench   | 1    |      |
 | 6    | motor                  | 4    | 13   | M4 wrench   | 1    |      |
 | 7    | coupling               | 4    |      |             |      |      |
+
+# Contact Us
+
+- E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
+- Skype: yichone
+- WhatsApp:+86-18676662425
+- Wechat: 18676662425
