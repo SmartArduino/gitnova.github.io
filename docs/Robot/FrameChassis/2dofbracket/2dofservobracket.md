@@ -89,7 +89,12 @@ Then, use 4pcs KM3*10 screw and 4pcs M3 nut fix the 2nd servo to the multi-funct
 
 
 
+# Contact Us
 
+- E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
+- Skype: yichone
+- WhatsApp:+86-18676662425
+- Wechat: 18676662425
 
 
 
