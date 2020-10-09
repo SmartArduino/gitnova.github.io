@@ -4,7 +4,7 @@
 
 # 1. Introduction
 
-  This user manual is used for the installation of TS100, together with the motor connection with the development board. Specially, the installation is very similar to the other T series tank chassis, excluding the shock suspension. Therefore, the installation is very convenient. Here, we just take TS100 as an example to show the installation of TS series tank chassis.
+  This user manual is used for the installation of TS100, together with the motor connection with the development board. Specially, the installation is very similar to the other T series tank chassis, excluding the shock suspension. Therefore, the installation is very convenient. Here, we just take TS100 as an example to show the installation of TS series tank chassis.![tsinstall13](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/TStank/tsinstall13.jpg)
 
 Some useful links:
 metal bearing wheel: https://gitnova.com/metal-wheel-for-tank-chassis/
@@ -105,7 +105,12 @@ The wheel can adjust the length of track.
 
 
 
+# Contact Us
 
+- E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
+- Skype: yichone
+- WhatsApp:+86-18676662425
+- Wechat: 18676662425
 
 
 
