@@ -134,7 +134,7 @@
 * [G6 Robot Arm](Robot/FrameChassis/g6/g6.md)
   
 * [**【二】Humanoid Robot**]
-  * [17dof](Robot/FrameChassis/17dof/17dofhumanod.md)
+  * [17 Dof Robot](Robot/FrameChassis/17dof/17dofhumanod.md)
 
 ## Controller
 
