@@ -4,7 +4,7 @@
 
 ## ***1.1 Performance And Technical Indicators***
 
-![wps](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps1.jpg) 
+![wps1](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps1.jpg) 
 
 ●Full speed USB device interface, compatible with USB V2.0;
 
