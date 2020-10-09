@@ -12,7 +12,7 @@
 
 # cp2102 driver
 
-[windows](https://github.com/SmartArduino/DOITWiKi/blob/master/CP2102Driver(USBtoSerial).rar)
+[download](https://cn.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
 
 # ft232 driver
 
