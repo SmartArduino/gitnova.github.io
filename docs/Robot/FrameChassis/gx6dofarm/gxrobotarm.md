@@ -71,3 +71,10 @@ This manual is for the 6 dof robot arm installation. This arm needs 4 dof big se
 ![28](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/gx6dofarm/28.jpg)
 
 ![29](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/gx6dofarm/29.jpg)
+
+# Contact Us
+
+- E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
+- Skype: yichone
+- WhatsApp:+86-18676662425
+- Wechat: 18676662425

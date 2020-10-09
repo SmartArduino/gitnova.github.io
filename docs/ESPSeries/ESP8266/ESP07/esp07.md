@@ -342,3 +342,9 @@ Solution 3: Antennas are placed along the edge of the plate and not covered with
 
 Fig. 7.1 Temperature Curve when Sold
 
+# Contact Us
+
+- E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
+- Skype: yichone
+- WhatsApp:+86-18676662425
+- Wechat: 18676662425

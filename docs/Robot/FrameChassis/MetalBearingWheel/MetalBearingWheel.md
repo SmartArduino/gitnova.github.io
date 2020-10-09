@@ -6,6 +6,8 @@
 
   In this document, we just present the installation steps for the T300 Tank chassis with the following steps, and the connection motors to the doit version NodeMCU kit. Here, we just take T300 as an example to show the steps, but this manual is also used to the other type of tank chassis.
 
+![wheelfinish](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/MetalBearingWheel/wheelfinish.jpg)
+
 # 2. Install the bearing wheel
 
 ## 2.1 Materials
@@ -59,3 +61,12 @@ When connect to two wheelpieces, please **align the location hole** when you ins
 3. When let the bearing insert into the stainless steel connector, maybe you should try hard.
 
 Contact us: yichoneyi@163.com, wechat: itchenve, skype: yichone
+
+
+
+# Contact Us
+
+- E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
+- Skype: yichone
+- WhatsApp:+86-18676662425
+- Wechat: 18676662425

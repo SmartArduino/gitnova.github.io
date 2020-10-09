@@ -603,4 +603,9 @@ If you are using Bluetooth, turn on Bluetooth, find the Bluetooth IP used, and m
 
 If you are using a WIFI module, turn on the phone's WIFI, find and use the WIFI and connect it, open the software, motor WIFI. The same as Bluetooth control after
 
+# Contact Us
 
+- E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
+- Skype: yichone
+- WhatsApp:+86-18676662425
+- Wechat: 18676662425

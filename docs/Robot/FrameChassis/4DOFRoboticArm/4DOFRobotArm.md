@@ -1,4 +1,6 @@
-# 4DOF Mechanical Arm Installation Instructions
+<center> <font size=10> 4DOF Mechanical Arm Installation Instructions  </font></center>
+
+<center> from SZDOIT </center>
 
 Note: The 180-degree steering gear is different from ordinary motors and has a fixed angle. All the servos are in the 90-degree neutral state before shipment. Please do not rotate the servo angle at will before installing the robot arm, otherwise the installation will fail!
 
@@ -55,6 +57,12 @@ Other accessories
 ![4DOFRoboticArm17](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/4DOFRoboticArm/4DOFRoboticArm17.jpg) 
 
 ![4DOFRoboticArm18](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/4DOFRoboticArm/4DOFRoboticArm18.jpg) 
+
+# Contact Us
+- E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
+- Skype: yichone
+- WhatsApp:+86-18676662425
+- Wechat: 18676662425
 
  
 

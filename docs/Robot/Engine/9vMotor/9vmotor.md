@@ -98,3 +98,12 @@ From the monitor, you can see the output data.
 **Very important, when you install the motor to the car chassis, Please choose the M3*6 screw to fix the motor. By our experience, if you choose the screw is too long, the motor would be stalled, and cannot be run.**
 
 ![9vmotorconnection1](https://github.com/SmartArduino/document/raw/master/docs/Robot/Engine/9vMotor/9vmotorconnection1.jpg)
+
+
+
+# Contact Us
+
+- E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
+- Skype: yichone
+- WhatsApp:+86-18676662425
+- Wechat: 18676662425

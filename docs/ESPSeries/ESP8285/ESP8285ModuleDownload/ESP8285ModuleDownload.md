@@ -1,8 +1,8 @@
+<center> <font size=10> ESP8285 Module Download  </font></center>
 
+<center> from SZDOIT </center>
 
-# ESP8285 Module Download
-
-# ***1. Overview***
+# 1. Overview
 
 ![ESP8285ModuleDownload0](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/ESP8285ModuleDownload/ESP8285ModuleDownload0.jpg)
 
@@ -10,7 +10,7 @@ ESP8285 modules we have:  ESP-M1, ESP-M2, ESP-M3, ESP-M4, DMP-L1
 
 ESP8285 programmer is suitable for the firmware burning test of ESP-M1/M2 and other modules. All IO ports have been led out and can be used as the smallest system development board or small batch burning fixture.
 
-# ***2. Features***
+# 2. Features
 
 1) Suitable for firmware burning test of ESP-M1/M2 and other ESP8285 modules
 
@@ -26,17 +26,17 @@ ESP8285 programmer is suitable for the firmware burning test of ESP-M1/M2 and ot
 
  
 
-# **3.** ***Hardware Introduction And Description***
+# 3. Hardware Introduction And Description
 
-## **3.1** ***Board Size Parameters***
+## 3.1 Board Size Parameters
 
 Subject to the actual product
 
-## **3.2** ***Board Function Description:***
+## 3.2 Board Function Description:
 
 ![ESP8285ModuleDownload1](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/ESP8285ModuleDownload/ESP8285ModuleDownload1.jpg) 
 
-## ***3.3. Instructions For Use:***
+## 3.3. Instructions For Use:
 
 1. Depending on the operating system, you may need to download and install the corresponding CP2402X serial chip driver. The download link for the Windows system is as follows:
 
@@ -66,4 +66,9 @@ Manually download the firmware: press in the module, plug in the USB cable to su
 
 ![ESP8285ModuleDownload5](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/ESP8285ModuleDownload/ESP8285ModuleDownload5.jpg)
 
- 
+# Contact Us
+
+- E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
+- Skype: yichone
+- WhatsApp:+86-18676662425
+- Wechat: 18676662425

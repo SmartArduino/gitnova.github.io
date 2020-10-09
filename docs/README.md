@@ -110,13 +110,12 @@
   * [4 WD Car Chassis](Robot/FrameChassis/4wdcarchassis/4wdcarchassis.md)
   * [TC100 Car Chassis](Robot/FrameChassis/TC100/tc100.md)
   * [tp101 Tank Chassis](Robot/FrameChassis/tp101/tp101.md)
-  * [TS400 Tank Chassis](Robot/FrameChassis/TS400/ts100.md)
+  * [TS400 Tank Chassis](Robot/FrameChassis/TS400/ts400.md)
   * [T Seres Tank Chassis of T300](Robot/FrameChassis/Tseriestank/Tseriest300.md)
   * [TS Seres Tank Chassis of TS100](Robot/FrameChassis/TStank/TStank.md)
   * [Y100 Tank Chassis](Robot/FrameChassis/Y100/Y100.md)
   * [Car Chassis CM301](Robot/FrameChassis/CM301/CM301.md)
   * [Car Chassis C200](Robot/FrameChassis/C200/C200.md)
-  
 * [**【二】Robot Part**]
   
   * [2 dof Servo Bracket Platform](Robot/FrameChassis/2dofbracket/2dofservobracket.md)
@@ -130,11 +129,10 @@
   * [Robot Arm](Robot/FrameChassis/robotarm/robotarm.md)
   * [4DOF Robot Arm](Robot/FrameChassis/4DOFRoboticArm/4DOFRobotArm.md)
 * [**【二】Robot Grip**]
-  
 * [G6 Robot Arm](Robot/FrameChassis/g6/g6.md)
-  
+* [G8 Robot Arm](Robot/FrameChassis/g8/g8.md)
 * [**【二】Humanoid Robot**]
-  * [17dof](Robot/FrameChassis/17dof/17dofhumanod.md)
+  * [17 Dof Robot](Robot/FrameChassis/17dof/17dofhumanoid.md)
 
 ## Controller
 
