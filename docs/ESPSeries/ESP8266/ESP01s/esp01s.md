@@ -314,3 +314,10 @@ ESP-01 integrates high-speed GPIO and peripheral interfaces, which may cause ser
 Fig. 7.1 Temperature Curve when Sold
 
  
+
+# Contact Us
+
+- E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
+- Skype: yichone
+- WhatsApp:+86-18676662425
+- Wechat: 18676662425
