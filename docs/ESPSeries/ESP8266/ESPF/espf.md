@@ -2,7 +2,7 @@
 
  <center> from SZDOIT </center>
 
-![clip_image030](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF/clip_image030.jpg)
+![clip_image031](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF/clip_image031.jpg)
 
  **SOC characteristics**
 
