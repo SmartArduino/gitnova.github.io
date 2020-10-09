@@ -7,6 +7,8 @@
 
 In fact, the installation for T series tank chassis is similar. So, here, we just present the installation of **T300 tank chassis**.
 
+![T300](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/Tseriestank/T300.jpg)
+
 Some useful installation links:
 
 - metal bearing wheel: https://gitnova.com/metal-wheel-for-tank-chassis/
@@ -67,9 +69,12 @@ All of the T series tank car chassis can be assembled by this manual, e.g., T800
 - When install the bearing, it may be tight, you can install it by some tools to let the bearing insert into the stainless steel connector.
 - To let the driving wheels and bearing wheels move smoothly, together with the track, so please let the driving and bearing wheels are placed on **the horizontal level**. This is very important. By this way, the track can be move lastly.
 
+#  Contact Us
 
-
- 
+- E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
+- Skype: yichone
+- WhatsApp:+86-18676662425
+- Wechat: 18676662425
 
 
 
