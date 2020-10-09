@@ -2,6 +2,8 @@
 
 <center> from SZDOIT </center>
 
+![espm115](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm1/espm115.jpg)
+
 **Features**
 
 **SOC features**
@@ -462,4 +464,9 @@ Fig. 9.4 Scheme 3: Antenna is placed along with the side of the board, and donâ€
 
 Wi-Fi module is already integrated into high-speed GPIO and Peripheral interface, which may be generated the switch noise. If there is a high request for the power consumption and EMI characteristics, it is suggested to connect a serial 10~100 ohm resistance, which can suppress overshoot when switching power supply, and can smooth signal. At the same time, it also can, to a certain extent, prevent electrostatic discharge (ESD).
 
+# Contact Us
 
+- E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
+- Skype: yichone
+- WhatsApp:+86-18676662425
+- Wechat: 18676662425
