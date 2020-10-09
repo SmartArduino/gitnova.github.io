@@ -53,3 +53,10 @@
 # 13. Two arms, moun'ted on the robot, the installation is complete
 
 ![13](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/8dofhumanoid/13.jpg)
+
+# Contact Us
+
+- E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
+- Skype: yichone
+- WhatsApp:+86-18676662425
+- Wechat: 18676662425
