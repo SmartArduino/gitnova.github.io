@@ -146,6 +146,7 @@
 * [Use of 32-Way Servo Board with PS2](Robot/Controller/ps2/PS2SERVO32.md)
 * [Use of PS2 with DOIT Motor Driver Shield for Arduino UNO](Robot/Controller/ps2/ps2.md)
 * [Use of Shield for 4 Motors & 16 Servos](Robot/Controller/ps2/4motor16servo.md)
+* [Multi-function Adapter](Robot/Controller/MultifunctionAdapter/Multi-functionAdapter.md)
 
 ## Engine
 * [**【二】Motor**]
