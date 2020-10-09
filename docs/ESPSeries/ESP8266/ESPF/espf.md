@@ -2,6 +2,8 @@
 
  <center> from SZDOIT </center>
 
+![clip_image030](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF/clip_image030.jpg)
+
  **SOC characteristics**
 
 * Built-in Tensilica L106 ultra-low power consumption 32-bit cpu, the main frequency can be 80MHz and 160MHz, also support RTOS;
@@ -397,11 +399,10 @@ Fig. 10.3 Scheme 3: Antenna is placed along with the side of the board, and donâ
 
 Wi-Fi module is already integrated into high-speed GPIO and Peripheral interface, which may be generated the switch noise. If there is a high request for the power consumption and EMI characteristics, it is suggested to connect a serial 10~100 ohm resistance, which can suppress overshoot when switching power supply, and can smooth signal. At the same time, it also can, to a certain extent, prevent electrostatic discharge (ESD).
 
-# Contact
+# Contact Us
 
 - Email: yichoneyi@163.com
 - WhatsApp: 008618676662425
 - WeChat: itchenve
 - Skype: yichone
 - Online Shop: [vvdoit](https://www.vvdoit.com/), [SpoSmart](https://www.sposmart.com/)
-
