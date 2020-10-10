@@ -1,4 +1,4 @@
-<center> <font size=10> User Manual for ESP-01s </font></center>
+<center> <font size=10> User Manual for ESP-12F </font></center>
 
 <center> from SZDOIT </center>
 
