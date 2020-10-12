@@ -152,6 +152,8 @@
   * [9v Motor](Robot/Engine/9vMotor/9vmotor.md)
   * [DT37GB-520 DC Deceleration Motor With High Torque](Robot/Engine/DT37GBMotor/DT37GB-520Motor.md)
   * [33GB-520 DC Deceleration Motor](Robot/Engine/33GB-520DCMotor/33GB-520DCMotor.md)
+  * [XD-37GB520 Brush-DC High-power Motor](Robot/Engine/XD-37GB520DCMotor/XD-37GB520DCMotor.md)
+
 * [**【二】Servo**]
   * [DS3218 Servo](Robot/Engine/ds3218/ds3218.md)
   * [servotester](Robot/Engine/servotester/servoTester.md)
