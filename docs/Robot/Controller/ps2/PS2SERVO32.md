@@ -66,3 +66,10 @@ Remarks:
 
 1. After the handle receiver and the control board are connected normally, if the power supply is normal, the indicator light on the handle receiver will be all on, such as If it is blinking, you need to check whether the handle is powered or whether the power switch is turned on. 
 2. The handle has a sleep function. If the indicator light on the handle is completely off, it may be sleeping, you can press the handle START button
+
+# Contact Us
+
+- E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
+- Skype: yichone
+- WhatsApp:+86-18676662425
+- Wechat: 18676662425
