@@ -6,7 +6,7 @@
 
 This board is a control board, which is compatible with Arduino, is also a DC motor driver shield board. It is very suitable to control the big power robot tank car chassis shown in our shops.
 
-![bigpower4](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/bigpower4.jpg)
+![bigpower4](bigpower4.jpg)
 
 # Features:
 
@@ -16,7 +16,7 @@ This board is a control board, which is compatible with Arduino, is also a DC mo
   2 in 1 board: it is a control board (compatible with Arduino), and also is a DC motor driver board;
 - long distance: 100m for wifi, and 10m or for bluetooth or ps2.
 
-![bigpower](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/BigPowerBoard/bigpower.jpg)
+![bigpower](BigPowerBoard/bigpower.jpg)
 
 # Option Description:
 
@@ -27,11 +27,11 @@ This board is a control board, which is compatible with Arduino, is also a DC mo
 - According to the actual measurement, this development board can drive a load of about 60kg.
   Compatible with arduino, it can be used directly by stacking.
 
-![bigpower1](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/BigPowerBoard/bigpower1.jpg)
+![bigpower1](bigpower1.jpg)
 
-![bigpower2](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/BigPowerBoard/bigpower2.jpg)
+![bigpower2](bigpower2.jpg)
 
-![bigpower3](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/BigPowerBoard/bigpower3.jpg)
+![bigpower3](bigpower3.jpg)
 
 # Module pin description and schematic:
 
@@ -466,3 +466,9 @@ void loop()
 
 ```
 
+# Contact Us
+
+- E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
+- Skype: yichone
+- WhatsApp:+86-18676662425
+- Wechat: 18676662425
