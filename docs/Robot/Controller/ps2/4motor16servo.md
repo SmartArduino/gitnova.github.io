@@ -6,7 +6,7 @@
 
 This controller kit can be used to control car chassis and Robot/Controller, after you download the app (see the download link in the last). 
 
-![ps25](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/ps2/ps25.jpg)
+![ps25](ps25.jpg)
 
 **Note that, if you want to control the car, please select the car icon; if you want to control the Robot/Controller arm, please choose the Robot/Controller arm in the app.**
 
@@ -37,7 +37,7 @@ This controller kit can be used to control car chassis and Robot/Controller, aft
 
   
 
-![servo321](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/ps2/servo321.jpg)
+![servo321](servo321.jpg)
 
 ## **Product technical specifications:**
 
@@ -51,13 +51,13 @@ This controller kit can be used to control car chassis and Robot/Controller, aft
 - Open circuit VM and VIN, (separately control the motor, 6 ~ 36V);
 - Open circuit VS and VIN, separately control the servo (6 ~ 18V);
 - Short-circuit VM and VIN while shorting VS and 5V. Simultaneous control of motor (6 ~ 18V) and 16 5V servo
-- Schematics for this motor shield: [check](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/ps2/https://github.com/SmartArduino/DOITWiKi/blob/master/DC%20motor%20drive.pdf)
+- Schematics for this motor shield: [check](https://github.com/SmartArduino/DOITWiKi/blob/master/DC%20motor%20drive.pdf)
 
 # Arduino WiFi controller kit
 
 If this motor shield is used with Arduino and WiFi board (e.g., DT-06), then, you can use your phone via wifi to control the car chassis. 
 
-![servo322](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/ps2/servo322.jpg)
+![servo322](servo322.jpg)
 
 **The referred source code** (for Arduino)
 
@@ -192,7 +192,7 @@ void loop()
 
 If this motor shield is used with Arduino and Bluetooth board (e.g., HC-06), then, you can use your phone via bluetooth to control the car chassis. 
 
-![servo323](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/ps2/servo323.jpg)
+![servo323](servo323.jpg)
 
 **The referred source code**
 
@@ -327,7 +327,7 @@ void loop()
 
 If this motor shield is used with Arduino and PS2, then, you can use your phone via PS2 to control the car chassis. 
 
-![servo324](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/ps2/servo324.jpg)
+![servo324](servo324.jpg)
 
 **The referred source code**
 
@@ -587,19 +587,19 @@ void stop() // 停止；
 
 ```
 
-**Note that, the head file "PS2X_lib.h", click [headfile](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/ps2/https://github.com/SmartArduino/DOITWiKi/blob/master/PS2X_lib.h) to download this file must be put into the Arduino library folder.**
+**Note that, the head file "PS2X_lib.h", click [headfile](https://github.com/SmartArduino/DOITWiKi/blob/master/PS2X_lib.h) to download this file must be put into the Arduino library folder.**
 
 # Usage for App
 
-click [this link](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/ps2/https://github.com/SmartArduino/ESPboard/blob/master/BTcar.apk) to download the App, which can be used for wifi, bluetooth, and video control.
+click [this link](https://github.com/SmartArduino/ESPboard/blob/master/BTcar.apk) to download the App, which can be used for wifi, bluetooth, and video control.
 
 If you are using a WIFI module or a Bluetooth module, after downloading the corresponding program, open the gift information, find an APK file, send it to the phone, install it, and open it.
 
-![Screenshot_20191015_185847_com.sibo.blefiwi.car](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/ps2/clip_image002.jpg)
+![Screenshot_20191015_185847_com.sibo.blefiwi.car](clip_image002.jpg)
 
 If you are using Bluetooth, turn on Bluetooth, find the Bluetooth IP used, and match, the matching password is generally 1234 or 0000, and then click Bluetooth.
 
-![Q10](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/ps2/clip_image003.jpg)
+![Q10](clip_image003.jpg)
 
 If you are using a WIFI module, turn on the phone's WIFI, find and use the WIFI and connect it, open the software, motor WIFI. The same as Bluetooth control after
 
