@@ -5,7 +5,7 @@
 
 # 32-channel servo board
 
-![ps2321](https://github.com/SmartArduino/document/raw/master/docs/Robot/ps2/ps2321.jpg)
+![ps2321](ps2321.jpg)
 
 ## Features
 
@@ -38,7 +38,7 @@
   Offline operation mode: It will be executed automatically upon power-on.
 - PS2 wireless remote control mode: Connect the power supply and connect the PS2 wireless remote control receiver to wirelessly control. (PS2 remote control can support single servo remote control, or 20 action group remote control)
 
-![ps2322](https://github.com/SmartArduino/document/raw/master/docs/Robot/ps2/ps2322.jpg)
+![ps2322](ps2322.jpg)
 
 # Instructions for PS2 controller
 
@@ -46,7 +46,7 @@ Connect the receiver of the PS2 joystick and the servo control board with 6 DuPo
  Look at the side of the handle receiver, the top is large, the bottom is small, the following shape, 9 pins, as long as the first, second, fourth, fifth, sixth, seventh
  Just fine.
 
-![ps212](https://github.com/SmartArduino/document/raw/master/docs/Robot/ps2/ps212.jpg)
+![ps212](ps212.jpg)
 
 In the picture above, connect the first foot on the handle receiver. . . . And so on.
 
@@ -56,7 +56,7 @@ Configuration handle:
 
 Open the ROBOIDE computer software, the top menu of the software, tools-PS2 controller.
 
-![ps213](https://github.com/SmartArduino/document/raw/master/docs/Robot/ps2/ps213.jpg)
+![ps213](ps213.jpg)
 
 Then enter the action group command that the key needs to execute in the input box near the right PS2 handle button. (Format: # 1GC1, 1G is the first action group, C1 is executed once in a loop) 
 
