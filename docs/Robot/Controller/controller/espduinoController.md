@@ -20,30 +20,37 @@ Apps download: https://gitnova.com/2-way-servo-arduino-uno-shield/
 
 ## FOR V3 controller kit
 
-download firmware FOR V3: [download](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/https://github.com/SmartArduino/DOITWiKi/blob/master/ESPDuinoCar_V3.bin)
+download firmware FOR V3: [download](https://github.com/SmartArduino/DOITWiKi/blob/master/ESPDuinoCar_V3.bin)
 
-![espduinoControllerV3](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/espduinoControllerV3.jpg)
+![espduinoControllerV3](espduinoControllerV3.jpg)
 
 
 
 ## FOR V2 controller kit
 
-download firmware FOR V2: [download](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/https://github.com/SmartArduino/DOITWiKi/blob/master/ESPDuinoCar_V2.bin)
+download firmware FOR V2: [download](https://github.com/SmartArduino/DOITWiKi/blob/master/ESPDuinoCar_V2.bin)
 
-![espduinoControllerV2](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/espduinoControllerV2.jpg)
+![espduinoControllerV2](espduinoControllerV2.jpg)
 
 ## FOR V1 controller kit
 
-download firmware FOR V1: [download](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/https://github.com/SmartArduino/DOITWiKi/blob/master/ESPDuinoCar_V1.bin)
+download firmware FOR V1: [download](https://github.com/SmartArduino/DOITWiKi/blob/master/ESPDuinoCar_V1.bin)
 
-![espduinoControllerV1](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/espduinoControllerV1.jpg)
+![espduinoControllerV1](espduinoControllerV1.jpg)
 
 # How to Download
 
-Use [ESPFlashDownloadTool_v3.4.2.exe](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/https://github.com/SmartArduino/DOITWiKi/blob/master/flash_download_tool_v3.8.5.zip)  to download the bin file to the board, as the following picture.
+Use [ESPFlashDownloadTool_v3.4.2.exe](https://github.com/SmartArduino/DOITWiKi/blob/master/flash_download_tool_v3.8.5.zip)  to download the bin file to the board, as the following picture.
 
-![download](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/download.jpg)
+![download](download.jpg)
 
 # Source Code
 
-source code: [download](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/https://github.com/SmartArduino/Doit_Cloud/tree/master/Doit_Wechat_Car/ESP8266%20Arduino%20Code)
+source code: [download](https://github.com/SmartArduino/Doit_Cloud/tree/master/Doit_Wechat_Car/ESP8266%20Arduino%20Code)
+
+# Contact Us
+
+- E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
+- Skype: yichone
+- WhatsApp:+86-18676662425
+- Wechat: 18676662425
