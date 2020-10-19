@@ -95,6 +95,7 @@
 
 * [Smart Relay for Homekit](SmartProduct/homekit2relay/homekitrelay.md)
 * [DoHome Christmas Tree](SmartProduct/DoHomeChristmasTree/DoHomeChristmasTree.md)
+* [Homekit Temperature And Humidity Sensor](SmartProduct/HomeKitTemAndHum/HomeKitTemAndHum.md)
 * [Smart Blub](OJ/README.md)
 * [Smart LED Light Strip](OJ/README.md)
 * [Smart Plug](OJ/README.md)
