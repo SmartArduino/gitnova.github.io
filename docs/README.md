@@ -146,6 +146,7 @@
 * [Use of PS2 with DOIT Motor Driver Shield for Arduino UNO](Robot/Controller/ps2/ps2.md)
 * [Use of Shield for 4 Motors & 16 Servos](Robot/Controller/ps2/4motor16servo.md)
 * [Multi-function Adapter](Robot/Controller/MultifunctionAdapter/Multi-functionAdapter.md)
+* [18DOF VIVI Robot Control Board](Robot/Controller/vivirobot/vivirobot.md)
 
 ## Engine
 * [**【二】Motor**]

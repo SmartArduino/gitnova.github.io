@@ -16,7 +16,7 @@ This board is a control board, which is compatible with Arduino, is also a DC mo
   2 in 1 board: it is a control board (compatible with Arduino), and also is a DC motor driver board;
 - long distance: 100m for wifi, and 10m or for bluetooth or ps2.
 
-![bigpower](BigPowerBoard/bigpower.jpg)
+![bigpower](bigpower.jpg)
 
 # Option Description:
 
