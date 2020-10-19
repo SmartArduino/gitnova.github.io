@@ -7,7 +7,7 @@
 
 In fact, the installation for T series tank chassis is similar. So, here, we just present the installation of **T300 tank chassis**.
 
-![T300](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/Tseriestank/T300.jpg)
+![T300](T300.jpg)
 
 Some useful installation links:
 
@@ -29,37 +29,37 @@ All of the T series tank car chassis can be assembled by this manual, e.g., T800
 - M3 nut: 8pcs
 - M3*12 screw: 4pcs 
 
-![t300material](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/Tseriestank/t300material.jpg)
+![t300material](t300material.jpg)
 
 # 3. Install the chassis
 
-![t300install2](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/Tseriestank/t300install2.jpg)
+![t300install2](t300install2.jpg)
 
-![t300install1](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/Tseriestank/t300install1.jpg)
+![t300install1](t300install1.jpg)
 
 
 
 # 4. Install the motor
 
-![t300installmotor](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/Tseriestank/t300installmotor.jpg)
+![t300installmotor](t300installmotor.jpg)
 
 # 5. Install the driving wheel
 
-![t300driving](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/Tseriestank/t300driving.jpg)
+![t300driving](t300driving.jpg)
 
 # 6. Install the bearing wheel
 
-![t300bearing](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/Tseriestank/t300bearing.jpg)
+![t300bearing](t300bearing.jpg)
 
 # 7. Install the plastic track
 
   Adjust the suitable length of track. Note that, the track is connected one by one, which can be any length. **Note that, the track can be connected with any length, which can be shown in the following picture. The track is out by a needle with easy.**
 
-![t300track](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/Tseriestank/t300track.jpg)
+![t300track](t300track.jpg)
 
 # 8. Connect the track on the wheel
 
-![t300track1](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/Tseriestank/t300track1.jpg)
+![t300track1](t300track1.jpg)
 
 # 9. Some Warm Tips
 
