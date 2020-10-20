@@ -71,6 +71,7 @@
 * [ESP-M2](ESPSeries/ESP8285/espm2/espm2.md)
 * [ESP-M3](ESPSeries/ESP8285/espm3/espm3.md)
 * [ESP-M4](ESPSeries/ESP8285/espm4/espm4.md)
+* [ESP8285 Module Download](ESPSeries/ESP8285/ESP8285ModuleDownload/ESP8285ModuleDownload.md)
 * **【二】ESP8285 Board**
 * [DT-06](ESPSeries/ESP8285/DT06/DT06.md)
 
