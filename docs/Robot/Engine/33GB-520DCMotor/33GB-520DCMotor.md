@@ -58,7 +58,7 @@ void loop()
 }
 ```
 
-**Very important, when you install the motor to the car chassis, Please choose the M3*6 screw to fix the motor. By our experience, if you choose the screw is too long, the motor would be stalled, and cannot be run.**
+**Very important, when you install the motor to the car chassis, Please choose the M3x6 screw to fix the motor. By our experience, if you choose the screw is too long, the motor would be stalled, and cannot be run.**
 
 ![33motor05](33motor05.jpg)
 
