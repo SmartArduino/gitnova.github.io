@@ -19,7 +19,7 @@ Receiver pin description, wireless handle communication requires a total of 6 pi
 
 ⑦CLK: Clock signal, issued by the host to keep the data synchronized.
 
-![ps21](https://github.com/SmartArduino/document/raw/master/docs/Robot/ps2/ps21.jpg)
+![ps21](ps21.jpg)
 
 # Use with Arduino and UNO Shield
 
@@ -29,11 +29,11 @@ Receiver pin description, wireless handle communication requires a total of 6 pi
 - If the pairing is not successful, try pressing the start button on the handle.
 - Pay attention to the positive and negative poles of the handle, do not insert it. It is easy to burn out the receiver.
 
-![ps24](https://github.com/SmartArduino/document/raw/master/docs/Robot/ps2/ps24.jpg)
+![ps24](ps24.jpg)
 
 The following Arduino code can be referred. 
 
-**Note that**, maybe be put the head file "PS2X_lib.h" (click [here](https://github.com/SmartArduino/document/raw/master/docs/Robot/ps2/https://github.com/SmartArduino/DOITWiKi/blob/master/PS2X_lib.h) to download this file )to your local Arduino library.
+**Note that**, maybe be put the head file "PS2X_lib.h" (click [here](https://github.com/SmartArduino/DOITWiKi/blob/master/PS2X_lib.h) to download this file )to your local Arduino library.
 
 ```c
 #include <PS2X_lib.h>  //for v1.6
@@ -295,11 +295,11 @@ void stop() // 停止；
 
 The PS2 controller is a remote controller for PlayStation2 game console. Sony's PSX series game consoles are very popular worldwide. I don't know when someone will pick up the idea of the PS2 controller and break the communication protocol, so that the controller can be connected to other devices for remote control, such as remote control of our familiar robot. The outstanding feature is that this handle is extremely cost-effective, and the buttons are rich, which can be easily extended to other applications.
 
-![ps25](https://github.com/SmartArduino/document/raw/master/docs/Robot/ps2/ps25.jpg)
+![ps25](ps25.jpg)
 
-![ps26](https://github.com/SmartArduino/document/raw/master/docs/Robot/ps2/ps26.jpg)
+![ps26](ps26.jpg)
 
-![ps27](https://github.com/SmartArduino/document/raw/master/docs/Robot/ps2/ps27.jpg)
+![ps27](ps27.jpg)
 
 | 1      | 2      | 3    | 4    | 5    | 6      | 7    | 8    | 9    |
 | ------ | ------ | ---- | ---- | ---- | ------ | ---- | ---- | ---- |
@@ -317,7 +317,7 @@ DI / DAT: signal flow, from the handle to the host, this signal is an 8-bit seri
  NC: empty port;
  ACK: the response signal from the handle to the host. This signal goes low in the last cycle of each 8-bit data transmission and CS remains low. If the CS signal does not go low, about 60 microseconds. The PS host will try another peripheral. The ACK port is not used during programming.
 
-![ps211](https://github.com/SmartArduino/document/raw/master/docs/Robot/ps2/ps211.jpg)
+![ps211](ps211.jpg)
 
  
 
@@ -358,9 +358,9 @@ CLK->12；   DO ->11;
 
 DI ->13;      CS ->10. 
 
-![ps29](https://github.com/SmartArduino/document/raw/master/docs/Robot/ps2/ps29.jpg)
+![ps29](ps29.jpg)
 
-![ps210](https://github.com/SmartArduino/document/raw/master/docs/Robot/ps2/ps210.jpg)
+![ps210](ps210.jpg)
 
   
 
@@ -391,3 +391,12 @@ After the circuit is connected, use the buttons in the servo control area plus t
 
 **Controlling a car with a robotic arm:****
  According to your own needs, use the keys in the motor control area and the steering gear control area together until the purpose is achieved.
+
+
+
+# Contact Us
+
+- E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
+- Skype: yichone
+- WhatsApp:+86-18676662425
+- Wechat: 18676662425
