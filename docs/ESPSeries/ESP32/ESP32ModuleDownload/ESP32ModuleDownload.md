@@ -1,9 +1,5 @@
-<center><font size=10> 18DOF VIVI Robot Control Board</center></font>
+<center><font size=10> ESP32 Module Download</center></font>
 <center> From SZDOIT</center>
-
-
-
-
 
 # 1.Overview
 
