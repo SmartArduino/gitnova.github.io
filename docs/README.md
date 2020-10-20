@@ -55,6 +55,7 @@
   * [ESP-01](ESPSeries/ESP8266/ESP01/esp01.md)
   * [ESP-01S](ESPSeries/ESP8266/ESP01s/esp01s.md)
   * [ESP-07](ESPSeries/ESP8266/ESP07/esp07.md)
+  * [ESP8266 Module Download](ESPSeries/ESP8266/ESP8266ModuleDownload/ESP8266ModuleDownload.md)
   
   
   
