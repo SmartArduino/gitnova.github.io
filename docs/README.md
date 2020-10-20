@@ -118,6 +118,7 @@
   * [T100 Tank Chassis Installation Instruction](Robot/FrameChassis/Tseriestank/T100/T100.md)
   * [T Seres Tank Chassis of T300](Robot/FrameChassis/Tseriestank/T300/Tseriest300.md)
   * [T900 Tank Chassis Installation Instruction](Robot/FrameChassis/Tseriestank/T900/T900.md)
+  * [600T Tank Car Description](Robot/FrameChassis/Tseriestank/600T/600T.md)
   * [TS Seres Tank Chassis of TS100](Robot/FrameChassis/TStank/TStank.md)
   * [Y100 Tank Chassis](Robot/FrameChassis/Y100/Y100.md)
   * [Car Chassis CM301](Robot/FrameChassis/CM301/CM301.md)
