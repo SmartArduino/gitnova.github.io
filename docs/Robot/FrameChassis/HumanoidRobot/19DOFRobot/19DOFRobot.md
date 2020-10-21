@@ -20,13 +20,13 @@
 
 The names of the structural brackets shown from left to right in the figure from top to bottom are: U-beam bracket, big foot, multi-functional bracket, long U bracket, short U bracket, L bracket, one-line bracket, and oblique U bracket.
 
-## 2.Complete with mounting screws and hardware accessories
+## 1.2 Complete with mounting screws and hardware accessories
 
 ![img](wps3.png)
 
 The names of the hardware accessories shown from left to right in the figure from top to bottom are: round head M4 X8 screw (M4 nut), round head M3 X10 screw (M3 nut), round head M3 X7 screw (M3 nut ), Flat head M3 X6 screw (M3 nut), nylon plastic flat head M3 X20 screw (M3 X6 plastic stud), round head M3 X6 screw, round head M3 X5 screw, metal steering wheel, flange bearing.
 
-## 3.Complete installation tools
+## 1.3 Complete installation tools
 
 ![img](wps4.jpg) 
 
@@ -79,7 +79,9 @@ Prepare the above-mentioned structural parts, hardware screw accessories and ins
 
   Take 2 long U brackets, 2 short U brackets, 8 round head M3 X7 screws, 8 M3 nuts, and install as shown in the figure. During installation, the screws pass through the inside of the short U bracket, and the nuts are fastened on the top of the long U bracket. The short U bracket and the long U bracket are installed in a vertical cross. 
 
-  ##  2.6 Installing robot torso structure ![img](wps10.jpg) 
+  ##  2.6 Installing robot torso structure 
+
+  ![img](wps10.jpg) 
 
    ![img](wps11.jpg) 
 
@@ -175,7 +177,7 @@ Prepare the above-mentioned structural parts, hardware screw accessories and ins
 
   ##  4.6 Connect the upper body of the robot 
 
-  # ![img](wps27.png)    
+  ![img](wps27.png)    
 
    ![img](wps28.png)
 
