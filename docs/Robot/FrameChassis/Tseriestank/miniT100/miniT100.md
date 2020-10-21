@@ -19,7 +19,7 @@
 | M3 wrench     | 1          | Acrylic plate      | 1          |
 | M4 wrench     | 1          | M3*6+50mm coupling | 4          |
 
-# 1. Installation Steps
+# 2. Installation Steps
 
 1) Install the bracket
 
