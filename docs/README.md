@@ -129,8 +129,8 @@
 * [**【二】Robot Part**]
   * [2 dof Servo Bracket Platform](Robot/FrameChassis/2dofbracket/2dofservobracket.md)
   * [2 dof Platform](Robot/FrameChassis/2dofplatform/2dofplatform.md)
-  * [Metal Driving Wheel](Robot/FrameChassis/MetaDrivingWheel/metaldrivingwheel.md)
-  * [Metal Bearing Wheel](Robot/FrameChassis/MetalBearingWheel/MetalBearingWheel.md)
+  * [Metal Driving Wheel](Robot/FrameChassis/Wheel/MetaDrivingWheel/metaldrivingwheel.md)
+  * [Metal Bearing Wheel](Robot/FrameChassis/Wheel/MetalBearingWheel/MetalBearingWheel.md)
   * [Track for Tank Chassis](Robot/FrameChassis/track/track.md)
 * [**【二】Robot Arm**]
   * [Robot Arm for Car](Robot/FrameChassis/cararm/cararm.md)
