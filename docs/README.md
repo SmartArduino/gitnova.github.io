@@ -143,6 +143,7 @@
   * [G8 Robot Arm](Robot/FrameChassis/claws/g8/g8.md)
 * [**【二】Humanoid Robot**]
   * [8DOF Humanoid Robot](Robot/FrameChassis/HumanoidRobot/8dofhumanoid/8dofhumanoid.md)
+  * [9DOF Humanoid Robot](Robot/FrameChassis/HumanoidRobot/9DOFRobot/9DOFRobot.md)
   * [15DOF Humanoid Robot](Robot/FrameChassis/HumanoidRobot/15DOFRobot/15DOFRobot.md)
   * [17 Dof Robot](Robot/FrameChassis/HumanoidRobot/17dof/17dofhumanoid.md)
 
