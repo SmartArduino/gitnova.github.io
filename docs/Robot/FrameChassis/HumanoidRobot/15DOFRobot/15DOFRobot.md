@@ -15,7 +15,7 @@
 
 ## 1.3 Installation Tools
 
-### ![img](wps5.jpg) 
+![img](wps5.jpg) 
 
  
 
