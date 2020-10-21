@@ -123,6 +123,7 @@
   * [600T Tank Car Description](Robot/FrameChassis/Tseriestank/600T/600T.md)
   * [TS Seres Tank Chassis of TS100](Robot/FrameChassis/TStank/TStank.md)
   * [Y100 Tank Chassis](Robot/FrameChassis/Y100/Y100.md)
+  * [C101 Car Installation Instructions](Robot/FrameChassis/C_Series/C101/C101.md)
   * [Car Chassis CM301](Robot/FrameChassis/C_Series/CM301/CM301.md)
   * [Car Chassis C200](Robot/FrameChassis/C_Series/C200/C200.md)
   * [C300 Trolley Installation Instructions](Robot/FrameChassis/C_Series/C300/C300.md)
