@@ -146,6 +146,7 @@
   * [9DOF Humanoid Robot](Robot/FrameChassis/HumanoidRobot/9DOFRobot/9DOFRobot.md)
   * [15DOF Humanoid Robot](Robot/FrameChassis/HumanoidRobot/15DOFRobot/15DOFRobot.md)
   * [17DOF Humanoid Robot](Robot/FrameChassis/HumanoidRobot/17dof/17dofhumanoid.md)
+  * [19DOF Humanoid Robot](Robot/FrameChassis/HumanoidRobot/19DOFRobot/19DOFRobot.md)
 
 ## Controller
 
