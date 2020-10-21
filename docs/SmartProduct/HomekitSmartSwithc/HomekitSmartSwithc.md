@@ -3,13 +3,7 @@
 
 # 1. Introduction
 
-![img](wps77.png) 
-
- 
-
-![img](wps78.png) 
-
-![img](wps79.png) 
+![wps79](wps79.png) 
 
 **Warm tips:**
 
