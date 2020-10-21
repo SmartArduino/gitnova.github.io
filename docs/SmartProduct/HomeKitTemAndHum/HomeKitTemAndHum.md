@@ -35,6 +35,8 @@ Note: If you don't find your router or smart plug at other states. Please look o
 
  
 
+
+
 ## Step 3: Please check if you have installed Home APP.
 
 If not, please download it in the App Store. (as Fig. 3). If it is already installed, go to step 4.
