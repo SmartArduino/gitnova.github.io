@@ -14,7 +14,9 @@ We uses NodeMcu as the control module of the product, simple and applicable whic
 
 # 2. Burning Program 
 
-Download The official download tool flash_download_tool_v3.8.5: https://www.gitnova.com/software-tools/
+Download The official download tool flash_download_tool_v3.8.5:
+
+ https://www.gitnova.com/software-tools/
 
 Unzip it after downloading
 
