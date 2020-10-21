@@ -90,8 +90,6 @@
 ## wifi module
 
 
-
-
 # AI-IoT Solutions
 
 ## Smart Products
@@ -141,8 +139,8 @@
   * [4DOF Robot Arm](Robot/FrameChassis/4DOFRoboticArm/4DOFRobotArm.md)
   * [4DOF Acrylic Mechanical Arm Installation Instructions](Robot/FrameChassis/4DOFAcrylicMechanicalArm/4DOFAcrylicMechanicalArm.md)
 * [**【二】Robot Grip**]
-  * [G6 Robot Arm](Robot/FrameChassis/g6/g6.md)
-  * [G8 Robot Arm](Robot/FrameChassis/g8/g8.md)
+  * [G6 Robot Arm](Robot/FrameChassis/claws/g6/g6.md)
+  * [G8 Robot Arm](Robot/FrameChassis/claws/g8/g8.md)
 * [**【二】Humanoid Robot**]
   * [8DOF Humanoid Robot](Robot/FrameChassis/HumanoidRobot/8dofhumanoid/8dofhumanoid.md)
   * [15DOF Humanoid Robot](Robot/FrameChassis/HumanoidRobot/15DOFRobot/15DOFRobot.md)
