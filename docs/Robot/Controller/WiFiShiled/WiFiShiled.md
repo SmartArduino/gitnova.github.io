@@ -140,9 +140,9 @@ More information on TCP public network testing tools is available： http://bbs.
 
 * Configure the network parameters of the WiFi expansion board
 
-  Socket Type：选择“Client”。
+  Socket Type：“Client”。
 
-　　Transport Type：选择“TCP”。
+　　Transport Type：“TCP”。
 
 　　Remote IP:“115.28.109.104”。
 
