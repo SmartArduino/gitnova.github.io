@@ -3,7 +3,7 @@
 
 # 1. Package Included
 
-**![img](wps1.jpg)**
+![img](wps1.jpg)
 
 | Name          | Quantities | Name               | Quantities |
 | ------------- | ---------- | ------------------ | ---------- |
