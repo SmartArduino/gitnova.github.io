@@ -126,6 +126,7 @@
   * [Car Chassis CM301](Robot/FrameChassis/C_Series/CM301/CM301.md)
   * [Car Chassis C200](Robot/FrameChassis/C_Series/C200/C200.md)
   * [C300 Trolley Installation Instructions](Robot/FrameChassis/C_Series/C300/C300.md)
+  * [C4 4WD Smart Car Chassis Intallation Manual](Robot/FrameChassis/C_Series/C4/C4.md)
 * [**【二】Robot Part**]
   * [2 dof Servo Bracket Platform](Robot/FrameChassis/2dofbracket/2dofservobracket.md)
   * [2 dof Platform](Robot/FrameChassis/2dofplatform/2dofplatform.md)
