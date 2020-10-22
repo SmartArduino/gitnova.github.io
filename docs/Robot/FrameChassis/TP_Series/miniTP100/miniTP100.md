@@ -1,4 +1,4 @@
-<center><font size=10> MiniT100 Tank Car Installation Instructions </center></font>
+<center><font size=10> MiniTP100 Tank Car Installation Instructions </center></font>
 <center> From SZDOIT</center>
 
 # 1. Package Included
