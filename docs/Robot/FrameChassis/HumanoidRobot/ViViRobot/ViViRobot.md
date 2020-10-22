@@ -526,6 +526,8 @@ First turn on the power switch of the robot, then turn on the WiFi function of t
 
 ![img](wps231.png) 
 
+
+
 # Contact Us
 
 - E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
