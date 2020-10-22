@@ -4,7 +4,9 @@
 
 # 1. Introduction
 
-  This user manual is used for the installation of TS100, together with the motor connection with the development board. Specially, the installation is very similar to the other T series tank chassis, excluding the shock suspension. Therefore, the installation is very convenient. Here, we just take TS100 as an example to show the installation of TS series tank chassis.![tsinstall13](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/TStank/tsinstall13.jpg)
+  This user manual is used for the installation of TS100, together with the motor connection with the development board. Specially, the installation is very similar to the other T series tank chassis, excluding the shock suspension. Therefore, the installation is very convenient. Here, we just take TS100 as an example to show the installation of TS series tank chassis.
+
+![tsinstall13](tsinstall13.jpg)
 
 Some useful links:
 metal bearing wheel: https://gitnova.com/metal-wheel-for-tank-chassis/
@@ -23,27 +25,27 @@ DC motor: https://gitnova.com/9v-dc-motor/
 - M4 screw nut: 1pcs
 - spring: 1pcs 
 
-![tsmaterial](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/TStank/tsmaterial.jpg)
+![tsmaterial](tsmaterial.jpg)
 
 ## 2.2 Put the cup bearing into the centre hole of the shock suspension bracket. Importantly, the hook must on the top surface.
 
-![tsinstall1](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/TStank/tsinstall1.jpg)
+![tsinstall1](tsinstall1.jpg)
 
 ## 2.3 Use M4*8 screw to connect the bearing wheel and the shock suspension bracket
 
-![tsinstall2](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/TStank/tsinstall2.jpg)
+![tsinstall2](tsinstall2.jpg)
 
 ## 2.4 Use M4*8 screw and nut to fix on the side plate, shown in the following picture
 
-![tsinstall3](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/TStank/tsinstall3.jpg)
+![tsinstall3](tsinstall3.jpg)
 
-![tsinstall4](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/TStank/tsinstall4.jpg)
+![tsinstall4](tsinstall4.jpg)
 
 **Importantly**, you must the direction of the bearing wheels are the same, shown in the following pictures.
 
-![tsinstall5](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/TStank/tsinstall5.jpg)
+![tsinstall5](tsinstall5.jpg)
 
-![tsinstall6](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/TStank/tsinstall6.jpg)
+![tsinstall6](tsinstall6.jpg)
 
 # 3. Installation a bearing wheel to the side plate (left and right)
 
@@ -57,7 +59,7 @@ The wheel can adjust the length of track.
 
 ## 3.2 leave enough space to adjust the track when install this bearing wheel to the side plate
 
-![tsinstall7](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/TStank/tsinstall7.jpg)
+![tsinstall7](tsinstall7.jpg)
 
 # 4. Install the driving wheel
 
@@ -74,25 +76,25 @@ The wheel can adjust the length of track.
 
 ## 4.2 Install the motor with m3*6 screw
 
-![tsinstall8](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/TStank/tsinstall8.jpg)
+![tsinstall8](tsinstall8.jpg)
 
 ## 4.3 Install the driving wheel and connect the motor
 
-![tsinstall9](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/TStank/tsinstall9.jpg)
+![tsinstall9](tsinstall9.jpg)
 
 ## 4.4 Install the metal panel
 
-![tsinstall10](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/TStank/tsinstall10.jpg)
+![tsinstall10](tsinstall10.jpg)
 
-![tsinstall11](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/TStank/tsinstall11.jpg)
+![tsinstall11](tsinstall11.jpg)
 
 ## 4.5 Install the track to the wheel. **Note, the length can be changed randomly.**
 
-![tsinstall12](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/TStank/tsinstall12.jpg)
+![tsinstall12](tsinstall12.jpg)
 
 ## 4.6 Finish the installation of TS100 tank chassis.
 
-![tsinstall13](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/TStank/tsinstall13.jpg)
+![tsinstall13](tsinstall13.jpg)
 
 # 5. Some Warm Tips
 
