@@ -434,7 +434,7 @@ First turn on the power switch of the robot, then turn on the WiFi function of t
 
 ![img](wps188.jpg) 
 
-#### ③ Debugging the hands neatly
+③ Debugging the hands neatly
 
 ![img](wps189.jpg) 
 
