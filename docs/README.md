@@ -12,7 +12,7 @@
 # General Source
 ## Drivers
   * [Serial Drivers](/GeneralSource/drivers.md)
-  * [Arduino Third-party Libraries](/GeneralSource/drivers.md)
+  * [Arduino Third-party Libraries](/GeneralSource/ArduinoLibraries.md)
 
 ## Tools
   * [Tools](/GeneralSource/softwareTools.md)
