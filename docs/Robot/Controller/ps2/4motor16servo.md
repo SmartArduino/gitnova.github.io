@@ -63,6 +63,8 @@ If this motor shield is used with Arduino and WiFi/Bluetooth board (e.g., DT-06)
 
 **The referred source code for two motor and seven servo** (for Arduino)
 
+**note:Before you can download the program, you need to [download](https://github.com/SmartArduino/Arduino-Third-party-Libraries/blob/master/ArduinoLibraries.rar) the Adafruit_PWMServoDriver library function and put it in the Arduino library folder**
+
 ```
 //材料：UNO+Doit电机驱动板+蓝牙模块/WiFi模块
 #include <Wire.h>
