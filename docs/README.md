@@ -113,7 +113,7 @@
 
 # Robotics
 
-## Frame Chassis
+## Installation for Frame Chassis
 
 * [**【二】Car Chassis**]
   * [4 WD Damping Car Chassis](Robot/FrameChassis/4WDDampingCar/4WDDampingCar.md)
@@ -157,7 +157,7 @@
   * [19DOF Humanoid Robot](Robot/FrameChassis/HumanoidRobot/19DOFRobot/19DOFRobot.md)
   * [ViVi Robot Installation Instructions](Robot/FrameChassis/HumanoidRobot/ViViRobot/ViViRobot.md)
 
-## Controller
+## Code of Controller
 
 * [Firmware](Robot/Controller/app/firmware.md)
 * [APP for Smart Car](Robot/Controller/app/AppforSmartCar.md)
