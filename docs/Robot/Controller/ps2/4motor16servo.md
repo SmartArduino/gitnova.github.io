@@ -1,4 +1,4 @@
-<center> <font size=10> User Manual for 4-Motors & 16-Servos by Using PS2 </font></center>
+<center> <font size=10> User Manual for 4-Motors & 16-Servos </font></center>
 
 <center> from SZDOIT </center>
 
@@ -53,13 +53,13 @@ This controller kit can be used to control car chassis and Robot/Controller, aft
 - Short-circuit VM and VIN while shorting VS and 5V. Simultaneous control of motor (6 ~ 18V) and 16 5V servo
 - Schematics for this motor shield: [check](https://github.com/SmartArduino/DOITWiKi/blob/master/DC%20motor%20drive.pdf)
 
-# Arduino WiFi controller kit
+# Arduino WiFi/Bluetooth controller kit
 
 If this motor shield is used with Arduino and WiFi board (e.g., DT-06), then, you can use your phone via wifi to control the car chassis. 
 
-![servo322](servo322.jpg)
+![servo322](servo322.jpg)![servo323](servo323.jpg)
 
-**The referred source code** (for Arduino)
+**The referred source code for two motor** (for Arduino)
 
 ```
 //材料：UNO+Doit电机驱动板+蓝牙模块
@@ -192,7 +192,7 @@ void loop()
 
 If this motor shield is used with Arduino and Bluetooth board (e.g., HC-06), then, you can use your phone via bluetooth to control the car chassis. 
 
-![servo323](servo323.jpg)
+
 
 **The referred source code**
 
