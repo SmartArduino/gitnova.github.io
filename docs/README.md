@@ -12,6 +12,7 @@
 # General Source
 ## Drivers
   * [Serial Drivers](/GeneralSource/drivers.md)
+  * [Arduino Third-party Libraries](/GeneralSource/drivers.md)
 
 ## Tools
   * [Tools](/GeneralSource/softwareTools.md)
@@ -166,7 +167,7 @@
 * [Use of Motor Shield for Arduino UNO](Robot/Controller/controller/unomotorshield.md)
 * [Use of 32-Way Servo Board with PS2](Robot/Controller/ps2/PS2SERVO32.md)
 * [Use of PS2 with DOIT Motor Driver Shield for Arduino UNO](Robot/Controller/ps2/ps2.md)
-* [Use of Shield for 4 Motors & 16 Servos](Robot/Controller/ps2/4motor16servo.md)
+* [Use of Shield for 4 Motors & 16 Servos(four motor and seven servo) ](Robot/Controller/ps2/4motor16servo.md)
 * [Multi-function Adapter](Robot/Controller/MultifunctionAdapter/Multi-functionAdapter.md)
 * [18DOF VIVI Robot Control Board](Robot/Controller/vivirobot/vivirobot.md)
 * [USB To TTL Downloader](Robot/Controller/USBToTTLDownloader/USBToTTLDownloader.md)
