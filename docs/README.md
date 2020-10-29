@@ -141,7 +141,7 @@
 
 * [**【三】Robot Arm**]
   * [Robot Arm for Car](Robot/FrameChassis/cararm/cararm.md)
-  * [6 dof Robot Arm](Robot/FrameChassis/gxrobotarm/gxrobotarm.md)
+  * [6 dof Robot Arm](Robot/FrameChassis/gx6dofarm/gxrobotarm.md)
   * [Robot Arm](Robot/FrameChassis/robotarm/robotarm.md)
   * [4DOF Robot Arm](Robot/FrameChassis/4DOFRoboticArm/4DOFRobotArm.md)
   * [4DOF Acrylic Mechanical Arm Installation Instructions](Robot/FrameChassis/4DOFAcrylicMechanicalArm/4DOFAcrylicMechanicalArm.md)
