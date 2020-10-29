@@ -116,6 +116,13 @@
 
 ## Installation for Frame Chassis
 
+* [**【一】Robot Part**]
+  * [G6 Robot Arm](Robot/FrameChassis/claws/g6/g6.md)
+  * [G8 Robot Arm](Robot/FrameChassis/claws/g8/g8.md)
+  * [Metal Driving Wheel](Robot/FrameChassis/Wheel/MetaDrivingWheel/metaldrivingwheel.md)
+  * [Metal Bearing Wheel](Robot/FrameChassis/Wheel/MetalBearingWheel/MetalBearingWheel.md)
+  * [Track for Tank Chassis](Robot/FrameChassis/track/track.md)
+
 * [**【二】Car Chassis**]
   * [4 WD Damping Car Chassis](Robot/FrameChassis/4WDDampingCar/4WDDampingCar.md)
   * [4 WD Car Chassis](Robot/FrameChassis/4wdcarchassis/4wdcarchassis.md)
@@ -135,22 +142,17 @@
   * [Car Chassis C200](Robot/FrameChassis/C_Series/C200/C200.md)
   * [C300 Trolley Installation Instructions](Robot/FrameChassis/C_Series/C300/C300.md)
   * [C4 4WD Smart Car Chassis Intallation Manual](Robot/FrameChassis/C_Series/C4/C4.md)
-* [**【二】Robot Part**]
-  * [2 dof Servo Bracket Platform](Robot/FrameChassis/2dofbracket/2dofservobracket.md)
-  * [2 dof Platform](Robot/FrameChassis/2dofplatform/2dofplatform.md)
-  * [Metal Driving Wheel](Robot/FrameChassis/Wheel/MetaDrivingWheel/metaldrivingwheel.md)
-  * [Metal Bearing Wheel](Robot/FrameChassis/Wheel/MetalBearingWheel/MetalBearingWheel.md)
-  * [Track for Tank Chassis](Robot/FrameChassis/track/track.md)
-* [**【二】Robot Arm**]
+
+* [**【三】Robot Arm**]
   * [Robot Arm for Car](Robot/FrameChassis/cararm/cararm.md)
   * [6 dof Robot Arm](Robot/FrameChassis/gxrobotarm/gxrobotarm.md)
   * [Robot Arm](Robot/FrameChassis/robotarm/robotarm.md)
   * [4DOF Robot Arm](Robot/FrameChassis/4DOFRoboticArm/4DOFRobotArm.md)
   * [4DOF Acrylic Mechanical Arm Installation Instructions](Robot/FrameChassis/4DOFAcrylicMechanicalArm/4DOFAcrylicMechanicalArm.md)
-* [**【二】Robot Grip**]
-  * [G6 Robot Arm](Robot/FrameChassis/claws/g6/g6.md)
-  * [G8 Robot Arm](Robot/FrameChassis/claws/g8/g8.md)
-* [**【二】Humanoid Robot**]
+
+* [**【四】Humanoid Robot**]
+  * [2 dof Servo Bracket Platform](Robot/FrameChassis/2dofbracket/2dofservobracket.md)
+  * [2 dof Platform](Robot/FrameChassis/2dofplatform/2dofplatform.md)
   * [8DOF Humanoid Robot](Robot/FrameChassis/HumanoidRobot/8dofhumanoid/8dofhumanoid.md)
   * [9DOF Humanoid Robot](Robot/FrameChassis/HumanoidRobot/9DOFRobot/9DOFRobot.md)
   * [15DOF Humanoid Robot](Robot/FrameChassis/HumanoidRobot/15DOFRobot/15DOFRobot.md)
