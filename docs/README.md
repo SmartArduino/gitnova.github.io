@@ -136,11 +136,11 @@
   * [600T Tank Car Description](Robot/FrameChassis/Tseriestank/600T/600T.md)
   * [TS100 Tank Car Installation Instructions](Robot/FrameChassis/TS_Series/TS100/TStank.md)
   * [TS400 Tank Chassis Installation Instructions](Robot/FrameChassis/TS_Series/TS400/ts400.md)
-  * [Y100 Tank Chassis](Robot/FrameChassis/Y_Series/Y100/Y100.md)
+  * [Y100 Tank Chassis Installation Instructions](Robot/FrameChassis/Y_Series/Y100/Y100.md)
   * [C101 Car Installation Instructions](Robot/FrameChassis/C_Series/C101/C101.md)
-  * [Car Chassis CM301](Robot/FrameChassis/C_Series/CM301/CM301.md)
-  * [Car Chassis C200](Robot/FrameChassis/C_Series/C200/C200.md)
-  * [C300 Trolley Installation Instructions](Robot/FrameChassis/C_Series/C300/C300.md)
+  * [CM301 Smart Car Installation instructions](Robot/FrameChassis/C_Series/CM301/CM301.md)
+  * [C200 Smart Car Installation instructions](Robot/FrameChassis/C_Series/C200/C200.md)
+  * [C300 Smart Car Installation instructions](Robot/FrameChassis/C_Series/C300/C300.md)
   * [C4 4WD Smart Car Chassis Intallation Manual](Robot/FrameChassis/C_Series/C4/C4.md)
 
 * [**【三】Robot Arm**]
