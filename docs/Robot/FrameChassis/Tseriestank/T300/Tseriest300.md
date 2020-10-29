@@ -2,6 +2,27 @@
 
 <center> from SZDOIT </center>
 
+Part of the installation:
+
+wheel：
+metal bearing wheel:https://gitnova.com/#/Robot/FrameChassis/Wheel/MetalBearingWheel/MetalBearingWheel
+
+track: https://gitnova.com/#/Robot/FrameChassis/track/track
+
+metal driving wheel: https://gitnova.com/#/Robot/FrameChassis/Wheel/MetaDrivingWheel/metaldrivingwheel
+
+DC motor: https://gitnova.com/#/Robot/Engine/9vMotor/9vmotor
+
+
+
+Controller：
+Arduino UNO:https://gitnova.com/#/Robot/Controller/ps2/4motor16servo
+
+ESPDuino:https://gitnova.com/#/Robot/Controller/controller/espduinoController
+
+App：
+
+https://gitnova.com/#/Robot/Controller/app/AppforSmartCar
 
 # 1. Introduction
 
