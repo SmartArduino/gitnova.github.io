@@ -104,9 +104,6 @@
 * [DoHome Christmas Tree](SmartProduct/DoHomeChristmasTree/DoHomeChristmasTree.md)
 * [Homekit Temperature And Humidity Sensor](SmartProduct/HomeKitTemAndHum/HomeKitTemAndHum.md)
 * [Homekit Smart Swithc](SmartProduct/HomekitSmartSwithc/HomekitSmartSwithc.md)
-* [Smart Blub](OJ/README.md)
-* [Smart LED Light Strip](OJ/README.md)
-* [Smart Plug](OJ/README.md)
 ## WiFi Prober
 
 * [SSID Scanner](Prober/ssid/ssid.md)
