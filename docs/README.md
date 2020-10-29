@@ -62,7 +62,6 @@
   
 * **【三】ESP8266 Development Board**
   * [ESPduino](ESPSeries/ESP8266/ESPDUINO/espduino.md)
-  * [WiFi Shiled](C/C语言学习笔记-CH03-数组.md)
   
 
 ## ESP8285
