@@ -1,6 +1,27 @@
 <center><font size=10> MiniTP100 Tank Car Installation Instructions </center></font>
 <center> From SZDOIT</center>
 
+Part of the installation:
+
+wheel：
+
+track: https://gitnova.com/#/Robot/FrameChassis/track/track
+
+
+
+DC motor: https://gitnova.com/#/Robot/Engine/9vMotor/9vmotor
+
+
+
+Controller：
+Arduino UNO:https://gitnova.com/#/Robot/Controller/ps2/4motor16servo
+
+ESPDuino:https://gitnova.com/#/Robot/Controller/controller/espduinoController
+
+App：
+
+https://gitnova.com/#/Robot/Controller/app/AppforSmartCar
+
 # 1. Package Included
 
 ![img](wps1.jpg)

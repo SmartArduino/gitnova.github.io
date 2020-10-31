@@ -62,7 +62,6 @@
   
 * **【三】ESP8266 Development Board**
   * [ESPduino](ESPSeries/ESP8266/ESPDUINO/espduino.md)
-  * [WiFi Shiled](C/C语言学习笔记-CH03-数组.md)
   
 
 ## ESP8285
@@ -105,9 +104,6 @@
 * [DoHome Christmas Tree](SmartProduct/DoHomeChristmasTree/DoHomeChristmasTree.md)
 * [Homekit Temperature And Humidity Sensor](SmartProduct/HomeKitTemAndHum/HomeKitTemAndHum.md)
 * [Homekit Smart Swithc](SmartProduct/HomekitSmartSwithc/HomekitSmartSwithc.md)
-* [Smart Blub](OJ/README.md)
-* [Smart LED Light Strip](OJ/README.md)
-* [Smart Plug](OJ/README.md)
 ## WiFi Prober
 
 * [SSID Scanner](Prober/ssid/ssid.md)
@@ -116,41 +112,44 @@
 
 ## Installation for Frame Chassis
 
-* [**【二】Car Chassis**]
-  * [4 WD Damping Car Chassis](Robot/FrameChassis/4WDDampingCar/4WDDampingCar.md)
-  * [4 WD Car Chassis](Robot/FrameChassis/4wdcarchassis/4wdcarchassis.md)
-  * [TC100 Car Chassis](Robot/FrameChassis/TC100/tc100.md)
-  * [tp101 Tank Chassis](Robot/FrameChassis/TP_Series/tp101/tp101.md)
-  * [miniTP101 Tank Chassis](Robot/FrameChassis/TP_Series/miniTP101/miniTP101.md)
-  * [TS400 Tank Chassis](Robot/FrameChassis/TS400/ts400.md)
-  * [T100 Tank Chassis Installation Instruction](Robot/FrameChassis/Tseriestank/T100/T100.md)
-  * [miniT100 Tank Chassis Installation Instruction](Robot/FrameChassis/Tseriestank/miniT100/miniT100.md)
-  * [T Seres Tank Chassis of T300](Robot/FrameChassis/Tseriestank/T300/Tseriest300.md)
-  * [T900 Tank Chassis Installation Instruction](Robot/FrameChassis/Tseriestank/T900/T900.md)
-  * [600T Tank Car Description](Robot/FrameChassis/Tseriestank/600T/600T.md)
-  * [TS Seres Tank Chassis of TS100](Robot/FrameChassis/TStank/TStank.md)
-  * [Y100 Tank Chassis](Robot/FrameChassis/Y_Series/Y100/Y100.md)
-  * [C101 Car Installation Instructions](Robot/FrameChassis/C_Series/C101/C101.md)
-  * [Car Chassis CM301](Robot/FrameChassis/C_Series/CM301/CM301.md)
-  * [Car Chassis C200](Robot/FrameChassis/C_Series/C200/C200.md)
-  * [C300 Trolley Installation Instructions](Robot/FrameChassis/C_Series/C300/C300.md)
-  * [C4 4WD Smart Car Chassis Intallation Manual](Robot/FrameChassis/C_Series/C4/C4.md)
-* [**【二】Robot Part**]
-  * [2 dof Servo Bracket Platform](Robot/FrameChassis/2dofbracket/2dofservobracket.md)
-  * [2 dof Platform](Robot/FrameChassis/2dofplatform/2dofplatform.md)
+* [**【一】Robot Part**]
+  * [G6 Robot Arm](Robot/FrameChassis/claws/g6/g6.md)
+  * [G8 Robot Arm](Robot/FrameChassis/claws/g8/g8.md)
   * [Metal Driving Wheel](Robot/FrameChassis/Wheel/MetaDrivingWheel/metaldrivingwheel.md)
   * [Metal Bearing Wheel](Robot/FrameChassis/Wheel/MetalBearingWheel/MetalBearingWheel.md)
   * [Track for Tank Chassis](Robot/FrameChassis/track/track.md)
-* [**【二】Robot Arm**]
+
+* [**【二】Car Chassis**]
+  * [4 WD Damping Car Chassis Installation Instructio](Robot/FrameChassis/4WDDampingCar/4WDDampingCar.md)
+  * [4 WD Car Chassis Installation Instructio](Robot/FrameChassis/4wdcarchassis/4wd.md)
+  * [TC100 Tank Car Installation Instruction](Robot/FrameChassis/TC100/tc100.md)
+  * [TP101 Tank Car Installation Instruction](Robot/FrameChassis/TP_Series/tp101/tp101.md)
+  * [miniTP100 Tank Car Installation Instruction](Robot/FrameChassis/TP_Series/miniTP101/miniTP100.md)
+  * [T100 Tank Chassis Installation Instruction](Robot/FrameChassis/Tseriestank/T100/T100.md)
+  * [miniT100 Tank Chassis Installation Instruction](Robot/FrameChassis/Tseriestank/miniT100/miniT100.md)
+  * [T300 Tank Car Installation Instructions](Robot/FrameChassis/Tseriestank/T300/Tseriest300.md)
+  * [T900 Tank Chassis Installation Instruction](Robot/FrameChassis/Tseriestank/T900/T900.md)
+  * [600T Tank Car Description](Robot/FrameChassis/Tseriestank/600T/600T.md)
+  * [TS100 Tank Car Installation Instructions](Robot/FrameChassis/TS_Series/TS100/TStank.md)
+  * [TS400 Tank Chassis Installation Instructions](Robot/FrameChassis/TS_Series/TS400/ts400.md)
+  * [Y100 Tank Chassis Installation Instructions](Robot/FrameChassis/Y_Series/Y100/Y100.md)
+  * [YP100 Tank Chassis Installation Instructions](Robot/FrameChassis/Y_Series/YP100/YP100.md)
+  * [C101 Car Installation Instructions](Robot/FrameChassis/C_Series/C101/C101.md)
+  * [CM301 Smart Car Installation instructions](Robot/FrameChassis/C_Series/CM301/CM301.md)
+  * [C200 Smart Car Installation instructions](Robot/FrameChassis/C_Series/C200/C200.md)
+  * [C300 Smart Car Installation instructions](Robot/FrameChassis/C_Series/C300/C300.md)
+* [C4 4WD Smart Car Chassis Intallation Manual](Robot/FrameChassis/C_Series/C4/C4.md)
+  
+* [**【三】Robot Arm**]
   * [Robot Arm for Car](Robot/FrameChassis/cararm/cararm.md)
-  * [6 dof Robot Arm](Robot/FrameChassis/gxrobotarm/gxrobotarm.md)
+  * [6 dof Robot Arm](Robot/FrameChassis/gx6dofarm/gxrobotarm.md)
   * [Robot Arm](Robot/FrameChassis/robotarm/robotarm.md)
   * [4DOF Robot Arm](Robot/FrameChassis/4DOFRoboticArm/4DOFRobotArm.md)
   * [4DOF Acrylic Mechanical Arm Installation Instructions](Robot/FrameChassis/4DOFAcrylicMechanicalArm/4DOFAcrylicMechanicalArm.md)
-* [**【二】Robot Grip**]
-  * [G6 Robot Arm](Robot/FrameChassis/claws/g6/g6.md)
-  * [G8 Robot Arm](Robot/FrameChassis/claws/g8/g8.md)
-* [**【二】Humanoid Robot**]
+
+* [**【四】Humanoid Robot**]
+  * [2 dof Servo Bracket Platform](Robot/FrameChassis/2dofbracket/2dofservobracket.md)
+  * [2 dof Platform](Robot/FrameChassis/2dofplatform/2dofplatform.md)
   * [8DOF Humanoid Robot](Robot/FrameChassis/HumanoidRobot/8dofhumanoid/8dofhumanoid.md)
   * [9DOF Humanoid Robot](Robot/FrameChassis/HumanoidRobot/9DOFRobot/9DOFRobot.md)
   * [15DOF Humanoid Robot](Robot/FrameChassis/HumanoidRobot/15DOFRobot/15DOFRobot.md)
