@@ -8,6 +8,8 @@
 * Robot Tank Car Chassis
 * and robotics...
   In fact, we are mainly focus on the `wifi module`, e.g., module production, module firmware development. Based on these, now, we have already maken many types of `smart products`, e.g., `development board`, `smart bulb`, `smart plug`, `robotics` and its controller.
+  
+  If you have any other problem (e.g., documents, products), please feel free to let me know: yichoneyi@163.com, yichone@doit.am.
 
 # General Source
 ## Drivers
