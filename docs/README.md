@@ -41,8 +41,9 @@
   
 * [**【二】Application & Examples**](C/C-Code.md)
 
-
 # ESP Series
+
+* [Use of a single WiFi module](ESPSeries/WiFiModuleUse/WiFiModuleUse.md)
 
 ## ESP8266
 * [Start to Learn](ESPSeries/start/start.md)
