@@ -61,7 +61,7 @@ If this motor shield is used with Arduino and WiFi/Bluetooth board (e.g., DT-06)
 
 ![servo322](servo322.jpg)![servo323](servo323.jpg)
 
-**The referred source code for two motor and seven servo** (for Arduino)
+**The referred source code for four motor and seven servo** (for Arduino)
 
 **note:Before you can download the program, you need to [download](https://github.com/SmartArduino/Arduino-Third-party-Libraries/blob/master/ArduinoLibraries.rar) the Adafruit_PWMServoDriver library function and put it in the Arduino library folder**
 
@@ -405,7 +405,9 @@ If this motor shield is used with Arduino and PS2, then, you can use your phone 
 
 ![servo324](servo324.jpg)
 
-**The referred source code**
+**The referred source code for four motor and 7 servo**
+
+**note:Before you can download the program, you need to [download](https://github.com/SmartArduino/Arduino-Third-party-Libraries/blob/master/ArduinoLibraries.rar) the Adafruit_PWMServoDriver library function and put it in the Arduino library folder**
 
 ```
 
