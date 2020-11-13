@@ -1,5 +1,5 @@
-# Start guide 
-* [中文版](./README.md)    
+<center><font size=10> Getting Started Guide </center></font>
+<center> From SZDOIT</center>
 
 ## Summarize
 BL602/BL604 is a Wi-Fi+BLE chipset introduced by Bouffalo Lab, which is used for low power consumption and high performance application development.
@@ -46,12 +46,14 @@ The following uses hello-world as an example
     2. Add a file for Partition Table, click Browse after Partition Table and select partition_CFG_2m.toml
     3. Click Browse after Boot2 Bin and select blsp_boot2.bin
     4. Click Browse behind Firmware Bin, find build_out under sdk_app_helloworld directory, and select SDK_app_helloworld.bin.
-    <img src="docs/_static/download.png" height="300">
+    
+    ![download](download.png)
 6. Make the developmENt board enter the burning mode, press and hold D8(GPIO8) key, press en key again, and then release D8 key
 7. Click Create&Download, the progress bar will turn green, and Success will be displayed if success is displayed.
 
 ## Verify firmware
 1. Connect the development board with serial port tool
+    
     * Baud rate: 2000000 data bits: 8 check bits: None stop bits: 1
 2. Open the serial port and reset the development board (click the EN key)
 3. If the following is displayed, the operation is successful
