@@ -152,3 +152,108 @@ BL602/BL604 DMA (direct memory access) controller has four dedicated channels th
 ### 2.5 Bus
 
 BL602/BL604 bus fabric connection and memory-map summarized as follows:
+
+![image-20201119155226983](image-20201119155226983.png)
+
+![image1](image1.png)
+
+### 2.6 Interrupt
+
+BL602/BL604 supports internal RTC wake-up and external interrupts wake-up.
+
+CPU interrupt controller supports stack/nesting, level/pulse, and high/low active.
+
+### 2.7 Boot
+
+BL602/BL604 supports multiple boot options: UART, SDIO, and Flash.
+
+### 2.8 Power
+
+PMU (power management unit) manages the power of the entire chip and is divided into active, idle, sleep, and hibernate power modes. The software can be configured to enter sleep mode and wake-up via RTC timer or EINT to achieve low-power sleep and accurate wake-up management.
+
+Power down sleep modes are flexible for applications to configure as the lowest power consumption.
+
+### 2.9 Clock
+
+Clock control unit generates clocks to the core MCU and the peripheral SOC devices. The root clock source can be XTAL, PLL or RC oscillator. Dynamic power-saved by proper configurations such as sel, div, en, etc. PMU runs at 32KHz clock to keep system low-power in sleep mode.
+
+![image-20201119155508330](image-20201119155508330.png)
+
+### 2.10 Peripherals
+
+Peripherals include SDIO, SPI, UART, I2C, IR remote, PWM, ADC, DAC, PIR.
+
+Each peripheral can be assigned to different groups of GPIOs through flexible configurations.
+
+Each GPIO can be used as a general-purpose input and output function.
+
+## 3 Pin Definition (QFN32)
+
+![image-20201119155558524](image-20201119155558524.png)
+
+![image2](image2.png)
+
+## 4 Pin Definition (QFN40)
+
+BL604 40-pin package includes 10 power pins, 6 analog pins, 1 reset pin, and 23 flexible GPIO pins.
+
+![image-20201119155826887](image-20201119155826887.png)
+
+![image3](image3.png)
+
+## 5 RF Characteristsic
+
+RF Characteristics of Receiving and Transmitting modes.
+
+![image-20201119160107578](image-20201119160107578.png)
+
+![image-20201119160121249](image-20201119160121249.png)
+
+## 6 Power Consumption
+
+Power Consumption of each power mode.
+
+![image-20201119160158223](image-20201119160158223.png)
+
+## 7 Electrical Specifications
+
+### 7.1 Absolute Maximum Rating
+
+![image-20201119160238141](image-20201119160238141.png)
+
+### 7.2 Operating Condition
+
+![image-20201119160304580](image-20201119160304580.png)
+
+![image-20201119160313277](image-20201119160313277.png)
+
+## 8 Reference Design (simplified)
+
+![image-20201119160334240](image-20201119160334240.png)
+
+## 9 Package Information(QFN32)
+
+![image-20201119160358703](image-20201119160358703.png)
+
+![image4](image4.png)
+
+## 10 Package Information(QFN40)
+
+![image-20201119160518187](image-20201119160518187.png)
+
+![image5](image5.png)
+
+## 11 Top Marking Definition
+
+![image-20201119160631334](image-20201119160631334.png)
+
+## 12 Ordering Information
+
+![image-20201119160656671](image-20201119160656671.png)
+
+## Contact
+
+- Email: yichoneyi@163.com
+- WhatsApp: 008618676662425
+- WeChat: itchenve
+- Skype: yichone
