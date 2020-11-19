@@ -92,6 +92,7 @@
 
 * **【一】BL602**
   * [Getting Started Guide](BouffaloLab/BL602/start/start.md)
+  * [[Getting Started Guide](BouffaloLab/BL602/start/start.md)](BouffaloLab/BL602/chipset/chipset.md)
 
 
 
@@ -142,7 +143,7 @@
   * [CM301 Smart Car Installation instructions](Robot/FrameChassis/C_Series/CM301/CM301.md)
   * [C200 Smart Car Installation instructions](Robot/FrameChassis/C_Series/C200/C200.md)
   * [C300 Smart Car Installation instructions](Robot/FrameChassis/C_Series/C300/C300.md)
-* [C4 4WD Smart Car Chassis Intallation Manual](Robot/FrameChassis/C_Series/C4/C4.md)
+  * [C4 4WD Smart Car Chassis Intallation Manual](Robot/FrameChassis/C_Series/C4/C4.md)
   
 * **【三】Robot Arm**
   * [Robot Arm for Car](Robot/FrameChassis/cararm/cararm.md)
