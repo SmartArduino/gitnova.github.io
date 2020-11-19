@@ -1,5 +1,5 @@
-Infrared remote control tracking and obstacle avoidance car 
- From SZDOIT
+<center><font size =10> Infrared remote control tracking and obstacle avoidance car </font></center>
+<center> From SZDOIT</center>
 
 ## 1 Introduction
 
