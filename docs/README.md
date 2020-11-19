@@ -14,7 +14,7 @@
 # General Source
 ## Drivers
   * [Serial Drivers](/GeneralSource/drivers.md)
-  * [Arduino Third-party Libraries](/GeneralSource/ArduinoLibraries.md)
+  * [Arduino Third-party Libraries](https://github.com/SmartArduino/Arduino-Third-party-Libraries)
 
 ## Tools
   * [Tools](/GeneralSource/softwareTools.md)
