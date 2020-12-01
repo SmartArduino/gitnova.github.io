@@ -28,15 +28,30 @@
   * [W60X RT-Thread Starter Guide](C/C语言学习笔记-CH02-基本语法.md)
   * [W600 Keil Development Environment Setup](C/C语言学习笔记-CH03-数组.md)
   * [W600 Firmware Download Guide](C/C语言学习笔记-CH03-数组.md)
-  
 * **【二】Debugging And Usage Guidelines**
-
   * [Debugging Guide for W600 SWD Interface Based on Jlink](C/C语言学习笔记-CH03-数组.md)
   * [W600 SPI Debugging Guide Based on RI instruction Set](C/C语言学习笔记-CH02-基本语法.md)
   * [W600 Wireless Pass-Through Debugging Tool Guide](C/C语言学习笔记-CH02-基本语法.md)
   * [AT Firmware Version Description](C/C语言学习笔记-CH02-基本语法.md)
   * [AT Command User Guide(Compatible Version)](WSeries/Debugging/AT/esp-start.md)
   * [Use Guide of AT(Lesander Version)](C/C语言学习笔记-CH02-基本语法.md)
+* **【三】W600 Profile**
+
+  * [W600 Chip Manual](WSeries/Debugging/AT/esp-start.md)
+  * [W600 Register Manual](WSeries/Debugging/AT/esp-start.md)
+* **【四】W601 Profile**
+
+  * [W601 Chip Manual](WSeries/Debugging/AT/esp-start.md)
+* **【五】W60X Module**
+  * [TB-01 WiFi Module](WSeries/Debugging/AT/esp-start.md)
+  * [TB-02 WiFi Module](WSeries/Debugging/AT/esp-start.md)
+  * [TW-01 WiFi Module](WSeries/Debugging/AT/esp-start.md)
+  * [TW-02 WiFi Module](WSeries/Debugging/AT/esp-start.md)
+  * [TW-03 WiFi Module](WSeries/Debugging/AT/esp-start.md)
+  * [TW-07 WiFi Module](WSeries/Debugging/AT/esp-start.md)
+* **【六】Q&A**
+
+  * [W600 Frequently Asked Questions](WSeries/Debugging/AT/esp-start.md)
 
 ## W800
 
