@@ -1,4 +1,4 @@
-<center><font size=10> Serial debugging assistant </center></font>
+<center><font size=10> Serial Debugging Assistant </center></font>
 
 <center> From SZDOIT</center>
 
