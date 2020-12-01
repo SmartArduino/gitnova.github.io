@@ -23,16 +23,20 @@
 
 ## W600
 
-  * [AT Command User Guide(Compatible version)](WSeries/Debugging/AT/esp-start.md)
-
-* 【一】W600 Module
-  * [W600 Chip](C/C语言学习笔记-CH01-编程基础.md)
-  * [W600 Module](C/C语言学习笔记-CH02-基本语法.md)
-  * [W600 Development Board](C/C语言学习笔记-CH03-数组.md)
+* **【一】Getting Started Guide**
+  * [W600 Arduino Getting Started Guide](C/C语言学习笔记-CH01-编程基础.md)
+  * [W60X RT-Thread Starter Guide](C/C语言学习笔记-CH02-基本语法.md)
+  * [W600 Keil Development Environment Setup](C/C语言学习笔记-CH03-数组.md)
+  * [W600 Firmware Download Guide](C/C语言学习笔记-CH03-数组.md)
   
-* [**【二】Application & Examples**](C/C-Code.md)
+* **【二】Debugging And Usage Guidelines**
 
-
+  * [Debugging Guide for W600 SWD Interface Based on Jlink](C/C语言学习笔记-CH03-数组.md)
+  * [W600 SPI Debugging Guide Based on RI instruction Set](C/C语言学习笔记-CH02-基本语法.md)
+  * [W600 Wireless Pass-Through Debugging Tool Guide](C/C语言学习笔记-CH02-基本语法.md)
+  * [AT Firmware Version Description](C/C语言学习笔记-CH02-基本语法.md)
+  * [AT Command User Guide(Compatible Version)](WSeries/Debugging/AT/esp-start.md)
+  * [Use Guide of AT(Lesander Version)](C/C语言学习笔记-CH02-基本语法.md)
 
 ## W800
 
