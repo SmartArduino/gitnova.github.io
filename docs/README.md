@@ -32,9 +32,9 @@
   * [Debugging Guide for W600 SWD Interface Based on Jlink](C/C语言学习笔记-CH03-数组.md)
   * [W600 SPI Debugging Guide Based on RI instruction Set](C/C语言学习笔记-CH02-基本语法.md)
   * [W600 Wireless Pass-Through Debugging Tool Guide](C/C语言学习笔记-CH02-基本语法.md)
-  * [AT Firmware Version Description](C/C语言学习笔记-CH02-基本语法.md)
+  * [AT Firmware Version Description](WSeries/Debugging/AT/version.md)
   * [AT Command User Guide(Compatible Version)](WSeries/Debugging/AT/esp-start.md)
-  * [Use Guide of AT(Lesander Version)](C/C语言学习笔记-CH02-基本语法.md)
+  * [Use Guide of AT(Lesander Version)](WSeries/Debugging/AT/wm-start.md)
 * **【三】W600 Profile**
 
   * [W600 Chip Manual](WSeries/Debugging/AT/esp-start.md)
@@ -50,8 +50,7 @@
   * [TW-03 WiFi Module](WSeries/Debugging/AT/esp-start.md)
   * [TW-07 WiFi Module](WSeries/Debugging/AT/esp-start.md)
 * **【六】Q&A**
-
-  * [W600 Frequently Asked Questions](WSeries/Debugging/AT/esp-start.md)
+* [W600 Frequently Asked Questions](WSeries/Debugging/AT/esp-start.md)
 
 ## W800
 

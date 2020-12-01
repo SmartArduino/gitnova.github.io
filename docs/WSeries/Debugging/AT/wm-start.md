@@ -1,4 +1,4 @@
-<center><font size=10> Lianshengde AT command </center></font>
+<center><font size=10> Use Guide of AT(Lesander Version) </center></font>
 <center> From SZDOIT</center>
 
 
