@@ -18,6 +18,7 @@
 
 ## Tools
   * [Tools](/GeneralSource/softwareTools.md)
+  * [W600 Serial Debugging Tool](WSeries/Tools/serial.md)
 
 # WinnerMicro
 
@@ -36,8 +37,7 @@
   * [AT Command User Guide(Compatible Version)](WSeries/Debugging/AT/esp-start.md)
   * [Use Guide of AT(Lesander Version)](WSeries/Debugging/AT/wm-start.md)
 * **【三】W600 Profile**
-
-  * [W600 Chip Manual](WSeries/Debugging/AT/esp-start.md)
+* [W600 Chip Manual](WSeries/Debugging/AT/esp-start.md)
   * [W600 Register Manual](WSeries/Debugging/AT/esp-start.md)
 * **【四】W601 Profile**
 
