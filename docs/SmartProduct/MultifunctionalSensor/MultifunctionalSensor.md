@@ -58,3 +58,10 @@ Q: What should we pay attention to in the process of distribution network
 Q: If I have already configured it, what should I do if I want to reconfigure it?
 
 - If the routing has been configured before, if you want to reconfigure the new router, switch on and off more than five times continuously, each time the power-on time is more than 2S, less than 10s, and then repeat the first step of distribution network.
+
+## Contact Us
+
+- E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
+- Skype: yichone
+- WhatsApp:+86-18676662425
+- Wechat: 18676662425
