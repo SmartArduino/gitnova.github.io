@@ -158,9 +158,10 @@
 ## Smart Products
 
 * [Smart Relay for Homekit](SmartProduct/homekit2relay/homekitrelay.md)
-* [DoHome Christmas Tree](SmartProduct/DoHomeChristmasTree/DoHomeChristmasTree.md)
-* [Homekit Temperature And Humidity Sensor](SmartProduct/HomeKitTemAndHum/HomeKitTemAndHum.md)
 * [Homekit Smart Swithc](SmartProduct/HomekitSmartSwithc/HomekitSmartSwithc.md)
+* [Homekit Temperature And Humidity Sensor](SmartProduct/HomeKitTemAndHum/HomeKitTemAndHum.md)
+* [HomeKit  Multi-Functional Sensor](SmartProduct/MultifunctionalSensor/MultifunctionalSensor.md)
+* [DoHome Christmas Tree](SmartProduct/DoHomeChristmasTree/DoHomeChristmasTree.md)
 ## WiFi Prober
 
 * [SSID Scanner](Prober/ssid/ssid.md)
