@@ -33,7 +33,9 @@ Note: Apple phones and devices must be in the same home WiFi network, that is, t
 
 ![img](wps7.jpg)![img](wps8.jpg) 
 
-![img](wps9.jpg)![img](wps10.jpg)![img](wps11.jpg)![img](wps12.jpg) 
+![img](wps9.jpg)![img](wps10.jpg)
+
+![img](wps11.jpg)![img](wps12.jpg) 
 
  
 
