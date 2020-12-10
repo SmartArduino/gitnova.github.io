@@ -2,10 +2,6 @@
 
 <center> from SZDOIT </center>
 
-
-
-![clip_image007](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF2/clip_image007.jpg)
-
 **Features**
 
 **SOC characteristics**
@@ -24,7 +20,9 @@
 
 * the consume power is smaller than 1.0mW (DTIM3) when at standby status;
 
-  **Wi-Fi characteristics**
+![clip_image007](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF2/clip_image007.jpg)
+
+**Wi-Fi characteristics**
 
 * Support 802.11 b/g/n/e/i
 
