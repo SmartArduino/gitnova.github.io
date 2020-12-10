@@ -2,10 +2,6 @@
 
 <center> from SZDOIT </center>
 
-
-
-![clip_image007](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF1/clip_image007.jpg)
-
 **Features**
 
   **SOC characteristics**
@@ -23,6 +19,8 @@
 * Can be wake-up within 2 ms, and connect to transmit data package;
 
 * the consume power is smaller than 1.0mW (DTIM3) when at standby status;
+
+![clip_image007](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF1/clip_image007.jpg)
 
  **Wi-Fi characteristics**
 
