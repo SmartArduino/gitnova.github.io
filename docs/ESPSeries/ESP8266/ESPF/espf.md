@@ -2,8 +2,6 @@
 
  <center> from SZDOIT </center>
 
-![clip_image030](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF/clip_image030.jpg)
-
  **SOC characteristics**
 
 * Built-in Tensilica L106 ultra-low power consumption 32-bit cpu, the main frequency can be 80MHz and 160MHz, also support RTOS;
@@ -20,7 +18,11 @@
 
 * the consume power is smaller than 1.0mW (DTIM3) when at standby status;
 
-  **Wi-Fi characteristics**
+![clip_image030](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF/clip_image030.jpg)
+
+
+
+**Wi-Fi characteristics**
 
 * Support 802.11 b/g/n/e/i
 
