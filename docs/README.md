@@ -214,6 +214,7 @@
   * [17DOF Humanoid Robot](Robot/FrameChassis/HumanoidRobot/17dof/17dofhumanoid.md)
   * [19DOF Humanoid Robot](Robot/FrameChassis/HumanoidRobot/19DOFRobot/19DOFRobot.md)
   * [ViVi Robot Installation Instructions](Robot/FrameChassis/HumanoidRobot/ViViRobot/ViViRobot.md)
+  * [ViVi Humanoid Robot User Manual](Robot/FrameChassis/HumanoidRobot/ViViRobot/UseViViRobot.md)
 
 ## Code of Controller
 
