@@ -18,7 +18,7 @@
 
 ## Tools
   * [Tools](/GeneralSource/softwareTools.md)
-  * [Arduino UNO WiFi/Bluetooth/Video Control Suite APK Software](/GeneralSource/softwareTools.md)
+  * [Arduino UNO WiFi/Bluetooth/Video Control Suite APK Software](https://github.com/SmartArduino/SmartArduino.github.io/blob/master/docs/Robot/Controller/app/base.apk)
   * [W600 Serial Debugging Tool](WSeries/Tools/serial.md)
 
 # WinnerMicro
