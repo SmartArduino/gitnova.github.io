@@ -1,10 +1,10 @@
 # Preface
 
   Hi, everyone, welcome to Shenzhen DOIT [Doctors of Intelligence & Technology](http://doit.am/) company. Till now, we have the main products on:
-* WiFi module,
-* Development board,
-* WiFi prober,
-* IoT Solutions,
+* WiFi module
+* Development board
+* WiFi prober
+* IoT Solutions
 * Robot Tank Car Chassis
 * and robotics...
   In fact, we are mainly focus on the `wifi module`, e.g., module production, module firmware development. Based on these, now, we have already maken many types of `smart products`, e.g., `development board`, `smart bulb`, `smart plug`, `robotics` and its controller.
@@ -25,46 +25,52 @@
 
 ## W600
 
-* **【一】Getting Started Guide**
+* ### 【One】Getting Started Guide
+  
   * [W600 Arduino Getting Started Guide](C/C语言学习笔记-CH01-编程基础.md)
   * [W60X RT-Thread Starter Guide](C/C语言学习笔记-CH02-基本语法.md)
   * [W600 Keil Development Environment Setup](C/C语言学习笔记-CH03-数组.md)
   * [W600 Firmware Download Guide](C/C语言学习笔记-CH03-数组.md)
-* **【二】Debugging And Usage Guidelines**
+* ### 【Two】Debugging And Usage Guidelines
+  
   * [Debugging Guide for W600 SWD Interface Based on Jlink](C/C语言学习笔记-CH03-数组.md)
   * [W600 SPI Debugging Guide Based on RI instruction Set](C/C语言学习笔记-CH02-基本语法.md)
   * [W600 Wireless Pass-Through Debugging Tool Guide](C/C语言学习笔记-CH02-基本语法.md)
   * [AT Firmware Version Description](WSeries/Debugging/AT/version.md)
   * [AT Command User Guide(Compatible Version)](WSeries/Debugging/AT/esp-start.md)
   * [Use Guide of AT(Lesander Version)](WSeries/Debugging/AT/wm-start.md)
-* **【三】W600 Profile**
+* ### 【Tree】W600 Profile
+  
   * [W600 Chip Manual](WSeries/Debugging/AT/esp-start.md)
   * [W600 Register Manual](WSeries/Debugging/AT/esp-start.md)
-* **【四】W601 Profile**
+* ### 【Four】W601 Profile
 
   * [W601 Chip Manual](WSeries/Debugging/AT/esp-start.md)
-* **【五】W60X Module**
+* ### 【Five】W60X Module
+  
   * [TB-01 WiFi Module](WSeries/Debugging/AT/esp-start.md)
   * [TB-02 WiFi Module](WSeries/Debugging/AT/esp-start.md)
   * [TW-01 WiFi Module](WSeries/Debugging/AT/esp-start.md)
   * [TW-02 WiFi Module](WSeries/Debugging/AT/esp-start.md)
   * [TW-03 WiFi Module](WSeries/Debugging/AT/esp-start.md)
   * [TW-07 WiFi Module](WSeries/Debugging/AT/esp-start.md)
-* **【六】Q&A**
+* ### 【Six】Q&A
 * [W600 Frequently Asked Questions](WSeries/Debugging/AT/esp-start.md)
 
 ## W800
 
-* **【一】Bluetooth Config Network**
+* ### 【One】Bluetooth Config Network
+  
   * [W800 BleWiFi Bluetooth Config Network Android SDK](C/C语言学习笔记-CH01-编程基础.md)
   * [W800  BleWiFi Bluetooth Config Network  iOS SDK](C/C语言学习笔记-CH02-基本语法.md)
   * [W800_BleWiFi Bluetooth Configuration Network Android App Usage Guide](C/C语言学习笔记-CH03-数组.md)
   * [W800_BleWiFi Bluetooth Configuration Network iOS App Usage Guide](C/C语言学习笔记-CH02-基本语法.md)
   * [W800 Bluetooth Small Program Network Operation Instructions](C/C语言学习笔记-CH02-基本语法.md)
-* **【二】W800 Starter Guide**
+* ### 【Two】W800 Starter Guide
+  
   * [W800 Starter Manual](C/C语言学习笔记-CH02-基本语法.md)
   * [W800 SDK_AT Instruction User Manual](C/C语言学习笔记-CH02-基本语法.md)
-* 【三】**800 Profile**
+* ### 【Tree】800 Profile
 
   * [W800 Chip Manual](C/C语言学习笔记-CH02-基本语法.md)
   * [W800 Chip Design Guide](C/C语言学习笔记-CH02-基本语法.md)
@@ -75,7 +81,7 @@
   * [Instructions for W800 Parameter Area](C/C语言学习笔记-CH02-基本语法.md)
   * [W800 Low Power Consumption Instruction](C/C语言学习笔记-CH02-基本语法.md)
   * [Description of W800 Firmware Generation](C/C语言学习笔记-CH02-基本语法.md)
-* **【四】DK API and Development Guidance**
+* ### 【Four】DK API and Development Guidance
 
   * [W800 Iperf Test Tool Usage Guide](C/C语言学习笔记-CH02-基本语法.md)
   * [W800 CDS User Manual](C/C语言学习笔记-CH02-基本语法.md)
@@ -99,9 +105,9 @@
 ## ESP8266
 * [Start to Learn](ESPSeries/start/start.md)
 
-* **【一】ESP8266 Chip**
+* ### 【One】ESP8266 Chip
   
-* **【二】ESP8266 Module**
+* ### 【Two】ESP8266 Module
   
   * [ESP-F](ESPSeries/ESP8266/ESPF/espf.md)
   * [ESP-F1](ESPSeries/ESP8266/ESPF1/espf1.md)
@@ -115,19 +121,22 @@
   
   
   
-* **【三】ESP8266 Development Board**
+* ### 【Tree】ESP8266 Development Board
+  
   * [ESPduino](ESPSeries/ESP8266/ESPDUINO/espduino.md)
   
 
 ## ESP8285
-* **【二】ESP8285 Module**
+* ### 【One】ESP8285 Module
+  
   * [DMP-L1](ESPSeries/ESP8285/dmpl1/dmpl1.md)
   * [ESP-M1](ESPSeries/ESP8285/espm1/espm1.md)
   * [ESP-M2](ESPSeries/ESP8285/espm2/espm2.md)
   * [ESP-M3](ESPSeries/ESP8285/espm3/espm3.md)
   * [ESP-M4](ESPSeries/ESP8285/espm4/espm4.md)
   * [ESP8285 Module Download](ESPSeries/ESP8285/ESP8285ModuleDownload/ESP8285ModuleDownload.md)
-* **【二】ESP8285 Board**
+* ### 【Two】ESP8285 Board
+  
   * [DT-06](ESPSeries/ESP8285/DT06/DT06.md)
 
 ## ESP32
@@ -171,14 +180,16 @@
 
 ## Installation for Frame Chassis
 
-* **【一】Robot Part**
+* ### 【One】Robot Part
+  
   * [G6 Robot Arm](Robot/FrameChassis/claws/g6/g6.md)
   * [G8 Robot Arm](Robot/FrameChassis/claws/g8/g8.md)
   * [Metal Driving Wheel](Robot/FrameChassis/Wheel/MetaDrivingWheel/metaldrivingwheel.md)
   * [Metal Bearing Wheel](Robot/FrameChassis/Wheel/MetalBearingWheel/MetalBearingWheel.md)
-  * [Track for Tank Chassis](Robot/FrameChassis/track/track.md)
-
-* **【二】Car Chassis**
+* [Track for Tank Chassis](Robot/FrameChassis/track/track.md)
+  
+* ### 【Two】Car Chassis
+  
   * [4 WD Damping Car Chassis Installation Instructio](Robot/FrameChassis/4WDDampingCar/4WDDampingCar.md)
   * [4 WD Car Chassis Installation Instructio](Robot/FrameChassis/4wdcarchassis/4wd.md)
   * [TC100 Tank Car Installation Instruction](Robot/FrameChassis/TC100/tc100.md)
@@ -199,14 +210,16 @@
   * [C300 Smart Car Installation instructions](Robot/FrameChassis/C_Series/C300/C300.md)
   * [C4 4WD Smart Car Chassis Intallation Manual](Robot/FrameChassis/C_Series/C4/C4.md)
   
-* **【三】Robot Arm**
+* ### 【Tree】Robot Arm
+  
   * [Robot Arm for Car](Robot/FrameChassis/cararm/cararm.md)
   * [6 dof Robot Arm](Robot/FrameChassis/gx6dofarm/gxrobotarm.md)
   * [Robot Arm](Robot/FrameChassis/robotarm/robotarm.md)
   * [4DOF Robot Arm](Robot/FrameChassis/4DOFRoboticArm/4DOFRobotArm.md)
-  * [4DOF Acrylic Mechanical Arm Installation Instructions](Robot/FrameChassis/4DOFAcrylicMechanicalArm/4DOFAcrylicMechanicalArm.md)
-
-* **【四】Humanoid Robot**
+* [4DOF Acrylic Mechanical Arm Installation Instructions](Robot/FrameChassis/4DOFAcrylicMechanicalArm/4DOFAcrylicMechanicalArm.md)
+  
+* ### 【Four】Humanoid Robot
+  
   * [2 dof Servo Bracket Platform](Robot/FrameChassis/2dofbracket/2dofservobracket.md)
   * [2 dof Platform](Robot/FrameChassis/2dofplatform/2dofplatform.md)
   * [8DOF Humanoid Robot](Robot/FrameChassis/HumanoidRobot/8dofhumanoid/8dofhumanoid.md)
@@ -233,13 +246,15 @@
 * [Infrared remote control tracking and obstacle avoidance car](Robot/FrameChassis/TrackingObstacleCar/TrackingObstacleCar.md)
 
 ## Engine
-* **【一】Motor**
+* ### 【One】Motor
+  
   * [9v Motor](Robot/Engine/9vMotor/9vmotor.md)
   * [DT37GB-520 DC Deceleration Motor With High Torque](Robot/Engine/DT37GBMotor/DT37GB-520Motor.md)
   * [33GB-520 DC Deceleration Motor](Robot/Engine/33GB-520DCMotor/33GB-520DCMotor.md)
-  * [XD-37GB520 Brush-DC High-power Motor](Robot/Engine/XD-37GB520DCMotor/XD-37GB520DCMotor.md)
-
-* **【二】Servo**
+* [XD-37GB520 Brush-DC High-power Motor](Robot/Engine/XD-37GB520DCMotor/XD-37GB520DCMotor.md)
+  
+* ### 【Two】Servo
+  
   * [DS3218 Servo](Robot/Engine/ds3218/ds3218.md)
   * [servotester](Robot/Engine/servotester/servoTester.md)
 
