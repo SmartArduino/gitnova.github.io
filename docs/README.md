@@ -186,7 +186,7 @@
   * [G8 Robot Arm](Robot/FrameChassis/claws/g8/g8.md)
   * [Metal Driving Wheel](Robot/FrameChassis/Wheel/MetaDrivingWheel/metaldrivingwheel.md)
   * [Metal Bearing Wheel](Robot/FrameChassis/Wheel/MetalBearingWheel/MetalBearingWheel.md)
-* [Track for Tank Chassis](Robot/FrameChassis/track/track.md)
+  * [Track for Tank Chassis](Robot/FrameChassis/track/track.md)
   
 * ### 【Two】Car Chassis
   
@@ -216,7 +216,7 @@
   * [6 dof Robot Arm](Robot/FrameChassis/gx6dofarm/gxrobotarm.md)
   * [Robot Arm](Robot/FrameChassis/robotarm/robotarm.md)
   * [4DOF Robot Arm](Robot/FrameChassis/4DOFRoboticArm/4DOFRobotArm.md)
-* [4DOF Acrylic Mechanical Arm Installation Instructions](Robot/FrameChassis/4DOFAcrylicMechanicalArm/4DOFAcrylicMechanicalArm.md)
+  * [4DOF Acrylic Mechanical Arm Installation Instructions](Robot/FrameChassis/4DOFAcrylicMechanicalArm/4DOFAcrylicMechanicalArm.md)
   
 * ### 【Four】Humanoid Robot
   
@@ -251,7 +251,7 @@
   * [9v Motor](Robot/Engine/9vMotor/9vmotor.md)
   * [DT37GB-520 DC Deceleration Motor With High Torque](Robot/Engine/DT37GBMotor/DT37GB-520Motor.md)
   * [33GB-520 DC Deceleration Motor](Robot/Engine/33GB-520DCMotor/33GB-520DCMotor.md)
-* [XD-37GB520 Brush-DC High-power Motor](Robot/Engine/XD-37GB520DCMotor/XD-37GB520DCMotor.md)
+  * [XD-37GB520 Brush-DC High-power Motor](Robot/Engine/XD-37GB520DCMotor/XD-37GB520DCMotor.md)
   
 * ### 【Two】Servo
   
