@@ -150,6 +150,11 @@
 * ### 【One】DT-W5G1 Profile
 
   * [User Manual for DT-W5G1](ESPSeries/W5G1/Profile/W15G.md)
+  * [The principle diagram of the DT-W5G1](ESPSeries/W5G1/Profile/W15G.md)
+
+* ### 【Two】
+
+* 
 
 * 
 
