@@ -147,7 +147,11 @@
 
 ## Double Frequency WiFi
 
-* [DT-W5G1](ESPSeries/W5G1/W15G.md)
+* ### 【One】DT-W5G1 Profile
+
+  * [User Manual for DT-W5G1](ESPSeries/W5G1/Profile/W15G.md)
+
+* 
 
 # Bouffalo
 
