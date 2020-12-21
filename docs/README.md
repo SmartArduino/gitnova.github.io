@@ -151,12 +151,15 @@
 
 # Bouffalo
 
-* **【一】BL602**
-  * [Getting Started Guide](BouffaloLab/BL602/start/start.md)
+* ### **【One】BL602**/BL604
+
   * [BL602/BL604 Chip Data Manual](BouffaloLab/BL602/atasheet/atasheet.md)
+
+* ### 【Two】
+  
+  * [Getting Started Guide](BouffaloLab/BL602/start/start.md)
+
   * [[Getting Started Guide](BouffaloLab/BL602/start/start.md)](BouffaloLab/BL602/chipset/chipset.md)
-
-
 
 # RealTek
 
