@@ -73,7 +73,7 @@ Peripheral clock includes: Flash、UART、I2C、SPI、PWM、IR-remote、ADC、DA
 
 ![image-20201221110940619](image-20201221110940619.png)
 
-
+For more, check it out:https://github.com/SmartArduino/SmartArduino.github.io/blob/master/docs/BouffaloLab/BL602_BL604/ReferenceManual/BL602_BL604_RM_1.0_en.pdf
 
 ## Contact Us
 
