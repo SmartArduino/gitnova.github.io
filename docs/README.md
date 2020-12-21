@@ -151,7 +151,7 @@
 
 # Bouffalo
 
-* ### **【One】BL602**/BL604 Profile
+* ### 【One】BL602/BL604 Profile
 
   * [BL602/BL604 Chip Data Manual](BouffaloLab/BL602_BL604/datasheet/datasheet.md)
 
