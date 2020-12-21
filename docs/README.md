@@ -153,13 +153,13 @@
 
 * ### **【One】BL602**/BL604 Profile
 
-  * [BL602/BL604 Chip Data Manual](BouffaloLab/BL602/atasheet/atasheet.md)
+  * [BL602/BL604 Chip Data Manual](BouffaloLab/BL602_BL604/atasheet/atasheet.md)
 
 * ### 【Two】BL602/BL604 Development Guidance
   
-  * [Getting Started Guide](BouffaloLab/BL602/start/start.md)
-* [[Getting Started Guide](BouffaloLab/BL602/start/start.md)](BouffaloLab/BL602/chipset/chipset.md)
-  * 
+  * [Getting Started Guide](BouffaloLab/BL602_BL604/start/start.md)
+* [[Getting Started Guide](BouffaloLab/BL602_BL604/start/start.md)](BouffaloLab/BL602/chipset/chipset.md)
+  * [BL602/BL604 Reference Manual](BouffaloLab/BL602_BL604/ReferenceManual/ReferenceManual.md)
 
 # RealTek
 
