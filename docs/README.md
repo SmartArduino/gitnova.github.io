@@ -18,7 +18,7 @@
 
 ## Tools
   * [Tools](/GeneralSource/softwareTools.md)
-  * [Arduino UNO WiFi/Bluetooth/Video Control Suite APK Software](https://github.com/SmartArduino/SmartArduino.github.io/blob/master/docs/Robot/Controller/app/base.apk)
+  * [APP for Smart Car](Robot/Controller/app/AppforSmartCar.md)
   * [W600 Serial Debugging Tool](WSeries/Tools/serial.md)
 
 # WinnerMicro
@@ -245,7 +245,6 @@
 ## Code of Controller
 
 * [Firmware](Robot/Controller/app/firmware.md)
-* [APP for Smart Car](Robot/Controller/app/AppforSmartCar.md)
 * [Big Power Board for Car](Robot/Controller/controller/BigPowerBoard.md)
 * [ESPduino Controller](Robot/Controller/controller/espduinoController.md)
 * [Use of Motor Shield for Arduino UNO](Robot/Controller/controller/unomotorshield.md)
