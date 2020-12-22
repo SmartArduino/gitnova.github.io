@@ -8,7 +8,7 @@
   
     This app is used for this controller as this pictures:
     
-    ![oldercontroller](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/app/oldercontroller.jpg)
+    ![oldercontroller](oldercontroller.jpg)
     
     1. http://en.doit.am/DoitCar_2016_0115.apk
     2. Source Code: http://en.doit.am/Doit_Car_en_1217.zip
@@ -20,25 +20,25 @@
     This app is used for this following video controller.
     
 
-![videodt-06](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/app/videodt-06.jpg)
+![videodt-06](videodt-06.jpg)
 
 ###     Nodemuc rc video kit
 
-![videoNodemcu](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/app//Volumes/iboysoft_ntfs_disk2s3_/Document/gitnova/document/electronics/app/videoNodemcu.jpg)
+![videoNodemcu](/Volumes/iboysoft_ntfs_disk2s3_/Document/gitnova/document/electronics/app/videoNodemcu.jpg)
 
-1. [Firmware for NodeMCU kit](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/app/https://github.com/SmartArduino/ESPboard/blob/master/videoNodeMCU__car.bin)
-2. [how to download the firmware](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/app/http://bbs.smartarduino.com/showthread.php?tid=13)
-3. [user manual](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/app/https://github.com/SmartArduino/ESPboard/blob/master/Manul_for_Video_Car.pdf). The manual is similar, just the connection, can be refer to [this document](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/app/https://github.com/SmartArduino/ESPboard/blob/master/WiFiSmartCarV2.pdf).
+1. [Firmware for NodeMCU kit](https://github.com/SmartArduino/ESPboard/blob/master/videoNodeMCU__car.bin)
+2. [how to download the firmware](http://bbs.smartarduino.com/showthread.php?tid=13)
+3. [user manual](https://github.com/SmartArduino/ESPboard/blob/master/Manul_for_Video_Car.pdf). The manual is similar, just the connection, can be refer to [this document](https://github.com/SmartArduino/ESPboard/blob/master/WiFiSmartCarV2.pdf).
 
 **Espduino RC video kit**
 
 
 
-![videoEspduino](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/app//Volumes/iboysoft_ntfs_disk2s3_/Document/gitnova/document/electronics/app/videoEspduino.jpg)
+![videoEspduino](/Volumes/iboysoft_ntfs_disk2s3_/Document/gitnova/document/electronics/app/videoEspduino.jpg)
 
-* [Firmware for ESPduino kit](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/app/https://github.com/SmartArduino/ESPboard/blob/master/New_ESPDuinoCar170420.zip)
-* [user manual](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/app/https://github.com/SmartArduino/ESPboard/blob/master/Manul_for_Video_Car.pdf)
-* [how to download the firmware to the board](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/app/https://github.com/SmartArduino/SZDOITWiKi/wiki/Arduino---ESPduino)
+* [Firmware for ESPduino kit](https://github.com/SmartArduino/ESPboard/blob/master/New_ESPDuinoCar170420.zip)
+* [user manual](https://github.com/SmartArduino/ESPboard/blob/master/Manul_for_Video_Car.pdf)
+* [how to download the firmware to the board](https://github.com/SmartArduino/SZDOITWiKi/wiki/Arduino---ESPduino)
 
     
   
@@ -50,9 +50,9 @@
   
    This app is used for the following controller.
    
-   ![newcontroller](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/app/newcontroller.jpg)
+   ![newcontroller](newcontroller.jpg)
    
    This controller kit can be used to wireless control car chassis and robot arm by WiFi, bluetooth, and PS2. Click the following the following link to download the app.
    
-   [download](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/app/https://github.com/SmartArduino/ESPboard/blob/master/BTcar.apk)
+   [download](https://github.com/SmartArduino/ESPboard/blob/master/BTcar.apk)
 
