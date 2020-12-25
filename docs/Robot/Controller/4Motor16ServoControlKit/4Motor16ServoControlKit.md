@@ -1,4 +1,4 @@
-<center><font size=10> 4电机&&16舵机控制套件使用说明 </center></font>
+<center><font size=10> 4 instructions for motor &&16 steering gear control kit </center></font>
 <center> From SZDOIT</center>
 
 ## 1. Profile
@@ -53,7 +53,7 @@ Special attention:
 
 WiFi and bluetooth Shared a program, warm prompt: download the program, to take down WiFi/bluetooth module, because WiFi/bluetooth module takes up the board serial lead to bat program download is not successful, and download the program before the program using the library files to download down, and then received the libraries under the arduino IDE installation directory folder, library file download address:https://github.com/SmartArduino/Arduino-Third-party-Libraries
 
-### 4.1 WiFi/蓝牙程序
+### 4.1 WiFi/ Bluetooth programs
 
 ```
 #include <Wire.h>
@@ -438,7 +438,7 @@ if(Flag[4]==true&&pulselen_3<=SERVOMAX_12){
 
 
 
-### 4.2 手柄程序
+### 4.2 Handle program
 
 ```
 #include <Servo.h> 
@@ -945,27 +945,29 @@ void loop()
 
 
 
-## 5.使用说明
+## 5.Directions for Use
 
-### 5.1 下载程序
+### 5.1 Download the program
 
-具体步骤如下，步骤有完成的自行跳到下一步：
+The specific steps are as follows. If the steps are completed, jump to the next step on your own:
 
-（1）下载安装arduino IDE软件，Arduino官网：https://www.arduino.cc/，安装流程自行百度
+（1）Download and install Arduino IDE software, arduino official website：https://www.arduino.cc/，Installation process by itself Baidu
 
-（2）安装CH340驱动
+（2）Install the CH340 driver
 
-根据自己的系统下载对应的驱动：https://gitnova.com/#/GeneralSource/drivers
+Download the corresponding driver according to their own system：https://gitnova.com/#/GeneralSource/drivers
 
 ![img](wps5.jpg) 
 
  
 
-（3）配置库文件
+（3）Library File
 
-打开第四节中库文件的下载地址：https://github.com/SmartArduino/Arduino-Third-party-Libraries，下载这两个库文件![img](wps6.jpg)
+Open the library file download address in section 4：https://github.com/SmartArduino/Arduino-Third-party-Libraries，Download the two library files
 
-然后将其解压到libraries文件接中
+![img](wps6.jpg)
+
+Then unzip it into the Libraries file connection
 
 ![img](wps7.jpg) 
 
@@ -973,55 +975,55 @@ void loop()
 
 ![img](wps8.jpg) 
 
-（4）打开程序
+（4）Open the program
 
-在github仓库中下载：https://github.com/SmartArduino/Arduino-Code，也可以自行创建新文件夹，然后把上一节中给的源码复制过来
+Download from the Github repository：https://github.com/SmartArduino/Arduino-Code，You can also create a new folder and copy the source code from the previous section
 
 ![img](wps9.jpg) 
 
  
 
-（5）选择板子型号
+（5）Select board model
 
 ![img](wps10.jpg) 
 
  
 
-（6）选择端口号
+（6）Select port number
 
-前提：使用USB线将控制板和USB连上
+Premise: use USB cable to connect the control panel and USB
 
-注：有多个串口的时候，请确保选择端口号是板子的
+Note: When there are multiple serial ports, be sure to select the port number for the applicable board
 
 ![img](wps11.jpg) 
 
-（7）编译程序
+（7）compiler
 
 ![img](wps12.jpg) 
 
  
 
-编译成功，如果不成功根据报错信息进行修改
+Compile successfully. If not, modify according to error message
 
 ![img](wps13.jpg) 
 
-（8）下载
+（8）Download
 
-如果前面编译成功，下载报错的话，先检查板子型号、端口号选对没有，然后在下载，还是不行的话，重启软件再试
+If the previous compilation is successful, download error, first check the board model, port number is not right, and then download, if can't download， restart the software to try again
 
 ![img](wps14.jpg) 
 
  
 
-### 5.2 操作说明
+### 5.2 Control specification
 
-下载程序之后，按照接线说明接好线
+After downloading the program, follow the wiring instructions
 
-注意：使用WiFi/蓝牙控制时，先安装手机app软件（只支持Android手机）：https://github.com/SmartArduino/SmartArduino.github.io/blob/master/docs/Robot/Controller/app/base.apk
+Note: When using WiFi/ Bluetooth control, first install the mobile app (Android phone only).：https://github.com/SmartArduino/SmartArduino.github.io/blob/master/docs/Robot/Controller/app/base.apk
 
-#### 5.2.1 蓝牙控制说明
+#### 5.2.1Bluetooth control instructions
 
-上电，开发手机APP
+Power on and develop mobile APP
 
 ![img](wps15.jpg) 
 
@@ -1033,7 +1035,7 @@ void loop()
 
 ![img](wps17.jpg) 
 
-注：图中蓝牙名称只是示例，根据自己的蓝牙选择对应的名称
+Note: The bluetooth name in the figure is just an example. Choose the corresponding name according to your bluetooth
 
 ![img](wps18.jpg) 
 
@@ -1041,35 +1043,35 @@ void loop()
 
 ![img](wps19.jpg) 
 
-中间这个英文字母变成ed形式表示蓝牙连接成功
+The middle letter becomes Ed to indicate that the Bluetooth connection is successful
 
 ![img](wps20.jpg) 
 
-通过点击这四个按键，控制小车前后左右运动，如果是麦克纳姆轮，要加上右下角那两个按钮，分别控制小车左漂移和右漂移
+Click these four buttons to control the car front and back left and right movement. If it is McNamum wheel, add the two buttons at the bottom right corner to control the car left drift and right drift respectively
 
 ![img](wps21.jpg) 
 
-控制舵机运动：
+Control steering gear movement:
 
 ![img](wps22.jpg) 
 
 ![img](wps23.jpg) 
 
-先选中控制路数，然后点击右下角两个按钮控制舵机左右和右转
+First select the control route, and then click the bottom right two buttons to control the steering gear left and right turn
 
 ![img](wps24.jpg) 
 
-注意：这里的路数SG0~SG15对应板子上的控制引脚号0~15
+Note: the road number SG0~SG15 here corresponds to the control pin number 0~15 on the board
 
 ![img](wps25.jpg) 
 
-视屏教程：https://github.com/SmartArduino/zhdocs/blob/master/zhControlPanel/4%26%2616ControlKit/Bluetooth.rar
+Video tutorial：https://github.com/SmartArduino/zhdocs/blob/master/zhControlPanel/4%26%2616ControlKit/Bluetooth.rar
 
-#### 5.2.2 WiFi控制说明
+#### 5.2.2 WiFi control instructions
 
-温馨提示：蓝牙和WiFi控制，除了连接方式不一样，控制方式是一样的。
+Tips: Bluetooth and WiFi control, except the connection mode is different, control mode is the same。
 
-打开手机WLAN，找到名称为Doit_WiFI_XXXX的热点并连接（XXXX是模块MAC地址，注意有多个设备同时使用的时候），连上等5s左右会出现弹出一个选择框，然后选择“使用”
+Open the mobile phone WLAN, find the hot spot named Doit_WiFI_XXXX and connect it (XXXX is the MAC address of the module, please note that there are multiple devices using it at the same time). A selection box will pop up when you connect 5s, and then select "使用".
 
 ![img](wps26.jpg) 
 
@@ -1077,95 +1079,83 @@ void loop()
 
  
 
-进去之后查看界面中间这个字母有没有变为ed形式，没有的话在检查下热点有没有连接好
+After entering, check whether the letter in the middle of the interface has changed into Ed form. If not, check whether the hot spot is connected
 
 ![img](wps28.jpg) 
 
  
 
-电机和舵机的控制和上一小节蓝牙的一样，自行参照控制。
+The control of motor and steering gear is the same as that of Bluetooth in the previous section.
 
-#### 5.2.3 手柄控制说明
+#### 5.2.3 Handle control instructions
 
-注意：先把接收器插到板子上在通电，如果是先通电在插手柄接收器话，要按下板子上的复位按键，否则板子检查不到接收器，无法控制
+Note: First plug the receiver into the board before powering on. If it is plugged into the handle receiver, press the reset button on the board, otherwise the board cannot check the receiver and cannot control it
 
-（1）插上接受器，上电；打开手柄的电源开关，当手柄上的指示灯和接受器上的指示灯不闪烁的时候就表示手柄连接好，可以开始控制了
+(1) Plug in the receiver and power on; Turn on the power switch of the handle. When the indicator light on the handle and the indicator light on the receiver do not flash, the handle is connected and ready to be controlled
 
 ![img](wps29.jpg) 
 
-（2）按PSB_PAD_UP 和PSB_PAD_DOWN和PSB_PAD_LEFT和PSB_PAD_RIGHT这四个按键控制小车前后左右运动
+（2）Press PSB_PAD_UP and PSB_PAD_DOWN and PSB_PAD_LEFT and PSB_PAD_RIGHT to control the car's front and back movement
 
-（3）控制舵机：先选择控制数，然后按下PSB_R1同时摇动PSB_R3，往上左转，往下右转（舵机要接到板子上的0~6这几个接口）
+（3）Control steering gear: select the control number first, then press PSB_R1 and shake PSB_R3 at the same time, turn left upward and turn right downward (the steering gear should be connected to 0~6 interfaces on the board).
 
 ![img](wps30.jpg) 
 
  
 
-手柄上的控制数和板子上的控制接口对应关系
+The control number on the handle corresponds to the control interface on the board
 
-| 手柄按键（控制数） | 控制板 |
-| ------------------ | ------ |
-| PSB_START          | 0      |
-| PSB_SQUARE         | 1      |
-| PSB_TRIANGLE       | 2      |
-| PSB_CIRCLE         | 3      |
-| PSB_CROSS          | 4      |
-| PSB_L2             | 5      |
-| PSB_R2             | 6      |
+| Handle keys (control number) | Control panel |
+| ---------------------------- | ------------- |
+| PSB_START                    | 0             |
+| PSB_SQUARE                   | 1             |
+| PSB_TRIANGLE                 | 2             |
+| PSB_CIRCLE                   | 3             |
+| PSB_CROSS                    | 4             |
+| PSB_L2                       | 5             |
+| PSB_R2                       | 6             |
 
 ![img](wps31.jpg) 
 
-## 6. 常见问题
+## 6. Q&A
 
-（1）板子最高能承受多大的电压？
+（1）What is the maximum voltage the board can withstand?
 
-A：15V，由于电机驱动芯片是TB6612，他的最大承受电压为15V
+A：15V, as the motor driver chip is TB6612, its maximum withstand voltage is 15V
 
-（2）如果给舵机单独供电，可以只用一个电源吗？
+（2）If you power the steering gear separately, can you use only one power source?
 
-A：不可以，因为舵机启动过程中瞬间电流不叫大，导致工作电压不稳定造成控制板不能正常工作，所以在VM上要加一个电源给控制板供电。
+A：No, because the instantaneous current is  large during the steering gear starting process, the working voltage is unstable and the control board cannot work normally, so a power supply should be added to the VM to supply power to the control board.
 
-（3）给舵机单独供电的时候，可以不拆（VS和+5V）上的跳线帽吗？
+（3）Can the jumper cap on (VS and +5V) not be removed when powering the steering gear separately?
 
-A：不可以，这样会导致板子上面的5V电源和外接的电源串联，严重的会烧毁芯片
+A：No, this will cause the 5V power supply on the board and the external power supply in series, which will seriously burn the chip
 
-（4）插上蓝牙/WiFi模块，为什么不能下载程序？
+（4）Plug in the Bluetooth /WiFi module, why can't you download the program?
 
-A：因为蓝牙/WiFi模块会占用板子上的下载串口，所以下载程序的时候一定要取下蓝牙/WiFi模块
+A：Since the Bluetooth /WiFi module will occupy the download port on the board, be sure to remove the Bluetooth /WiFi module when downloading programs
 
-（5）插上手柄之后，指示灯常亮，但是控制的时候没有反应，什么原因？
+（5）After the handle is plugged in, the indicator light is always on, but there is no response during the control. What is the reason?
 
-A：1）程序中使用的PS2库不支持热插拔，插上接收器之后要按下板子上的复位按键
+A：1）The PS2 library used in the program does not support hot plugging. After plugging in the receiver, press the reset button on the board
 
-​      2）手柄需要3V（2接1.5V）电池供电，电压低了不能工作
+​      2）The handle is powered by a 3V (2 connected to 1.5V) battery, so the voltage is too low to work
 
-​      3）检查程序有没有下载成功（通过Arduino IDE串口监视器验证）
+​      3）Check whether the program has been downloaded successfully (verified by Arduino IDE serial port monitor)
 
-（6）什么时候需要给舵机单独供电？
+（6）When do you need to power the steering gear separately?
 
-A：1）使用的舵机电源高于5V 
+A：1）The power supply of steering gear used is higher than 5V
 
-​	  2）要同时控制多个舵机的时候
+​	  2）When you have to control multiple steering engines at the same time
 
-（7）使用PS2手柄控制的时候，能控制小车，不能控制舵机，什么原因？
+（7）When using PS2 handle control, the car can be controlled, but the steering gear cannot be controlled. Why?
 
-A：核对下舵机的接线，然后看下手柄的操作是否正确
+A：Check the wiring of the bottom steering gear, and then see if the handle is operating correctly
 
-## 支持与服务
+## Contact Us
 
-| 四博智联资源                                        |                                                              |
-| --------------------------------------------------- | ------------------------------------------------------------ |
-| 官网                                                | [www.doit.am](http://www.doit.am/)                           |
-| 教材                                                | [ESPDuino智慧物联开发宝典](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-7420449993.9.Bgp1Ll&id=520583000610) |
-| 购买                                                | [官方淘宝店](https://szdoit.taobao.com/)(szdoit.am)          |
-| 讨论                                                | [技术论坛](http://bbs.doit.am/forum.php)(bbs.doit.am)        |
-| 应用案例集锦                                        |                                                              |
-| [Doit玩家云](http://wechat.doit.am)(wechat.doit.am) | [免费TCP公网调试服务](http://tcp.doit.am)(tcp.doit.am)       |
-| 官方技术支持QQ群1/2/3群已满                         |                                                              |
-| 技术支持群4                                         | 278888904                                                    |
-| 技术支持群5                                         | 278888905                                                    |
-| 术支持群6                                           | 278888906                                                    |
-| 技术支持群7                                         | 278888907                                                    |
-| 技术支持群8                                         | 278888908                                                    |
-| 技术支持群9                                         | 278888909                                                    |
-| 技术支持群10                                        | 278888900                                                    |
+- E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
+- Skype: yichone
+- WhatsApp:+86-18676662425
+- Wechat: 18676662425
