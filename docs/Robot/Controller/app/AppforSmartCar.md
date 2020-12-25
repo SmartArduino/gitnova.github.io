@@ -54,5 +54,5 @@
    
    This controller kit can be used to wireless control car chassis and robot arm by WiFi, bluetooth, and PS2. Click the following the following link to download the app.
    
-   [download](https://github.com/SmartArduino/ESPboard/blob/master/BTcar.apk)
+   [download](https://github.com/SmartArduino/SmartArduino.github.io/blob/master/docs/Robot/Controller/app/base.apk)
 
