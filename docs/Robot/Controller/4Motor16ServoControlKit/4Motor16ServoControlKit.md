@@ -1,57 +1,57 @@
 <center><font size=10> 4电机&&16舵机控制套件使用说明 </center></font>
 <center> From SZDOIT</center>
 
-## 1. 简介
+## 1. Profile
 
-该控制套件采用金典的Arduino UNO R3作为控制板，驱动扩展板是我司自主研发采用 TB6612 四路驱动，PCA9685 作 16 路舵机控制。
+The control suite uses Arduino UNO R3  as the control board. The drive extension board is developed by our company independently using TB6612 four-way drive and PCA9685 as the 16-way steering gear control.
 
 ![img](wps1.jpg) 
 
-## 2. 特点
+## 2. Characteristics
 
-（1）引出 Arduino UNO I/O 引脚；
+（1）Arduino UNO I/O pins are all extracted;
 
-（2）电源最大输入电压 15V/DC；
+（2）The maximum power input voltage is 15V/DC;
 
-（3）预留蓝牙&WIFI 模块插座；
+（3）Reserve bluetooth &WIFI module socket;
 
-（4）预留 PS2 手柄插座；
+（4）Reserve PS2 handle socket;
 
-（5）四路直流电机驱动，单路最大驱动电流 1.2A平均值/3.2A峰值；
+（5）Four-channel DC motor drive, single-channel maximum drive current 1.2a average /3.2A peak;
 
-（6）16 路舵机驱动插针，供电可通过跳线帽外部/内部供电切换；
+（6）The 16-way steering gear drives the pin, and the power supply can be switched through the jumper cap external/internal power supply;
 
-## 3. 接线说明
+## 3. Wiring instructions
 
-特别注意：
+Special attention:
 
-（1）VM上电源不要超过15V
+（1）No more than 15V power on the VM
 
-（2）共用1个电源时，（VM和VIN）和（VS和+5V）上的跳线帽要插上，电源要接在VM上
+（2）When 1 power is shared, the jumper caps on (VM and VIN) and (VS and +5V) are plugged in, and the power is connected to the VM
 
-（3）在VS上为舵机供电时，（VS和+5V）上的跳线帽要取下，否则板子会烧毁
+（3）When powering the steering gear on VS, the jumper cap on (VS and +5V) must be removed, otherwise the board will burn out
 
-（4）在使用手柄或者WiFi或者蓝牙的时候，对应引脚插上即可
+（4）When using the handle, WiFi or Bluetooth, just plug in the corresponding pin
 
-### 3.1 蓝牙接线说明
+### 3.1 Bluetooth wiring instructions
 
 ![img](wps2.jpg) 
 
-### 3.2 WiFi接线说明
+### 3.2 WiFi wiring instructions
 
 ![img](wps3.jpg) 
 
  
 
-### 3.2 PS2手柄接线说明
+### 3.2 PS2 handle wiring instructions
 
 ![img](wps4.jpg) 
 
  
 
-## 4. 源码
+## 4. The source code
 
-WiFi和蓝牙共用一个程序，温馨提示：下载程序的时候，要把WiFi/蓝牙模块取下来，因为WiFi/蓝牙模块会占用板子的串口导致板子程序下载不成功，而下载程序之前要把程序中使用到的库文件下载下来，然后接到到arduino IDE安装目录下的libraries文件夹下，库文件下载地址：https://github.com/SmartArduino/Arduino-Third-party-Libraries
+WiFi and bluetooth Shared a program, warm prompt: download the program, to take down WiFi/bluetooth module, because WiFi/bluetooth module takes up the board serial lead to bat program download is not successful, and download the program before the program using the library files to download down, and then received the libraries under the arduino IDE installation directory folder, library file download address:https://github.com/SmartArduino/Arduino-Third-party-Libraries
 
 ### 4.1 WiFi/蓝牙程序
 
