@@ -255,6 +255,7 @@
 * [18DOF VIVI Robot Control Board](Robot/Controller/vivirobot/vivirobot.md)
 * [USB To TTL Downloader](Robot/Controller/USBToTTLDownloader/USBToTTLDownloader.md)
 * [Infrared remote control tracking and obstacle avoidance car](Robot/FrameChassis/TrackingObstacleCar/TrackingObstacleCar.md)
+* [4 Instructions for Motor &&16 Steering Gear Control Kit ](Robot/Controller/4Motor16ServoControlKit/4Motor16ServoControlKit.md)
 
 ## Engine
 * ### 【One】Motor

@@ -1,4 +1,4 @@
-<center><font size=10> 4 instructions for motor &&16 steering gear control kit </center></font>
+<center><font size=10> 4 Instructions for Motor &&16 Steering Gear Control Kit </center></font>
 <center> From SZDOIT</center>
 
 ## 1. Profile
