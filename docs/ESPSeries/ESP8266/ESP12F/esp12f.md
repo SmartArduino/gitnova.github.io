@@ -2,7 +2,7 @@
 
 <center> from SZDOIT </center>
 
-# 1. Introduction
+## 1. Introduction
 
 ESP-12F WiFi module is a low-power and cost-effective embedded wireless network control module. It can meet the needs of Internet of Things applications such as smart grid, building automation, security, smart home, telemedicine and so on.
 
@@ -12,9 +12,9 @@ The core processor ESP8266 integrates the industry-leading Tensilica L106 ultra-
 
 This module supports standard IEEE802.11 b/g/n protocol and complete TCP/IP protocol stack. Users can use this module to add networking functions to existing devices, or to build independent network controllers.
 
-# 2. Main Features
+## 2. Main Features
 
-# 2.1 Structure
+### 2.1 Structure
 
  
 
@@ -22,7 +22,7 @@ This module supports standard IEEE802.11 b/g/n protocol and complete TCP/IP prot
 
 Figure Module Structure
 
-# 2.2 Hardware parameters
+### 2.2 Hardware parameters
 
 * Operating voltage: 3.3V (3.0-3.6V)
 * Work environment temperature: - 40 - 85 degrees C
@@ -47,9 +47,9 @@ Figure Module Structure
 * Support local serial port burning, cloud upgrade, host download burning
 * Supporting Station/SoftAP/SoftAP+Station Wireless Network Mode
 
-# 3 Pins Definition
+## 3 Pins Definition
 
-# 3.1  Interface Definition
+### 3.1  Interface Definition
 
  
 
@@ -82,11 +82,7 @@ Table 2.2 Pins Function
 | 21                     | RXD              | UART0_RXD； GPIO3                                            |
 | 22                     | TXD              | UART0_TXD；GPIO1                                             |
 
- 
-
- 
-
-# 3.2 Shape and Size
+### 3.2 Shape and Size
 
  
 
@@ -110,9 +106,9 @@ Table 3.1 Size for ESP-12F
 
  
 
-# 4. Function
+## 4. Function
 
-# 4.1 MCU 
+### 4.1 MCU 
 
 ESP8266EX built-in Tensilica L106 ultra-low power 32-bit micro MCU, with 16-bit streamlined mode, main frequency support 80MHz and 160MHz, support RTOS. At present, the WiFi protocol stack only uses 20% processing power, the rest can be used for application development. The MCU can work together with other parts of the chip through the following interfaces:
 
@@ -123,9 +119,9 @@ ESP8266EX built-in Tensilica L106 ultra-low power 32-bit micro MCU, with 16-bit 
 - The AHB interface of the access controller.
 
 
-# 4.2 Store 
+### 4.2 Store 
 
-# 4.2.1 Built-in SRAM 与 ROM 
+#### 4.2.1 Built-in SRAM 与 ROM 
 
 Based on the use of SRAM in Demo SDK, users can use the remaining SRAM space as follows:
 
@@ -134,14 +130,14 @@ Based on the use of SRAM in Demo SDK, users can use the remaining SRAM space as 
 - At present, there is no programmable ROM on ESP8266EX chip, and user programs are stored in SPI Flash.
 
 
-# 4.2.2 SPI Flash 
+#### 4.2.2 SPI Flash 
 
 - ESP8266EX chip supports external FLASH using SPI interface, and theory supports 16MB SPI Flash.
 
 - ESP-01 module is equipped with 8Mbit SPI Flash, which can meet the needs of general customers.
 
 
-# 4.3 Interface Definition
+### 4.3 Interface Definition
 
 Table Interface definition
 
@@ -156,15 +152,9 @@ Table Interface definition
 |               | UART1:  IO2(TXD)                                             | UART0  will output some printing information by default when it is powered on  ESP8266-12S. For this sensitive application, the internal pin switching  function of UART can be used to exchange U0TXD and U0RXD with U0RTS and U0CTS  respectively during initialization. Hardware Connect MTDOMTCK to Serial Port  Import Communication of Corresponding External MCU |
 | I2S           | I2S  input:  IO12 (I2SI_DATA);   IO13 (I2SI_BCK ); IO14  (I2SI_WS);   ![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP12F/clip_image010.gif)  I2S output  IO15 (I2SO_BCK );   IO3 (I2SO_DATA);   IO2 (I2SO_WS ); | It  is mainly used for audio acquisition, processing and transmission. |
 
+## 5. Electrical characteristics
 
-
- 
-
-# 5. Electrical characteristics
-
-## 5.1 Power Consumption
-
- 
+### 5.1 Power Consumption
 
 | Deep Sleep                                     | 20uA  |
 | ---------------------------------------------- | ----- |
@@ -185,7 +175,7 @@ Table Interface definition
 
 ③ Deep-Sleep mode is applied to the case that Wi-Fi is not necessary to connect all the time, just send a data packet after a long time (e.g., transmit one temperate data each 100s) . it just need 0.3s-1s to connect AP after each 300s, and the whole average current is much smaller 1mA.
 
-# 5.2 RF  Features 
+### 5.2 RF  Features 
 
 Table RF parameters
 
@@ -208,9 +198,7 @@ Table RF parameters
 | HT20，MCS0                       | /       | 37                              | /       | dB        |
 | HT20，MCS7                       | /       | 20                              | /       | dB        |
 
- 
-
-# 5.3 Digital Port Characteristics
+### 5.3 Digital Port Characteristics
 
 | **Rating** **value** | **condition**       |              | **value** |      | **unite** |      |
 | -------------------- | ------------------- | ------------ | --------- | ---- | --------- | ---- |
@@ -219,9 +207,7 @@ Table RF parameters
 | voltage              | IPC/JEDEC J-STD-020 | +3.0 to +3.6 | V         |      |           |      |
 |                      |                     |              |           |      |           |      |
 
-  
-
-# 5.4 Digital Port Characteristics 
+### 5.4 Digital Port Characteristics 
 
 Table Digital Port Characteristics
 
@@ -234,9 +220,7 @@ Table Digital Port Characteristics
 | power                    | IPC/JEDEC  J-STD-020 | +3.0 to +3.6 | V    |           |           |      |
 |                          |                      |              |      |           |           |      |
 
- 
-
-# 5.5 Ramp Up
+### 5.5 Ramp Up
 
 Table ramp up
 
@@ -252,15 +236,13 @@ Table ramp up
 | Inclined  cooling rate（TsMax. To  TL）                      | Max  6°C / s                       |
 | Time required  for peak modulation temperature from  25°C (t) | Max  8 minutes                     |
 
- 
-
-# 6. Schematic Diagram
+## 6. Schematic Diagram
 
 ![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP12F/clip_image013.jpg)
 
 Figure ESP-12F Schematic Diagram
 
-# 7. Minimum System
+## 7. Minimum System
 
  
 
@@ -282,13 +264,11 @@ l And reset module;
 
 l RXD of module is connected with TXD of MCU, TXD of module is connected with RXD of MCU;
 
-# 8. Peripheral Routing Suggestions
+## 8. Peripheral Routing Suggestions
 
 ESP-07 module can be welded to PCB board. In order to obtain the best RF performance of the terminal product, please pay attention to the reasonable design of the module and antenna placement on the bottom board in accordance with this guide.
 
-# 9. Peripheral Routing Suggestions
-
- 
+## 9. Peripheral Routing Suggestions
 
 ESP-01 integrates high-speed GPIO and peripheral interfaces, which may cause serious switching noise. If some applications are for power consumption and EMI features require higher requirements. It is recommended that 10 - 100 ohms of resistance be connected in series on digital I / O lines. This can suppress the overshoot and make the signal smooth when switching on the power supply. Series resistance can also prevent ESD to some extent.
 
@@ -314,9 +294,7 @@ PCB antenna is also allowed on the floor, as long as there is no copper under th
 
 Solution 3: Antennas are placed along the edge of the plate and not covered with copper underneath. 
 
-
-
-# 10.  The Recommended Sold Temperature Curve
+## 10.  The Recommended Sold Temperature Curve
 
  
 
@@ -324,7 +302,7 @@ Solution 3: Antennas are placed along the edge of the plate and not covered with
 
 Fig. 7.1 Temperature Curve when Sold
 
-  # Contact Us
+  ## Contact Us
 
 - E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
 - Skype: yichone
