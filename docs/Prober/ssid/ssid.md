@@ -3,7 +3,7 @@
 <center> from SZDOIT </center>
 
 
-# Introduction
+## Introduction
 
 - WIFI Hot Spot Advertising Machine, publishing its own ads anytime, anywhere.
 - WiFi SSID hotspot ads tailor personalized advertising for you.
@@ -12,7 +12,7 @@
 - Products have been widely used in restaurants, shopping malls, shops, personal second-hand transfer, buses, exhibitions and many other places crowded.
 - Mobile advertising.
 
-# Characteristics
+## Characteristics
 
 - Simple operation: direct power supply, the browser randomly sets advertising words;
 - Great value ads: Your ad words, your master, free to change, but also free of charge;
@@ -20,7 +20,7 @@
 - No app, just a mobile browser;
 - Numerous hotspots: Up to 32 hot-spot ads can be set, each with 10 Chinese characters, 32 letters or numbers.
 
-# How to Use
+## How to Use
 
 * Power on the device (with charging treasure, computer, USB power supply, or even mobile phone). The indicator light flashes rapidly. If the indicator light does not blink quickly, please go to step 5. You can use the OTG adapter of the mobile phone to edit advertisement anywhere, anytime.
 
@@ -64,7 +64,7 @@ After setting up successfully, the surrounding mobile phone will see your advert
 
 ![ssid5](https://github.com/SmartArduino/document/raw/master/docs/Prober/ssid/ssid5.jpg)
 
-# Contact
+## Contact
 
 - Email: yichoneyi@163.com
 - WhatsApp: 008618676662425
