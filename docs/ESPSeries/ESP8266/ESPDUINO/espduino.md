@@ -10,14 +10,14 @@ By using the ESP8266 WiFi Chip and MCU, ESPduino can work with the support of Wi
 
 ![espduino](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPDUINO/espduino.jpg)
 
-# 2. Features
+## 2. Features
 
 - Compatible with Arduino UNO R3;
 - With WiFi;
 - with chip ESP8266;
 - [schematics pdf](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPDUINO/https://github.com/SmartArduino/ESPboard/blob/master/espduino_shematic.pdf)
 
-# 3. Download IDE and Drivers
+## 3. Download IDE and Drivers
 
 **(1) Download the compatible-Arduino IDE**
 
@@ -41,7 +41,7 @@ http://bbs.smartarduino.com/showthread.php?tid=2038
 
 Note that, if you get the **new version** ESPduino (order it after Sep. 30, 2016), please further confirm whether the "Reset Method" is "ESPduino-V2" (which is also the default setting); if you get the **old version** (order it before Sep. 30, 2016), please choose the "Reset Method" is "ESPduino-V1".
 
-# 4. How to Use
+## 4. How to Use
 
 This section is just for the installation and use the Arduino IDE, and download the code into the ESPduino development board. Especially, for convenience, we have already improved the ESPduino since Sep. 30, 2016, and now you DO NOT need to press any button, when you download the code. Note that, the old version must press the button when download the code.
 
@@ -59,7 +59,7 @@ After building the Arduino IDE, we should test whether the Arduino IDE for ESPdu
 
 If it is successful, then the Arduino IDE for ESPduino IDE is ok.
 
-# In Summary
+## In Summary
 
 - Download the right software by the given links;
 - Install the CH340 driver;
@@ -69,7 +69,7 @@ If it is successful, then the Arduino IDE for ESPduino IDE is ok.
 
 
 
-# Contact Us
+## Contact Us
 
 - E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
 - Skype: yichone
