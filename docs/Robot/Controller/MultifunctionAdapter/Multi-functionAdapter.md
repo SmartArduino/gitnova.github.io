@@ -2,9 +2,9 @@
 
 <center> from SZDOIT </center>
 
-# 1. Product Introduction
+## 1. Product Introduction
 
-## 1.1 Performance And Technical Indicators
+### 1.1 Performance And Technical Indicators
 
 ![wps1](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps1.jpg) 
 
@@ -68,7 +68,7 @@
 
 ●Working temperature: -40°C-+85°C
 
-## 1.2 Typical Application
+### 1.2 Typical Application
 
 ●I2C bus test, I2C interface component register reading and writing, EEPROM storage data reading and writing
 
@@ -76,7 +76,7 @@
 
 ●Serial port program debugging, MCU download, STC ISP download
 
-## 1.3 Communication Protocol Conversion
+### 1.3 Communication Protocol Conversion
 
 ●USB and I2C bus interface protocol conversion;
 
@@ -84,47 +84,47 @@
 
 ●USB and UART serial communication protocol conversion;
 
-## 1.4 Product List
+### 1.4 Product List
 
 ●ALL IN ONE USB to I2C/UART/SPI adapter motherboard
 
-# 2.The Shape And Interface Description
+## 2.The Shape And Interface Description
 
-## 2.1 Product Sppearance
+### 2.1 Product Sppearance
 
 ![wps2](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps2.jpg) 
 
-## 2.2 Definition Of Adapter External Interface
+### 2.2 Definition Of Adapter External Interface
 
 This adapter is a multi-functional product, including SPI interface, I2C interface, UART interface, I2C and UART interface, asynchronous serial interface reserved interface, parallel printing interface, etc.
 
-### 2.2.1 SPI Interface (XH2.54MM Straight Pin)
+#### 2.2.1 SPI Interface (XH2.54MM Straight Pin)
 
 ![wps3](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps3.png) 
 
 ![wps4](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps4.jpg) 
 
-### 2.2.2 I2C Interface (PH2.25MM Pin Header)
+#### 2.2.2 I2C Interface (PH2.25MM Pin Header)
 
 ![wps5](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps5.jpg) 
 
 ![wps6](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps6.jpg) 
 
-### 2.2.3 UART Interface (PH2.25 Pin Header)
+#### 2.2.3 UART Interface (PH2.25 Pin Header)
 
 ![wps7](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps7.jpg) 
 
-### 2.2.4 I2C And UART Interface (XH2.5MM Curved Pin)
+#### 2.2.4 I2C And UART Interface (XH2.5MM Curved Pin)
 
 ![wps8](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps8.jpg) 
 
-### 2.2.5 Asynchronous Serial Port Reserved Interface
+#### 2.2.5 Asynchronous Serial Port Reserved Interface
 
 The asynchronous serial port, the full-signal reserved interface of UART, is located in the middle of the front of the adapter mainboard. There are 20 jacks in total, which can be installed with dual-row 2.54MM pitch pins or DC3-20P simple horn socket.
 
 ![wps9](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps9.jpg) 
 
-### 2.2.6 Printer Parallel Port
+#### 2.2.6 Printer Parallel Port
 
 The reserved port for the parallel port of the printer is located in the middle of the back side of the adapter main board. There are a total of 20 jacks, which share the same port with the asynchronous serial port. You can install dual-row 2.54MM pitch pins or DC3-20P simple horn socket.
 
@@ -134,17 +134,17 @@ The reserved port for the parallel port of the printer is located in the middle 
 
 The adapter also supports parallel connection
 
-## 2.3 Function Switch
+### 2.3 Function Switch
 
 Which function the adapter uses is determined by the power-on initialization state of the adapter's USB conversion chip. The initialization process completes the function configuration of the chip, and the function switch needs to re-power the adapter (re-plugging).
 
-### 2.3.1 I2C/SPI And UART Function Configuration
+#### 2.3.1 I2C/SPI And UART Function Configuration
 
 The ALL IN ONE adapter function switching jumper is located next to the USB interface, and the common functions can be switched by adjusting the position of the jumper.
 
 The configuration of I2C and SPI functions is the same, as![wps12](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps12.jpg);The UART serial port function is configured as![wps13](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps13.jpg)
 
-### 2.3.2 MEM/EPP And Other Function Configuration
+#### 2.3.2 MEM/EPP And Other Function Configuration
 
 The adapter can directly configure the function of the chip through the connection combination of SCL and SDA pins.
 
@@ -152,33 +152,33 @@ The adapter can directly configure the function of the chip through the connecti
 
 Note: When the I2C function is not applicable, the I2C connection must be disconnected from the target computer, otherwise the configuration of other functions of the chip may be affected.
 
-## 2.4 I/O Level Selection
+### 2.4 I/O Level Selection
 
 The USB chip of the adapter supports 3.3V and 5V working voltages. Therefore, the TTL level of the adapter's output interface IO signal can be switched between 3.3V TTL and 5V TTL by adjusting the chip's working voltage.
 
-### 2.4.1 3.3V I/O Level Selection
+#### 2.4.1 3.3V I/O Level Selection
 
 3.3V TTL IO level is achieved by adjusting the Level Select jumper cap on the right side of the chip on the 3.3V side, as shown in the figure below:
 
 ![wps15](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps15.jpg) 
 
-### 2.4.2 5V I/O Level Selection
+#### 2.4.2 5V I/O Level Selection
 
 The 5V TTL IO level is realized by placing the Level Select jumper cap on the right side of the chip on the 5V side, as shown in the figure below:
 
 ![wps16](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps16.jpg) 
 
-## 2.5 External Interface Power Supply Voltage Selection
+### 2.5 External Interface Power Supply Voltage Selection
 
 The adapter can provide external power supply voltage consistent with the IO signal level, or a 5V power supply voltage independent of the IO signal level, or it can not provide external power output. This function can be realized by adjusting the PWR-SEL jumper located between the two white sockets.
 
-### 2.5.1 5V Supply Voltage
+#### 2.5.1 5V Supply Voltage
 
 Put the PWR-SEL red jumper cap on the 5V side, and the voltage of the adapter output interface VDD is 5V, which has nothing to do with the current working voltage of the chip. The configuration is shown below:
 
 ![wps17](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps17.jpg) 
 
-### 2.5.2 3.3V Supply Voltage
+#### 2.5.2 3.3V Supply Voltage
 
 Put the PWR-SEL red jumper cap on the VCC side, and the voltage of the adapter output interface VDD will be consistent with the current working voltage of the chip. The configuration is shown below:
 
@@ -188,19 +188,19 @@ To output a 3.3V power supply voltage, the chip operating voltage must be set to
 
  
 
-## 2.6 Indicator
+### 2.6 Indicator
 
 The indicator lights are located on both sides of the SPI interface. After the adapter is powered on, there will be a short configuration time. After the USB chip completes the function configuration, the different function indicator lights will have different states, which can determine whether the function configuration of the USB chip is successful , And the working status of the USB chip.
 
  
 
-### 2.6.1 I2C/SPI Function Indicator Status
+#### 2.6.1 I2C/SPI Function Indicator Status
 
 When the adapter is configured for I2C and SPI functions, the indicator status is the same, the red indicator light is TNOW
 
 Always on, the green indicator light RDY.
 
-### 2.6.2 UART Function Indicator Status
+#### 2.6.2 UART Function Indicator Status
 
 When the adapter is configured for UART serial port function, the red indicator light is off and the green indicator light RDY is on.
 
@@ -208,13 +208,13 @@ The TNOW indicator flashes when there is data transmission on the serial port.
 
 Third, the upper computer application software
 
-# 3. Driver Installation
+## 3. Driver Installation
 
 There are two adapter drivers: parallel port driver and serial port driver. Adapter when using different functions
 
 Appropriate driver will be called automatically, no conflict will occur. Therefore, no matter what function is used, it is recommended to install both drivers.
 
-## 3.1 Parallel Port Driver Installation
+### 3.1 Parallel Port Driver Installation
 
 Open the data package, find the folder where the driver is stored, and double click CH341PAR.EXE to start the parallel port
 
@@ -228,7 +228,7 @@ Click Install, wait a few seconds, the "Driver pre-installation succeeded!" wind
 
 ![wps20](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps20.png)
 
-## 3.2 Serial Port Driver 
+### 3.2 Serial Port Driver 
 Installation
 
 Open the data package, find the folder where the driver is stored, and double-click CH341SER.EXE to start the parallel port driver installation:
@@ -243,9 +243,9 @@ Click Install, wait a few seconds, the "Driver pre-installation succeeded!" wind
 | ---- | ------------------------------------------------------------ |
 |      | ![wps22](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps22.png) |
 
-## 3.3 I2C Application Software
+### 3.3 I2C Application Software
 
-### 3.3.1 USB I2C Host Computer Software
+#### 3.3.1 USB I2C Host Computer Software
 
 The software has two sub-pages, I2C interface and EEPROM read-write interface, the interface is as follows:
 
@@ -257,7 +257,7 @@ I2C interface interface
 
 EEPROM read and write interface
 
-### 3.3.2 I2C Interface
+#### 3.3.2 I2C Interface
 
 The software reads and writes the I2C compatible two-wire synchronous serial port in streaming mode, and calls the API in the driver interface
 
@@ -299,7 +299,7 @@ Write 01~08 data from the 00 position of A0
 
 Read the data just written from the 00 position of A0.
 
-### 3.3.3 EEPROM Read And Write
+#### 3.3.3 EEPROM Read And Write
 
 EEPROM reading and writing are realized by calling the EEPROM dedicated API function in the driver library:
 
@@ -331,7 +331,7 @@ Base), click Read, the result is as follows:
 
 This software provides source code, located in the software directory Resource, for reference for secondary development of I2C upper computer software.
 
-### 3.3.4 USB IIC&SPI Host Computer Software (I2C Part)
+#### 3.3.4 USB IIC&SPI Host Computer Software (I2C Part)
 
 This software mainly demonstrates I2C and SPI functions, has a rich menu interface, and is stored in
 
@@ -359,7 +359,7 @@ This software provides the accompanying SDK source code, located under the folde
 
  
 
-## 3.4 SPI Application Software
+### 3.4 SPI Application Software
 
 See the table below for SPI working mode:
 
@@ -371,7 +371,7 @@ The adapter SPI interface works with SPI Mode0 by default, and the clock is fixe
 
  
 
-### 3.4.1 USB SPI Host Computer Software
+#### 3.4.1 USB SPI Host Computer Software
 
 The software calls the USBIO_StreamSPI4 interface library API function in the driver library to read and write the SPI-compatible 4-wire synchronous serial port in stream mode. The interface is as follows:
 
@@ -425,7 +425,7 @@ Read the status register of X5045, the command code is: 05 (Hex), 00 (Hex, in fa
 
 ![wps38](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps38.jpg) 
 
-### 3.4.2 USB IIC&SPI Host Computer Software (SPI P*art)
+#### 3.4.2 USB IIC&SPI Host Computer Software (SPI P*art)
 
 The USB IIC&SPI software SPI interface menu is as follows:
 
@@ -445,7 +445,7 @@ For detailed operation examples of this software, please refer to "USB2IIC&SPI U
 
 This software provides the accompanying SDK source code, located under the folder USB2IIC&SPI_SDK.
 
-## 3.5 UART Serial Port Software
+### 3.5 UART Serial Port Software
 
 The adapter supports simplex, half-duplex, or full-duplex asynchronous serial communication. Serial data includes 1 low-level start bit, 5 to 9 data bits, 1 or 2 high-level stop bits, and supports odd/even/mark/blank checking. Support common communication baud rates: 50, 75, 100, 110, 134.5, 150, 300, 600, 900, 1200, 1800, 2400, 3600, 4800, 9600, 14400, 19200, 28800, 33600, 38400, 56000, 57600 , 76800, 115200, 128000, 153600, 230400, 460800, 921600, 1500000, 2000000, etc. The baud rate error of the serial port sending signal is less than 0.3%, and the allowable baud rate error of the serial port receiving signal is not less than 2%.
 
@@ -455,7 +455,7 @@ A variety of commonly used serial port softwares are collected in the adapter da
 
 ![wps42](https://github.com/SmartArduino/document/raw/master/docs/Robot/Controller/MultifunctionAdapter/wps42.jpg) 
 
-# Contact Us
+## Contact Us
 
 - E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
 - Skype: yichone
