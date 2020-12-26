@@ -109,7 +109,7 @@
 
  
 
-# 1. Introduction
+## 1. Introduction
 
 The WiFi module ESP-F is manufactured by using a high-performance chip ESP8266EX. This small chip is encapsulated an enhanced Tensilica’sL106 diamond series 32-bit kennel CPU with a SRAM. Thus, ESP8266 has the complete function Wi-Fi function; it not only can be applied independently, but can be used as a slaver working with other host CPU. When ESP8266 is applied as a slaver, it can start from the onboard Flash. The built-in high-speed buffer is not only benefit to improve the system performance, but optimize the store system. In addition, ESP8266 can be used as Wi-Fi adapter by SPI/SDIO or I2C/UART interface, when it is applied to other MCU design.
 
@@ -157,7 +157,7 @@ Table 1.1 Parameters for ESP-F
 
  
 
-# 2. Interface Definition
+## 2. Interface Definition
 
  
 
@@ -213,7 +213,7 @@ Table 2.2 Function Definition of Module Pins
 
   
 
-# 3. Shape and Size
+## 3. Shape and Size
 
  
 
@@ -248,7 +248,7 @@ Table 3.1Size for ESP-F
 | ------ | ----- | ------ | ---- | --------------------- |
 | 24.5mm | 14mm  | 3mm    | 4 x2 | 2.54                  |
 
-# 4. Electronical Characteristics
+## 4. Electronical Characteristics
 
  
 
@@ -267,7 +267,7 @@ Table 4.1 Electronics
 
  
 
-# 5. Power Consumption
+## 5. Power Consumption
 
 Table 5.1 Power Consumption
 
@@ -294,7 +294,7 @@ Table 5.1 Power Consumption
 
 ③ Deep-Sleep mode is applied to the case that Wi-Fi is not necessary to connect all the time, just send a data packet after a long time (e.g., transmit one temperate data each 100s) . it just need 0.3s-1s to connect AP after each 300s, and the whole average current is much smaller 1mA.
 
-# 6. Wi-Fi RF Characteristics
+## 6. Wi-Fi RF Characteristics
 
 The data in the following Table is gotten when voltage is 3.3V and1.1V in the indoor temperature environment. 
 
@@ -323,7 +323,7 @@ Table 6.1 Wi-Fi RF Characteristics
 
  
 
-# 7.  The Recommended Sold Temperature Curve
+## 7.  The Recommended Sold Temperature Curve
 
  
 
@@ -337,7 +337,7 @@ Fig. 7.1 Temperature Curve when Sold
 
  
 
-# 8. Schematics for ESP-F
+## 8. Schematics for ESP-F
 
  
 
@@ -347,7 +347,7 @@ Fig. 7.1 Temperature Curve when Sold
 
 Fig. 8.1 Schematics for ESP-F
 
-# 9. Minimum System
+## 9. Minimum System
 
  
 
@@ -373,7 +373,7 @@ Fig.9.1 Minimum System
 
 
 
-# 10. The Recommended PCB Design
+## 10. The Recommended PCB Design
 
 Wi-Fi module can be inserted into the PCB board directly. For the high RF performance for the end device, please note the placement for the antenna and the module. 
 
@@ -397,11 +397,11 @@ Fig. 10.3 Scheme 3: Antenna is placed along with the side of the board, and don�
 
  
 
-# 11. Peripheral Line Suggestion
+## 11. Peripheral Line Suggestion
 
 Wi-Fi module is already integrated into high-speed GPIO and Peripheral interface, which may be generated the switch noise. If there is a high request for the power consumption and EMI characteristics, it is suggested to connect a serial 10~100 ohm resistance, which can suppress overshoot when switching power supply, and can smooth signal. At the same time, it also can, to a certain extent, prevent electrostatic discharge (ESD).
 
-# Contact Us
+## Contact Us
 
 - Email: yichoneyi@163.com
 - WhatsApp: 008618676662425
