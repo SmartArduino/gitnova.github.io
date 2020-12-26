@@ -110,7 +110,7 @@
 
 Fig. 1.1 ESP-Mx Module Structure
 
-# 1.  Introduction
+## 1.  Introduction
 
  
 
@@ -155,21 +155,7 @@ Table 1.1 Parameters for ESP-M
 | Network protocol           | IPv4,  TCP/UDP/HTTP/FTP/MQTT              |                               |
 | User configuration         | AT+ command/cloud sever/  Android/iOS APP |                               |
 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-# 2. Interface Definition 
+## 2. Interface Definition 
 
 Interface definition of ESP-Mx can be shown below.
 
@@ -202,8 +188,6 @@ Table 2.1 Pin Modes
 
  
 
- 
-
 Table 2.2 Function Definition of Module Pins
 
 | Num  | Pin Name | Type | Function Illustration          |
@@ -225,13 +209,7 @@ Table 2.2 Function Definition of Module Pins
 | 15   | RST      | I    | Effective: Low level           |
 | 16   | IO16     | I/O  | GPIO16; Used to wake up        |
 
-
-
- 
-
-# 3. Shape and Size
-
- 
+## 3. Shape and Size
 
 Shape and size for ESP-Mx can be shown as follows.
 
@@ -253,10 +231,6 @@ Fig. 3.2 Size for ESP-M1
 
  
 
- 
-
- 
-
 ![espm16](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm1/espm16.jpg)     
 
 Fig. 3.3 Shape for ESP-M2
@@ -270,12 +244,6 @@ Fig. 3.3 Shape for ESP-M2
 (b) Side View
 
 Fig. 3.4 Size for ESP-M2
-
- 
-
-
-
- 
 
 | Length | Width | Height | PAD Size(bottom) | Distance between Pins |
 | ------ | ----- | ------ | ---------------- | --------------------- |
@@ -293,15 +261,7 @@ Table 3.2 Size for ESP-M2
 | ------ | ----- | ------ | ----------------- | ---------------------- |
 | 12.3mm | 20mm  | 3 mm   | 0.9*1.7mm         | 1.5mm                  |
 
-
-
- 
-
- 
-
-# 4. Electronical Characteristics
-
- 
+## 4. Electronical Characteristics
 
 Table 4.1 Electronics
 
@@ -316,15 +276,7 @@ Table 4.1 Electronics
 | Electrostatic  release quantity (Human model) | TAMB=25℃            | -        | -            | 2        | KV          |      |
 | Electrostatic  release quantity (Human model) | TAMB=25℃            | -        | -            | 0.5      | KV          |      |
 
- 
-
- 
-
- 
-
- 
-
-# 5. Power Consumption
+## 5. Power Consumption
 
 Table 5.1 Power Consumption
 
@@ -341,8 +293,6 @@ Table 5.1 Power Consumption
 | Deep-sleep③                            | -    | 20        | -    | μA    |
 | close                                  | -    | 0.5       | -    | μA    |
 
- 
-
 **Note**
 
 ①: Modem-Sleep mode can be used for the case that CPU is always working, e.g., PWM or I2S etc. If WiFi is connected and no data is to transmitted, in this case, WiFi modem can be closed to save power energy. For example, if at DTIM3 status, keep asleep at 300ms, Then, the module can wake up to receive the Beacon package within 3ms and the current being 15mA.
@@ -351,11 +301,9 @@ Table 5.1 Power Consumption
 
 ③ Deep-Sleep mode is applied to the case that Wi-Fi is not necessary to connect all the time, just send a data packet after a long time (e.g., transmit one temperate data each 100s) . it just need 0.3s-1s to connect AP after each 300s, and the whole average current is much smaller 1mA.
 
-# 6. Wi-Fi RF Characteristics
+## 6. Wi-Fi RF Characteristics
 
 The data in the following Table is gotten when voltage is 3.3V and1.1V in the indoor temperature environment. 
-
- 
 
 Table 6.1 Wi-Fi RF Characteristics
 
@@ -378,15 +326,7 @@ Table 6.1 Wi-Fi RF Characteristics
 | HT20,  MCS0                                   | -    | 37        | -    | dB    |
 | HT20,  MCS7                                   | -    | 20        | -    | dB    |
 
- 
-
- 
-
- 
-
-
-
-# 7.  The Recommended Sold Temperature Curve
+## 7.  The Recommended Sold Temperature Curve
 
  
 
@@ -394,23 +334,13 @@ Table 6.1 Wi-Fi RF Characteristics
 
 Fig. 7.1 Temperature Curve when Sold
 
- 
-
- 
-
-
-
- 
-
-# 8. Minimum User System
+## 8. Minimum User System
 
 This module can work just at 3.3V working voltage.
 
  ![espm110](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm1/espm110.jpg)
 
 Fig. 8. 1 Minimum System
-
- 
 
 **Note**
 
@@ -426,9 +356,7 @@ Fig. 8. 1 Minimum System
 
 
 
- 
-
-# 9. The Recommended PCB Design ( An Example)
+## 9. The Recommended PCB Design ( An Example)
 
 Wi-Fi module can be inserted into the PCB board directly. For the high RF performance for the end device, please note the placement for the antenna and the module. 
 
@@ -458,13 +386,11 @@ Fig. 9.3 Scheme 2: Antenna is placed along with side of the board, and it is bla
 
 Fig. 9.4 Scheme 3: Antenna is placed along with the side of the board, and don’t cover copper under the module
 
- 
-
-# 10. Peripheral Line Suggestion
+## 10. Peripheral Line Suggestion
 
 Wi-Fi module is already integrated into high-speed GPIO and Peripheral interface, which may be generated the switch noise. If there is a high request for the power consumption and EMI characteristics, it is suggested to connect a serial 10~100 ohm resistance, which can suppress overshoot when switching power supply, and can smooth signal. At the same time, it also can, to a certain extent, prevent electrostatic discharge (ESD).
 
-# Contact Us
+## Contact Us
 
 - E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
 - Skype: yichone
