@@ -87,7 +87,7 @@
 
 
 
-# 1. Introduction
+## 1. Introduction
 
 The WiFi module ESP-M is manufactured by using a high-performance chip ESP8285. This small chip is encapsulated an enhanced Tensilica’s L106 diamond series 32-bit kennel CPU with a SRAM. Thus, ESP8285 has the complete function Wi-Fi function; it not only can be applied independently, but can be used as a slaver working with other host CPU. When ESP8285 is applied as a slaver, it can start from the onboard Flash. The built-in high-speed buffer is not only benefit to improve the system performance, but optimize the store system. In addition, ESP8285 can be used as Wi-Fi adapter by SPI/SDIO or I2C/UART interface, when it is applied to other MCU design.
 
@@ -133,7 +133,7 @@ Table 1.1  Parameters
 | Network protocol           | IPv4, TCP/UDP/HTTP/FTP/MQTT               |                               |
 | User configuration         | AT+ command/cloud sever/  Android/iOS APP |                               |
 
-# 2.  Interface Definition
+## 2.  Interface Definition
 
  
 
@@ -154,10 +154,6 @@ Table 2.1 working modes
 | UART download | low   | high                       |
 | Flash Boot    | high  | high                       |
 
-
-
- 
-
 Table 2.2 Pins Function
 
 | Num   | Pin Name | Type | Function Illustration                                        |
@@ -176,9 +172,7 @@ Table 2.2 Pins Function
 | 12    | IO15     | I/O  | IO15, pull-down, has 100us high level after  power, unsuitable for relay control |
 | 13    | RST      | I    | Reset(effective for low level) with pull-up resistance       |
 
- 
-
-# 3. Shape and Size
+## 3. Shape and Size
 
  
 
@@ -200,15 +194,7 @@ Table 3.1 Size for ESP-M4
 | ------- | ------- | ------ | --------------- | ------------- |
 | 21.44mm | 18.06mm | 2.3mm  | 0.9 mm x 1.3mm  | 1.5mm*3.1mm   |
 
- 
-
-
-
- 
-
-
-
-# 4. Electronical Characteristics
+## 4. Electronical Characteristics
 
  
 
@@ -225,13 +211,7 @@ Table 4.1 Electronics
 | Electrostatic  release quantity (Human model) | TAMB=25℃             | -        | -            | 2        | KV          |      |
 | Electrostatic  release quantity (Human model) | TAMB=25℃             | -        | -            | 0.5      | KV          |      |
 
- 
-
- 
-
- 
-
-# 5. Power Consumption
+## 5. Power Consumption
 
 Table 5.1 Power Consumption
 
@@ -248,8 +228,6 @@ Table 5.1 Power Consumption
 | Deep-sleep③                            | -    | 20        | -    | μA    |
 | close                                  | -    | 0.5       | -    | μA    |
 
- 
-
 **Note**
 
 ①: Modem-Sleep mode can be used for the case that CPU is always working, e.g., PWM or I2S etc. If WiFi is connected and no data is to transmitted, in this case, WiFi modem can be closed to save power energy. For example, if at DTIM3 status, keep asleep at 300ms, Then, the module can wake up to receive the Beacon package within 3ms and the current being 15mA.
@@ -258,11 +236,9 @@ Table 5.1 Power Consumption
 
 ③ Deep-Sleep mode is applied to the case that Wi-Fi is not necessary to connect all the time, just send a data packet after a long time (e.g., transmit one temperate data each 100s) . it just need 0.3s-1s to connect AP after each 300s, and the whole average current is much smaller 1mA.
 
-# 6. Wi-Fi RF Characteristics
+## 6. Wi-Fi RF Characteristics
 
 The data in the following Table is gotten when voltage is 3.3V and1.1V in the indoor temperature environment. 
-
- 
 
 Table 6.1 Wi-Fi RF Characteristics
 
@@ -285,15 +261,7 @@ Table 6.1 Wi-Fi RF Characteristics
 | HT20,  MCS0                                   | -    | 37        | -    | dB    |
 | HT20,  MCS7                                   | -    | 20        | -    | dB    |
 
- 
-
- 
-
- 
-
-
-
-# 7. The Recommended Sold Temperature Curve
+## 7. The Recommended Sold Temperature Curve
 
  
 
@@ -301,23 +269,13 @@ Table 6.1 Wi-Fi RF Characteristics
 
 Fig. 7.1 Temperature Curve when Sold
 
- 
-
- 
-
-
-
- 
-
-# 8. Minimum System
+## 8. Minimum System
 
 This module can work just at 3.3V working voltage.
 
 ![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/espm4/clip_image014.jpg)
 
 Fig. 8. 1 Minimum System
-
- 
 
 **Note**
 
@@ -331,10 +289,7 @@ Fig. 8. 1 Minimum System
 
 (5) Wi-Fi module is connected to RXD of the other MCU, and TXD is connected to RXD of the other MCU.
 
-**
-**
-
-# 9. The Recommended PCB Design
+## 9. The Recommended PCB Design
 
 Wi-Fi module can be inserted into the PCB board directly. For the high RF performance for the end device, please note the placement for the antenna and the module. 
 
@@ -344,17 +299,15 @@ Especially, since the antenna is external for ESP-M1, the antenna can be placed 
 
 Fig. 9. 1 Connector for the external antenna
 
- 
-
   It is suggested that the module is placed along with PCB side, the antenna is placed outside the board, or along with the PCB side, and the below board is blank.
 
 
 
-# 10. Peripheral Line Suggestion
+## 10. Peripheral Line Suggestion
 
 Wi-Fi module is already integrated into high-speed GPIO and Peripheral interface, which may be generated the switch noise. If there is a high request for the power consumption and EMI characteristics, it is suggested to connect a serial 10~100 ohm resistance, which can suppress overshoot when switching power supply, and can smooth signal. At the same time, it also can, to a certain extent, prevent electrostatic discharge (ESD).
 
-# Contact Us
+## Contact Us
 
 - E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
 - Skype: yichone
