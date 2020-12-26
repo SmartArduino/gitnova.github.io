@@ -3,11 +3,11 @@
 
 <center> from SZDOIT </center>
 
-# 1. Introduction
+## 1. Introduction
 
 ESP-01 WiFi module is a low-power and cost-effective embedded wireless network control module. It can meet the needs of Internet of Things applications such as smart grid, building automation, security, smart home, telemedicine and so on.
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP01/clip_image002.jpg)
+![img](clip_image002.jpg)
 
 The core processor ESP8266 integrates the industry-leading Tensilica L106 ultra-low power 32-bit micro MCU with 16-bit streamlined mode, main frequency of 80 MHz and 160 MHz, supports RTOS, integrates Wi-Fi MAC/BB/RF/PA/LNA, and on-board antenna.
 
@@ -15,19 +15,19 @@ This module supports standard IEEE802.11 b/g/n protocol and complete TCP/IP prot
 
  
 
-# 2. Main Features
+## 2. Main Features
 
  
 
-# 2.1 Structure
+### 2.1 Structure
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP01/clip_image004.gif)
+![img](clip_image004.gif)
 
  
 
 Fig. Module Structure
 
-# 2.2 Hardware parameters
+### 2.2 Hardware parameters
 
 * Operating voltage: 3.3V (3.0-3.6V)
 
@@ -77,9 +77,9 @@ Fig. Module Structure
 
 
 
-# 3 Pins Definition
+## 3 Pins Definition
 
-# 3.1  Interface Definition
+### 3.1  Interface Definition
 
  
 
@@ -102,15 +102,15 @@ Table 2.2 Pins Function
 
  
 
-# 3.2 Shape and Size
+### 3.2 Shape and Size
 
  
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP01/clip_image006.jpg)
+![img](clip_image006.jpg)
 
 Fig 3.1 Shape of ESP-01
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP01/clip_image008.jpg)
+![img](clip_image008.jpg)
 
 Fig. 3.2 Size for ESP-01
 
@@ -126,9 +126,9 @@ Table 3.1 Size for ESP-01
 
  
 
-# 4. Function
+## 4. Function
 
-# 4.1 MCU 
+### 4.1 MCU 
 
 ESP8266EX built-in Tensilica L106 ultra-low power 32-bit micro MCU, with 16-bit streamlined mode, main frequency support 80MHz and 160MHz, support RTOS. At present, the WiFi protocol stack only uses 20% processing power, the rest can be used for application development. The MCU can work together with other parts of the chip through the following interfaces:
 
@@ -139,9 +139,9 @@ ESP8266EX built-in Tensilica L106 ultra-low power 32-bit micro MCU, with 16-bit 
 - The AHB interface of the access controller.
 
 
-# 4.2 Store 
+### 4.2 Store 
 
-# 4.2.1 Built-in SRAM 与 ROM 
+#### 4.2.1 Built-in SRAM 与 ROM 
 
 Based on the use of SRAM in Demo SDK, users can use the remaining SRAM space as follows:
 
@@ -151,14 +151,14 @@ Based on the use of SRAM in Demo SDK, users can use the remaining SRAM space as 
 - At present, there is no programmable ROM on ESP8266EX chip, and user programs are stored in SPI Flash.
 
 
-# 4.2.2 SPI Flash 
+#### 4.2.2 SPI Flash 
 
 - ESP8266EX chip supports external FLASH using SPI interface, and theory supports 16MB SPI Flash.
 
 - ESP-01 module is equipped with 8Mbit SPI Flash, which can meet the needs of general customers.
 
 
-# 4.3 Interface Definition
+### 4.3 Interface Definition
 
 Table Interface definition
 
@@ -171,15 +171,15 @@ Table Interface definition
 | I2C           | IO14(SCL), IO2(SDA)                                          | External  sensors and display screens, etc.                  |
 | UART          | UART0:   TXD(U0TXD),RXD(U0RXD)  ,IO15(RTS),IO13(CTS)         | Device  with External UART Interface  Download:  U0TXD + U0RXD or GPIO2 + U0RXD communication (UART0): U0TXD, U0RXD, MTDO  (U0RTS), MTCK (U0CTS) Debug: UART1_TXD (GPIO2) can be used as debug  information printing. |
 |               | UART1:  IO2(TXD)                                             | UART0  will output some printing information by default when it is powered on  ESP8266-12S. For this sensitive application, the internal pin switching  function of UART can be used to exchange U0TXD and U0RXD with U0RTS and U0CTS  respectively during initialization. Hardware Connect MTDOMTCK to Serial Port  Import Communication of Corresponding External MCU |
-| I2S           | I2S  input:  IO12 (I2SI_DATA);   IO13 (I2SI_BCK ); IO14  (I2SI_WS);   ![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP01/clip_image009.gif)  I2S output  IO15 (I2SO_BCK );   IO3 (I2SO_DATA);   IO2 (I2SO_WS ); | It  is mainly used for audio acquisition, processing and transmission. |
+| I2S           | I2S  input:  IO12 (I2SI_DATA);   IO13 (I2SI_BCK ); IO14  (I2SI_WS);   ![img](clip_image009.gif)  I2S output  IO15 (I2SO_BCK );   IO3 (I2SO_DATA);   IO2 (I2SO_WS ); | It  is mainly used for audio acquisition, processing and transmission. |
 
  
 
 
 
-# 5. Electrical characteristics
+## 5. Electrical characteristics
 
-## 5.1 Power Consumption
+### 5.1 Power Consumption
 
  
 
@@ -202,7 +202,7 @@ Table Interface definition
 
 ③ Deep-Sleep mode is applied to the case that Wi-Fi is not necessary to connect all the time, just send a data packet after a long time (e.g., transmit one temperate data each 100s) . it just need 0.3s-1s to connect AP after each 300s, and the whole average current is much smaller 1mA.
 
-# 5.2 RF  Features 
+### 5.2 RF  Features 
 
 Table RF parameters
 
@@ -227,7 +227,7 @@ Table RF parameters
 
  
 
-# 5.3 Digital Port Characteristics
+### 5.3 Digital Port Characteristics
 
 | **Rating** **value** | **condition**       |              | **value** |      | **unite** |      |
 | -------------------- | ------------------- | ------------ | --------- | ---- | --------- | ---- |
@@ -240,7 +240,7 @@ Table RF parameters
 
  
 
-# 5.4 Digital Port Characteristics 
+### 5.4 Digital Port Characteristics 
 
 Table Digital Port Characteristics
 
@@ -255,7 +255,7 @@ Table Digital Port Characteristics
 
  
 
-# 5.5 Ramp Up
+### 5.5 Ramp Up
 
 Table ramp up
 
@@ -273,17 +273,17 @@ Table ramp up
 
  
 
-# 6. Schematic Diagram
+## 6. Schematic Diagram
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP01/clip_image012.jpg)
+![img](clip_image012.jpg)
 
 Figure ESP-01 Schematic Diagram
 
-# 7. Minimum System
+## 7. Minimum System
 
  
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP01/clip_image014.jpg)
+![img](clip_image014.jpg)
 
 Figure Minimum system
 
@@ -302,21 +302,21 @@ Figure Minimum system
 - RXD of module is connected with TXD of MCU, TXD of module is connected with RXD of MCU;
 
 
-# 8. Peripheral Routing Suggestions
+## 8. Peripheral Routing Suggestions
 
 ESP-01 integrates high-speed GPIO and peripheral interfaces, which may cause serious switching noise. If some applications are for power consumption and EMI features require higher requirements. It is recommended that 10 - 100 ohms of resistance be connected in series on digital I / O lines. This can suppress the overshoot and make the signal smooth when switching on the power supply. Series resistance can also prevent ESD to some extent.
 
 
 
-# 9.  The Recommended Sold Temperature Curve
+## 9.  The Recommended Sold Temperature Curve
 
  
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESP01/clip_image016.jpg)
+![img](clip_image016.jpg)
 
 Fig. 7.1 Temperature Curve when Sold
 
-# Contact Us
+## Contact Us
 
 - E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
 - Skype: yichone
