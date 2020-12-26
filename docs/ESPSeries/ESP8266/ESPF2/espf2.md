@@ -103,7 +103,7 @@
 
 
 
-# 1. Introduction
+## 1. Introduction
 
 The WiFi module ESP-F2 is manufactured by using a high-performance chip ESP8266EX. This small chip is encapsulated an enhanced Tensilica’sL106 diamond series 32-bit kennel CPU with a SRAM. Thus, ESP8266 has the complete function Wi-Fi function; it not only can be applied independently, but can be used as a slaver working with other host CPU. When ESP8266 is applied as a slaver, it can start from the onboard Flash. The built-in high-speed buffer is not only benefit to improve the system performance, but optimize the store system. In addition, ESP8266 can be used as Wi-Fi adapter by SPI/SDIO or I2C/UART interface, when it is applied to other MCU design.
 
@@ -151,7 +151,7 @@ Table 1.1 Parameters for ESP-F2
 
   
 
-# 2. Interface Definition
+## 2. Interface Definition
 
  
 
@@ -207,7 +207,7 @@ Table 2.2 Function Definition of Module Pins
 
  
 
-# 3. Shape and Size
+## 3. Shape and Size
 
  
 
@@ -241,7 +241,7 @@ Table 3.1Size for ESP-F2
 | ------ | ----- | ------ | --------- | --------------------- |
 | 24mm   | 16mm  | 3mm    | 0.9*1.7mm | 2.54mm                |
 
-# 4. Electronical Characteristics
+## 4. Electronical Characteristics
 
  
 
@@ -260,7 +260,7 @@ Table 4.1 Electronics
 
  
 
-# 5. Power Consumption
+## 5. Power Consumption
 
 Table 5.1 Power Consumption
 
@@ -287,11 +287,9 @@ Table 5.1 Power Consumption
 
 ③ Deep-Sleep mode is applied to the case that Wi-Fi is not necessary to connect all the time, just send a data packet after a long time (e.g., transmit one temperate data each 100s) . it just need 0.3s-1s to connect AP after each 300s, and the whole average current is much smaller 1mA.
 
-# 6. Wi-Fi RF Characteristics
+## 6. Wi-Fi RF Characteristics
 
 The data in the following Table is gotten when voltage is 3.3V and1.1V in the indoor temperature environment. 
-
- 
 
 Table 6.1 Wi-Fi RF Characteristics
 
@@ -314,19 +312,13 @@ Table 6.1 Wi-Fi RF Characteristics
 | HT20,  MCS0                                   | -    | 37        | -    | dB    |
 | HT20,  MCS7                                   | -    | 20        | -    | dB    |
 
- 
-
-# 7.  The Recommended Sold Temperature Curve
-
- 
+## 7.  The Recommended Sold Temperature Curve
 
 ![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF2/clip_image013.jpg)
 
 Fig. 7.1 Temperature Curve when Sold
 
-  
-
-# 8. Schematics for ESP-F2
+## 8. Schematics for ESP-F2
 
  
 
@@ -336,17 +328,13 @@ Fig. 7.1 Temperature Curve when Sold
 
 Fig. 8.1 Schematics for ESP-F2
 
-# 9. Minimum System
-
- 
+## 9. Minimum System
 
 This module can work just at 3.3V working voltage.
 
 ![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8266/ESPF2/clip_image019.jpg)
 
 Fig.9.1 Minimum System
-
- 
 
 **Note**
 
@@ -360,7 +348,7 @@ Fig.9.1 Minimum System
 
 (5) Wi-Fi module is connected to RXD of the other MCU, and TXD is connected to RXD of the other MCU.
 
-# 10. The Recommended PCB Design
+## 10. The Recommended PCB Design
 
 Wi-Fi module can be inserted into the PCB board directly. For the high RF performance for the end device, please note the placement for the antenna and the module. 
 
@@ -382,13 +370,11 @@ Fig. 10.2 Scheme 2: Antenna is placed along with side of the board, and it is bl
 
 Fig. 10.3 Scheme 3: Antenna is placed along with the side of the board, and don’t cover copper under the module
 
- 
-
-# 11. Peripheral Line Suggestion
+## 11. Peripheral Line Suggestion
 
 Wi-Fi module is already integrated into high-speed GPIO and Peripheral interface, which may be generated the switch noise. If there is a high request for the power consumption and EMI characteristics, it is suggested to connect a serial 10~100 ohm resistance, which can suppress overshoot when switching power supply, and can smooth signal. At the same time, it also can, to a certain extent, prevent electrostatic discharge (ESD).
 
-# Contact
+## Contact
 
 - Email: yichoneyi@163.com
 - WhatsApp: 008618676662425
