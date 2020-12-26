@@ -4,13 +4,11 @@
 
 
 
-# 1. Introduction
-
-
+## 1. Introduction
 
 ESP-WROOM-32 module is a universal WiFi-BT-BLE MCU module with powerful functions and wide applications. It can be used in low-power sensor networks and high-demand tasks, such as voice coding, audio streaming and MP3 decoding. The core of this module is ESP32 chip, which is scalable and adaptive. Two CPU cores can be controlled or powered on separately. The adjustable range of clock frequency is from 80 MHz to 240 MHz. Users can cut off CPU power and use low-power coprocessors to continuously monitor the state changes of peripherals or whether some analog quantities exceed the threshold. ESP-WROOM-32 module also integrates a wealth of peripherals, including capacitive touch sensor, Hall sensor, low noise sensor amplifier, SD card interface, Ethernet interface, high-speed SDIO/SPI, UART, I2S and I2C. ESP-WROOM-32 module is hereinafter referred to as ESP32.
 
-![ESP-32](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP32/ESP32/clip_image002-1588150999532.jpg)
+![ESP-32](clip_image002-1588150999532.jpg)
 
 ESP-32 integrates traditional Bluetooth, low-power Bluetooth and Wi-Fi, and has a wide range of applications: Wi-Fi supports a wide range of communication connections, but also supports direct Internet connection through routers; Bluetooth allows users to connect to mobile phones or broadcast BLE Beacon for signal detection. The sleep current of ESP32 chip is less than 5uA, which makes it suitable for wearable electronic devices powered by batteries. The data transmission rate supported by ESP-32 is up to 150 Mbps. After power amplifier, the output power can reach 22 dBm, which can realize the maximum range of wireless communication. Therefore, the chip has the industry's leading technical specifications, and has the best performance in high integration, wireless transmission distance, power consumption and network connectivity. ESP3 2's operating system is free RTOS with LWIP, and TLS 1.2 with hardware acceleration function is built-in. The chip also supports OTA encryption upgrades, and developers can continue to upgrade after the product is released. Software releases are included in the ESP32 bug reward program, and users can report any bugs to bug-bounty@espressif.com.
 
@@ -48,11 +46,11 @@ Table 1 ESP32 specifications
 | Network  Protocol                                            | IPv4,  IPv6, SSL, TCP/UDP/HTTP/FTP/MQTT                      |                                                              |
 | User  Configuration                                          | AT+Instruction  Set, Cloud Server, Android/iOS APP           |                                                              |
 
-# 2 Pins Definition
+## 2 Pins Definition
 
-# 2.1 Pin Layout
+### 2.1 Pin Layout
 
-[![IMG_256](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP32/ESP32/clip_image004-1588150999532.gif)
+[![IMG_256](clip_image004-1588150999532.gif)
 
 Figure 1 ESP32 size
 
@@ -64,7 +62,7 @@ Table 2 ESP32 size
 
  
 
-# 2.2 Pins Description
+### 2.2 Pins Description
 
 ESP32 has 38pins, as shown in the following table.
 
@@ -115,7 +113,7 @@ Table 3 ESP32 pins definition
 
  
 
-# 2.3 Strapping  PIN
+### 2.3 Strapping  PIN
 
 ESP32 has six Strapping pins. The software can read the values of these six bits in the register "GPIO_STRAPPING". During the reset process, the Strapping pin sampled the level and stored it in the latch. The latch was "0" or "1" and remained until the chip turned off or turned off.
 
@@ -144,9 +142,9 @@ Table 4 Strapping pins
 
  
 
-# 3 Functional Description 
+## 3 Functional Description 
 
-# 3.1 CPU and Memory
+## 3.1 CPU and Memory
 
 ESP32 has two low power Xtensa < 32-bit LX6 MCUs built in. On-chip storage includes:
 
@@ -160,7 +158,7 @@ l The SRAM of 8kBytes in RTC, namely RTC fast memory, can be used for data stora
 
 l 5 and 1 kbit EFUSE, 256 bits of which are system-specific (MAC address and chip settings); the remaining 768 bits are reserved for user applications, including Flash encryption and chip ID.
 
-# 3.2 External Flash and SRAM
+### 3.2 External Flash and SRAM
 
 ESP32 supports up to four 16 MBytes of external QSPI Flash and static random access memory (SRAM) with hardware encryption based on AES, thus protecting developers'programs and data.
 
@@ -168,7 +166,7 @@ ESP32 accesses external QSPI Flash and SRAM through caching. Up to 16 MBytes, Fl
 
 Up to 8 MBytes of external Flash and SRAM are mapped to the CPU data space, supporting 8-bit, 16-bit and 32-bit access. Flash only supports read operations, while SRAM supports read and write operations.
 
-# 3.3 Crystal Oscillator 
+### 3.3 Crystal Oscillator 
 
 The support frequencies are 40 MHz, 26 MHz and 24 MHz. The accuracy of the crystal oscillator is between (+10 PPM) and the working temperature range is from - 40 C to 85 C.
 
@@ -176,7 +174,7 @@ Choose the correct crystal type when using the download tool. In the circuit des
 
 The frequency of RTC crystal oscillator is usually 32 kHz or 32.768 kHz. Because internal calibration is used to correct the frequency offset, the frequency of crystal oscillator may exceed (+20 PPM). When the chip works in low power mode, the device should choose external low speed 32 kHz crystal clock instead of internal RC oscillator to obtain accurate wake-up time.
 
-# 3.4 Power Consumption
+### 3.4 Power Consumption
 
 ESP32 has advanced power management technology and can switch between various power saving modes.
 
@@ -217,7 +215,7 @@ Table 5: Power consumption under different power-saving modes
 
 
 
-# 3.5 Peripheral Interface 
+### 3.5 Peripheral Interface 
 
 Table 6 Interface description
 
@@ -383,11 +381,11 @@ Table 6 Interface description
 
  
 
-# 4 Electrical Characteristics 
+## 4 Electrical Characteristics 
 
 Note, Without special instructions, the test environment for the specifications listed in this chapter is: VBAT= 3.3V, TA= 27 degrees °C.
 
-# 4.1 Limited Parameters
+### 4.1 Limited Parameters
 
 Table 7 Limited Parameters
 
@@ -399,7 +397,7 @@ Table 7 Limited Parameters
 
  
 
-# 4.2 Recommended working conditions
+### 4.2 Recommended working conditions
 
 Table 8 Recommended working conditions
 
@@ -408,7 +406,7 @@ Table 8 Recommended working conditions
 | working  temperature | -    | -40  | 20        | 85   | °C    |
 | Power supply         | VDD  | 2.2  | 3.3       | 3.6  | V     |
 
-# 4.3 Digital Port Characteristics 
+### 4.3 Digital Port Characteristics 
 
  
 
@@ -423,7 +421,7 @@ Table 9 Digital Port Characteristics
 
  
 
-# 4.4 Wi-Fi  RF
+### 4.4 Wi-Fi  RF
 
 Table 10 Wi-Fi RF characteristics
 
@@ -450,9 +448,9 @@ Table 10 Wi-Fi RF characteristics
 | HT20,  MCS0              | -    | 37        | -    | dB    |
 | HT20,  MCS7              | -    | 20        | -    | dB    |
 
-# 4.5 Low Power Bluetooth Radio Frequency 
+### 4.5 Low Power Bluetooth Radio Frequency 
 
-# 4.5.1 Receiver
+#### 4.5.1 Receiver
 
 Table 11 BLE receiver characteristics
 
@@ -473,7 +471,7 @@ Table 11 BLE receiver characteristics
 | 3000 MHz -  12.5 GHz                   | -10                | -    | -         | dBm  |       |
 | Intermodulation  performance           | -                  | -36  | -         | -    | dBm   |
 
-# 4.5.2 Transmitter
+#### 4.5.2 Transmitter
 
 Table 12 BLE Emitter Characteristics
 
@@ -498,7 +496,7 @@ Table 12 BLE Emitter Characteristics
 
  
 
-# 4.6  Reflow Profile
+#### 4.6  Reflow Profile
 
  
 
@@ -528,35 +526,35 @@ Note, 32 kHz board crystal oscillator connects GPIO32 and GPIO33 of ESP32. In or
 
  
 
-# 5 Schematic Diagram 
+## 5 Schematic Diagram 
 
-[![esp32s_sch](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP32/ESP32/clip_image006-1588150999532.jpg)](http://wiki.ai-thinker.com/_detail/esp32/spec/esp32s_sch.png?id=esp32:spec:esp32s)
+[![esp32s_sch](clip_image006-1588150999532.jpg)](http://wiki.ai-thinker.com/_detail/esp32/spec/esp32s_sch.png?id=esp32:spec:esp32s)
 
  
 
 Figure ESP32 Schematic diagram
 
-# 6 The Recommended  PCB Design 
+## 6 The Recommended  PCB Design 
 
 ESP-32 module can be welded to PCB board. In order to obtain the best RF performance of the terminal product, please pay attention to the reasonable design of the module and antenna placement on the bottom board in accordance with this guide. It is suggested that the module be placed along the edge of the PCB board, and the antenna be placed outside or along the edge of the board and hollowed underneath. Reference schemes 1 and 2. It is also permissible to place the PCB antenna on the bottom board as long as there is no copper under the antenna, reference scheme 3.
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP32/ESP32/clip_image008-1588150999533.jpg)
+![img](clip_image008-1588150999533.jpg)
 
 Scheme 1: The antenna is outside the frame.
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP32/ESP32/clip_image010-1588150999533.jpg)
+![img](clip_image010-1588150999533.jpg)
 
 Scheme 2: Antennas are placed along the edge of the plate and hollowed underneath.
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP32/ESP32/clip_image012-1588150999533.jpg)
+![img](clip_image012-1588150999533.jpg)
 
 Solution 3: Antennas are placed along the edge of the plate and not covered with copper underneath.
 
   
 
-# Appendix 1.Minimum System 
+## Appendix 1.Minimum System 
 
-![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP32/ESP32/clip_image014-1588150999533.jpg)
+![img](clip_image014-1588150999533.jpg)
 
 **Note: The power consumption of ESP-32 module is relatively large. It is recommended to supply power independently.**
 
@@ -564,16 +562,16 @@ Solution 3: Antennas are placed along the edge of the plate and not covered with
 
  
 
-# Appendix 2. Automatic Burning Circuit 
+## Appendix 2. Automatic Burning Circuit 
 
 Connecting EN and GPIO pins of module with DTR and RTS of serial chip can realize software control operation mode.
 
  
 
-[![ESP32S自动烧录](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP32/ESP32/clip_image015-1588150999533.gif)](http://wiki.ai-thinker.com/_detail/esp32/spec/esp32s_auto_download.png?id=esp32:spec:esp32s)
+[![ESP32S自动烧录](clip_image015-1588150999533.gif)](http://wiki.ai-thinker.com/_detail/esp32/spec/esp32s_auto_download.png?id=esp32:spec:esp32s)
 
- 
- # Contact Us
+
+ ## Contact Us
 
 - E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
 - Skype: yichone
