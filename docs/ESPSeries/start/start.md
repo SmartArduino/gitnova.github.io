@@ -4,9 +4,9 @@
 
 
 
-# Connecting & Wiring
+## Connecting & Wiring
 
-## Wiring
+### Wiring
 
 ![start24](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/start/start24.jpg)
 
