@@ -75,7 +75,7 @@
 
 
 
-# 1.  Introduction
+## 1.  Introduction
 
 The core processor of  DMP-L1 module adopts industrial chip ESP8285. The chip integrates an enhanced version of the Tensilica's L106 Diamond Series 32-bit core processor in smaller size packages. ESP8285 has complete Wi-Fi network function and can be used independently from the controller. Its built-in cache memory greatly provides CPU performance.
 
@@ -132,9 +132,7 @@ Table 1.1 Parameters
 | Network  protocol           | IPv4,  TCP/UDP/HTTP/FTP/MQTT              |                               |
 | User  configuration         | AT+  command/cloud sever/ Android/iOS APP |                               |
 
-  
-
-# 2. Interface Definition
+## 2. Interface Definition
 
  
 
@@ -142,11 +140,7 @@ Table 1.1 Parameters
 
 Fig 2.1 Pins definition for DMP-L1
 
- 
-
 Pins definitions are listed as follows.
-
- 
 
 Table 2.1  Pins definition
 
@@ -199,7 +193,7 @@ Table 2.2 Size for DMP-L1
 
 Fig. 2.3 Layout for DMP-L1
 
-# 3. Examples
+## 3. Examples
 
 The minimum system is from DMP-L1 as follows (R/G/B/W is  PWM control)
 
@@ -217,7 +211,7 @@ Now, DMP-L1 can be controlled by many smart voice box, such as, Amazon Alexa, Go
 
  
 
-# 4. Electronical Characteristics
+## 4. Electronical Characteristics
 
  
 
@@ -236,7 +230,7 @@ Table 4.1 Electronics
 
  
 
-# 5. Power Consumption
+## 5. Power Consumption
 
 Table 5.1 Power Consumption
 
@@ -263,7 +257,7 @@ Table 5.1 Power Consumption
 
 ③ Deep-Sleep mode is applied to the case that Wi-Fi is not necessary to connect all the time, just send a data packet after a long time (e.g., transmit one temperate data each 100s) . it just need 0.3s-1s to connect AP after each 300s, and the whole average current is much smaller 1mA.
 
-# 6. Wi-Fi RF Characteristics
+## 6. Wi-Fi RF Characteristics
 
 The data in the following Table is gotten when voltage is 3.3V and1.1V in the indoor temperature environment. 
 
@@ -292,7 +286,7 @@ Table 6.1 Wi-Fi RF Characteristics
 
  
 
-# 7. The Recommended Sold Temperature Curve
+## 7. The Recommended Sold Temperature Curve
 
  
 
@@ -302,14 +296,14 @@ Fig. 7.1 Temperature Curve when Sold
 
   
 
-# Appendix 1: 9W bulb referenced circuit
+## Appendix 1: 9W bulb referenced circuit
 
 ![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/dmpl1/clip_image023.jpg)
 
 **
 **
 
-# Appendix 2：IR Code Table
+## Appendix 2：IR Code Table
 
 ![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/dmpl1/file:///C:/Users/ADMINI~1/AppData/Local/Temp/msohtmlclip1/01/clip_image025.jpg)![img](https://github.com/SmartArduino/document/raw/master/docs/ESPSeries/ESP8285/dmpl1/clip_image027.jpg)
 
@@ -317,7 +311,7 @@ Code library corresponding to the default program
 
  
 
-# Contact
+## Contact
 
 - Email: yichoneyi@163.com
 - WhatsApp: 008618676662425
