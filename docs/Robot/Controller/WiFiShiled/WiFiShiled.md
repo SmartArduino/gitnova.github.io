@@ -1,13 +1,13 @@
 <center><font size=10> Arduino WiFi Extension Board data Manual </center></font>
 <center> From SZDOIT</center>
 
-# 1. Product Introduction
+## 1. Product Introduction
 
 ESP8266 serial port WiFi extension board is an ultra-low-power UARt-wifi module developed by Shenzhen Sibo Zhaolian Technology Co., LTD., based on Lexin ESP8266. It is compatible with Arduino UNO, Mega and other standard mainboards, which can be easily re-developed and accelerate product prototype design.
 
 ![image-20201022165756062](image-20201022165756062.png)
 
-## 1.1 Features
+### 1.1 Features
 
 - The WiFi adopts the industrial-grade chip ESP8266, and the module is ESP-12E with a metal shield, with strong anti-jamming capability.
 
@@ -25,7 +25,7 @@ ESP8266 serial port WiFi extension board is an ultra-low-power UARt-wifi module 
 
 - More Doit serial port WiFi module extension board, driver board information, you can refer to： [http://www.doit.am](http://www.doit.am/)，[https://szdoit.taobao.com](https://szdoit.taobao.com/)/。
 
-##  1.2 Technical specifications
+###  1.2 Technical specifications
 
 - Support wireless 802.11b /g/ N standard;
 - Support STA/AP working mode;
@@ -46,27 +46,27 @@ ESP8266 serial port WiFi extension board is an ultra-low-power UARt-wifi module 
 - Operating temperature: -40℃ ~ +125℃
 - Module weight: about 20g
 
-## 1.3 Mechanical dimensions
+### 1.3 Mechanical dimensions
 
 ![image-20201022170021766](image-20201022170021766.png)
 
-## 1.4 The interface definition
+### 1.4 The interface definition
 
 The extension board provides interface pins as shown in THE PCB view. Each pin function is printed on the circuit board. The specific definition is as follows:
 
 ![image-20201022170113453](image-20201022170113453.png)
 
-## 1.5 Meaning of indicator light
+### 1.5 Meaning of indicator light
 
 The ESP8266 serial WiFi extension has two LED indicators. Red is the power indicator normally bright LED. Blue is the multi-function indicator light, which has the following specific meanings:
 
 ![image-20201022170150490](image-20201022170150490.png)
 
-# 2. How to Use
+## 2. How to Use
 
 This section USES two cases to quickly configure ESP8266 serial port WiFi to achieve the serial port passthrough function.
 
-## 2.1 Go into configuration mode
+### 2.1 Go into configuration mode
 
 The expansion board is set to configuration mode when it leaves the factory. It must be set before passthrough can be used. In addition, if the expansion board is already configured to work in pass-through mode, the module can be reset by pressing the KEY button for more than one second to enter configuration mode.
 
@@ -86,7 +86,7 @@ The built-in WebServer of WiFi extension board supports configuration of serial 
 
 After submission, the module will automatically restart and enter AP mode, with serial port parameters set as 9600, n, 8,1. WiFi working mode is hotspot (AP), SSID is "DoitWiFi_Ser2Net", password is "12345678". Set up TCP Server, listening port 9000. This is the factory default configuration for WiFi module. If "FactorDefault" is used, these parameters are also configured.
 
-## 2.1 Arduino data goes to WiFi
+### 2.1 Arduino data goes to WiFi
 
 After completing the steps in the previous section, follow the simple steps below to implement data passthrough.
 
@@ -122,7 +122,7 @@ After the connection, you can see the data sent by Arduino every 1 second, reali
 
 ![image-20201022171106497](image-20201022171106497.png)
 
-## 2.2 Connect to remote server
+### 2.2 Connect to remote server
 
 This example USES Doit's public network TCP tool to test the ability of the WiFi extension board to communicate with the remote server.
 
@@ -163,19 +163,19 @@ More information on TCP public network testing tools is available： http://bbs.
 
 ![image-20201022171552450](image-20201022171552450.png)
 
-# 3. Work mode switch
+## 3. Work mode switch
 
 The workflow of the ESP8266 serial WiFi extension board is shown in the figure below.
 
 ![image-20201022174335324](image-20201022174335324.png)
 
-# 4. Serial port parameter setting
+## 4. Serial port parameter setting
 
 The serial port configuration parameters of THE ESP8266 serial port WiFi extension board are shown in the table below.
 
 ![image-20201022174308750](image-20201022174308750.png)
 
-# 5. WiFi mode Settings
+## 5. WiFi mode Settings
 
 - The WiFi mode of the ESP8266 serial port WiFi extension can be configured as AP or STA mode.
 - In the WebServer, if you select the "AP" mode, the "Refresh" button and the "AP List" will be disabled. At this point, you can configure the SSID and password in AP mode.
@@ -184,7 +184,7 @@ The serial port configuration parameters of THE ESP8266 serial port WiFi extensi
 
 If you select the "STA" mode, the "Refresh" button and the "AP List" will be enabled. The Refresh button allows you to manually scan the hot SSID, and the scan results will automatically appear in the AP List drop-down box.![image-20201022171904421](image-20201022171904421.png)
 
-# 6. Network Settings
+## 6. Network Settings
 
 - Network Settings can be set to either Server or Client mode. The WiFi extension module supports only one Socket.
 - When set to "Server", the "Remote IP" input box is disabled. In "Local Port", you need to fill in the listening Port.
@@ -197,9 +197,15 @@ When set to "Client," the "Remote IP" input box is enabled. Remote IP and connec
 
 The network protocol can be either TCP or UDP as needed.
 
-# 7. Factory Data Reset
+## 7. Factory Data Reset
 
 Click "FactoryDefault" in Webserver to restore factory Settings (long press the Key button in STA mode is just like configuration mode). Factory Settings are shown in the table below
 
 ![image-20201022172103229](image-20201022172103229.png)
 
+## Contact Us
+
+- E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
+- Skype: yichone
+- WhatsApp:+86-18676662425
+- Wechat: 18676662425
