@@ -1,11 +1,11 @@
 <center><font size=10> Finger Robot Installation Instructions </center></font>
 <center> From SZDOIT</center>
 
-# 1. Assembly Tutorial
+## 1. Assembly Tutorial
 
 ![img](wps95.jpg)
 
-## 1.1 Install 5 Fingers
+### 1.1 Install 5 Fingers
 
 ![img](wps96.jpg) 
 
@@ -35,13 +35,13 @@ Still using M2X3 screws, M2X6 copper pillars to assemble other fingers.
 
 Complete the assembly of the remaining fingers one by one, except for the big finger, the fingers are the same.
 
-## 1.2 Next We Carry Out The Overall Assembly
+### 1.2 Next We Carry Out The Overall Assembly
 
 ![img](wps105.jpg) 
 
 ![img](wps106.jpg) 
 
-## 1.3 The Right Arm Is Installed As Follows
+### 1.3 The Right Arm Is Installed As Follows
 
 ![img](wps107.jpg) 
 
@@ -67,7 +67,7 @@ Use 1.4 screws as self-tapping screws, and force them into the aluminum plate to
 
 ![img](wps113.jpg) 
 
-## 1.4 The left arm is installed as follows
+### 1.4 The left arm is installed as follows
 
 ![img](wps114.jpg) 
 
@@ -93,7 +93,7 @@ Use 1.4 screws as self-tapping screws, and force them into the aluminum plate to
 
 ![img](wps120.jpg) 
 
-## 1.5 Install the gear servos
+### 1.5 Install the gear servos
 
 ![img](wps121.jpg) 
 
@@ -113,7 +113,7 @@ The Wiring diagram of 6-way knob controller for example.
 
 Use the above method to center the steering gear one by one
 
-## 1.6 Installation of finger servo (same for left and right hands):
+### 1.6 Installation of finger servo (same for left and right hands):
 
 ![img](wps125.jpg) 
 
@@ -181,7 +181,7 @@ Tighten the screws on the copper column, the upper is M2x21, and the lower is th
 
 Complete the finger steering gear assembly. Pay attention to the installation serial numbers of the different finger servos, from left to right are 1, 2, 3, 4, and 5 servos.
 
-## 1.7 Overall installation
+### 1.7 Overall installation
 
 ![img](wps144.jpg) 
 
@@ -195,7 +195,7 @@ Screw the screw strap into the rocker arm. Be careful not to screw it tightly an
 
 Assemble 5 rocker arm belt pressure plates.
 
-## 1.8 Assembly Right Hand
+### 1.8 Assembly Right Hand
 
 ![img](wps147.jpg) 
 
@@ -281,7 +281,7 @@ Then cut the extra cable ties short again, leaving 0.5MM.
 
 The assembly is now complete. After completion, you can test it through the steering gear knob or the steering gear control board. The method is in the previous power supply scheme of the steering gear. Note: If the steering gear is easy to get stuck when the rocker arm is moved manually, use the steering gear tester or steering gear control board to control the steering gear rotation, otherwise it will be easy to damage the gears
 
-## 1.9 Installation Left Hand
+### 1.9 Installation Left Hand
 
 ![img](wps168.jpg) 
 
@@ -361,7 +361,7 @@ Complete the left-hand installation.
 
 Note: When finally using the robot fingers, try not to keep the small servo in the large or minimum position for a long time, that is, when the fingers are held and straightened, and always pay attention to the heat of the small servo. If the heat is too large, let the small servo return to the intermediate state of the servo, or stop working. Let the steering gear cool down. And readjust the length of the lower tie
 
-# Support And Services
+## Support And Services
 
 Ship1: https://www.aliexpress.com/item/32823081656.html?spm=2114.12010615.8148356.1.7c882d28YqwUqq
 
