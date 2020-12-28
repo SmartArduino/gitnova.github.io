@@ -3,7 +3,7 @@
 <center> from SZDOIT </center>
 
 
-# 1. Shipping List:
+## 1. Shipping List:
 
 | name   | Long U | Multi-functional bracket | Servo disc | servo |
 | ------ | ------ | ------------------------ | ---------- | ----- |
@@ -15,13 +15,13 @@
 | ---- | -------- | ------ | ------ | ------- |
 | qty  | 5        | 10     | 5      | 1       |
 
-# 2. Know the parts
+## 2. Know the parts
 
   From up to down, and from left to right, they are multi-functional bracket, servo disc, servo, long U bracket, M3\*8 screw, km3\*10 screw, m3 nut and bearing. 
 
 ![2dofpart1](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/2dofbracket/2dofpart1.png)
 
-# 3. Installation for 1st dof
+## 3. Installation for 1st dof
 
 1) Take out 1pcs multi-functional bracket, servo, servo disc, and 5pcs M3*8 screw, and fix them on the multi-functional bracket.
 
@@ -43,7 +43,7 @@
 
 ![2dofinstall8](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/2dofbracket/2dofinstall8.png)
 
-# 4. Installation for 2nd dof
+## 4. Installation for 2nd dof
 
 
 
@@ -67,7 +67,7 @@ Then, use 4pcs KM3*10 screw and 4pcs M3 nut fix the 2nd servo to the multi-funct
 
 ![2dofpart5](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/2dofbracket/2dofpart5.png)
 
-# 5. Fix the long U to the bracket
+## 5. Fix the long U to the bracket
 
 1) Use 4 pcs M3*8 screw to fix the servo disc, and then use one pcs M3*8 screw to fix servo
 
@@ -89,7 +89,7 @@ Then, use 4pcs KM3*10 screw and 4pcs M3 nut fix the 2nd servo to the multi-funct
 
 
 
-# Contact Us
+## Contact Us
 
 - E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
 - Skype: yichone
