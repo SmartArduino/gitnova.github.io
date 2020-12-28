@@ -1,13 +1,13 @@
 <center><font size=10> XD-37GB520 Brush-DC High-power Motor </font></center>
 <center> from SZDOIT</center>
 
-# 1. Introduction
+## 1. Introduction
 
 ​		Xd-37gb520 is a high-power brush motor, output torque up to 55kGF.cm, support positive and negative rotation and speed regulation, very suitable for outdoor DIY products.
 
 ![high-powermotor01](high-powermotor01.jpg)
 
-#  2. Motor Parameters:
+##  2. Motor Parameters:
 
 - Brand: Letter Da Motor
 - Rated Voltage: 12 V
@@ -17,23 +17,23 @@
 
 ![high-powermotor03](high-powermotor03.jpg)
 
-# 3. How to Test the Motor
+## 3. How to Test the Motor
 
 ​    There are two methods.
 
-## 3.1 Direct Use of Power
+### 3.1 Direct Use of Power
 
 ​	This method is very simple, that is, directly connect the 12V power supply to the motor, but the disadvantage is that it cannot adjust speed and manually switch the power supply to adjust the positive and negative rotation of the motor
 
 ![high-powermotor04.](high-powermotor04.jpg)
 
-## 3.2 Use Arduino + 4 Channel DC Motor Drive Board
+### 3.2 Use Arduino + 4 Channel DC Motor Drive Board
 
-### 3.2.1 Connect to Drive Board
+#### 3.2.1 Connect to Drive Board
 
 ![high-powermotor05](high-powermotor05.jpg)
 
-### 3.2.2 Test Code
+#### 3.2.2 Test Code
 
 ```
 #define PWMA 9
@@ -61,7 +61,7 @@ void loop()
 
 ![high-powermotor06](high-powermotor06.jpg)
 
-# 4. Frequently Asked Questions
+## 4. Frequently Asked Questions
 
 **Q: What range is this motor used in**
 
@@ -77,7 +77,7 @@ A: Yes , if the positive pole of the power supply is connected to the M+ of the 
 
 
 
-# 5.Contact Us
+## Contact Us
 
 - E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
 - Skype: yichone
