@@ -1,13 +1,13 @@
 <center><font size=10> DT37GB-520 DC Deceleration Motor With High Torque </font></center>
 <center> from SZDOIT</center>
 
-# 1. Introduction
+## 1. Introduction
 
 ​        The 37-520 motor comes with a high-precision magnetic encoder, matched with a Hall encoder, which has the characteristics of high precision and strong anti-interference ability. It is the best choice for DIY balance carts.
 
 ![37motor01](37motor01.jpg)
 
-#  2. Motor Parameters:
+##  2. Motor Parameters:
 
 - The Motor Type: Permanent magnet has a brush
 - Output rate: 360 ± 10% rpm
@@ -22,7 +22,7 @@
 
 ![37motor02](37motor02.jpg)
 
-# 3. Encoder Parameters:
+## 3. Encoder Parameters:
 
 - Type: AB term incremental Hall encoder
 - Line Speed:  390(Measurement of reducer output shaft)
@@ -34,23 +34,23 @@
 
 
 
-# 4. How to Test the Motor
+## 4. How to Test the Motor
 
 ​    There are two methods.
 
-## 4.1 Use Oscilloscope
+### 4.1 Use Oscilloscope
 
 ​	When power on the motor, and connect to the Hall sensor of motor, you will see the following wave. This way is very simple.
 
 ![37motor04](37motor04.jpg)
 
-## 4.2 Use Arduino
+### 4.2 Use Arduino
 
-### 4.2.1 Connect to UNO
+#### 4.2.1 Connect to UNO
 
 ![37motor05](37motor05.png)
 
-### 4.2.2 Test Code
+#### 4.2.2 Test Code
 
 ```
 /*
@@ -94,7 +94,7 @@ From the monitor, you can see the output data.
 
 
 
-# 5. Frequently asked Questions
+## 5. Frequently asked Questions
 
 **Q: What range is this motor used in**
 
@@ -110,7 +110,7 @@ From the monitor, you can see the output data.
 
 
 
-# Contact Us
+## Contact Us
 
 - E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
 - Skype: yichone
