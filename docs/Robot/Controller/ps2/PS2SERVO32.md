@@ -3,11 +3,11 @@
 <center> from SZDOIT </center>
 
 
-# 32-channel servo board
+## 32-channel servo board
 
 ![ps2321](ps2321.jpg)
 
-## Features
+### Features
 
 - The hardware is redesigned and the signals are all isolated. (Hardware performance increased by 10 times)
 - Rewrite the code all. (10 times more stable)
@@ -18,7 +18,7 @@
 - Computer, mobile software in simplified Chinese, traditional Chinese and English
 - The biggest advantage of this product is: you can use computer software to control the robot, or control your servo. It can control 32 servos at the same time, with high precision (1us). It adopts a 32-bit CPU imported from the United States and integrates a USB communication interface inside.
 
-## Characteristic
+### Characteristic
 
 - Separate power supply for servo and control board, independent power supply
 - Control channel: control 32 channels at the same time. (Steering gear speed is adjustable)
@@ -31,7 +31,7 @@
 - Mounting hole spacing: 55 * 35.5mm.
 - Storage space: 16M U disk on board.
 
-## Mode description:
+### Mode description:
 
 - USB connection mode: plug in the computer and control through the host computer.
 - UART connection mode: Send command control through other TTL serial level devices, such as Bluetooth, WIFI, MCU, etc. Instructions such as: "# 1P1500 # 2P1000T3000 \\ r \\ n", instructions such as: "G1 \\ r \\ n"
@@ -40,7 +40,7 @@
 
 ![ps2322](ps2322.jpg)
 
-# Instructions for PS2 controller
+## Instructions for PS2 controller
 
 Connect the receiver of the PS2 joystick and the servo control board with 6 DuPont wires as shown in the figure below.
  Look at the side of the handle receiver, the top is large, the bottom is small, the following shape, 9 pins, as long as the first, second, fourth, fifth, sixth, seventh
@@ -67,7 +67,7 @@ Remarks:
 1. After the handle receiver and the control board are connected normally, if the power supply is normal, the indicator light on the handle receiver will be all on, such as If it is blinking, you need to check whether the handle is powered or whether the power switch is turned on. 
 2. The handle has a sleep function. If the indicator light on the handle is completely off, it may be sleeping, you can press the handle START button
 
-# Contact Us
+## Contact Us
 
 - E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
 - Skype: yichone
