@@ -2,7 +2,7 @@
 
 <center> from SZDOIT </center>
 
-# 1. 9V 25GA-370 Motor Parameters:
+## 1. 9V 25GA-370 Motor Parameters:
 
 - Name: 25mm DC carbon brush motor (with Hall sensor code disc)
 - Output rate: 150 ± 10% rpm
@@ -27,7 +27,7 @@
 
 ![9vmotor1](https://github.com/SmartArduino/document/raw/master/docs/Robot/Engine/9vMotor/9vmotor1.jpg)
 
-# 2. Motor Connection
+## 2. Motor Connection
 
 The connection is show in the following picture.
 
@@ -39,23 +39,23 @@ The connection is show in the following picture.
 
 ![sensor](https://github.com/SmartArduino/document/raw/master/docs/Robot/Engine/9vMotor/sensor.png)
 
-# How to Test the Motor
+## 3. How to Test the Motor
 
 There are two methods.
 
-## 3.1 Use Oscilloscope
+### 3.1 Use Oscilloscope
 
 When power on the motor, and connect to the Hall sensor of motor, you will see the following wave. This way is very simple.
 
 ![9vmotor4](https://github.com/SmartArduino/document/raw/master/docs/Robot/Engine/9vMotor/9vmotor4.jpg)
 
-## 3.2 Use Arduino
+### 3.2 Use Arduino
 
-### 3.2.1 Connect to UNO
+#### 3.2.1 Connect to UNO
 
 ![motorcode](https://github.com/SmartArduino/document/raw/master/docs/Robot/Engine/9vMotor/motorcode.png)
 
-### 3.2.2 Test Code
+#### 3.2.2 Test Code
 
 ```
 /*
@@ -101,7 +101,7 @@ From the monitor, you can see the output data.
 
 
 
-# Contact Us
+## Contact Us
 
 - E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
 - Skype: yichone
