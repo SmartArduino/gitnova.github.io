@@ -3,7 +3,7 @@
 <center> from SZDOIT </center>
 
 
-# Description
+## Description
 
 Receiver pin description, wireless handle communication requires a total of 6 pins
 
@@ -21,7 +21,7 @@ Receiver pin description, wireless handle communication requires a total of 6 pi
 
 ![ps21](ps21.jpg)
 
-# Use with Arduino and UNO Shield
+## Use with Arduino and UNO Shield
 
 - The power indicator of the handle and receiver should be lit to ensure sufficient power supply;
 - When the pairing is unsuccessful, the signal light flashes, and the signal light does not flash after being connected;
@@ -291,7 +291,7 @@ void stop() // 停止；
 
 ```
 
-# Application for Remote Control Robot Car Chassis
+## Application for Remote Control Robot Car Chassis
 
 The PS2 controller is a remote controller for PlayStation2 game console. Sony's PSX series game consoles are very popular worldwide. I don't know when someone will pick up the idea of the PS2 controller and break the communication protocol, so that the controller can be connected to other devices for remote control, such as remote control of our familiar robot. The outstanding feature is that this handle is extremely cost-effective, and the buttons are rich, which can be easily extended to other applications.
 
@@ -341,7 +341,7 @@ When a key is pressed, the corresponding bit is "0" and the other bits are "1". 
  After setting the vibration mode, we can send WW, YY to control the vibration motor. WW is used to control the small vibration motor on the right, 0x00 is off, other values are on; YY is used to control the large vibration motor on the left, 0x40 ~ 0xFF motor is on, the larger the value, the faster the motor rotates, and the more obvious the vibration. See the program section below for specific settings.
  In red light mode: the left and right joysticks send analog values between 0x00 and 0xFF, and the key values L3 and R3 pressed by the joystick are valid; in green light mode: the left and right joystick analog values are invalid. When pushed to the limit, the corresponding send UP, RIGHT, DOWN, LEFT, △, ○, ╳, □, keys L3 and R3 are invalid.
 
-#  Instructions for using and connecting the handle
+##  Instructions for using and connecting the handle
 
 The handle requires two No. 7 1.5V batteries for power supply. The receiver and the microcontroller share the same power supply. The power supply range is 3 ~ 5V. It cannot be reversed. Overvoltage, overvoltage and reverse connection will burn the receiver.
  There is a power switch on the handle, ON ON / OFF. Turn the handle switch to ON. When the receiver is not found, the handle light will flash continuously. Within a certain time, the receiver has not been found. , The handle will enter the standby mode, and the light of the handle will go out. At this time, the handle can only be awakened by the "START" key.
@@ -394,7 +394,7 @@ After the circuit is connected, use the buttons in the servo control area plus t
 
 
 
-# Contact Us
+## Contact Us
 
 - E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
 - Skype: yichone
