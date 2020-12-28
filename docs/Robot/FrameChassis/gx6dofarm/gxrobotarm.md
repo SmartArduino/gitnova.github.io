@@ -2,13 +2,13 @@
 
 <center> from SZDOIT </center>
 
-# Introduction
+## Introduction
 
 This manual is for the 6 dof robot arm installation. This arm needs 4 dof big servo (e.g., mg996 servo) and 2 small servo (mg90s).
 
 ![arm](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/gx6dofarm/arm.jpg)
 
-# Assemble Steps
+## Assemble Steps
 
 
 
@@ -72,7 +72,7 @@ This manual is for the 6 dof robot arm installation. This arm needs 4 dof big se
 
 ![29](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/gx6dofarm/29.jpg)
 
-# Contact Us
+## Contact Us
 
 - E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
 - Skype: yichone
