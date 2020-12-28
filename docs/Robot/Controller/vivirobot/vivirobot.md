@@ -1,7 +1,7 @@
 <center><font size=10> 18DOF VIVI Robot Control Board</center></font>
 <center> From SZDOIT</center>
 
-# 1.Product Introduction:
+## 1.Product Introduction:
 
 ViVi humanoid robot control board is development  based on our esp-f WiFi module, which leads to TTL pin, EN and STATE key. The product can be built in the latest version of our company's humanoid robot firmware, it can complete the data real-time transmission of equipment TTL port to WiFi/cloud, which with Low power consumption control, power status indicator and other functions. This module can directly replace the original wire serial port and realize the data transmission and control of embedded devices.
 
@@ -39,7 +39,7 @@ l Support baud rate (BPS): 300/600/1200/2400/4800/9600/19200/38400/57600/74800/1
 
 l Operating temperature range: - 40 ℃ - 125 ℃;	
 
-# 2. Interface definition:
+## 2. Interface definition:
 
 Product interface definition shown in the following figure:
 
@@ -67,13 +67,13 @@ Product PIN definition shown in the following table:
 | 4    | GND         | P    | GND                                            |
 | 5    | VCC         | P    | Module power supply : 2.8-3.6V, recommend 3.3V |
 
-# 3. Size
+## 3. Size
 
 ![img](wps3.jpg) 
 
  
 
-# 4. Electrical parameters:
+## 4. Electrical parameters:
 
 | DC charging       | Use battery charger 6.4V, Trickle up           |
 | ----------------- | ---------------------------------------------- |
@@ -84,7 +84,7 @@ Product PIN definition shown in the following table:
 
 Note: Robots are not controlled when power supply is shortage, it is normal to have slight shaking in the shoulder during the movement.
 
-# Contact Us
+## Contact Us
 
 - E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
 - Skype: yichone
