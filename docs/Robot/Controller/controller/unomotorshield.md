@@ -5,7 +5,7 @@
 
 
 
-# Introduction
+## Introduction
 
 2-way Motor && 16-way Servo Drive Shield is a compatible with Arduino UNO R3 and ESPduino development board. This module can be inserted directly into the Arduino UNO and/or ESPduino. But if using ESPduino, you can develop quickly and conveniently a tank/car chassis controlled by WiFi. More details, please see [the link]([https://www.vvdoit.com/szdoit-2-channel-motor-%EF%BC%86-16-channel-servo-controller-expansion-board-servos-motors-control-module-drive-board-for-arduino-p2591823.html](https://www.vvdoit.com/szdoit-2-channel-motor-＆-16-channel-servo-controller-expansion-board-servos-motors-control-module-drive-board-for-arduino-p2591823.html)).
 
@@ -17,7 +17,7 @@ The IO interfaces is used as the control interface for Arduino UNO and ESPduino.
 The board can directly be used to control the intelligent robot by Bluetooth (pre-server) and/or WiFi. More details, please visit:
  www.vvdoit.com
 
-# Specifications
+## Specifications
 
 * POWER:
 * Power for motor(VM): 4.5V～36V, can power separately;
@@ -36,17 +36,17 @@ The board can directly be used to control the intelligent robot by Bluetooth (pr
 
 ![](https://ae01.alicdn.com/kf/HTB1XcdedOjQBKNjSZFnq6y_DpXaa.jpg)
 
-# DataSheet
+## DataSheet
 
 Manual: [download](https://github.com/SmartArduino/ESPboard/blob/master/DataSheetforMotorServo.pdf)
 
-# Servo Test
+## Servo Test
 
-## Experimental materials
+### Experimental materials
 
 One espdueno board, one Arduino 2 Motor &amp; &amp; 16 servo drive shield expansion board, one battery box, two 3.7V dry batteries and one steering gear;
 
-## Hardware connection
+### Hardware connection
 
 Plug the expansion board into the espdueno board correspondingly, install the positive and negative poles of the battery box power supply of the two batteries to connect the VS and GND of the expansion board respectively (two interfaces on the right side), use a short-circuit block (the jumper cap is inserted on the VIN and vs close to the power supply of the expansion board (the middle two of the four pins)), and the rudder line is correspondingly inserted into the 16 channel rudder pin of the expansion board (the yellow line is the signal line, connected with PWM, the red line connected with VS, and the green line) Color line connected to GND);
 
@@ -54,11 +54,11 @@ Plug the expansion board into the espdueno board correspondingly, install the po
 
 ![2way16servoshield2](2way16servoshield2.jpg)
 
-## Experimental principle
+### Experimental principle
 
 Through the chip integrated on the expansion board, PWM wave is output to control the forward and reverse of the steering gear, so as to realize the control of the steering gear;
 
-## Source code
+### Source code
 
 [Download](https://github.com/SmartArduino/Arduino-Third-party-Libraries) the PS2X_lib and adafruit_pwmservodriver.h functions before running the program
 
@@ -572,13 +572,13 @@ void loop()
 }  
 ```
 
-# Reminder
+## Reminder
 
 - If short VM and VIN, only can control the motor with 6-18V;
 - If short VS and VIN, that it's meaningless;
 - If short VM and VIN, and short VS and 5V, then CAN control the 2-way motor (with 6-18V) and 16-way 5V servo at the same time.
 
-# Applications
+## Applications
 
 * with ESPduino board
 ![2way16servoshield3](2way16servoshield3.jpg)
@@ -589,7 +589,7 @@ void loop()
 * with DT-06 wifi board
 ![2way16servoshield5](2way16servoshield5.jpg)
 
-# Notation
+## Notation
 
   Since the different generation batch, we now have the following different model about this shield. But the only difference is marked in the following picture, i.e., some pins location are different. 
 
@@ -597,7 +597,7 @@ void loop()
 
 ![espduinoControllerV3](espduinoControllerV3.jpg)
 
-# Contact Us
+## Contact Us
 
 - E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
 - Skype: yichone

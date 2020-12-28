@@ -2,13 +2,13 @@
 
 <center> from SZDOIT </center>
 
-# Introduction:
+## Introduction:
 
 This board is a control board, which is compatible with Arduino, is also a DC motor driver shield board. It is very suitable to control the big power robot tank car chassis shown in our shops.
 
 ![bigpower4](bigpower4.jpg)
 
-# Features:
+## Features:
 
 - big power: max current could be 20A, and the power can be 480W;
   large load: the tested load is 60kg;
@@ -18,7 +18,7 @@ This board is a control board, which is compatible with Arduino, is also a DC mo
 
 ![bigpower](bigpower.jpg)
 
-# Option Description:
+## Option Description:
 
 - This development board can be used with the WiFi module, Bluetooth module and handle kit for remote control of the four-wheel drive car;
 - The WiFi version and the Bluetooth version require a mobile phone to install the app, and currently only support the Android system;
@@ -33,7 +33,7 @@ This board is a control board, which is compatible with Arduino, is also a DC mo
 
 ![bigpower3](bigpower3.jpg)
 
-# Module pin description and schematic:
+## Module pin description and schematic:
 
 
 
@@ -47,7 +47,7 @@ This board is a control board, which is compatible with Arduino, is also a DC mo
 - Power input, maximum DC voltage 30V.The power input is not designed for anti-reverse protection, the wiring error may cause the blow-up machine;
 - Motor output overcurrent protection software reservation detection, software set protection threshold (Received ATMEGA328 external interrupt port D2, specific calculation please refer to schematic design parameters, protection current can be software modification ≤20a);
 
-# Source Code
+## Source Code
 
 **PS2 version**
 
@@ -466,7 +466,7 @@ void loop()
 
 ```
 
-# Contact Us
+## Contact Us
 
 - E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
 - Skype: yichone
