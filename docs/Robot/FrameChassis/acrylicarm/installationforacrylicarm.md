@@ -40,7 +40,7 @@
 
 ![19](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/acrylicarm/19.jpg)
 
-# Contact Us
+<font size=10>Contact Us</font>
 
 - E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
 - Skype: yichone
