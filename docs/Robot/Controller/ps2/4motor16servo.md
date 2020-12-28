@@ -2,7 +2,7 @@
 
 <center> from SZDOIT </center>
 
-# Introduction
+## Introduction
 
 This controller kit can be used to control car chassis and Robot/Controller, after you download the app (see the download link in the last). 
 
@@ -10,7 +10,7 @@ This controller kit can be used to control car chassis and Robot/Controller, aft
 
 **Note that, if you want to control the car, please select the car icon; if you want to control the Robot/Controller arm, please choose the Robot/Controller arm in the app.**
 
-## **Features:**
+### **Features:**
 
 - Simultaneously drive 2 or 4--channel DC motors and 16-channel servos;
 - Compatible with Arduino development board,it can be used directly by stacking;
@@ -19,7 +19,7 @@ This controller kit can be used to control car chassis and Robot/Controller, aft
 - It is a Best choice for developing Robot/Controlleric arms, Robot/Controllers, smart cars, and balance cars;
 - According to the actual measurement, this development board can drive a load of about 3-5kg.
 
-## **Module pin description and schematic:**
+### **Module pin description and schematic:**
 
 - 16-way steering gear & 4-way motor drive board, using TB6612 four-way drive, PCA9685 for 16-way servo control.
 
@@ -39,7 +39,7 @@ This controller kit can be used to control car chassis and Robot/Controller, aft
 
 ![servo321](servo321.jpg)
 
-## **Product technical specifications:**
+### **Product technical specifications:**
 
 **Power input:**
 
@@ -53,7 +53,7 @@ This controller kit can be used to control car chassis and Robot/Controller, aft
 - Short-circuit VM and VIN while shorting VS and 5V. Simultaneous control of motor (6 ~ 18V) and 16 5V servo
 - Schematics for this motor shield: [check](https://github.com/SmartArduino/DOITWiKi/blob/master/DC%20motor%20drive.pdf)
 
-# Arduino WiFi/Bluetooth controller kit
+## Arduino WiFi/Bluetooth controller kit
 
 If this motor shield is used with Arduino and WiFi/Bluetooth board (e.g., DT-06), then, you can use your phone via wifi to control the car chassis. 
 
@@ -399,7 +399,7 @@ void loop()
 
 ```
 
-# Arduino PS2 controller kit
+## Arduino PS2 controller kit
 
 If this motor shield is used with Arduino and PS2, then, you can use your phone via PS2 to control the car chassis. 
 
@@ -967,7 +967,7 @@ void loop()
 
 **Note that, the head file "PS2X_lib.h", click [headfile](https://github.com/SmartArduino/DOITWiKi/blob/master/PS2X_lib.h) to download this file must be put into the Arduino library folder.**
 
-# Usage for App
+## Usage for App
 
 click [this link](https://github.com/SmartArduino/ESPboard/blob/master/BTcar.apk) to download the App, which can be used for wifi, bluetooth, and video control.
 
@@ -981,7 +981,7 @@ If you are using Bluetooth, turn on Bluetooth, find the Bluetooth IP used, and m
 
 If you are using a WIFI module, turn on the phone's WIFI, find and use the WIFI and connect it, open the software, motor WIFI. The same as Bluetooth control after
 
-# Contact Us
+## Contact Us
 
 - E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
 - Skype: yichone
