@@ -16,7 +16,7 @@ Other accessories
 
 ![4DOFRoboticArm2](4DOFRoboticArm2.jpg)
 
-# 1. Rotating base installation
+## 1. Rotating base installation
 
 ![4DOFRoboticArm3](4DOFRoboticArm3.jpg)
 
@@ -30,7 +30,7 @@ Other accessories
 
 ![4DOFRoboticArm7](4DOFRoboticArm7.jpg)
 
-# 2. Install Arm
+## 2. Install Arm
 
 ![4DOFRoboticArm8](4DOFRoboticArm8.jpg) 
 
@@ -44,7 +44,7 @@ Other accessories
 
 ![4DOFRoboticArm12](4DOFRoboticArm12.jpg) 
 
-# 3. Install The Beam
+## 3. Install The Beam
 
 ![4DOFRoboticArm13](4DOFRoboticArm13.jpg) 
 
@@ -58,7 +58,7 @@ Other accessories
 
 ![4DOFRoboticArm18](4DOFRoboticArm18.jpg) 
 
-# Contact Us
+## Contact Us
 - E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
 - Skype: yichone
 - WhatsApp:+86-18676662425
