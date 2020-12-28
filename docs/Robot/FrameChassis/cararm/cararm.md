@@ -2,7 +2,7 @@
 
 <center> from SZDOIT </center>
 
-# Introduction
+## Introduction
 
 This manual is for robot arm and car chassis. But the installation, please search the assemble manual in this site. Here, we provide the connection and source code for robot arm and smart car chassis.
 
@@ -10,7 +10,7 @@ This manual is for robot arm and car chassis. But the installation, please searc
 
 ![cararm1](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/cararm/cararm1.jpg)
 
-# 4 channel motor shield and 16 channel servo shield
+## 4 channel motor shield and 16 channel servo shield
 
 
 
@@ -25,7 +25,7 @@ Especially, when you connect the shield. Please note the following.
 - The servo interface is from PWM0-PWM15, as shown in the above picture.
 - PWM8-PWM15 can be used for the servo centre. Note that, before install the servo to the robot arm, please adjust the servo to the centre.
 
-# Robot Arm and Servo Installation
+## Robot Arm and Servo Installation
 
 The source code and connection are suitable for lower 8 dof robot arm. 
 
@@ -60,7 +60,7 @@ Pwm1-pwm2 are connected to J2 and J3. Since the two servos are installed symmetr
 - In the assembly process, pay special attention to the relative position of the steering gear and the bracket. When the steering gear is installed, the output shaft of the steering gear (that is, the end with metal gear) cannot rotate. Please assemble in strict accordance with the assembly requirements.
 - Be sure to install from j1to J8, and use the mobile app for debugging while installing.
 
-# Usage for App 
+## Usage for App 
 
 The download address is at: https://www.gitnova.com/24-channel-motor-shield-kit/, choose v1.3 version.
 
@@ -74,7 +74,7 @@ car mode: just control the car, and the functions shown in the app are for car c
 
 ![cararm4](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/cararm/cararm4.jpg)
 
-# Source code
+## Source code
 
 Some head files can be downed from the following link: [source code](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/cararm/https://github.com/SmartArduino/DOITWiKi/blob/master/armcarhead.zip).
 
@@ -646,7 +646,7 @@ void loop(){
 }
 ```
 
-# Contact Us
+## Contact Us
 
 - E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
 - Skype: yichone
