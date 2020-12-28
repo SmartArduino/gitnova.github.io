@@ -2,13 +2,13 @@
 
 <center> from SZDOIT </center>
 
-# Introduction
+## Introduction
 
 The device also can be used as a signal generator for electric speed controller (ESC), then you can test your motor system without using a transmitter and receiver.
 
 ![servotester1](https://github.com/SmartArduino/document/raw/master/docs/Robot/Engine/servotester/servotester1.jpg)
 
-# Three Modes
+## Three Modes
 
 - There are 3 modes to check servos or ESC:
   Manual mode: turn the knob with different speed, check the reaction time.
@@ -20,7 +20,7 @@ The device also can be used as a signal generator for electric speed controller 
 It can connect 1-3 servos simultaneously and test such as 1-3 servos consistency and so on. You can also connect 1-3 ESC to test and compare their reaction time respectively. It can connect 3 servos of the CCPM helicopters and select servos.
 It can also connect the servo of airplanes install the steering-box and adjust planes by using such as the neutral mode and so on.
 
-# Paramters
+## Paramters
 
 - Item Name: Servo Tester
 - Size: 46x32x17mm
@@ -31,7 +31,7 @@ It can also connect the servo of airplanes install the steering-box and adjust p
 - Output signal: 1.5ms±0.5ms
 - Adjustment Methods: Manual, Neutral, Automatic.
 
-# Usage
+## Usage
 
   ![servotester2](https://github.com/SmartArduino/document/raw/master/docs/Robot/Engine/servotester/servotester2.jpg)
 
@@ -41,7 +41,7 @@ Connect the power supply from the right single row of pins, the three blue light
 
 ![servotester3](https://github.com/SmartArduino/document/raw/master/docs/Robot/Engine/servotester/servotester3.jpg)
 
-# Contact Us
+## Contact Us
 
 - E-mails: [yichone@doit.am](https://github.com/SmartArduino/document/raw/master/docs/Robot/Engine/servotester/mailto:yichone@doit.am), [yichoneyi@163.com](https://github.com/SmartArduino/document/raw/master/docs/Robot/Engine/servotester/mailto:yichoneyi@163.com)
 - Skype: yichone
