@@ -3,13 +3,13 @@
 <center> from SZDOIT </center>
 
 
-# 1. Introduction
+## 1. Introduction
 
 This manual is for 17 dof humanoid installation, which can be controlled by Arduino, raspberry pi, or stem 32 controller.
 
 ![17dofinstall1](17dofinstall1.jpg)
 
-# 2. Installation Steps
+## 2. Installation Steps
 
 **Step 1:** As Shown in Image below take 2 x Robot big Feets board, 2 x Multi-functional Brackets, 8 x Nuts and 8 x Screws. 
 
@@ -199,7 +199,7 @@ After fixing the both the hands top portion of the Humanoid will look as seen in
 
 ![17dofinstallation45](17dofinstallation45.jpg)
 
-# Contact Us
+## Contact Us
 
 - E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
 - Skype: yichone
