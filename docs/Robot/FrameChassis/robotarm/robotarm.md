@@ -2,7 +2,7 @@
 
 <center> from SZDOIT </center>
 
-# 1. Introduction
+## 1. Introduction
 
 This manual can be used for our 4 types of robot arm installation. Since there are many similar installation way, we just present one document for robot arm. But, we will say again for the different installation.
 
@@ -15,13 +15,13 @@ Four types of robot arm:
 - 6 dof big robot arm
 - 6 dof small robot arm
 
-# 2. Materials for Four Types of Robot Arm
+## 2. Materials for Four Types of Robot Arm
 
-## 2.1 Materials of 7 dof big/small robot arm
+### 2.1 Materials of 7 dof big/small robot arm
 
 ![robotarm2](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/robotarm/robotarm2.jpg)
 
-### 2.1.1 **Screw set for 7 dof big robot arm**
+#### 2.1.1 Screw set for 7 dof big robot arm
 
 Screws Needed：
 
@@ -37,7 +37,7 @@ Screws Needed：
 | ---------- | ----------------------------- | ----------------------------- | ------------------- | --------------------- | --------- | -------------- | ------------- |
 | Quantities | 4                             | 4                             | 1                   | 5                     | 2         | 7              | 7             |
 
-### 2.1.2**Srew set for 7 dof small robot arm**
+#### 2.1.2 Srew set for 7 dof small robot arm
 
  Screws Needed
 
@@ -51,11 +51,11 @@ Other accessories：
 | ---------- | ------------------- | ---- | ---------------------------- | --------------------- | --------------- | --------- | ------------- | ------------------------- |
 | Quantities | 1                   | 4    | 4                            | 5                     | 5               | 2         | 5             | 2                         |
 
-## 2.2 Materials of 7 dof big/small robot arm
+### 2.2 Materials of 7 dof big/small robot arm
 
 ![robotarm3](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/robotarm/robotarm3.jpg)
 
-### 2.2.1 **Screw set for 6 dof big robot arm**
+#### 2.2.1 Screw set for 6 dof big robot arm
 
 Screws Needed：
 
@@ -69,7 +69,7 @@ Screws Needed：
 | ---------- | ------------------- | ---- | ---------------------------- | --------------------- | ---------- | --------------- | ------------- |
 | Quantities | 1                   | 4    | 4                            | 5                     | 2          | 6               | 6             |
 
-### 2.2.2**Screw set for 6 dof small robot arm**
+#### 2.2.2 Screw set for 6 dof small robot arm
 
  Screws Needed：
 
@@ -83,7 +83,7 @@ Screws Needed：
 | ---------- | ------------------- | ---- | ---------------------------- | --------------------- | --------------- | ---------- | ------------- | ------------------------- |
 | Quantities | 1                   | 4    | 4                            | 5                     | 4               | 2          | 4             | 2                         |
 
-# 3. Rotated Base Installation
+## 3. Rotated Base Installation
 
  ![robotarm4](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/robotarm/robotarm4.jpg)
 
@@ -143,7 +143,7 @@ Screws Needed：
 
 
 
-# Contact Us
+## Contact Us
 
 - E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
 - Skype: yichone
