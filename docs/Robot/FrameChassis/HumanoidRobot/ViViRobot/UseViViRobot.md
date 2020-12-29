@@ -1,11 +1,11 @@
 <center><font size=10> ViVi Humanoid Robot User Manual </center></font>
 <center> From SZDOIT</center>
 
-# 【Basic articles】
+## 【Basic articles】
 
 ![img](wps1.png)![img](wps2.png)
 
-## 1 Mobile APP introduction and control
+### 1 Mobile APP introduction and control
 
 Android version：
 
@@ -57,7 +57,7 @@ First turn on the power switch of the robot, then turn on the WiFi function of t
 
 ![img](wps18.jpg) 
 
-## 2 Charging instructions
+### 2 Charging instructions
 
 The power supply of the ViVi humanoid robot is a 4.8V battery, which needs to be charged with a dedicated charger. Under normal circumstances, it takes 2 hours to fully charge the battery. The power supply at full power can be used for 30 minutes for the robot to work continuously.
 
@@ -79,7 +79,7 @@ When charging the robot, please follow the instructions below:
 
 ![img](wps26.jpg) 
 
-## 3 Firmware downloading process
+### 3 Firmware downloading process
 
 Hardware material：
 
@@ -107,13 +107,13 @@ Please download the firmware to the development board in the order shown.：
 
 ![img](wps34.jpg) 
 
-## 4 Precautions
+### 4 Precautions
 
 ①When the vivi robot suddenly loses power, the hands and feet will be irregularly twisted and twisted due to the characteristics of the steering gear. This is a normal phenomenon. It is necessary to turn off the power immediately, and then rotate the hands and feet back to the original position according to the original position. The state, especially the arms, must not be rotated to the normal state according to the steering line of the steering gear. This will result in inaccurate steering angle of the steering wheel at the next startup, which will affect the next use. In severe cases, it will even cause permanent use of the steering gear. damage!
 
 ②When charging, please make sure that the positive and negative terminals of the battery are not connected correctly and let them charge for a long time to avoid burning the control board due to short circuit and even other unpredictable consequences!
 
-## 5 Mesh networking function introduction (Appendix)
+### 5 Mesh networking function introduction (Appendix)
 
 The upgraded version of ViVi humanoid robot comes with WiFi Mesh self-organizing network function. It can automatically identify or create WiFi networking after power-on. In theory, no matter how many robots can realize networking function, N sets with the same self-organizing network function. After the robot is turned on, the mobile phone is connected to one of the created hotspots "ViVi_Mesh", the password is 123456789, and then the APP is opened according to the operation method of Chapter 1, and the N robots that have formed the network can be simultaneously controlled to perform the action demonstration. .
 
@@ -127,13 +127,13 @@ http://v.youku.com/v_show/id_XMjk5NjQyMTY1Ng==.html?spm=a2h3j.8428770.3416059.1
 
 Note: ViVi robot comes with a stand-alone version of the program. The Mesh networking function is only introduced here, not provided by default.
 
-# 【Advanced article】
+## 【Advanced article】
 
-## 6The main program is uploaded to the development board
+### 6The main program is uploaded to the development board
 
 The code is uploaded to the development board for two webpage uploading and serial port tools. The premise of webpage uploading is that the control panel has uploaded the code and can open the wifi hotspot or connect to the router. If you upload the program to the development board for the first time, you need to upload the code with the serial port tool.
 
-### 6.1 Serial port upload firmware
+#### 6.1 Serial port upload firmware
 
 Open a dedicated serial port tool
 
@@ -177,9 +177,9 @@ The download steps are as follows：
 
  
 
-### 6.2 Web page upload firmware (AP mode)
+#### 6.2 Web page upload firmware (AP mode)
 
-#### 6.2.1 AP mode
+##### 6.2.1 AP mode
 
 The AP mode is configured by connecting to the wifi hotspot of the control panel. After connecting the control panel wifi hotspot, enter 192.168.4.1/update in the browser to enter the download page, and select the BIN file to be uploaded and click Upload. There is a program upload progress in the lower left corner of the page.
 
@@ -193,7 +193,7 @@ The AP mode is configured by connecting to the wifi hotspot of the control panel
 
  
 
-## 7 Upload the action file to the development board
+### 7 Upload the action file to the development board
 
 The uploading of the action file of the humanoid robot requires a special file uploading tool, MotionInstaller.exe, to upload the code through the serial port tool. The serial port must be uploaded with the PL2303 serial port tool, otherwise the uploading is unsuccessful. Note: When burning the action file, you need to upload 00_Lstep.json together to determine the starting address position of the action file.
 
@@ -227,17 +227,17 @@ If the serial port outputs the following information, the action file is success
 
 12. Action uploaded successfully
 
-## 8 Graphical editing action
+### 8 Graphical editing action
 
 If the user wants to design the humanoid robot's action, it can be developed by the motion_editor.exe graphical editing software. The motion_editor function is very powerful, not only can edit the movement of the humanoid robot or online simulation, real-time control and so on.
 
-### 8.1 Software icon
+#### 8.1 Software icon
 
 ![img](wps49-1603674226190.jpg) 
 
 15.motion_editor icon
 
-### 8.2Software function explanation
+#### 8.2 Software function explanation
 
 （1）Open the action folder
 
@@ -289,7 +289,7 @@ After the modification is completed, upload it to the control panel through the 
 
 18.Action file empty file
 
-## 9 Code compilation tool
+### 9 Code compilation tool
 
 arduino-1.6.8_SDK_1.5.4。The core of the control board is ESP8266, and its compiler is the secondary development of ArduinoIDE. The tool name is arduino-1.6.8_SDK_1.5.4.
 
@@ -309,7 +309,7 @@ Open the software and click on the file to enter the main program folder. Select
 
 20.Select the file
 
-## 10 Program related material link
+### 10 Program related material link
 
 Users can refer to the website if they need to develop or modify the internal code by themselves:
 
@@ -327,7 +327,7 @@ If you need to develop or modify the internal code yourself, you can refer to th
 
 Robot code download and explanation
 
-# Contact Us
+## Contact Us
 
 - E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
 - Skype: yichone
