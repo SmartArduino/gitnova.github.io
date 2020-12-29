@@ -1,19 +1,19 @@
 <center><font size=10> 15DOF Humanoid Robot Installation Instructions </center></font>
 <center> From SZDOIT</center>
 
-# 1. Preparation
+## 1. Preparation
 
 ![img](wps2.jpg)
 
-## 1.1 Bracekets
+### 1.1 Bracekets
 
 ![img](wps3.jpg) 
 
-## 1.2 Screws And Hardware&Accessories
+### 1.2 Screws And Hardware&Accessories
 
 ![img](wps4.jpg)
 
-## 1.3 Installation Tools
+### 1.3 Installation Tools
 
 ![img](wps5.jpg) 
 
@@ -21,11 +21,11 @@
 
  
 
-# 2. Installation
+## 2. Installation
 
 Prepare the above-mentioned structural parts, hardware screw accessories and installation tools. Then we begin to install, first install the bracket structure of each part of the robot.
 
-## 2.1 Installation of Robot Foot Structure
+### 2.1 Installation of Robot Foot Structure
 
 ![img](wps6.jpg) 
 
@@ -37,7 +37,7 @@ Prepare the above-mentioned structural parts, hardware screw accessories and ins
 
 - The screws need to be tightened with needle-nose pliers to make the frame stable.
 
-## 2.2 Install the robot ankle structure
+### 2.2 Install the robot ankle structure
 
 ![img](wps7.jpg) 
 
@@ -47,7 +47,7 @@ Prepare the above-mentioned structural parts, hardware screw accessories and ins
 
 - The screws must be fastened with needle-nose pliers after installation, to make the frame stable
 
-## 2.3 Installation of Robot Lower Leg Structure 
+### 2.3 Installation of Robot Lower Leg Structure 
 
 ![img](wps8.jpg) 
 
@@ -57,7 +57,7 @@ Prepare the above-mentioned structural parts, hardware screw accessories and ins
 
 - After alignment, the screws need to be tightened with needle-nose pliers to make the frame stable.
 
-## 2.4 Installing robot straddle structure
+### 2.4 Installing robot straddle structure
 
 ![img](wps9.jpg) 
 
@@ -67,7 +67,7 @@ Prepare the above-mentioned structural parts, hardware screw accessories and ins
 
 - The bracket is installed vertically and crosswise. The screws must be fastened with needle-nose pliers to achieve a stable structure.
 
-## 2.5 Installing Robot Torso Structure
+### 2.5 Installing Robot Torso Structure
 
 ![img](wps10.jpg)![img](wps11.jpg) 
 
@@ -79,7 +79,7 @@ Prepare the above-mentioned structural parts, hardware screw accessories and ins
 
 - During the installation process, the screws are fixed from the inside to the outside, so as not to affect the installation of the servo. After the the  installation is finished, the screws need to be tightened with needle-nose pliers to make the frame stable. At the end of all installations, the bracket must be fixed The direction of the position is positive and not ske
 
-## 2.6 Installation of Robot Arm Structure
+### 2.6 Installation of Robot Arm Structure
 
 ![img](wps12.jpg) 
 
@@ -87,13 +87,13 @@ Prepare the above-mentioned structural parts, hardware screw accessories and ins
 
 - During the installation process, the screws are fixed from the inside to the outside, so as not to affect the installation of the servo. After the the  installation is finished, the screws need to be tightened with needle-nose pliers to make the frame stable. At the end of all installations, the bracket must be fixed The direction of the position is positive and not skewed.
 
-## 2.7 Installation Of The Robot Wrist Structure
+### 2.7 Installation Of The Robot Wrist Structure
 
 ![img](wps13.jpg) 
 
 - Take 2pcs long multi-function brackets, 2pcs flat brackets, 8 pcsround-head M3X7 screws, and 8 pcsM3 nuts, and install them as shown in the figure. During the installation process, the screws pass through the inside of the multi-function bracket, and the nuts are fastened on the top of the in-line bracket.Need to fasten with needle-nose pliers
 
-# 3. Install Robot Joints-steering Gear
+## 3. Install Robot Joints-steering Gear
 
 Now we have completed the installation of the whole body structure of the robot, and then arrange them according to the form of the human body structure, as shown in the figure below; then, start to install the joints of each part.
 
@@ -103,7 +103,7 @@ Note:
 
 All the servos are adjusted to the middle position by default (that is, the position of the left and right movement range of the servos). Before installing the servos, please do not rotate the servos. If it is  rotated accidentally, please adjust to the middle Position by using the host computer software to , or adjust to the middle position with a steering gear tester, the value of the middle position of the steering gear is 1500. The following uses digital steering gear as an example to illustrate the installation process.
 
-## 3.1 Install The Robot Foot Servo
+### 3.1 Install The Robot Foot Servo
 
 ![img](wps15.jpg) 
 
@@ -113,7 +113,7 @@ All the servos are adjusted to the middle position by default (that is, the posi
 
 - Use M48 screws and M4 nuts to fix the 4 corners of the steering gear and the multi-function bracket respectively. The screws need to be fastened with needle-nose pliers
 
-## 3.2 Install the robot ankle servo
+### 3.2 Install the robot ankle servo
 
 ![img](wps16.jpg) 
 
@@ -123,7 +123,7 @@ All the servos are adjusted to the middle position by default (that is, the posi
 
 - Use M4X8 screws and M4 nuts to fix the 4 corners of the steering gear and the multi-function bracket respectively. The screws need to be fastened with needle-nose pliers
 
-## 3.3 Install the robot leg servos
+### 3.3 Install the robot leg servos
 
 ![img](wps17.jpg) 
 
@@ -133,7 +133,7 @@ All the servos are adjusted to the middle position by default (that is, the posi
 
 - Use M4X8 screws and M4 nuts to fix the 4 corners of the steering gear and the multi-function bracket respectively. The screws need to be fastened with needle-nose pliers
 
-## 3.4 Install the Robot Bod Servos
+### 3.4 Install the Robot Bod Servos
 
 ![img](wps18.jpg) 
 
@@ -143,7 +143,7 @@ All the servos are adjusted to the middle position by default (that is, the posi
 
 - Use M4X8 screws and M4 nuts to fix the 4 corners of the steering gear and the multi-function bracket respectively. The screws need to be fastened with needle-nose pliers
 
-## 3.5 Install the Robot Arm Servos
+### 3.5 Install the Robot Arm Servos
 
 ![img](wps19.jpg) 
 
@@ -153,7 +153,7 @@ All the servos are adjusted to the middle position by default (that is, the posi
 
 - Use M4X8 screws and M4 nuts to fix the 4 corners of the steering gear and the multi-function bracket respectively. The screws need to be fastened with needle-nose pliers
 
-## 3.6 Install The Wrist Servos
+### 3.6 Install The Wrist Servos
 
 ![img](wps20.jpg) 
 
@@ -163,7 +163,7 @@ All the servos are adjusted to the middle position by default (that is, the posi
 
 - Use M4X8 screws and M4 nuts to fix the 4 corners of the steering gear and the multi-function bracket respectively. The screws need to be fastened with needle-nose pliers
 
-# 4.  Connect parts of the robot
+## 4.  Connect parts of the robot
 
 Now all parts of the robot have been installed, and what we need to do is connect the parts of the structure to assemble a complete body. As shown in the figure below, first arrange the structure of each part of the robot roughly so that you can understand the location of each part as a whole.
 
@@ -171,7 +171,7 @@ It should be noted that although the symmetrical structure of the robot looks li
 
 ![img](wps21.png)
 
-## 4.1 Connect the Robot Feet And Ankles
+### 4.1 Connect the Robot Feet And Ankles
 
 ![img](wps22.jpg) 
 
@@ -179,7 +179,7 @@ It should be noted that although the symmetrical structure of the robot looks li
 
 - Put the parts together. Use 4pcs round head M3X5 screws to fix the front metal rudder wheel, and use 1pcs  round head M3X6 screw to fix the middle hole. At the  the back, install it with a flange bearing, and then tighten it with an M3 nut. The screws must be fastened with needle-nose pliers 
 
-## 4.2 Connect Legs 1
+### 4.2 Connect Legs 1
 
 ![img](wps23.jpg) 
 
@@ -187,7 +187,7 @@ It should be noted that although the symmetrical structure of the robot looks li
 
 - Put the parts together. Use 4pcs round head M3X5 screws to fix the front metal rudder wheel, and use 1pcs  round head M3X6 screw to fix the middle hole. At the  the back, install it with a flange bearing, and then tighten it with an M3 nut. The screws must be fastened with needle-nose pliers 
 
-## 4.2 Connect Legs 2
+### 4.2 Connect Legs 2
 
 ![img](wps24.jpg)
 
@@ -195,7 +195,7 @@ It should be noted that although the symmetrical structure of the robot looks li
 
 - Put the parts together. Use 4pcs round head M3X5 screws to fix the front metal rudder wheel, and use 1pcs  round head M3x6 screw to fix the middle hole. At the  the back, install it with a flange bearing, and then tighten it with an M3 nut. The screws must be fastened with needle-nose pliers 
 
-## 4.3 Connect the Arms
+#### 4.3 Connect the Arms
 
 ![img](wps25.jpg) 
 
@@ -203,7 +203,7 @@ It should be noted that although the symmetrical structure of the robot looks li
 
 - Put the parts together. Use 4pcs round head M3X5 screws to fix the front metal rudder wheel, and use 1pcs  round head M3X6 screw to fix the middle hole. At the  the back, install it with a flange bearing, and then tighten it with an M3 nut. The screws must be fastened with needle-nose pliers 
 
-## 4.4 Connnect Head And Shoulders
+### 4.4 Connnect Head And Shoulders
 
 ![img](wps26.jpg) 
 
@@ -213,7 +213,7 @@ It should be noted that although the symmetrical structure of the robot looks li
 
 - The frame is fixed on the left and right shoulders of the robot's torso, 1 servo is fixed to the neck of the robot's torso, the front metal rudder wheel is fixed with 4pcs round head M3X5 screws on the four sides, and the middle hole is fixed with 1 round head M3 6 Fix with screws.
 
-## 4.5 Connect The Upper Body Of The Robot
+### 4.5 Connect The Upper Body Of The Robot
 
  ![img](wps27.png)
 
@@ -227,7 +227,7 @@ It should be noted that although the symmetrical structure of the robot looks li
 
 ![img](wps30.png)
 
-## 4.6 Connect The Lowe Body
+### 4.6 Connect The Lowe Body
 
 ![img](wps31.png)
 
@@ -237,7 +237,7 @@ It should be noted that although the symmetrical structure of the robot looks li
 
 
 
-# Services and Support
+## Services and Support
 
 My shop1: https://www.aliexpress.com/item/32383818177.html?spm=5261.ProductManageOnline.0.0.211c4edfPXBpUC
 
