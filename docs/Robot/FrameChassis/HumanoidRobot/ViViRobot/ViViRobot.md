@@ -1,7 +1,7 @@
 <center><font size=10> ViVi Robot Installation Instructions </center></font>
 <center> From SZDOIT</center>
 
-# 1. Bill of materials
+## 1. Bill of materials
 
 ![img](wps36.png)![img](wps37.png)
 
@@ -22,7 +22,7 @@ Description: (Note: the list and the name mentioned in the description are only 
 | 9    | Right servo bracket    | 2        | 19   | neck           | 1        | 29   | control board                 | 1        |
 | 10   | Left servo bracket     | 2        | 20   | 25T servo horn | 6        | 30   | charger                       | 1        |
 
-# 2. Main control board introduction
+## 2. Main control board introduction
 
 Main control board
 
@@ -30,29 +30,29 @@ Main control board
 
 ![img](wps40.jpg) 
 
-# 3. Structure introduction
+## 3. Structure introduction
 
-## Bulk structure diagram
+### Bulk structure diagram
 
 ![img](wps41.jpg) 
 
-## Front structure
+### Front structure
 
 ![img](wps42.png) 
 
-## Back structure
+### Back structure
 
 ![img](wps43.jpg) 
 
-## Physical size chart
+### Physical size chart
 
 ![img](wps44.png)
 
-# 4. Assembly and commissioning
+## 4. Assembly and commissioning
 
-## 1)Material preparation
+### 1)Material preparation
 
-### a. Steering gear processing
+#### a. Steering gear processing
 
 ![img](wps45.jpg) 
 
@@ -62,7 +62,7 @@ Main control board
 
 ![img](wps48.jpg) 
 
-### b. Head processing
+#### b. Head processing
 
 ![img](wps49.jpg) 
 
@@ -78,9 +78,7 @@ Main control board
 
 ![img](wps55.jpg) 
 
-### c. Palm processing
-
- 
+#### c. Palm processing
 
 ![img](wps56.png) 
 
@@ -90,7 +88,7 @@ Main control board
 
 ![img](wps59.jpg) 
 
-### d, APP installation
+#### d, APP installation
 
 Android version：
 
@@ -108,9 +106,9 @@ The following documents use the Android version of the app as an introduction;
 
 ![img](wps60.png) 
 
-## 2)Installing the steering gear
+### 2)Installing the steering gear
 
-### a．Middle frame
+#### a．Middle frame
 
 ![img](wps61.png) 
 
@@ -130,7 +128,7 @@ The following documents use the Android version of the app as an introduction;
 
 ![img](wps69.jpg) 
 
-### b．Legs
+#### b．Legs
 
 ![img](wps70.png) 
 
@@ -170,9 +168,9 @@ The following documents use the Android version of the app as an introduction;
 
 ![img](wps86.jpg) 
 
-## 3)Joint assembly
+### 3)Joint assembly
 
-### a. Power on the control board
+#### a. Power on the control board
 
 ![img](wps87.png) 
 
@@ -182,7 +180,7 @@ The following documents use the Android version of the app as an introduction;
 
 ![img](wps90.jpg) 
 
-### b. Power on the trunk
+#### b. Power on the trunk
 
 ![img](wps91.jpg) 
 
@@ -202,7 +200,7 @@ The following documents use the Android version of the app as an introduction;
 
 ![img](wps99.jpg) 
 
-### c. Power on both legs
+#### c. Power on both legs
 
 ![img](wps100.jpg) 
 
@@ -236,7 +234,7 @@ The following documents use the Android version of the app as an introduction;
 
 ![img](wps115.jpg) 
 
-### d. Power on the arm joint
+#### d. Power on the arm joint
 
 ![img](wps116.jpg) 
 
@@ -252,7 +250,7 @@ The following documents use the Android version of the app as an introduction;
 
 ![img](wps122.jpg) 
 
-### e. Foot and arm mounting
+#### e. Foot and arm mounting
 
 ![img](wps123.jpg) 
 
@@ -268,7 +266,7 @@ The following documents use the Android version of the app as an introduction;
 
 ![img](wps129.jpg) 
 
-### f. Head mounting
+#### f. Head mounting
 
 ![img](wps130.png) 
 
@@ -284,7 +282,7 @@ The following documents use the Android version of the app as an introduction;
 
 ![img](wps136.png) 
 
-### g. APP debugging
+#### g. APP debugging
 
 A：The debugging of the entire robot can be roughly divided into two steps:
 
@@ -528,7 +526,7 @@ First turn on the power switch of the robot, then turn on the WiFi function of t
 
 
 
-# Contact Us
+## Contact Us
 
 - E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
 - Skype: yichone
