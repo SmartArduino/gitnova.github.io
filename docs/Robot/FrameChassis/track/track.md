@@ -2,7 +2,7 @@
 
 <center> from SZDOIT </center>
 
-# **1. Track Connection and Cut Off**
+## **1. Track Connection and Cut Off**
 
 - Material: plastic
 - Type: Wide and Narrow
@@ -23,13 +23,13 @@ There are two types of track as follows. The big difference is that, wide-track 
 
 **Important:** this track is used for **17mm copper** pillar in our metal driving wheel
 
-# 2. How to Cut Off the track
+## 2. How to Cut Off the track
 
 Maybe, when you get the track or tank car chassis, at the beginning, the length of track is not suitable for your requirements. So, you must adjust the length of track. You can do it by the following picture.
 
 ![trackcut](https://github.com/SmartArduino/document/raw/master/docs/Robot/FrameChassis/track/trackcut.jpg)
 
-# **3. Note**
+## 3. Note
 
 - To pull out the pin, please from the small slot of the track;
 - Please don't hurt your hand when you you cut off the track;
@@ -37,7 +37,7 @@ Maybe, when you get the track or tank car chassis, at the beginning, the length 
 - The track is connected one by one;
 - there is two types of track: wide track and narrow track, in which, wide track is used for the 28mm copper pillar, and the narrow on is used for 17mm pillar, in our metal driving wheel.
 
-# Contact Us
+## Contact Us
 
 - E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
 - Skype: yichone
