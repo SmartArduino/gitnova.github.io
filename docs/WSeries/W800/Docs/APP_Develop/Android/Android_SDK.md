@@ -1,4 +1,4 @@
-<center><font size=10> W800_BleWiFi Bluetooth Connection Android SDK </center></font>
+<center><font size=10> W800 BleWiFi Bluetooth Connection Android SDK </center></font>
 <center> From SZDOIT</center>
 
 ## 1 The Introduction
