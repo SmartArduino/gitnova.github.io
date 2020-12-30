@@ -31,55 +31,55 @@ device：Equipment to be configured;
 
 #### 2.1.2 The Connect Method
 
-本方法建立 client 与 Device 之间的连接，若连接建立成功，BleWiFiCallback 回调onConnected 方法将被调用。client 将主动扫描 Device 的服务和特征，在发现指定的服务和特征后，BleWiFiCallback 回调 onServicesDiscovered 方法将被调用，此时用户才可以开始配网过程。
+This method establishes the connection between client and Device. If the connection is established successfully, the BleWiFiCallback callback onConnected method will be called. The BleWiFiCallback callback onServicesDiscovered method is invoked after the client actively scans the Device's services and characteristics. The user can then begin the networking process after discovering the specified services and characteristics.
 
-原型：
+Prototype:
 
 public synchronized void connect() ;
 
-#### 2.1.3 negotiateSecretKey 方法
+#### 2.1.3 negotiateSecretKey methods
 
-本 方 法 用 来 与 Device 协 商 加 密 密 钥 ， 协 商 结 果 通 过 BleWiFiCallback 回 调onNegotiateSecretKeyResult 方法通知给用户。
+This method used to Device holds's secret cipher key, holds bear fruit through BleWiFiCallback callback method onNegotiateSecretKeyResult notification to the user.
 
-原型：
+Prototype:
 
 public void negotiateSecretKey();
 
-#### 2.1.4 configureSta 方法
+#### 2.1.4 configureSta Methods
 
-本方法配置 Device 作为 STA 的参数，配置成功后 Device 开始加网，并将加网结果通过 BleWiFiCallback 回调 onConfigureStaResult 方法通知给用户。
+This method configures Device as the parameter of STA. After successful configuration, Device will be netted, and the netted result will be notified to the user through the BleWiFiCallback callback to onConfigureStaResult method.
 
-原型：
+Prototype:
 
 public void configureSta(final BleWiFiStaParams params);
 
-参数：
+Parameter：
 
-params：配置 STA 参数，包括 AP 的 SSID 和 password 等；
+params：Configure STA parameters, including SSID and PASSWORD of AP;
 
-#### 2.1.5 setBleWiFiCallback 方法
+#### 2.1.5 setBleWiFiCallback Methods
 
 本方法用来设置 client 的 BleWiFiCallback 回调接口。
 
-原型：
+Prototype：
 
 public void setBleWiFiCallback(BleWiFiCallback callback);
 
-参数：
+Parameter：
 
-callback：BleWiFiCallback 回调接口实例；
+callback：BleWiFiCallback callback interface instance;
 
-#### 2.1.6 close 方法
+#### 2.1.6 close methods
 
-本方法用来释放 client 的资源。
+This method is used to free the client's resources.
 
-原型：
+Prototype:
 
 public synchronized void close();
 
-### 2.2 Callback 接口
+### 2.2 Callback Interface
 
-本接口用来实现 BleWiFiClient 类的回调。用户的回调类需要继承本接口，并通过BleWiFiClient 的 setBleWiFiCallback 方法将回调类的实例设置给 client，从而接收通知。
+This interface is used to implement callbacks to the BleWiFiClient class. The user's callback class needs to inherit this interface and set an instance of the callback class to the client via the BleWiFiClient setBleWiFiCallback method to receive notifications.
 
 #### 2.2.1 onConnected 方法
 
