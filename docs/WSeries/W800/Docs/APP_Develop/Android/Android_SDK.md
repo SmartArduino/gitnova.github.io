@@ -169,7 +169,7 @@ The three BSSID parameters can be set, with at least one of the SSID and BSSID n
 
 Where, password is not set.
 
-#### 2.3.1 setSsid 方法
+#### 2.3.1 setSsid Methods
 
 本方法用来设置 AP 的 SSID。
 
