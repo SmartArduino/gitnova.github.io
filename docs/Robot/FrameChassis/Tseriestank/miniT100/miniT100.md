@@ -23,7 +23,7 @@ App：
 
 https://gitnova.com/#/Robot/Controller/app/AppforSmartCar
 
-# 1. Material
+## 1. Material
 
 ![img](wps1.jpg)
 
@@ -33,9 +33,9 @@ Material list:
 
 Note: The actual materials in the figure above are a driving wheel, a driving wheel, a motor, a beam, a side bracket, a track, a set of wrench tools and the corresponding screw and copper column. The actual amount of material needed for the Mini T100 is the sum of the individual Numbers in the figure. For example, the total number of motors in the car is 2 as indicated in the figure.
 
-# 2. Installation Steps
+## 2. Installation Steps
 
-## 2.1 Install load bearing wheel
+### 2.1 Install load bearing wheel
 
 ![img](wps3.jpg) 
 
@@ -69,7 +69,7 @@ Place the gasket on top of the connector and pass the short M4 hex socket screw 
 
 The M4 screws lock the connector and fix the load bearing wheel
 
-## 2.2 Install drive wheel
+### 2.2 Install drive wheel
 
 ![img](wps11.jpg) 
 
@@ -91,7 +91,7 @@ Pass the coupling through the large side of the central hole of the drive wheel 
 
 Use a small spanner to temporarily fix the top wire to the small round hole of the coupling. Note that it is only a small part of the screw
 
-## 2.3 Attach the drive wheel to the motor
+### 2.3 Attach the drive wheel to the motor
 
 ![img](wps16.jpg) 
 
@@ -113,7 +113,7 @@ Lock the motor with 2pcs M3 flat head screws
 
 Install the coupling of the driving wheel on the motor shaft, adjust the position of the screw hole to the flat mouth of the shaft, and tighten the screw
 
-## 2.4 Install another load bearing wheel
+### 2.4 Install another load bearing wheel
 
 ![img](wps21.jpg) 
 
@@ -127,7 +127,7 @@ Place 1 gasket on the connector and pass the short M4 hex socket screw through t
 
 The short M4 screw locks the connector through the center of the round hole at one end of the bracket (the larger one)
 
-## 2.5 Install the beam
+### 2.5 Install the beam
 
 ![img](wps24.jpg) 
 
@@ -141,7 +141,7 @@ Pass two short M4 hexagon socket screws through the round holes of the bracket a
 
 Lock in the corresponding hole of the renderings
 
-## 2.6 Install the crawler
+### 2.6 Install the crawler
 
 ![img](wps27.jpg) 
 
@@ -171,7 +171,7 @@ Align the holes in the track, insert the track needle from one end until the who
 
 
 
-## 2.7 Install the other half of the car
+### 2.7 Install the other half of the car
 
 The installation of the other half is the same as above. Note that the two are centrally symmetric, that is, the left and right motors are oblique symmetric, as shown in the figure below
 
@@ -181,7 +181,7 @@ The installation of the other half is the same as above. Note that the two are c
 
 
 
-# 3.  Reminder
+## 3.  Reminder
 
 Video of installation:
 
@@ -189,7 +189,7 @@ http://v.youku.com/v_show/id_XMjg0MDkyMzkxNg==.html?spm=a2hzp.8253869.0.0
 
 
 
-# Contact Us
+## Contact Us
 
 - E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
 - Skype: yichone
