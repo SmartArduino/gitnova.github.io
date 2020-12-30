@@ -207,106 +207,104 @@ Parameter：
 
 bssid：AP 的 BSSID；
 
-### 2.4 BleWiFiBaseResult 类
+### 2.4 BleWiFiBaseResult Class
 
-本类是 BleWiFiCallback 回调接口 onNegotiateSecretKeyResult 方法的参数类。也是
+This class is BleWiFiCallback callback interface onNegotiateSecretKeyResult method the parameters of the class. Is also
 
-所有回调接口方法参数类的基类。
+Base class for all callback interface method parameter classes.
 
-#### 2.4.1 getStatus 方法
+#### 2.4.1 getStatus Methods
 
-本方法用来获取回调接口方法的状态，通知用户结果。
+This method is used to get the status of the callback interface method and notify the user of the result.
 
-原型：
+Prototype:
 
 public int getStatus();
 
-返回值：
+The return value：
 
-错误号，具体参见本类错误号定义。
+Error number, see this class error number definition.
 
-#### 2.4.2 错误号定义
+#### 2.4.2 Error number definition
 
-本类定义了如下错误号，包含了 getStatus 方法返回的所有可能值，同时也包含了
+This class defines the following error number, which contains all possible values returned by the getStatus method, and also contains
 
-BleWiFiCallback 回调接口 onError 方法所有的错误。
+The BleWiFiCallback callback interface onError method has all the errors.
 
-//成功
+//succes
 
 public static final int STATUS_SUCCESS = 0;
 
-//参数错误
+//Parameter error
 
 public static final int STATUS_INVALID_PARAMS = 1;
 
-//密码错误
+//Password mistake
 
 public static final int STATUS_PASSWORD = 2;
 
-//获取 IP 地址失败
-
-
+//Failed to get IP address
 
 public static final int STATUS_DHCP_IP= 3;
 
-//扫描失败
+//Scan fail
 
 public static final int STATUS_WIFI_SCAN= 4;
 
-//秘钥交换失败
+//The secret key exchange failed
 
 public static final int STATUS_NEGOTIATE_SECRET_KEY=5;
 
-//发送数据失败
+//Failed to send data
 
 public static final int STATUS_GATT_WRITE=6;
 
-### 2.5 BleWiFiConfigStaResult 类
+### 2.5 BleWiFiConfigStaResult Cladd
 
-本类是 BleWiFiCallback 回调接口 onConfigureStaResult 方法的参数类。本类继承
+This class is the parameter class for the BleWiFiCallback callback interface onConfigureStaResult method. This class inheritance
 
-BleWiFiBaseResult 类，除了 status 外，还有 mac 和 IPAddress 可以获取。
+The BleWiFiBaseResult class, in addition to status, is also available for MAC and IPAddress.
 
-#### 2.5.1 getMac 方法
+#### 2.5.1 getMac Methods
 
-本方法用来获取 Device 的 WiFi Mac 地址，配网后加网成功后返回。
+This method is used to obtain the WiFi Mac address of the Device. After network configuration, it returns after successful network addition.
 
-原型：
+Prototype：
 
 public String getMac();
 
-返回值：
+The return value：
 
-Device 的 WiFi Mac 地址。
+Device 的 WiFi Mac Address.
 
-#### 2.5.2 getIpAddress 方法
+#### 2.5.2 getIpAddress Methods
 
-本方法用来获取 Device 的 IP 地址，配网后加网成功后返回。
+This method is used to obtain the IP address of Device, and returns after the network is installed successfully.
 
-原型：
+Pritityoe：
 
 public String getIpAddress();
 
-返回值：
+The return value：
 
-Device 的 IP 地址。
+Device 的 IP Address.
 
-## 3 使用示例
+## 3 Use the sample
 
-### 3.1 实例化 BleWiFiClient
+### 3.1 Instantiation BleWiFiClient
 
 mBleWiFiClient = new BleWiFiClient(getApplicationContext(), mDevice);
 
-### 3.2 设置 BleWiFiCallback
+### 3.2 Set the BleWiFiCallback
 
 mBleWiFiClient.setBleWiFiCallback(new MyBleWifiCallback());
 
-### 3.3 连接 Device
+### 3.3 Connect the Device
 
 ```
 mBleWiFiClient.connect();
 
-//连接成功在 BleWiFiCallback 回调接口中通知
+//A successful connection is notified in the BleWiFiCallback callback interface
 
 @Override
 
@@ -314,13 +312,13 @@ public void onConnected(BleWiFiClient client) {
 
 }
 
-    //发现服务和特征在 BleWiFiCallback 回调接口中通知
+    //Discovery services and features are notified in the BleWiFiCallback callback interface
 
     @Override
 
     public void onServicesDiscovered(BleWiFiClient client) {
 
-    //发现服务和特征成功
+    //Discover successful services and features
 
     onGattServicesDiscovered();
 
@@ -329,20 +327,20 @@ public void onConnected(BleWiFiClient client) {
 
 
 
-### 3.4 与 Device 协商数据加密密钥
+### 3.4 Negotiate the data encryption key with Device
 
 ```
-//发现服务和特征成功，开始密钥协商
+//Discover that the service and feature are successful, and begin key negotiation
 
 private void onGattServicesDiscovered() {
 
-//开始与 Device 协商数据加密密钥
+//Begin negotiating the data encryption key with Device
 
 mBleWiFiClient.negotiateSecretKey();
 
 }
 
-//协商结果在 BleWiFiCallback 回调接口中通知
+//The negotiation results are notified in the BleWiFiCallback callback interface
 
 @Override
 
@@ -352,7 +350,7 @@ BleWiFiBaseResult result) {
 
     if(result.getStatus() == BleWiFiBaseResult.STATUS_SUCCESS){
 
-    //协商成功
+    //Successful negotiation
 
         onNegotiateSecretKeySuccess();
 
@@ -367,16 +365,16 @@ BleWiFiBaseResult result) {
 
 
 
-### 3.5 开始配网
+### 3.5 Began to distribution network
 
 ```
-//协商成功，开始加密传输配网参数
+//The negotiation is successful and encryption of transmission network parameters is started
 
 private void onNegotiateSecretKeySuccess(){
 
 runOnUiThread(() -> {
 
-	//构造 STA 配网参数
+	//The parameters of STA distribution network are constructed
 
     BleWiFiStaParams params = new BleWiFiStaParams();
 
@@ -384,9 +382,7 @@ runOnUiThread(() -> {
 
     params.setPassword(mTxtPassword.getText().toString());
 
-    //开始配网
-
-
+    //Began to distribution network
 
     mBleWiFiClient.configureSta(params);
 
@@ -394,7 +390,7 @@ runOnUiThread(() -> {
 
 }
 
-//配网结果在 BleWiFiCallback 回调接口中通知
+//The configuration results are notified in the BleWiFiCallback callback interface
 
 @Override
 
@@ -404,7 +400,7 @@ result) {
 
     if(result.getStatus() == BleWiFiBaseResult.STATUS_SUCCESS) {
 
-        //配网成功，显示 WiFi 的 Mac 地址和 Device 的 IP 地址
+        //WiFi: Mac address and Device IP address are displayed
 
         ShowMessage(String.format("Mac: %s", result.getMac()));
 
@@ -421,25 +417,10 @@ result) {
 }
 ```
 
+## Contact Us
 
+- E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
+- Skype: yichone
+- WhatsApp:+86-18676662425
+- Wechat: 18676662425
 
-
-
-# 支持与服务
-
-| 四博智联资源                                        |                                                              |
-| --------------------------------------------------- | ------------------------------------------------------------ |
-| 官网                                                | [www.doit.am](http://www.doit.am/)                           |
-| 教材                                                | [ESPDuino智慧物联开发宝典](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-7420449993.9.Bgp1Ll&id=520583000610) |
-| 购买                                                | [官方淘宝店](https://szdoit.taobao.com/)(szdoit.am)          |
-| 讨论                                                | [技术论坛](http://bbs.doit.am/forum.php)(bbs.doit.am)        |
-| 应用案例集锦                                        |                                                              |
-| [Doit玩家云](http://wechat.doit.am)(wechat.doit.am) | [免费TCP公网调试服务](http://tcp.doit.am)(tcp.doit.am)       |
-| 官方技术支持QQ群1/2/3群已满                         |                                                              |
-| 技术支持群4                                         | 278888904                                                    |
-| 技术支持群5                                         | 278888905                                                    |
-| 术支持群6                                           | 278888906                                                    |
-| 技术支持群7                                         | 278888907                                                    |
-| 技术支持群8                                         | 278888908                                                    |
-| 技术支持群9                                         | 278888909                                                    |
-| 技术支持群10                                        | 278888900                                                    |
