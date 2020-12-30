@@ -173,37 +173,37 @@ Where, password is not set.
 
 本方法用来设置 AP 的 SSID。
 
-原型：
+Prototype：
 
 public void setSsid(String ssid);
 
-参数：
+Parameter：
 
 ssid：AP 的 SSID；
 
-#### 2.3.2 setPassword 方法
+#### 2.3.2 setPassword Methods
 
-本方法用来设置 AP 的密码。
+This method is used to set the AP password.
 
-原型：
+Prototype：
 
 public void setPassword(String password);
 
-参数：
+Parameter：
 
-password：AP 的密码；
+password：The AP password;
 
-#### 2.3.3 setBssid 方法
+#### 2.3.3 setBssid Methods
 
-本方法用来设置 AP 的 BSSID，本方法适用于隐藏 SSID 的 AP 配网的情况，可以通过设
+This method is used to set the BSSID of AP. This method is suitable for AP network with SSID hidden
 
-置 BSSID 和 Password 来配网。
+Set BSSID and Password to configure the network.
 
-原型：
+Prototype：
 
 public void setBssid(String bssid);
 
-参数：
+Parameter：
 
 bssid：AP 的 BSSID；
 
