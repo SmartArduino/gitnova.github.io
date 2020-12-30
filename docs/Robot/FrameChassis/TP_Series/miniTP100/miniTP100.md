@@ -22,7 +22,7 @@ App：
 
 https://gitnova.com/#/Robot/Controller/app/AppforSmartCar
 
-# 1. Package Included
+## 1. Package Included
 
 ![img](wps1.jpg)
 
@@ -40,7 +40,7 @@ https://gitnova.com/#/Robot/Controller/app/AppforSmartCar
 | M3 wrench     | 1          | Acrylic plate      | 1          |
 | M4 wrench     | 1          | M3*6+50mm coupling | 4          |
 
-# 2. Installation Steps
+## 2. Installation Steps
 
 1) Install the bracket
 
@@ -66,7 +66,7 @@ More importantly. You can download the complete manual from wiki.doit.am.
 
 ![img](wps14.jpg)   ![img](wps15.jpg)
 
-# Contact Us
+## Contact Us
 
 - E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
 - Skype: yichone
