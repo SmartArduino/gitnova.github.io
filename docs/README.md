@@ -204,7 +204,7 @@
   
   * [4 WD Damping Car Chassis Installation Instructio](Robot/FrameChassis/4WDDampingCar/4WDDampingCar.md)
   * [4 WD Car Chassis Installation Instructio](Robot/FrameChassis/4wdcarchassis/4wd.md)
-  * [4WD McNamum Wheel Car](Robot/FrameChassis/WheatWheelCar/WheatWheelCar.md)
+  * [4wd mecanum car](Robot/FrameChassis/WheatWheelCar/WheatWheelCar.md)
   * [TC100 Tank Car Installation Instruction](Robot/FrameChassis/TC100/tc100.md)
   * [TP101 Tank Car Installation Instruction](Robot/FrameChassis/TP_Series/tp101/tp101.md)
   * [TP200 Tank Car Installation Instruction](Robot/FrameChassis/TP_Series/TP200/TP200.md)
