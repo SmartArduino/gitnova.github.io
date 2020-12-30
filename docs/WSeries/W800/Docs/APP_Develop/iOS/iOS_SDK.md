@@ -1,302 +1,300 @@
-<center><font size=10> W800_BleWiFi蓝牙配网 iOS SDK </center></font>
+<center><font size=10> W800  BleWiFi Bluetooth Config Network  iOS SDK </center></font>
 <center> From SZDOIT</center>
 
-## 1 引言
+## 1 The Introduction
 
-### 1.1 概述
+### 1.1 Overview
 
-BleWiFi 是一款基于低功耗蓝牙（BLE）通道，实现 WiFi 网络配置功能的协议，适用于W800 芯片。
+BleWiFi is a low power Bluetooth (BLE) channel based protocol for WiFi network configuration, suitable for W800 chip.
 
-本文档介绍了我司提供的 BleWiFi for IOS 的 SDK 接口使用方法，方便用户进行 BleWiFi的二次开发，快速将 BleWiFi 实现并集成到自己的 IOS App 中。
+This document introduces the use method of BleWiFi for IOS SDK interface provided by our company, which is convenient for users to carry out the secondary development of BleWiFi and quickly integrate BleWiFi into their IOS App.
 
-## 2 接口定义
+## 2 The Interface Definition
 
-### 2.1 BleWiFiClient 类
+### 2.1 BleWiFiClient Cladd
 
-本类提供了与 Device 通讯的所有 API，这些 API 可以帮助 APP 轻松实现通过蓝牙 BLE对 Device 进行配置。
+This class provides all the apis for communicating with Device, which makes it easy for an APP to configure a Device via Bluetooth BLE.
 
-#### 2.1.1 初始化函数
+#### 2.1.1 Initialization Function
 
-本初始化函数返回 BleWiFiClient 类的实例。
+This initialization function returns an instance of the BleWiFiClient class.
 
-原型：
+Prototype：
 
 - (instancetype)initWithDevice:(CBPeripheral) device;
 
-参数：
+Parameter：
 
-device：要配置的设备；
+device：Equipment to be configured;
 
-#### 2.1.2 connect 方法
+#### 2.1.2 connect Methods
 
-本方法建立 client 与 Device 之间的连接，若连接建立成功，BleWiFiDelegate 回调onConnected 方法将被调用。client 将主动扫描 Device 的服务和特征，在发现指定的服务和特征后，BleWiFiDelegate 回调 onServicesDiscovered 方法将被调用，此时用户才可以开始配网过程。
+This method establishes a connection between client and Device. If the connection is established successfully, the BleWiFiDelegate callback onConnected method will be called. The BleWiFiDelegate callback onServicesDiscovered method is invoked after the client actively scans the Device's services and features, and the user can begin the networking process after discovering the specified services and features.
 
-原型：
+Prototype：
 
 - (void) connect;
 
-#### 2.1.3 negotiateSecretKey 方法
+#### 2.1.3 negotiateSecretKey methods
 
-本 方 法 用 来 与 Device 协 商 加 密 密 钥 ， 协 商 结 果 通 过 BleWiFiDelegate 回 调onNegotiateSecretKeyResult 方法通知给用户。
+This method used to Device holds's secret cipher key, holds bear fruit through BleWiFiDelegate callback method onNegotiateSecretKeyResult notification to the user.
 
-原型：
+prototype：
 
 - (void) negotiateSecretKey;
 
-#### 2.1.4 configureSta 方法
+#### 2.1.4 configureSta methods
 
-本方法配置 Device 作为 STA 的参数，配置成功后 Device 开始加网，并将加网结果通过 BleWiFiDelegate 回调 onConfigureStaResult 方法通知给用户。
+In this method, Device is configured as the parameter of STA. After successful configuration, Device will be netted, and the netted result will be notified to the user through the BleWiFiDelegate callback onConfigureStaResult method.
 
-原型：
+Prototype：
 
 - (void) configureSta:(BleWiFiStaParams )params;
 
-参数：
+Parameter：
 
-params：配置 STA 参数，包括 AP 的 SSID 和 password 等；
+params：Configure STA parameters, including SSID and PASSWORD of AP;
 
-#### 2.1.5 delegate 属性
+#### 2.1.5 delegate attribute
 
-本属性用来设置 client 的 BleWiFiDelegate 代理。
+This property is used to set up the Client's BleWiFiDelegate agent.
 
-原型：
+Prototyoe：
 
 @property (nonatomic, weak)id<BleWiFiDelegate> delegate;
 
-#### 2.1.6 close 方法
+#### 2.1.6 close methods
 
-本方法用来释放 client 的资源。
+This method is used to free the client's resources.
 
-原型：
+Prototype：
 
 - (void) close;
 
 
 
-### 2.2 BleWiFiDelegate 代理
+### 2.2 BleWiFiDelegate The Agent
 
-本代理用来实现 BleWiFiClient 类的回调。用户通过设置 BleWiFiClient 的 delegate属性并实现本代理的方法，从而接收通知。
+This agent is used to implement a callback to the BleWiFiClient class. The user receives notifications by setting the BleWiFiClient's delegate property and implementing the proxy's method.
 
-#### 2.2.1 onConnected 方法
+#### 2.2.1 onConnected methods
 
-本方法用来通知用户蓝牙连接建立成功。
+This method is used to notify the user that the Bluetooth connection has been established successfully.
 
-原型：
+Prototype：
 
 - (void)onConnected:(BleWiFiClient )client;
 
-参数：
+Parameter：
 
-client：BleWiFiClient 类的实例；
+client：An instance of BleWiFiClient class;
 
-#### 2.2.2 onDisconnected 方法
+#### 2.2.2 onDisconnected methods
 
-本方法用来通知用户蓝牙连接已断开。
+This method is used to notify the user that the Bluetooth connection has been disconnected.
 
-原型：
+Prototype：
 
 - (void)onDisconnected:(BleWiFiClient )client;
 
-参数：
+Parameter：
 
-client：BleWiFiClient 类的实例；
+client：An instance of BleWiFiClient class;
 
-#### 2.2.3 onServicesDiscovered 方法
+#### 2.2.3 onServicesDiscovered methods
 
-本方法用来通知用户蓝牙 GATT 服务和特征已经发现，用户可以在此回调方法中开始密钥交换过程。如果不需要加密传输配置参数，可以跳过密钥交换过程，在此回调方法中直接开始配网过程。
+This method is used to inform the user that the Bluetooth GATT services and features have been discovered and the user can start the key exchange process in this callback method. If you do not need to encrypt the transport configuration parameters, you can skip the key exchange process and start the networking process directly in this callback method.
 
-原型：
+Prototype：
 
 - (void)onServicesDiscovered:(BleWiFiClient )client;
 
-参数：
+Parameter：
 
-client：BleWiFiClient 类的实例；
+client：An instance of BleWiFiClient class;
 
-#### 2.2.4 onConfigureStaResult 方法
+#### 2.2.4 onConfigureStaResult methods
 
-本方法用来通知用户调用 client.configureSta 方法的配网结果。
+This method is used to notify the user of the configuration result of the call to client.configuresta method.
 
-原型：
+Prototype：
 
 - (void)onConfigureStaResult:(BleWiFiClient )client
 
 Result:(BleWiFiConfigStaResult )result;
 
-参数：
+Parameter：
 
-client：BleWiFiClient 类的实例；
+client：An instance of BleWiFiClient class;
 
-result：配网结果；
+result：Distribution network results;
 
-#### 2.2.5 onNegotiateSecretKeyResult 方法
+#### 2.2.5 onNegotiateSecretKeyResult methods
 
-本方法用来通知用户调用 client.negotiateSecretKey 方法的密钥交换结果。
+This method is used to inform the user invokes the client negotiateSecretKey method of key exchange.
 
-原型：
+Prototype：
 
 - (void)onNegotiateSecretKeyResult:(BleWiFiClient )client
 
 Result:(BleWiFiBaseResult )result;
 
-参数：
+Parameter：
 
-client：BleWiFiClient 类的实例；
+client：An instance of BleWiFiClient class;
 
-result：密钥交换结果；
+result：Key exchange results;
 
-#### 2.2.6 onError 方法
+#### 2.2.6 onError methods
 
-本方法用来通知用户错误。
+This method is used to notify the user of an error.
 
-原型：
+Prototype：
 
 - (void)onError:(BleWiFiClient )client Error:(int)errCode;
 
-参数：
+Parameter：
 
-client：BleWiFiClient 类的实例；
+client：An instance of BleWiFiClient class;
 
-errCode：错误号；
+errCode：Error number;
 
-### 2.3 BleWiFiStaParams 类
+### 2.3 BleWiFiStaParams Class
 
-本类是 BleWiFiClient 类 configureSta 配网方法的参数类，包含 SSID、password 和BSSID 三个参数可以设置，其中 SSID 和 BSSID 至少设置一个不为空。如果 AP 是 OPEN 模式，password 不设置。
+This class is the parameter class of configureSta configuration method of BleWiFiClient class. It contains three parameters: SSID, Password and BSSID, which can be set. At least one of the SSID and BSSID can be set without null. If AP is OPEN mode, password is not set.
 
-#### 2.3.1 ssid 属性
+#### 2.3.1 ssid attribute
 
-本属性用来设置 AP 的 SSID。
+This property sets the SSID for the AP.
 
-原型：
+Prototype:
 
 @property (strong, nonatomic) NSString ssid;
 
-#### 2.3.2 password 属性
+#### 2.3.2 Password attributes
 
-本属性用来设置 AP 的密码。
+This property is used to set the password for the AP.
 
-原型：
+Prototype：
 
 @property (strong, nonatomic) NSString password;
 
-#### 2.3.3 bssid 属性
+#### 2.3.3 bssid attributes
 
-本属性用来设置 AP 的 BSSID，本属性适用于隐藏 SSID 的 AP 配网的情况，可以通过设置 BSSID 和 Password 来配网。
+This property is used to set the BSSID of AP. This property is suitable for AP network configuration with SSID hidden. BSSID and Password can be set to configure the network.
 
-原型：
+Prototype：
 
 @property (strong, nonatomic) NSString bssid;
 
-## 2.4 BleWiFiBaseResult 类
+## 2.4 BleWiFiBaseResult Class
 
-本类是 BleWiFiDelegate 代理 onNegotiateSecretKeyResult 方法的参数类。也是BleWiFiDelegate 代理所有回调方法参数类的基类。
+This class is BleWiFiDelegate agent onNegotiateSecretKeyResult method the parameters of the class. It is also the base class for all the callback method parameter classes of the BleWiFiDelegate agent.
 
-#### 2.4.1 status 属性
+#### 2.4.1 status attributes
 
-本属性用来获取回调接口方法的状态，通知用户结果，具体参见本类头文件错误号定义。
+This property is used to get the state of the callback interface method and notify the user of the result, as defined in the error number in the class header file.
 
-原型：
+Prototype：
 
 @property (assign, nonatomic) int status;
 
-#### 2.4.2 错误号定义
+#### 2.4.2 Error number definition
 
-本类头文件定义了如下错误号，包含了 status 属性的所有可能值，同时也包含了BleWiFiDelegate 代理 onError 方法所有的错误。
+This class header file defines the following error number, which contains all possible values for the status attribute, as well as all errors for the BleWiFiDelegate agent onError method.
 
 ```
-//成功
+//success
 
 #define STATUS_SUCCESS 0
 
-//参数错误
+//Parameter error
 
 #define STATUS_INVALID_PARAMS 1
 
-//密码错误
+//Password mistake
 
 #define STATUS_PASSWORD 2
 
-//获取 IP 地址失败
+//Failed to get IP address
 
 #define STATUS_DHCP_IP 3
 
-//扫描失败
+//Scan fail
 
 #define STATUS_WIFI_SCAN 4
 
-//秘钥交换失败
+//The secret key exchange failed
 
 #define STATUS_NEGOTIATE_SECRET_KEY 5
 
-//发送数据失败
+//Failed to send data
 
 #define STATUS_GATT_WRITE 6
 ```
 
-### 2.5 BleWiFiConfigStaResult 类
+### 2.5 BleWiFiConfigStaResult Class
 
-本类是 BleWiFiDelegate 代理 onConfigureStaResult 方法的参数类。本类继承BleWiFiBaseResult 类，除了 status 外，还有 mac 和 IPAddress 可以获取。
+This class is the parameter class for the BleWiFiDelegate agent onConfigureStaResult method. This class inherits the BleWiFiBaseResult class, which is available in addition to status, MAC and IPAddress.
 
-#### 2.5.1 mac 属性
+#### 2.5.1 mac attributes
 
-本属性用来获取 Device 的 WiFi Mac 地址，配网后加网成功后返回。
+This property is used to obtain the WiFi Mac address of the Device. After network configuration, the Device will be returned after successful network addition.
 
-原型：
+Prototype：
 
 @property (strong, nonatomic) NSString mac;
 
-#### 2.5.2 ipAddress 属性
+#### 2.5.2 ipAddress attributes
 
-本属性用来获取 Device 的 IP 地址，配网后加网成功后返回。
+This property is used to obtain the IP address of Device, and returns after the Device is installed on the network.
 
-原型：
+Prototype：
 
 @property (strong, nonatomic) NSString ipAddress;
 
-## 3 使用示例
+## 3 Use the sample
 
-### 3.1 初始化 BleWiFiClient
+### 3.1 Initialize BleWiFiClient
 
 CBPeripheral peripheral = ;
 
 _mBleWiFiClient = [[BleWiFiClient alloc] initWithDevice:peripheral];;
 
-### 3.2 设置 BleWiFiDelegate
+### 3.2 Set the BleWiFiDelegate
 
 _mBleWiFiClient.delegate = self;
 
-### 3.3 连接 Device
+### 3.3 Connect the Device
 
 ```
 [_mBleWiFiClient connect];
 
-//连接成功在 BleWiFiDelegate 代理方法中通知
-
-
+//A successful connection is notified in the BleWiFiDelegate agent method
 
 (void)onConnected:(BleWiFiClient )client {
 
 }
 
-//发现服务和特征在 BleWiFiDelegate 代理方法中通知
+//Discovery services and characteristics are notified in the BleWiFiDelegate agent method
 
 (void)onServicesDiscovered:(BleWiFiClient )client {
 
-    //发现服务和特征成功
+    //Discover successful services and features
 
     [_mBleWiFiClient negotiateSecretKey];
 
 }
 ```
 
-### 3.4 与 Device 协商数据加密密钥
+### 3.4 Negotiate the data encryption key with Device
 
-//发现服务和特征成功，开始密钥协商
+//Discover that the service and feature are successful, and begin key negotiation
 
 ```
 [_mBleWiFiClient negotiateSecretKey];
 
-//协商结果在 BleWiFiDelegate 代理方法中通知
+//The negotiation results are notified in the BleWiFiDelegate agent method
 
 (void)onNegotiateSecretKeyResult:(BleWiFiClient )client
 
@@ -304,7 +302,7 @@ Result:(BleWiFiBaseResult )result {
 
     if(result.status == STATUS_SUCCESS){
 
-    //协商成功
+    //Successful negotiation
 
    	 [self onNegotiateSecretKeySuccess];
 
@@ -317,16 +315,16 @@ Result:(BleWiFiBaseResult )result {
 }
 ```
 
-### 3.5 开始配网
+### 3.5 Began to distribution network
 
-//协商成功，开始加密传输配网参数
+//The negotiation is successful and encryption of transmission network parameters is started
 
 ```
 (void)onNegotiateSecretKeySuccess
 
 {
 
-    //构造 STA 配网参数
+    //The parameters of STA distribution network are constructed
 
     BleWiFiStaParams params = [[BleWiFiStaParams alloc] init];
 
@@ -334,13 +332,13 @@ Result:(BleWiFiBaseResult )result {
 
     params.password = _txtPassword.text;
 
-    //开始配网
+    //Began to distribution network
 
     [_mBleWiFiClient configureSta:params];
 
 }
 
-//配网结果在 BleWiFiDelegate 代理方法中通知
+//The mesh result is notified in the BleWiFiDelegate agent method
 
 (void)onConfigureStaResult:(BleWiFiClient )client
 
@@ -348,7 +346,7 @@ Result:(BleWiFiConfigStaResult )result {
 
     if(result.status == STATUS_SUCCESS) {
 
-        //配网成功，显示 WiFi 的 Mac 地址和 Device 的 IP 地址
+        //WiFi: Mac address and Device IP address are displayed
 
         [self ShowMessage:[NSString stringWithFormat:@"Mac: %@",
 
@@ -362,32 +360,15 @@ Result:(BleWiFiConfigStaResult )result {
 
     else{
 
-
-
     }
 
 }
 ```
 
+## Contact Us
 
+- E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
+- Skype: yichone
+- WhatsApp:+86-18676662425
+- Wechat: 18676662425
 
-
-
-# 支持与服务
-
-| 四博智联资源                                        |                                                              |
-| --------------------------------------------------- | ------------------------------------------------------------ |
-| 官网                                                | [www.doit.am](http://www.doit.am/)                           |
-| 教材                                                | [ESPDuino智慧物联开发宝典](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-7420449993.9.Bgp1Ll&id=520583000610) |
-| 购买                                                | [官方淘宝店](https://szdoit.taobao.com/)(szdoit.am)          |
-| 讨论                                                | [技术论坛](http://bbs.doit.am/forum.php)(bbs.doit.am)        |
-| 应用案例集锦                                        |                                                              |
-| [Doit玩家云](http://wechat.doit.am)(wechat.doit.am) | [免费TCP公网调试服务](http://tcp.doit.am)(tcp.doit.am)       |
-| 官方技术支持QQ群1/2/3群已满                         |                                                              |
-| 技术支持群4                                         | 278888904                                                    |
-| 技术支持群5                                         | 278888905                                                    |
-| 术支持群6                                           | 278888906                                                    |
-| 技术支持群7                                         | 278888907                                                    |
-| 技术支持群8                                         | 278888908                                                    |
-| 技术支持群9                                         | 278888909                                                    |
-| 技术支持群10                                        | 278888900                                                    |
