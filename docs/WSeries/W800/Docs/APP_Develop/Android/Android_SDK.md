@@ -81,93 +81,93 @@ public synchronized void close();
 
 This interface is used to implement callbacks to the BleWiFiClient class. The user's callback class needs to inherit this interface and set an instance of the callback class to the client via the BleWiFiClient setBleWiFiCallback method to receive notifications.
 
-#### 2.2.1 onConnected 方法
+#### 2.2.1 onConnected Methods
 
-本方法用来通知用户蓝牙连接建立成功。
+This method is used to notify the user that the Bluetooth connection has been established successfully.
 
-原型：
+Prototype：
 
 void onConnected(BleWiFiClient client);
 
-参数：
+Parameter：
 
-client：BleWiFiClient 类的实例；
+client：An instance of BleWiFiClient class;
 
-#### 2.2.2 onDisconnected 方法
+#### 2.2.2 onDisconnected Methods
 
-本方法用来通知用户蓝牙连接已断开。
+This method is used to notify the user that the Bluetooth connection has been disconnected.
 
-原型：
+Prototype：
 
 void onDisconnected(BleWiFiClient client);
 
-参数：
+Parameter：
 
-client：BleWiFiClient 类的实例；
+client：An instance of BleWiFiClient class;
 
-#### 2.2.3 onServicesDiscovered 方法
+#### 2.2.3 onServicesDiscovered Methods
 
-本方法用来通知用户蓝牙 GATT 服务和特征已经发现，用户可以在此回调方法中开始密钥交换过程。如果不需要加密传输配置参数，可以跳过密钥交换过程，在此回调方法中直接开始配网过程。
+This method is used to inform the user that the Bluetooth GATT services and features have been discovered and the user can start the key exchange process in this callback method. If you do not need to encrypt the transport configuration parameters, you can skip the key exchange process and start the networking process directly in this callback method.
 
-原型：
+Prototype：
 
 void onServicesDiscovered(BleWiFiClient client);
 
-参数：
+Parameter：
 
-client：BleWiFiClient 类的实例；
+client：An instance of BleWiFiClient class;
 
-#### 2.2.4 onConfigureStaResult 方法
+#### 2.2.4 onConfigureStaResult Methods
 
-本方法用来通知用户调用 client.configureSta 方法的配网结果。
+This method is used to notify the user of the configuration result of the call to client.configuresta method.
 
-原型：
+Prototype：
 
 void onConfigureStaResult(BleWiFiClient client, BleWiFiConfigStaResult result);
 
-参数：
+Parameter：
 
-client：BleWiFiClient 类的实例；
+client：An instance of BleWiFiClient class;
 
-result：配网结果；
+result：Distribution network results;
 
-#### 2.2.5 onNegotiateSecretKeyResult 方法
+#### 2.2.5 onNegotiateSecretKeyResult Methods
 
-本方法用来通知用户调用 client.negotiateSecretKey 方法的密钥交换结果。
+This method is used to inform the user invokes the client negotiateSecretKey method of key exchange.
 
-原型：
+Prototype：
 
 void onNegotiateSecretKeyResult(BleWiFiClient client, BleWiFiBaseResult
 
 result);
 
-参数：
+Parameter：
 
-client：BleWiFiClient 类的实例；
+client：An instance of BleWiFiClient class;
 
-result：密钥交换结果；
+result：Key exchange results;
 
-#### 2.2.6 onError 方法
+#### 2.2.6 onError Methods
 
-本方法用来通知用户错误。
+This method is used to notify the user of an error.
 
-原型：
+Prototype：
 
 void onError(BleWiFiClient client, int errCode);
 
-参数：
+Parameter：
 
-client：BleWiFiClient 类的实例；
+client：An instance of BleWiFiClient class;
 
-errCode：错误号；
+errCode：Error number;
 
-### 2.3 BleWiFiStaParams 类
+### 2.3 BleWiFiStaParams Class
 
-本类是 BleWiFiClient 类 configureSta 配网方法的参数类，包含 SSID、password 和
+This class is the parameter class for the configureSta configuration method of the BleWiFiClient class, containing SSID, Password, and
 
-BSSID 三个参数可以设置，其中 SSID 和 BSSID 至少设置一个不为空。如果 AP 是 OPEN 模
+The three BSSID parameters can be set, with at least one of the SSID and BSSID not set to null. If AP is an OPEN module
 
-式，password 不设置。
+Where, password is not set.
 
 #### 2.3.1 setSsid 方法
 
