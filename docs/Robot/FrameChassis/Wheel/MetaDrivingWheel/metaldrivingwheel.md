@@ -2,7 +2,7 @@
 
 <center> from SZDOIT </center>
 
-# 1. Materials
+## 1. Materials
 
 - WheelPiece: 2pcs
 - Aluminum alloy: 1pcs
@@ -14,7 +14,7 @@
 
 ![metalwheelmaterial](metalwheelmaterial.jpg)
 
-# 2. Installation
+## 2. Installation
 
 1) Install the Jackscrew to the aluminum alloy coupling firstly, and install to the copper coupling to the wheelpiece.
 
@@ -32,16 +32,16 @@
 
 3) Install the tree copper couplings, and install the M3\*8 screws and M4\*16 screw finally.
 
-![drivingwheelfinish](../picture/drivingwheelfinish.jpg)
+![drivingwheelfinish](drivingwheelfinish.jpg)
 
-# 3. Note
+## 3. Note
 
 - When installing the driving wheel, please align the location hole;
 - M4 screw can be used to adjust the coupling connection length to fit the motor axis;
 
 
 
-# Contact Us
+## Contact Us
 
 - E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
 - Skype: yichone
