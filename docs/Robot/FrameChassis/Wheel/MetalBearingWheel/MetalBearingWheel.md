@@ -2,15 +2,15 @@
 
 <center> from SZDOIT </center>
 
-# 1. Introduction
+## 1. Introduction
 
   In this document, we just present the installation steps for the T300 Tank chassis with the following steps, and the connection motors to the doit version NodeMCU kit. Here, we just take T300 as an example to show the steps, but this manual is also used to the other type of tank chassis.
 
 ![wheelfinish](wheelfinish.jpg)
 
-# 2. Install the bearing wheel
+## 2. Install the bearing wheel
 
-## 2.1 Materials
+### 2.1 Materials
 
 The bearing wheel includes the following materials.
 
@@ -30,13 +30,13 @@ which are shown in the following Figure.
 
 ![TwheelPiece](TwheelPiece.jpg)
 
-## 2.2 Install the copper coupling to connect the two wheelpiece.
+### 2.2 Install the copper coupling to connect the two wheelpiece
 
 At first, install the three copper couplings, as shown in the following picture.
 
 ![TwheelPiecei1](TwheelPiecei1.jpg)
 
-##2.3  Connecting another wheelpiece.
+### 2.3  Connecting another wheelpiece.
 
 When connect to two wheelpieces, please **align the location hole** when you install another wheelpiece.
 
@@ -44,17 +44,17 @@ When connect to two wheelpieces, please **align the location hole** when you ins
 
 ![locationhole](locationhole.jpg)
 
-## 2.4 Install a bearing to the stainless steel connector
+### 2.4 Install a bearing to the stainless steel connector
 
 ![connector](connector.jpg)
 
-## 2.5 Finish the installation of the bearing wheel
+### 2.5 Finish the installation of the bearing wheel
 
   Using an M2 screw to connect and finish the installation of wheel.
 
 ![wheelfinish](wheelfinish.jpg)
 
-## 2.6 Some notes for the installation of bearing wheel
+### 2.6 Some notes for the installation of bearing wheel
 
 1. Align the location holes for the two wheelpiece;
 2. Don’t let M2 srew connect the stainless steel connector too lighten.
@@ -64,7 +64,7 @@ Contact us: yichoneyi@163.com, wechat: itchenve, skype: yichone
 
 
 
-# Contact Us
+## Contact Us
 
 - E-mails: [yichone@doit.am](mailto:yichone@doit.am), [yichoneyi@163.com](mailto:yichoneyi@163.com)
 - Skype: yichone
