@@ -55,7 +55,7 @@
   * [TW-03 WiFi Module](WSeries/Debugging/AT/esp-start.md)
   * [TW-07 WiFi Module](WSeries/Debugging/AT/esp-start.md)
 * ### 【Six】Q&A
-* [W600 Frequently Asked Questions](WSeries/Debugging/AT/esp-start.md)
+* [W600 Frequently Asked Questions](WSeries/W600/faq/index.md)
 
 ## W800
 
