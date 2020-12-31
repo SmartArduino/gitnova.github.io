@@ -1,8 +1,6 @@
 <center><font size=10> W600 Chip Product Specification </center></font>
 <center> From SZDOIT</center>
 
-
-
 # 1.Overview
 
 W600 is an embedded WiFi chip independently developed and designed by Beijing Lianshengde. This series of modules supports the standard 802.11 b/g/n protocol with a built-in complete TCP/IP protocol stack.
