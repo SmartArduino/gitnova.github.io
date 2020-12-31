@@ -1,61 +1,57 @@
-<center><font size=10>W60x RT-Thread 入门指南</center></font>
+<center><font size=10>W60x RT-Thread Getting Started Guide</center></font>
 <center> From SZDOIT</center>
 
-## 1.RT-Thread 简介
+# 1. Introduction to RT-Thread
 
-[RT-Thread](http://www.rt-thread.org/) 是一个来自中国的开源物联网操作系统，它具备非常强的可伸缩能力：从一个可以运行在ARM Cortex-M0 芯片上的极小内核，到中等的 ARM Cortex-M3/4/7系统，甚至是运行于 MIPS32、ARM Cortex-A 系列处理器上。 RT-Thread项目的源代码托管在 [GitHub repo](https://github.com/rt-thread) 上。
+[RT-Thread](http://www.rt-thread.org/) is an open source IoT operating system from China, which has very strong scalability: from one that can run on the ARM Cortex-M0 chip The very small cores, to the medium ARM Cortex-M3/4/7 system, even running on MIPS32, ARM Cortex-A series processors. The source code of the RT-Thread project is hosted on [GitHub repo](https://github.com/rt-thread).
 
-## 2.准备工作
+# 2. Preparation
 
--   W60x\_RT-Thread源码：（请先使用GitHub版本 <https://github.com/RT-Thread/W601_IoT_Board>）
--   RT-Thread env工具：https://github.com/RT-Thread/env
--   串口下载工具：[串口调试助手](https://download.w600.fun/tool/%E6%98%9F%E9%80%9A%E6%99%BA%E8%81%94%E4%B8%B2%E5%8F%A3%E8%B0%83%E8%AF%95%E4%B8%8B%E8%BD%BD%E5%8A%A9%E6%89%8B.7z)
--   正点原子W601全功能开发板（[购买链接](http://shop.thingsturn.com/)）
+-   -W60x\_RT-Thread source code: (please use the GitHub version <https://github.com/RT-Thread/W601_IoT_Board>)
+-   -RT-Thread env tool: https://github.com/RT-Thread/env
+-   -Serial download tool: 
+-   -Punctual Atom W601 full-featured development board
 
-## 3.环境搭建
+# 3. Environment setup
 
-### 3.1编译环境搭建
+## 3.1 Build a compilation environment
 
-该SDK可以由Keil直接编译，详情参考[W600 开发环境搭建指南](../app/ide)
+The SDK can be directly compiled by Keil. For details, please refer to [W600 Development Environment Construction Guide](../app/ide)
 
-### 3.2 工程目录介绍
+## 3.2 Project directory introduction
 
-![image](https://github.com/SmartArduino/zhdocs/raw/master/zhW_Series/start/rt-thread/1551025944478.png)
-
-
-
-docs文件夹下放着W600\_RTT相关的参考文档，建议先阅读 `UM3103-RT-Thread-W60X-SDK 快速上手.pdf `和 `UM3101-RT-Thread-W60X-SDK开发手册.pdf`
-
-## 4.编译烧录
-
-### 4.1 编译
-
-W600\_RT-Thread\_SDK 一共提供了35个示例
-
-![1567266339884](https://github.com/SmartArduino/zhdocs/raw/master/zhW_Series/start/rt-thread/1567266339884.png)
-
-进入任意一个示例，双击 `project.uvprojx`工程文件，直接编译即可（注意，一定要先搭建好Keil环境）。
+![image](1551025944478.png)
 
 
 
-![1567266231646](https://github.com/SmartArduino/zhdocs/raw/master/zhW_Series/start/rt-thread/1567266231646.png)
+There are reference documents related to W600\_RTT in the docs folder. It is recommended to read `UM3103-RT-Thread-W60X-SDK Quick Start.pdf` and `UM3101-RT-Thread-W60X-SDK Development Manual.pdf`
 
-固件生成在当前示例所在目录的Bin文件夹下。
+# 4. Compile and burn
 
-![1567266565273](https://github.com/SmartArduino/zhdocs/raw/master/zhW_Series/start/rt-thread/1567266565273.png)
+## 4.1 Compile
 
-### 4.2 烧录
+W600\_RT-Thread\_SDK provides a total of 35 examples
 
-注意事项：
+![1567266339884](1567266339884.png)
 
-1.  正点原子w601开发板外挂一颗16Mbyte的FLash，因此可以烧录 `rtthread_layout_16M.FLS`
-2.  除特殊说明外，W600和W601均为1M版本，对应 `rtthread_layout_1M.FLS`；
-3.  2M版本的芯片/模块/开发板，对应 `rtthread_layout_2M.FLS`；
-4.  rbl后缀文件为OTA所需文件，也可直接进行下载更新，类似于W600原厂SDK的img文件；
-5.  rtt_secboot.img为RT-Thread定制版本secboot，与原厂secboot.img并不通用，切换版本时需烧录FLS文件，尽量勾选擦除，以免出错。
-6.  其它烧录问题请参考:[W600固件烧录指南](../app/download.md)
+Enter any example, double-click the `project.uvprojx` project file and compile directly (note that the Keil environment must be set up first).
 
-## 其它
 
-[正点原子W601开发板QQ交流群：797416020](https://jq.qq.com/?_wv=1027&k=5fcxk5i)
+
+![1567266231646](1567266231646.png)
+
+The firmware is generated in the Bin folder of the directory where the current example is located.
+
+![1567266565273](1567266565273.png)
+
+## 4.2 Burning
+
+Precautions:
+
+1. A 16Mbyte FLash is attached to the punctual atom w601 development board, so you can burn `rtthread_layout_16M.FLS`
+2. Except for special instructions, both W600 and W601 are 1M versions, corresponding to `rtthread_layout_1M.FLS`;
+3. 2M version of the chip/module/development board, corresponding to `rtthread_layout_2M.FLS`;
+4. The rbl suffix file is the file required by OTA, and it can also be downloaded and updated directly, similar to the img file of the original W600 SDK;
+5. rtt_secboot.img is the RT-Thread customized version of secboot, which is not common with the original secboot.img. FLS files need to be burned when switching the version. Try to check the erasing to avoid errors.
+6. For other programming issues, please refer to: [W600 Firmware Programming Guide] 
 
