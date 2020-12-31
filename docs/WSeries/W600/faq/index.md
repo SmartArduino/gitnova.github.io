@@ -1,130 +1,130 @@
-<center><font size=10> W600常见问题</center></font>
+<center><font size=10> W600 FAQ</center></font>
 <center> From SZDOIT</center>
 
-## 基础概念篇
+# Basic concepts
 
-### W600是什么？
+## What is W600?
 
-　　W600是联盛德新一代支持多接口、多协议的无线局域网802.11n（1T1R）低功耗WLAN SoC 芯片。芯片内置 Cortex-M3 CPU处理器和Flash，集成射频收发前端RFTransceiver，CMOSPA功率放大器，基带处理器/媒体访问控制，集成电源管理电路，支持丰富的外围接口，支持多种加解密协议。W600提供给客户的二次开发空间更大、芯片外围电路器件更少、开发更简便，性价比更优势。
+​        W600 is a new generation of Lianshengde wireless local area network 802.11n (1T1R) low-power WLAN SoC chip that supports multiple interfaces and multiple protocols. The chip has built-in Cortex-M3 CPU processor and Flash, integrated radio frequency transceiver front-end RFTransceiver, CMOSPA power amplifier, baseband processor/media access control, integrated power management circuit, supports rich peripheral interfaces, and supports multiple encryption and decryption protocols. W600 provides customers with more space for secondary development, fewer chip peripheral circuits, easier development, and more cost-effective advantages.
 
-### W601和W600有什么区别？
+## What is the difference between W601 and W600?
 
-W601和W600同属于联盛德W600系列WiFi芯片，主要区别如下：
+W601 and W600 belong to the W600 series WiFi chips of Lianshengde, the main differences are as follows:
 
-| 属性   | W600      | W601      |
-| ------ | --------- | --------- |
-| 封装   | QFN32 5*5 | QFN68 7*7 |
-| 可用IO | 17        | 48        |
-| ADC    | 无        | 8个       |
-| LCD    | 无        | 1个       |
-| I2S    | 无MCLK    | 完整      |
+| Attributes   | W600      | W601      |
+| ------------ | --------- | --------- |
+| Package      | QFN32 5*5 | QFN68 7*7 |
+| Available IO | 17        | 48        |
+| ADC          | no        | 8 pcs     |
+| LCD          | no        | 1 pcs     |
+| I2S          | no MCLK   | complete  |
 
-### 联盛德与星通智联是什么关系？
+## What is the relationship between Lianshengde and Xingtong Zhilian?
 
-　　联盛德是W600的芯片设计和生产厂商，星通智联是联盛德的芯片代理商和方案供应商。
+　　Lianshengde is the chip design and manufacturer of W600, and Starcom is the chip agent and solution supplier of Lianshengde.
 
-### TW-01, TW-02是什么？
+## What is TW-01, TW-02?
 
-　　TW01\~TW-03是由深圳市星通智联科技有限公司研发生产的 W600系列模组，在W600芯片的基础上，完善了外围器件布局和天线优化，并在设计时考虑兼容市面上已有模组，方便大家替换测试。
+　    TW01\~TW-03 is a W600 series module developed and produced by Shenzhen Xingtong Zhilian Technology Co., Ltd. Based on the W600 chip, the layout of peripheral components and antenna optimization are improved, and compatibility with existing ones on the market is considered when designing Module, convenient for everyone to replace and test.
 
-### T-Cloud是什么？
+## What is T-Cloud?
 
-　　T-Cloud 是星通智联提供的全球智能云服务，配合TW系列模组，有诸多成熟的PCBA 方案。
+　　 T-Cloud is a global intelligent cloud service provided by Xingtong Zhilian. With TW series modules, there are many mature PCBA solutions.
 
-### W600 必须要借助远程服务器才能开发吗？
+## Does W600 have to rely on a remote server to develop?
 
-　　这个根据您的需求来定，若您只需要局域网就可以满足产品需求，那么无需服务器，同样可以使用W600 进行开发。
+　　This is determined according to your needs. If you only need a local area network to meet the product needs, then no server is needed, and you can also use W600 for development.
 
-### 如何基于 T-Cloud 开发产品？
+## How to develop products based on T-Cloud?
 
-　　T-Cloud 暂时不开放，如您需要使用，可通过[support@thingsturn.com](mailto:support@thingsturn.com)联系我司，后期我们会开放透传固件，可外接MCU实现任意定制功能。
+　　 T-Cloud is not open for the time being. If you need to use it, you can contact our company via [support@thingsturn.com](mailto:support@thingsturn.com). Later we will open the transparent transmission of the firmware, which can be externally connected to the MCU to achieve any customized functions.
 
-### 如何购买W600模组和测试板？
+## How to buy W600 modules and test boards?
 
-　　星通智联官方淘宝店铺：http://shop.thingsturn.com，强烈建议新手购买TB-01 开发板。
+　　 The official Taobao shop of Starcom Smart Link: http://shop.thingsturn.com, it is strongly recommended that novices buy the TB-01 development board.
 
-### 我该选择哪个型号的W600模组？
+## Which W600 module should I choose?
 
-　　模组硬件之间的差异主要是封装区别，您可以根据需求自行选择，若有疑问，可联系我们。
+　　The difference between the module hardware is mainly the package difference, you can choose according to your needs, if you have any questions, please contact us.
 
-### 我该选择AT开发还是SDK开发？
+## Should I choose AT development or SDK development?
 
-SDK方法：
+SDK method:
 
-*   优势：让系统成本最少,体积最小
-*   劣势：新手需要一个礼拜到半个月的时间去熟悉代码的研读
+*   Advantage: Minimize system cost and volume
+* Disadvantages: Novices need a week to half a month to familiarize themselves with the code study
 
-AT方法：
+AT method:
 
-*   优势：只需要知道几条AT指令即可用外部单片机实现网络通讯！开发速度快。
-*   劣势：增加了外置CPU成本
+* Advantage: Only need to know a few AT commands to realize network communication with external MCU! The development speed is fast.
+* Disadvantage: Increased external CPU cost
 
-您可以依此评估自己适合哪种方案。
+You can evaluate which plan is suitable for you accordingly.
 
-### 开发中，遇到问题如何寻求帮助？
+## During development, how do I seek help if I encounter problems?
 
--   若您是企业用户，我们会专门委派一名工程师负责贵司的对接；
--   若您是个人用户，您可以在论坛发帖，或发邮件到
-    <support@thingsturn.com>，我们也会有专门的工程师去处理。
+- -If you are an enterprise user, we will appoint an engineer to be responsible for the connection of your company;
+- -If you are an individual user, you can post in the forum or email to
+      <support@thingsturn.com>, we will also have a dedicated engineer to handle it.
 
-## 硬件连接篇
+# Hardware connection
 
-### W600 最小系统如何搭建
+## How to build W600 minimum system
 
-　　W600外围极其简单，可参考我们给出的模组原理图。
+　　 The periphery of W600 is extremely simple, please refer to the module schematic diagram given by us.
 
-### W600 有几个 UART？
+## How many UARTs does W600 have?
 
-　　W600 有 2 个 完整的 UART，速率最高为 2Mbps。AT 固件默认使用串口 0进行指令控制，串口 1 作日志打印。
+　　 W600 has 2 complete UARTs with a maximum rate of 2Mbps. By default, the AT firmware uses serial port 0 for command control and serial port 1 for log printing.
 
-### GPIO 可以直接连 5V 吗？
+## Can GPIO be directly connected to 5V?
 
-　　不可以！！！GPIO 最高只能承受3.6V。必须需要通过电平转换电路，否则会造成 GPIO 永久性损坏。
+　　 No! GPIO can only withstand 3.6V at most. A level conversion circuit must be passed, otherwise the GPIO will be permanently damaged.
 
-### W600 电压电流需求？
+## W600 Voltage and current requirements?
 
-　　W600 的数字部分的电压范围是 1.8V \~ 3.3V, 模拟部分的工作电压是 3.0V\~ 3.6V，最低 3.0V。模拟电源峰值 350 mA，数字电源峰值 200 mA。
+　　The voltage range of the digital part of W600 is 1.8V \~ 3.3V, and the operating voltage of the analog part is 3.0V\~ 3.6V, and the minimum is 3.0V. The peak value of analog power is 350 mA, and the peak value of digital power is 200 mA.
 
-### 设计 W600 的供电时，需要注意哪些问题？
+## When designing the power supply of W600, what issues should be paid attention to?
 
-请注意如下几点：
+Please note the following points:
 
-1.  如果是使用 LDO 变压，请确保输入电压和输出电压要足够大。
-2.  电源端去耦电容器必须接近 W600 摆放，等效电阻要足够低。
-3.  W600 不能直连 5V 电压。
-4.  如果是通过 DC-DC 给 W600 供电，必要时要加上 LC 滤波电路。
+1. If you are using LDO transformation, please ensure that the input voltage and output voltage are large enough.
+2. The decoupling capacitor on the power supply side must be placed close to W600, and the equivalent resistance must be low enough.
+3. W600 cannot be directly connected to 5V voltage.
+4. If power is supplied to W600 through DC-DC, add LC filter circuit if necessary.
 
-### W600 上电时电流很大，是什么原因？
+## W600 has a large current when it is powered on. What is the reason?
 
-　　W600 的 RF 和数字电路具有极高的集成度。上电后，RF自校准会需要大电流。模拟部分电路最大的极限电路可能达到 500mA；数字电路部分最大电流 达到 200 mA。一般的操作，平均电流在 100 mA左右。因此，W600 需要供电能达到 500 mA，才能保证不会有瞬间压降。
+　　 The RF and digital circuits of W600 have a high degree of integration. After power on, RF self-calibration will require a large current. The maximum limit circuit of the analog circuit may reach 500 mA; the maximum current of the digital circuit may reach 200 mA. In general operation, the average current is about 100 mA. Therefore, W600 needs to be powered up to 500 mA to ensure that there will be no instantaneous voltage drop.
 
-### 可以使用锂电池或者 2 节 AA 纽扣电池直接给 W600 供电吗？
+## Can I use lithium batteries or 2 AA button batteries to directly power W600?
 
-　　理论上，2 节 AA 纽扣电池可以给 W600供电。但锂电池放电时压降比较大，不适合直接给 W600 供电。W600 的 RF电路会受温度及电压浮动影响。不推荐不加任何校准的电源直接给 W600供电。推荐使用 DC-DC 或者 LDO 给 W600 供电。
+　　Theoretically, 2 AA button batteries can power W600. However, the voltage drop when discharging the lithium battery is relatively large, which is not suitable for directly supplying power to W600. The RF circuit of W600 is affected by temperature and voltage fluctuations. It is not recommended to directly supply power to W600 without any calibration power supply. It is recommended to use DC-DC or LDO to power W600.
 
-### W600 的 RAM 是怎么划分的？
+## How is the RAM of W600 divided?
 
-整个RAM空间为 288 KB，当前的RAM空间划分:
+The entire RAM space is 288 KB, the current RAM space division:
 
-|     分类      |  起始地址  | 大小（K Byte） |
-| :-----------: | :--------: | :------------: |
-|   可用空间    | 0x20000000 |      240       |
-| Wi-Fi使用空间 | 0x2003C000 |       48       |
+|  Classification   | Starting address | Size（K Byte） |
+| :---------------: | :--------------: | :------------: |
+|  Available space  |    0x20000000    |      240       |
+| Wi-Fi usage space |    0x2003C000    |       48       |
 
-### W600 的 Flash 是如何分配的？
+## How is W600's Flash allocated?
 
-内置 Flash 总容量为 1M Bytes，具体分配方式如下
+The total capacity of the built-in Flash is 1M Bytes, and the specific allocation method is as follows
 
-|     分类      | 起始地址  | 大小（K Byte） |
-| :-----------: | :-------: | :------------: |
-|   系统参数    | 0x8000000 |       8        |
-| 二级BOOT区域  | 0x8002000 |       32       |
-|   IMAGE1头    | 0x800A000 |       4        |
-|   IMAGE2头    | 0x800B000 |       4        |
-|   参数1区域   | 0x800C000 |       4        |
-|   参数2区域   | 0x800D000 |       4        |
-| IMAGE运行区域 | 0x800E000 |      450       |
-| IMAGE升级区域 | 0x807E800 |      450       |
-|   用户区域    | 0x80EF000 |       64       |
+|    Classification    | Starting address | Size（K Byte） |
+| :------------------: | :--------------: | :------------: |
+|  System parameters   |    0x8000000     |       8        |
+| Secondary BOOT area  |    0x8002000     |       32       |
+|     IMAGE1 head      |    0x800A000     |       4        |
+|     IMAGE2 head      |    0x800B000     |       4        |
+|   Parameter 1 area   |    0x800C000     |       4        |
+|   Parameter 2 area   |    0x800D000     |       4        |
+| IMAGE operating area |    0x800E000     |      450       |
+|  IMAGE upgrade area  |    0x807E800     |      450       |
+|      User area       |    0x80EF000     |       64       |
 
 
