@@ -208,6 +208,7 @@
   * [TC100 Tank Car Installation Instruction](Robot/FrameChassis/TC100/tc100.md)
   * [TP101 Tank Car Installation Instruction](Robot/FrameChassis/TP_Series/tp101/tp101.md)
   * [TP200 Tank Car Installation Instruction](Robot/FrameChassis/TP_Series/TP200/TP200.md)
+  * [Installation Manual for TP301](Robot/FrameChassis/TP_Series/TP301/TP301.md)
   * [miniTP100 Tank Car Installation Instruction](Robot/FrameChassis/TP_Series/miniTP101/miniTP100.md)
   * [T100 Tank Chassis Installation Instruction](Robot/FrameChassis/Tseriestank/T100/T100.md)
   * [miniT100 Tank Chassis Installation Instruction](Robot/FrameChassis/Tseriestank/miniT100/miniT100.md)
