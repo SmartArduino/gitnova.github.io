@@ -204,7 +204,10 @@
   
   * [4 WD Damping Car Chassis Installation Instructio](Robot/FrameChassis/4WDDampingCar/4WDDampingCar.md)
   * [4 WD Car Chassis Installation Instructio](Robot/FrameChassis/4wdcarchassis/4wd.md)
-  * [4wd mecanum car](Robot/FrameChassis/WheatWheelCar/96mm/WheatWheelCar.md)
+  * [4wd 96mm mecanum car](Robot/FrameChassis/WheatWheelCar/96mm/WheatWheelCar.md)
+  * [Manual for 50mm Mecanum Wheel Car Chassis ](Robot/FrameChassis/WheatWheelCar/50mm/50mmMecaNum.md)
+  * [Manual for 60mm Mecanum Wheel Car Chassis](Robot/FrameChassis/WheatWheelCar/60mm/60mmMecaNum.md)
+  * [ Manual for 65mm Mecanum Wheel Car Chassis ](Robot/FrameChassis/WheatWheelCar/65mm/65mmMecaNum.md)
   * [TC100 Tank Car Installation Instruction](Robot/FrameChassis/TC100/tc100.md)
   * [TP101 Tank Car Installation Instruction](Robot/FrameChassis/TP_Series/tp101/tp101.md)
   * [TP200 Tank Car Installation Instruction](Robot/FrameChassis/TP_Series/TP200/TP200.md)
