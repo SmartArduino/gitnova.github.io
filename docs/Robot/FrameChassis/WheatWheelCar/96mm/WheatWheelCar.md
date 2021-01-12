@@ -1,4 +1,4 @@
-<center><font size=10> 4WD McNamum Wheel Car </center></font>
+<center><font size=10> 4WD 96mm McNamum Wheel Car </center></font>
 <center> From SZDOIT</center>
 
 ## 1. Introduction
@@ -653,7 +653,9 @@ void Control()
 
 ## 4. Control instructions
 
-See this article for details：https://gitnova.com/#/Robot/Controller/4Motor16ServoControlKit/4Motor16ServoControlKit
+See this article for details：https://gitnova.com/#/Robot/Controller/4Motor16ServoControlKit/4Motor16ServoControlKit （5.Directions for Use and 6. Q&A）
+
+
 
 ## Contact Us
 
