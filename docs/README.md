@@ -124,7 +124,6 @@
 * ### 【Tree】ESP8266 Development Board
   
   * [ESPduino](ESPSeries/ESP8266/ESPDUINO/espduino.md)
-  
 
 ## ESP8285
 * ### 【One】ESP8285 Module
@@ -253,6 +252,7 @@
 
 * [Firmware](Robot/Controller/app/firmware.md)
 * [Big Power Board for Car](Robot/Controller/controller/BigPowerBoard.md)
+* [High Power (Red) Board for Car](Robot/Controller/HighPowerDrivingPlateEN/HighPowerDrivingPlateEN.md)
 * [ESPduino Controller](Robot/Controller/controller/espduinoController.md)
 * [Use of Motor Shield for Arduino UNO](Robot/Controller/controller/unomotorshield.md)
 * [Use of 32-Way Servo Board with PS2](Robot/Controller/ps2/PS2SERVO32.md)
