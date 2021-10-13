@@ -1,0 +1,19 @@
+一）how to use：
+1）intall app，now only support Android OS；
+2）Generally, firmware is already downloaded into the board; if not, please bo it by google the way. it is very easy.
+3）Open the phone setting to find the wifi named as doit-*******, and connect it.
+4）Open the app，
+5）Very important, don't register the account, ONLY click“local connection”
+6）then you can control your car.
+
+二）Note
+1）need short connect with vm & vin by a jump or cable.
+2）note the nodemcu antenna mark is the same as motor driver board antenna；
+3）power connection: only connect the the VM AND GND.
+4）motor connection：A+,A- is for one motor；B+B- is for another motor. 
+
+三）how to buy
+[vvdoit.com](https://vvdoit.com/) and search nodemcu
+
+四) how to download
+[download source code and app](https://github.com/SmartArduino/CAR/commit/9f0d7bdbce04b051e6f422dd0e0a7bbbb603fb2a)
