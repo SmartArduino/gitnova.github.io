@@ -5,7 +5,7 @@
 
 The control suite uses Arduino UNO R3  as the control board. The drive extension board is developed by our company independently using TB6612 four-way drive and PCA9685 as the 16-way steering gear control.
 
-### HOW TO BUY: vvdoit.com;
+### HOW TO BUY: [vvdoit.com](vvdoit.com);
 ### [source code ( for app and ps2) and app](https://github.com/SmartArduino/CAR/commit/5556401978b618438078f8f493140f7e044eb5ac)
 
 ![img](wps1.jpg) 
