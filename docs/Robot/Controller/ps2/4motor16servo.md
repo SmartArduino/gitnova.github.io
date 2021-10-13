@@ -10,6 +10,10 @@ This controller kit can be used to control car chassis and Robot/Controller, aft
 
 **Note that, if you want to control the car, please select the car icon; if you want to control the Robot/Controller arm, please choose the Robot/Controller arm in the app.**
 
+### **Source code and App download**
+how to buy: vvdoit.com
+(click me to download)(https://github.com/SmartArduino/CAR/commit/5556401978b618438078f8f493140f7e044eb5ac)
+
 ### **Features:**
 
 - Simultaneously drive 2 or 4--channel DC motors and 16-channel servos;
