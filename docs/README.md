@@ -254,7 +254,7 @@
 * [Big Power Board for Car](Robot/Controller/controller/BigPowerBoard.md)
 * [High Power (Red) Board for Car](Robot/Controller/HighPowerDrivingPlateEN/HighPowerDrivingPlateEN.md)
 * [ESPduino Controller](Robot/Controller/controller/espduinoController.md)
-* [ESPduino Controller](Robot/Controller/controller/nodemcuwificar.md)
+* [NodeMCU Controller](Robot/Controller/controller/nodemcuwificar.md)
 * [Use of Motor Shield for Arduino UNO](Robot/Controller/controller/unomotorshield.md)
 * [Use of 32-Way Servo Board with PS2](Robot/Controller/ps2/PS2SERVO32.md)
 * [Use of PS2 with DOIT Motor Driver Shield for Arduino UNO](Robot/Controller/ps2/ps2.md)
