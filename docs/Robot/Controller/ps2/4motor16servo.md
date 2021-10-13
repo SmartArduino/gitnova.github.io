@@ -12,7 +12,7 @@ This controller kit can be used to control car chassis and Robot/Controller, aft
 
 ### **Source code and App download**
 how to buy: vvdoit.com
-(click me to download)(https://github.com/SmartArduino/CAR/commit/5556401978b618438078f8f493140f7e044eb5ac)
+[click me to download](https://github.com/SmartArduino/CAR/commit/5556401978b618438078f8f493140f7e044eb5ac)
 
 ### **Features:**
 
