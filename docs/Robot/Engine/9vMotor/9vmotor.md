@@ -39,6 +39,13 @@ The connection is show in the following picture.
 
 ![sensor](https://github.com/SmartArduino/document/raw/master/docs/Robot/Engine/9vMotor/sensor.png)
 
+### Encoder Parameters:
+- working voltage: 5V
+- Type: AB phase incremental hall encoder
+- Line speed: 6 * 70 = 420 (single phase)
+- Features: with pull-up shaping, single chip microcomputer can read directly
+- Interface type: ph2.0 (standard connection line)
+
 ## 3. How to Test the Motor
 
 There are two methods.
