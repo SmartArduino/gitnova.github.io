@@ -227,6 +227,7 @@
   * [C200 Smart Car Installation instructions](Robot/FrameChassis/C_Series/C200/C200.md)
   * [C300 Smart Car Installation instructions](Robot/FrameChassis/C_Series/C300/C300.md)
   * [C4 4WD Smart Car Chassis Intallation Manual](Robot/FrameChassis/C_Series/C4/C4.md)
+  * [TP100 Assemble manual](https://github.com/SmartArduino/Robot_Arm/commit/396cdb41d9eb8bd0635df20d4071cb1b96bbd96a)
   
 * ### 【Tree】Robot Arm
   
